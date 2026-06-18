@@ -1,0 +1,36 @@
+id: dusena-mrkev
+nazev: Dušená mrkev na másle s kuřecím plátkem a bramborem
+zdroj: Prima Fresh
+odkaz: https://fresh.iprima.cz/recepty/dusena-mrkev-na-masle-s-kurecim-platkem-a-bramborem
+stitky: [Oběd, Večeře]
+porce_original: 4
+suroviny:
+  - { surovina: máslo, mnozstvi: 100, jednotka: g, poznamka: "na dušení mrkve" }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: "na kostičky" }
+  - { surovina: mrkev, mnozstvi: 1, jednotka: kg, poznamka: "kolečka, půlkolečka, kostičky nebo nudličky" }
+  - { surovina: hladká mouka, mnozstvi: 2, jednotka: lžíce, poznamka: "1–2 lžíce na zaprášení + na obalení masa" }
+  - { surovina: zeleninový vývar, mnozstvi: null, jednotka: "", poznamka: "nebo voda na podlití mrkve" }
+  - { surovina: muškátový květ, mnozstvi: null, jednotka: "", poznamka: "nebo muškátový oříšek, dle chuti" }
+  - { surovina: brambory, mnozstvi: 800, jednotka: g, poznamka: "jako příloha" }
+  - { surovina: kuřecí prsní řízek, mnozstvi: 700, jednotka: g, poznamka: "600–800 g; lze i stehenní řízky" }
+  - { surovina: přepuštěné máslo, mnozstvi: null, jednotka: "", poznamka: "na smažení masa" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
+  - { surovina: bílý pepř, mnozstvi: null, jednotka: "", poznamka: "čerstvě namletý, dle chuti" }
+  - { surovina: cukr, mnozstvi: null, jednotka: "", poznamka: "na dochucení mrkve" }
+postup:
+  - "V pánvi nebo nižším kastrolu rozehřejte máslo a restujte na něm cibuli nakrájenou na kostičky. Přidejte mrkev nakrájenou podle výběru (kolečka, půlkolečka, kostičky či nudličky). Restujte na mírném plameni zhruba 2 minuty."
+  - "Zaprašte hladkou moukou, zamíchejte a zalijte vývarem či vodou. Rozmíchejte dohladka, dochuťte solí, bílým pepřem a muškátovým květem. Duste přibližně 10 minut, až bude mrkev měkká. Na závěr dochuťte cukrem nebo citronovou šťávou."
+  - "Mezitím uvařte oloupané a nakrájené brambory v osolené vodě doměkka. Slijte je a promíchejte s kouskem másla a pažitkou či petrželkou."
+  - "V pánvi rozpusťte přepuštěné máslo. Plátky masa rozkrojte podélně na výšku asi 1,5 cm, naklepejte je, osolte, opepřete a lehce obalte v mouce. Smažte zhruba 3–5 minut z každé strany, až budou hezky opečené."
+  - "Servírujte dušenou mrkev s vařenými bramborami a plátkem masa."
+nutrice_na_porci: { kcal: 620, bilkoviny_g: 42, sacharidy_g: 45, tuky_g: 30 }
+alergeny: [lepek, mléko]
+vegetarian: false
+poznamky: >-
+  Vytěženo z webu (bookmark v Notionu odkazuje na recept „Dušená mrkev na másle
+  s kuřecím plátkem a bramborem" na Prima Fresh). Recept na 4 porce. V Notionu poznámka
+  „(bez masa)" – pro vegetariánskou táborovou variantu lze maso vynechat a podávat
+  jen dušenou mrkev s bramborem (pak bez masa = vegetariánské, alergeny lepek+mléko).
+  Do mrkve lze přidat hrášek nebo kukuřici, případně zjemnit smetanou.
+zdroj_dat: url
+overit: true

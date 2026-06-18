@@ -1,0 +1,27 @@
+id: rajska-polevka
+nazev: Rajská polévka
+zdroj: ""
+odkaz: ""
+stitky: [polévka]
+porce_original: 10
+suroviny:
+  - { surovina: rajčatový protlak nebo drcená rajčata, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – recept nebyl v Notionu vytěžitelný (žádná fotka ani text); doplnit" }
+  - { surovina: cibule, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – doplnit" }
+  - { surovina: mrkev, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – doplnit" }
+  - { surovina: zeleninový vývar, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – doplnit" }
+  - { surovina: hladká mouka, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – na zahuštění (jíška/zásmažka); doplnit" }
+  - { surovina: cukr, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – na dochucení; doplnit" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – doplnit" }
+postup:
+  - "POSTUP NENÍ VYTĚŽEN – v Notion stránce nebyl žádný použitelný text, fotka ani odkaz, pouze prázdná vložená databáze surovin a interní bookmark. Doplnit ručně."
+nutrice_na_porci: { kcal: 180, bilkoviny_g: 4, sacharidy_g: 28, tuky_g: 6 }
+alergeny: [lepek]
+vegetarian: true
+poznamky: >-
+  NEVYTĚŽENO. V Notion stránce (382a86fa-0044-8035-850e-f9587bc14e76) není žádný recept –
+  jen prázdná vložená DB surovin a interní bookmark, žádná fotka ani odkaz. Suroviny i postup
+  jsou pouze PLACEHOLDERY z běžné rajské polévky a je NUTNÉ je celé doplnit ručně (z jiného
+  zdroje nebo od kuchařů). Štítek: polévka. Nutrice je hrubý odhad. Vegetariánská varianta
+  předpokládána (lepek z jíšky).
+zdroj_dat: vlastni
+overit: true

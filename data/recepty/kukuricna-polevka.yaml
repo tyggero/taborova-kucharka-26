@@ -1,0 +1,28 @@
+id: kukuricna-polevka
+nazev: Kukuřičná polévka
+zdroj: ""
+odkaz: ""
+stitky: [polévka]
+porce_original: 10
+suroviny:
+  - { surovina: kukuřice (sladká, konzervovaná nebo mražená), mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – recept nebyl v Notionu vytěžitelný (žádná fotka ani text); doplnit" }
+  - { surovina: cibule, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – doplnit" }
+  - { surovina: brambory, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – na zahuštění; doplnit" }
+  - { surovina: zeleninový vývar, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – doplnit" }
+  - { surovina: máslo nebo olej, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – na orestování; doplnit" }
+  - { surovina: smetana, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – volitelně na zjemnění; doplnit" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – doplnit" }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – doplnit" }
+postup:
+  - "POSTUP NENÍ VYTĚŽEN – v Notion stránce nebyl žádný použitelný text, fotka ani odkaz, pouze prázdná vložená databáze surovin a interní bookmark. Doplnit ručně."
+nutrice_na_porci: { kcal: 200, bilkoviny_g: 5, sacharidy_g: 30, tuky_g: 7 }
+alergeny: []
+vegetarian: true
+poznamky: >-
+  NEVYTĚŽENO. V Notion stránce (382a86fa-0044-8009-a842-f8a2bf48a145) není žádný recept –
+  jen prázdná vložená DB surovin a interní bookmark, žádná fotka ani odkaz. Suroviny i postup
+  jsou pouze PLACEHOLDERY z běžné kukuřičné polévky a je NUTNÉ je celé doplnit ručně. Štítek:
+  polévka. Nutrice je hrubý odhad. Alergeny závisí na doplnění (smetana = mléko). Vegetariánská
+  varianta předpokládána.
+zdroj_dat: vlastni
+overit: true

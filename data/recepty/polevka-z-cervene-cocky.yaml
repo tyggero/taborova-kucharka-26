@@ -1,0 +1,42 @@
+id: polevka-z-cervene-cocky
+nazev: Polévka z červené čočky
+zdroj: Táborová Skautská Kuchařka
+odkaz: ""
+stitky: [polévka]
+porce_original: 10
+suroviny:
+  - { surovina: červená čočka, mnozstvi: 500, jednotka: g, poznamka: "" }
+  - { surovina: rajčata, mnozstvi: 350, jednotka: g, poznamka: "klidně z plechovky" }
+  - { surovina: cibule, mnozstvi: 300, jednotka: g, poznamka: "" }
+  - { surovina: mrkev, mnozstvi: 10, jednotka: ks, poznamka: "nastrouhaná nahrubo" }
+  - { surovina: řapíkatý celer, mnozstvi: 3, jednotka: stonek, poznamka: "na tenké plátky" }
+  - { surovina: brambory, mnozstvi: 3, jednotka: ks, poznamka: "" }
+  - { surovina: chleba, mnozstvi: 1, jednotka: ks, poznamka: "k podávání" }
+  - { surovina: citron, mnozstvi: 1, jednotka: ks, poznamka: "oloupaný, i bez bílé kůry" }
+  - { surovina: česnek, mnozstvi: 5, jednotka: stroužek, poznamka: "rozmačkaný nebo utřený" }
+  - { surovina: zázvor, mnozstvi: 5, jednotka: cm, poznamka: "najemno nastrouhaný" }
+  - { surovina: římský kmín, mnozstvi: 1, jednotka: PL, poznamka: "" }
+  - { surovina: kurkuma, mnozstvi: 0.5, jednotka: KL, poznamka: "" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: černý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: slunečnicový olej, mnozstvi: null, jednotka: "", poznamka: na orestování }
+  - { surovina: zelené bylinky, mnozstvi: 1, jednotka: hrst, poznamka: "např. petržel, koriandr nebo majoránka; na ozdobu" }
+  - { surovina: kokosové mléko, mnozstvi: 200, jednotka: ml, poznamka: "VOLITELNÉ – pro jemnější a krémovější chuť" }
+postup:
+  - "Cibuli nakrájej nadrobno a lehce orestuj na oleji. Přidej očištěnou mrkev nastrouhanou nahrubo a řapíkatý celer na tenké plátky a restuj asi 5 minut."
+  - "Poté přidej najemno nastrouhaný zázvor, rozmačkaný nebo utřený česnek, římský kmín, kurkumu, oloupaný a na plátky nakrájený citron a nech asi 2 minuty restovat."
+  - "Mezitím propláchni čočku (dokud není voda čirá), pak ji nasyp do hrnce. Přidej nakrájená rajčata a brambory."
+  - "Zalij asi litrem vody (tak, aby bylo vše ponořeno), přiveď k varu a vař, dokud čočka a brambory nezměknou. Kontroluj a přilévej vodu, je-li jí málo."
+  - "Pokud chceš jemnější chuť a krémovější konzistenci, několik minut před koncem vaření přidej kokosové mléko a pořádně ho zamíchej. Pokud chceš svěžejší, intenzivnější chuť (a levnější recept), kokosové mléko nepřidávej."
+  - "Na úplném konci dochuť pepřem a solí, ozdob bylinkami a podávej s chlebem."
+nutrice_na_porci: { kcal: 220, bilkoviny_g: 11, sacharidy_g: 32, tuky_g: 5 }
+alergeny: [lepek]
+vegetarian: true
+poznamky: >-
+  Vytěženo z fotky tištěné Skautské kuchařky (foto v assets/recepty/polevka-z-cervene-cocky.jpg, str. 54).
+  Recept na 10 porcí, obtížnost nízká, cca 70 min. Suroviny i postup uvedeny kompletně.
+  Lepek z chleba podávaného k polévce – bez chleba je polévka bezlepková. Volitelné kokosové
+  mléko = alergen kokos (pak doplnit do alergenů). Veganská (vege). Citron se vaří v polévce
+  a podle chuti se může vyndat.
+zdroj_dat: foto
+overit: false

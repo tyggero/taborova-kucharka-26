@@ -1,0 +1,34 @@
+id: mrkvickova-polevka
+nazev: Hubertova mrkvičková s kapáním
+zdroj: Oddílová kuchařka
+odkaz: ""
+stitky: [polévka]
+porce_original: 25
+suroviny:
+  - { surovina: voda, mnozstvi: 9, jednotka: l, poznamka: "9 litrů = 25 lidí (z poznámky v receptu)" }
+  - { surovina: mrkev, mnozstvi: null, jednotka: "", poznamka: "množství NEUVEDENO – v receptu jen poznámka „napsat množství: bílá mísa plast klasik\" (cca jedna velká plastová mísa nastrouhané mrkve); PROJÍT" }
+  - { surovina: olej na smažení, mnozstvi: null, jednotka: "", poznamka: "na osmažení mrkve" }
+  - { surovina: polévkové koření nebo bujón, mnozstvi: null, jednotka: "", poznamka: "množství neuvedeno; dle chuti" }
+  - { surovina: krupička, mnozstvi: null, jednotka: "", poznamka: "množství NEUVEDENO („napsat množství\"); na kapání (zápražku) smíchat s vajíčkem; PROJÍT" }
+  - { surovina: vajíčko, mnozstvi: null, jednotka: "", poznamka: "množství NEUVEDENO („napsat množství\"); na kapání; PROJÍT" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+postup:
+  - "Oškrábanou mrkev nastrouháme najemno."
+  - "V hrnci rozpálíme olej a osmažíme mrkev."
+  - "Zalijeme vodou – OPATRNĚ, voda a olej se nemají rádi (může prskat)."
+  - "Přidáme sůl, bujón nebo polévkové koření."
+  - "Přivedeme k varu."
+  - "Kapání: smícháme vajíčko s krupičkou do řídké kašičky."
+  - "Směs nalijeme přes vidličku do vroucí polévky. Po chvilce je hotovo."
+nutrice_na_porci: { kcal: 120, bilkoviny_g: 4, sacharidy_g: 16, tuky_g: 5 }
+alergeny: [lepek, vejce]
+vegetarian: true
+poznamky: >-
+  Vytěženo z ručně psané fotky receptu v Notionu (foto v assets/recepty/mrkvickova-polevka.jpg).
+  Recept psaný na 25 osob (9 litrů vody). U mrkve, krupičky a vajíčka NEJSOU uvedena množství –
+  v receptu místo nich stojí poznámka „napsat množství" (u mrkve „bílá mísa plast klasik" =
+  odměřuje se na velkou plastovou mísu). Množství je proto NUTNÉ doplnit/projít při vaření.
+  Lepek z krupičky, vejce z kapání. Vegetariánská. Šablona přepočte na 10 osob, ale bez gramáže
+  surovin je přepočet jen orientační.
+zdroj_dat: foto
+overit: true

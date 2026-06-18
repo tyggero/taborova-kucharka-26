@@ -1,0 +1,28 @@
+id: hraskova-polevka
+nazev: Hrášková polévka
+zdroj: ""
+odkaz: ""
+stitky: [polévka]
+porce_original: 10
+suroviny:
+  - { surovina: hrášek (mražený nebo čerstvý), mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – recept nebyl v Notionu vytěžitelný (žádná fotka ani text); doplnit" }
+  - { surovina: cibule, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – doplnit" }
+  - { surovina: brambory, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – na zahuštění; doplnit" }
+  - { surovina: zeleninový vývar, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – doplnit" }
+  - { surovina: máslo nebo olej, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – na orestování; doplnit" }
+  - { surovina: smetana, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – volitelně na zjemnění; doplnit" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – doplnit" }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – doplnit" }
+postup:
+  - "POSTUP NENÍ VYTĚŽEN – v Notion stránce nebyl žádný použitelný text, fotka ani odkaz, pouze prázdná vložená databáze surovin a interní bookmark. Doplnit ručně."
+nutrice_na_porci: { kcal: 170, bilkoviny_g: 8, sacharidy_g: 22, tuky_g: 6 }
+alergeny: []
+vegetarian: true
+poznamky: >-
+  NEVYTĚŽENO. V Notion stránce (382a86fa-0044-80c6-a0b9-edb2b4e66570) není žádný recept –
+  jen prázdná vložená DB surovin a interní bookmark, žádná fotka ani odkaz. Suroviny i postup
+  jsou pouze PLACEHOLDERY z běžné hráškové polévky a je NUTNÉ je celé doplnit ručně. Štítek:
+  polévka. Nutrice je hrubý odhad. Alergeny závisí na doplnění (smetana = mléko, případná
+  jíška = lepek). Vegetariánská varianta předpokládána.
+zdroj_dat: vlastni
+overit: true

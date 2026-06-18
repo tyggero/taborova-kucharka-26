@@ -1,0 +1,32 @@
+id: blt-sandwich
+nazev: BLT Sandwich (slanina, salát, rajče)
+zdroj: vlastní (běžný recept)
+odkaz: ""
+stitky: [Snídaně]
+porce_original: 10
+suroviny:
+  - { surovina: toustový chléb, mnozstvi: 20, jednotka: plátek, poznamka: "2 plátky na osobu" }
+  - { surovina: slanina (anglická/plátková), mnozstvi: 600, jednotka: g, poznamka: "cca 3 plátky na osobu" }
+  - { surovina: rajčata, mnozstvi: 6, jednotka: ks, poznamka: "na plátky" }
+  - { surovina: ledový salát, mnozstvi: 1, jednotka: ks, poznamka: "listy, omýt" }
+  - { surovina: majonéza, mnozstvi: null, jednotka: "", poznamka: "na potření; obsahuje vejce" }
+  - { surovina: máslo, mnozstvi: null, jednotka: "", poznamka: "na opečení / potření" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+postup:
+  - "Slaninu opeč na suché pánvi dokřupava a nech okapat na utěrce."
+  - "Toustový chléb opeč (toustovač nebo pánev s trochou másla) dozlatova."
+  - "Rajčata nakrájej na plátky, salát omyj a osuš, listy potrhej."
+  - "Plátky chleba potři majonézou. Na jeden plátek navrstvi salát, rajče (osol, opepři) a křupavou slaninu."
+  - "Přiklop druhým plátkem chleba, případně překroj na trojúhelníky a podávej."
+nutrice_na_porci: { kcal: 420, bilkoviny_g: 15, sacharidy_g: 30, tuky_g: 26 }
+alergeny: [lepek, vejce, mléko]
+vegetarian: false
+poznamky: >-
+  POZOR: v Notionu u tohoto receptu NEBYLA žádná fotka ani použitelný text – jen vložená
+  DB surovin a bookmark (žádný odkaz vyplněn). Recept je proto SESTAVEN VLASTNÍ jako standardní
+  BLT sendvič; množství jsou odhadnutá na 10 porcí pro táborovou snídani. PROJÍT a upravit
+  podle skutečného záměru kuchaře. Alergeny: lepek (chléb), vejce (majonéza), mléko (máslo);
+  majonézu lze vynechat. Vegetariánská varianta: nahradit slaninu grilovanou zeleninou/sýrem.
+zdroj_dat: vlastni
+overit: true

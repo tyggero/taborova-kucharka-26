@@ -1,0 +1,39 @@
+id: chilli-con-carne
+nazev: Chilli con carne
+zdroj: Skautská kuchařka (Táborová Skautská Kuchařka)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 10
+suroviny:
+  - { surovina: mleté maso, mnozstvi: 1, jednotka: kg, poznamka: "mix hovězí/vepřové nebo jen hovězí" }
+  - { surovina: sekaná rajčata v plechovce, mnozstvi: 1, jednotka: kg, poznamka: "" }
+  - { surovina: červené fazole v nálevu, mnozstvi: 1, jednotka: kg, poznamka: "přecedit" }
+  - { surovina: vývar/voda, mnozstvi: 750, jednotka: ml, poznamka: "" }
+  - { surovina: zakysaná smetana, mnozstvi: 500, jednotka: ml, poznamka: "k podávání" }
+  - { surovina: cibule, mnozstvi: 5, jednotka: ks, poznamka: "" }
+  - { surovina: mrkev, mnozstvi: 3, jednotka: ks, poznamka: "nastrouhaná" }
+  - { surovina: feferonka, mnozstvi: 2, jednotka: ks, poznamka: "nasekaná" }
+  - { surovina: česnek, mnozstvi: 10, jednotka: stroužek, poznamka: "" }
+  - { surovina: hořká čokoláda 70%, mnozstvi: 2, jednotka: kostička, poznamka: "" }
+  - { surovina: římský kmín, mnozstvi: 2.5, jednotka: KL, poznamka: "(kávová lžička)" }
+  - { surovina: oregano, mnozstvi: 2.5, jednotka: KL, poznamka: "" }
+  - { surovina: cukr, mnozstvi: 1, jednotka: KL, poznamka: "" }
+  - { surovina: tymián/petrželka, mnozstvi: 3, jednotka: snítka, poznamka: "čerstvý, na dochucení" }
+  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "na restování" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+postup:
+  - "Najemno si nakrájej cibuli a orestuj ji v hrnci. Když začne zlátnout, přidej 7 stroužků nasekaného česneku a promíchej. Pak přidej oloupanou a nahrubo nastrouhanou mrkev, orestuj a následně přidej maso."
+  - "Maso osol, opepři, posyp kmínem a zprudka opékej asi 5 minut. Vařečkou nebo šťouchadlem na brambory maso odděluj od sebe, aby bylo sypké. Přidej nasekanou feferonku, rajčata a znovu orestuj."
+  - "Poté přidej vývar/vodu, čokoládu, cukr, zbytek česneku, oregano a přecezené fazole. Na mírném ohni vše společně dus ještě asi 30 minut."
+  - "Finálně dochuť solí, pepřem, přidej nasekaný tymián/petrželku a podávej do ešusu spolu s lžící smetany. Jako příloha se nejlépe hodí rýže, chleba nebo nachos."
+nutrice_na_porci: { kcal: 480, bilkoviny_g: 28, sacharidy_g: 35, tuky_g: 24 }
+alergeny: [mléko]
+vegetarian: false
+poznamky: >-
+  Vytěženo z tištěné Skautské kuchařky (foto v assets/recepty/chilli-con-carne.jpg, str. 88),
+  fotka dobře čitelná, množství uvedena přímo v receptu na 10 porcí. Zakysaná smetana a
+  čokoláda obsahují mléko (čokoláda zkontrolovat – některé hořké jsou bez mléka).
+  Bez příloh. Příloha (rýže/chleba/nachos) přidá lepek/další alergeny.
+zdroj_dat: foto
+overit: false

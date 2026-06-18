@@ -1,0 +1,46 @@
+id: kureci-paella
+nazev: Kuřecí paella
+zdroj: Skautská kuchařka (Táborová Skautská Kuchařka)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 10
+suroviny:
+  - { surovina: kuřecí vývar, mnozstvi: 2.5, jednotka: l, poznamka: "" }
+  - { surovina: bílé víno, mnozstvi: 500, jednotka: ml, poznamka: "alkohol se odpaří" }
+  - { surovina: kulatozrnná rýže (arborio), mnozstvi: 1, jednotka: kg, poznamka: "" }
+  - { surovina: kuřecí stehenní řízky, mnozstvi: 500, jednotka: g, poznamka: "" }
+  - { surovina: pikantní klobása, mnozstvi: 2, jednotka: ks, poznamka: "chorizo nebo čabajka" }
+  - { surovina: sekaná rajčata, mnozstvi: 400, jednotka: g, poznamka: "" }
+  - { surovina: zelené fazolky, mnozstvi: 400, jednotka: g, poznamka: "" }
+  - { surovina: máslo, mnozstvi: 250, jednotka: g, poznamka: "" }
+  - { surovina: cibule, mnozstvi: 4, jednotka: ks, poznamka: "" }
+  - { surovina: čerstvé papriky, mnozstvi: 4, jednotka: ks, poznamka: "" }
+  - { surovina: citron, mnozstvi: 2, jednotka: ks, poznamka: "kůra do gremolaty" }
+  - { surovina: česnek, mnozstvi: 6, jednotka: stroužek, poznamka: "" }
+  - { surovina: hladkolistá petrželka, mnozstvi: 5, jednotka: PL, poznamka: "(polévková lžíce)" }
+  - { surovina: sladká paprika (mletá), mnozstvi: 3, jednotka: PL, poznamka: "" }
+  - { surovina: kari koření, mnozstvi: 1, jednotka: PL, poznamka: "" }
+  - { surovina: tymián, mnozstvi: 4, jednotka: snítka, poznamka: "" }
+  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+postup:
+  - "Kuřecí maso a papriku si nakrájej na menší kostky. Klobásu na kolečka a cibuli s česnekem najemno."
+  - "Kuřecí maso osol, opepři a restuj na oleji v hrnci asi 4 minuty."
+  - "Kuře vyndej a ve stejném hrnci orestuj na kolečka pokrájenou klobásu. Tu pak opět vyndej."
+  - "Opět ve stejném hrnci chvíli restuj cibuli, přidej polovinu česneku a rýži, zasyp paprikou a kari a restuj asi 3 minuty, dokud rýže nezeskelnatí (získá lesk)."
+  - "Podlij vínem a nech odpařit alkohol."
+  - "Přidej rajčata a čerstvou papriku nakrájenou na kostičky. Podlij vodou nebo vývarem, přidej maso a klobásu a za stálého míchání vař do měkka."
+  - "Když je rýže akorát na skus, přidej podle potřeby máslo a vývar, aby byla konzistence krémová."
+  - "Zelené fazolky očisti, okrájej tvrdé stonky a spař ve vařící osolené vodě. Po minutě je vytáhni a zchlaď. Překrájej je na menší kousky a přidej do hotové paelly."
+  - "Smíchej bylinky s druhou polovinou nasekaného česneku a kůrou z citronu, tím vytvoříš směs zvanou gremolata. Polovinu té směsi přidej do paelly a druhou polovinou ozdob jídlo v jednotlivých ešusech."
+nutrice_na_porci: { kcal: 620, bilkoviny_g: 26, sacharidy_g: 55, tuky_g: 32 }
+alergeny: [mléko]
+vegetarian: false
+poznamky: >-
+  Vytěženo z tištěné Skautské kuchařky (foto v assets/recepty/kureci-paella.jpg, str. 94),
+  fotka dobře čitelná, množství uvedena přímo v receptu na 10 porcí. Obsahuje máslo (mléko).
+  Klobása (chorizo/čabajka) může obsahovat další alergeny – zkontrolovat etiketu. Bezlepkové,
+  pokud je rýže a klobása bez lepku.
+zdroj_dat: foto
+overit: false

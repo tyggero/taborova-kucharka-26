@@ -1,0 +1,59 @@
+id: svickova-omacka
+nazev: Masové kuličky se svíčkovou omáčkou, bramborem a brusinkami
+zdroj: Skautská kuchařka (Táborová Skautská Kuchařka)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 10
+suroviny:
+  - { surovina: vývar hovězí/kuřecí, mnozstvi: 1, jednotka: l, poznamka: "do omáčky" }
+  - { surovina: smetana, mnozstvi: 250, jednotka: ml, poznamka: "do omáčky" }
+  - { surovina: máslo, mnozstvi: 150, jednotka: g, poznamka: "do omáčky" }
+  - { surovina: cibule, mnozstvi: 4, jednotka: ks, poznamka: "do omáčky" }
+  - { surovina: mrkev, mnozstvi: 2, jednotka: ks, poznamka: "do omáčky" }
+  - { surovina: malý celer, mnozstvi: 1, jednotka: ks, poznamka: "do omáčky" }
+  - { surovina: citron, mnozstvi: 1, jednotka: ks, poznamka: "kůra + šťáva do omáčky" }
+  - { surovina: hladká mouka, mnozstvi: 5, jednotka: PL, poznamka: "na jíšku (polévková lžíce)" }
+  - { surovina: cukr, mnozstvi: 1, jednotka: PL, poznamka: "do omáčky" }
+  - { surovina: ocet, mnozstvi: 1, jednotka: PL, poznamka: "do omáčky" }
+  - { surovina: hořčice, mnozstvi: 1, jednotka: PL, poznamka: "do omáčky" }
+  - { surovina: bobkový list, mnozstvi: 2, jednotka: ks, poznamka: "" }
+  - { surovina: pepř celý, mnozstvi: null, jednotka: "", poznamka: "do omáčky" }
+  - { surovina: nové koření, mnozstvi: null, jednotka: "", poznamka: "do omáčky" }
+  - { surovina: citronová kůra, mnozstvi: null, jednotka: "", poznamka: "na dochucení" }
+  - { surovina: mleté maso (vepřové a hovězí), mnozstvi: 1, jednotka: kg, poznamka: "dvakrát mleté; na kuličky" }
+  - { surovina: strouhanka, mnozstvi: 200, jednotka: g, poznamka: "na kuličky" }
+  - { surovina: mléko, mnozstvi: 50, jednotka: ml, poznamka: "na kuličky" }
+  - { surovina: cibule, mnozstvi: 4, jednotka: ks, poznamka: "na kuličky" }
+  - { surovina: vejce, mnozstvi: 2, jednotka: ks, poznamka: "na kuličky" }
+  - { surovina: bylinky (petrželka, tymián, libeček), mnozstvi: 1, jednotka: PL, poznamka: "na kuličky" }
+  - { surovina: česnek, mnozstvi: 1, jednotka: stroužek, poznamka: "na kuličky" }
+  - { surovina: brambory, mnozstvi: 2, jednotka: kg, poznamka: "příloha" }
+  - { surovina: brusinkový kompot, mnozstvi: 100, jednotka: g, poznamka: "k podávání" }
+  - { surovina: nové koření mleté, mnozstvi: null, jednotka: "", poznamka: "na kuličky" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+postup:
+  - "Mrkev a celer oloupej a na struhadle najemno nastrouhej."
+  - "Maso, koření, sůl, vejce, mléko, utřený česnek a nasekané bylinky vlož do mísy. Všechnu cibuli oloupej a nakrájej najemno, polovinu z ní přidej najemno orestuj na oleji dohněda a přidej do mísy s mletým masem. Masovou směs řádně promíchej a nech chvilku odležet."
+  - "K cibulce přidej nastrouhanou zeleninu a za stálého míchání restuj asi 5 minut. Přidej cukr, celý pepř a nové koření, nech cukr zkaramelizovat, pak přidej hořčici a zalij vývarem. Nakonec přidej bobkový list a smetanu."
+  - "V menším rendlíku rozpusť máslo a opraž v něm mouku na tmavší jíšku. Metlou vmíchej do omáčky a omáčku dál často míchej. Vař na mírném ohni minimálně půl hodiny."
+  - "Masovou směs si rozděl na čtyři stejné díly. Z každého dílu pak mokrýma rukama vytvaruj asi 15 kuliček a na velké široké pánvi se silným dnem pomalu smaž na oleji ze všech stran přibližně 10 minut. Pokud výpek z kuliček na pánvi není připálený, můžeš ho trochu přidat do omáčky."
+  - "Omáčku dochuť podle potřeby nastrouhanou citronovou kůrou, citronem, solí, cukrem a octem. Vlož do ní hotové kuličky a pomalu prohřej."
+  - "Brambory oloupej, pokrájej na menší části a vař přibližně 20 minut v osolené vodě. Sceď vodu a ihned podávej."
+  - "Do ešusu vlož brambory, přidej kuličky s omáčkou, navrch ozdob lžičkou brusinkového kompotu a posyp nasekanou petrželkou nebo jinými bylinkami."
+nutrice_na_porci: { kcal: 640, bilkoviny_g: 28, sacharidy_g: 48, tuky_g: 36 }
+alergeny: [lepek, mléko, vejce, hořčice, celer]
+vegetarian: false
+poznamky: >-
+  Vytěženo z tištěné Skautské kuchařky (foto ve dvou stranách:
+  assets/recepty/svickova-omacka-1.jpg = suroviny str. 96,
+  assets/recepty/svickova-omacka-2.jpg = postup str. 97). Obě fotky dobře čitelné,
+  množství uvedena přímo v receptu na 10 porcí.
+  VEGE VERZE (z receptu): místo masa použít směs zeleniny a červené čočky (červená čočka
+  stačí krátce, cizrna potřebuje několik hodin namáčení) a luštěniny uvařit, dochutit kořením,
+  solí a pepřem, koriandr, římský kmín; pak postupovat stejně jako u masové verze.
+  TIP (z receptu): místo mouky lze omáčku zahustit kukuřičným nebo bramborovým škrobem
+  rozmíchaným ve studené vodě (pak je i bezlepková). Alergeny: lepek (strouhanka, mouka),
+  mléko, vejce, hořčice, celer.
+zdroj_dat: foto
+overit: false

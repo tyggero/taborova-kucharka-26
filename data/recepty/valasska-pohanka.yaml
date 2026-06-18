@@ -1,0 +1,39 @@
+id: valasska-pohanka
+nazev: Valašská pohanka
+zdroj: Skautská kuchařka (Táborová Skautská Kuchařka)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 10
+suroviny:
+  - { surovina: slanina, mnozstvi: 500, jednotka: g, poznamka: "nebo 600 g uzeného masa" }
+  - { surovina: pohanka, mnozstvi: 500, jednotka: g, poznamka: "ideálně česko pohanka, loupaná mechanicky a se zelenou nebo khaki barvou, ne tmavě hnědou" }
+  - { surovina: brynza, mnozstvi: 300, jednotka: g, poznamka: "nebo podobný výrazný sýr – třeba balkánský" }
+  - { surovina: středně velké brambory, mnozstvi: 10, jednotka: ks, poznamka: "" }
+  - { surovina: středně velká cibule, mnozstvi: 4, jednotka: ks, poznamka: "" }
+  - { surovina: česnek, mnozstvi: 6, jednotka: stroužek, poznamka: "4–8 stroužků; pokud vaříš pro děti, můžeš s ním šetřit" }
+  - { surovina: majoránka, mnozstvi: null, jednotka: "", poznamka: "na dochucení" }
+  - { surovina: rozmarýn, mnozstvi: null, jednotka: "", poznamka: "na dochucení" }
+  - { surovina: uzená paprika, mnozstvi: null, jednotka: "", poznamka: "na dochucení" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: kysané zelí, mnozstvi: null, jednotka: "", poznamka: "volitelné, k podávání" }
+  - { surovina: kimči, mnozstvi: null, jednotka: "", poznamka: "volitelné, k podávání" }
+  - { surovina: okurky, mnozstvi: null, jednotka: "", poznamka: "volitelné, k podávání" }
+postup:
+  - "Dej vařit vodu. Pohanku propláchni v cedníku studenou vodou a pak v hrnci zalij vroucí vodou – budeš jí potřebovat 2x víc než pohanky. Osol, zavři pokličku a hrnec schovej pod peřinu nebo do spacáku."
+  - "Během 20 až 30 minut by měla pohanka změknout. Pokud spěcháš, můžeš nejdřív pohanku asi 7 minut vařit a až pak odstavit."
+  - "Cibuli, slaninu/maso i brambory nakrájej na kostičky tak velké, aby se vešly na malou lžičku."
+  - "Brambory dej vařit do osolené vody."
+  - "Maso dej na pánev, podle potřeby přidej trochu tuku. Orestuj a přidej cibulku a po chvíli i najemno nakrájený česnek. Restuj do chvíle, než bude cibulka zlatavá."
+  - "Pokud chceš silnější chuť česneku, část utři a přidej k jídlu, až bude skoro hotové."
+  - "Nakonec smíchej uvařenou pohanku, brambory, maso s cibulkou a sýr."
+  - "Dochuť majoránkou, paprikou nebo rozmarýnem a podle chuti přidej něco kvašeného, třeba kysané zelí."
+nutrice_na_porci: { kcal: 520, bilkoviny_g: 20, sacharidy_g: 50, tuky_g: 26 }
+alergeny: [mléko]
+vegetarian: false
+poznamky: >-
+  Vytěženo z tištěné Skautské kuchařky (foto v assets/recepty/valasska-pohanka.jpg, str. 120),
+  fotka dobře čitelná, množství uvedena přímo v receptu na 10 porcí. Pohanka je přirozeně
+  bezlepková (pozor na možnou kontaminaci u nekvalitních zdrojů). Brynza/sýr obsahuje mléko.
+  Pro vegetariány lze slaninu/maso vynechat. Volitelné kvašené přílohy.
+zdroj_dat: foto
+overit: false

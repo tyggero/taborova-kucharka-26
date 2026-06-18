@@ -34,12 +34,13 @@
   <section class="stravnici">
     <h2>Strávníci se stravovacími omezeními</h2>
     {% if stravnici %}
+    {% set ukaz_diety = stravnici | selectattr('diety') | list | length > 0 %}
     <table>
       <thead>
         <tr>
           <th class="col-kdo">Kdo</th>
           <th class="col-pritomnost">Přítomnost</th>
-          <th class="col-diety">Diety</th>
+          {% if ukaz_diety %}<th class="col-diety">Diety</th>{% endif %}
           <th class="col-alergeny">Alergeny</th>
           <th class="col-neji">Nejí</th>
           <th class="col-pozn">Závažnost / poznámka</th>
@@ -50,13 +51,15 @@
         <tr>
           <td class="col-kdo">{{ s.kdo or "—" }}</td>
           <td class="col-pritomnost">{{ s.pritomnost or "" }}</td>
+          {% if ukaz_diety %}
           <td class="col-diety">
             {% for d in s.diety or [] %}<span class="dieta">{{ d }}</span>{% endfor %}
           </td>
+          {% endif %}
           <td class="col-alergeny">
             {% for a in s.alergeny or [] %}<span class="alergen">{{ a }}</span>{% endfor %}
           </td>
-          <td class="col-neji">{{ (s.nejedna or []) | join(", ") }}</td>
+          <td class="col-neji">{{ (s.neji or []) | join(", ") }}</td>
           <td class="col-pozn">
             {% if s.zavaznost %}<span class="zavaznost">{{ s.zavaznost }}</span>{% endif %}
             {% if s.zavaznost and s.poznamka %}<br>{% endif %}

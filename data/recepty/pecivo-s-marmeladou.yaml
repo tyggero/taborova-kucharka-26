@@ -1,0 +1,24 @@
+id: pecivo-s-marmeladou
+nazev: Pečivo s marmeládou
+zdroj: ""
+odkaz: ""
+stitky: [Snídaně]
+porce_original: 40
+suroviny:
+  - { surovina: pečivo (rohlíky/chléb/houska), mnozstvi: 80, jednotka: ks, poznamka: "cca 2 ks na osobu; mix rohlíků a krájeného chleba" }
+  - { surovina: máslo, mnozstvi: 1.2, jednotka: kg, poznamka: "na namazání; cca 30 g na osobu" }
+  - { surovina: marmeláda/džem, mnozstvi: 2, jednotka: kg, poznamka: "různé druhy; cca 50 g na osobu" }
+  - { surovina: med, mnozstvi: null, jednotka: "", poznamka: "volitelně jako alternativa k marmeládě" }
+postup:
+  - "Pečivo nakrájíme (chléb) a naservírujeme do košíků."
+  - "Máslo necháme změknout při pokojové teplotě, aby šlo dobře mazat."
+  - "Marmeládu, med a máslo dáme na stůl do misek samoobslužně."
+  - "Každý si namaže pečivo máslem a marmeládou dle chuti."
+nutrice_na_porci: { kcal: 420, bilkoviny_g: 9, sacharidy_g: 62, tuky_g: 15 }
+alergeny: [lepek, mléko]
+vegetarian: true
+poznamky: >-
+  Jednoduchá skládaná snídaně. Pro bezlepkové připravit bezlepkové pečivo,
+  pro bezlaktózové rostlinné máslo. Množství jsou hrubý odhad pro ~40 osob.
+zdroj_dat: vlastni
+overit: true

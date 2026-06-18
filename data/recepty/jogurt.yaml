@@ -1,0 +1,20 @@
+id: jogurt
+nazev: Jogurt
+zdroj: ""
+odkaz: ""
+stitky: [Svačina]
+porce_original: 40
+suroviny:
+  - { surovina: ovocný/bílý jogurt, mnozstvi: 40, jednotka: ks, poznamka: "1 kelímek (cca 150 g) na osobu; mix příchutí" }
+  - { surovina: cukr nebo med, mnozstvi: null, jednotka: "", poznamka: "volitelně k bílému jogurtu" }
+postup:
+  - "Jogurty vychladíme a rozdáme jako svačinu (kelímky), případně z velkého balení nandáme do misek."
+  - "K bílému jogurtu nabídneme cukr/med na doslazení."
+nutrice_na_porci: { kcal: 140, bilkoviny_g: 6, sacharidy_g: 20, tuky_g: 4 }
+alergeny: [mléko]
+vegetarian: true
+poznamky: >-
+  Nejjednodušší svačina. Pro bezlaktózové zajistit rostlinný/bezlaktózový jogurt.
+  Množství je odhad pro ~40 osob (1 kelímek na osobu).
+zdroj_dat: vlastni
+overit: true

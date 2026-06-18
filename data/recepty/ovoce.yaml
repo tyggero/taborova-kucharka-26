@@ -1,0 +1,20 @@
+id: ovoce
+nazev: Ovoce
+zdroj: ""
+odkaz: ""
+stitky: [Svačina]
+porce_original: 40
+suroviny:
+  - { surovina: sezónní ovoce, mnozstvi: 8, jednotka: kg, poznamka: "cca 200 g na osobu; mix – jablka, banány, pomeranče, hrušky, meruňky, melouny dle sezóny (červenec)" }
+postup:
+  - "Ovoce omyjeme."
+  - "Větší kusy (melouny, ananas) nakrájíme; drobné ovoce naservírujeme vcelku do mís."
+  - "Rozdáme jako svačinu, samoobslužně z mís/košíků."
+nutrice_na_porci: { kcal: 110, bilkoviny_g: 1, sacharidy_g: 26, tuky_g: 0 }
+alergeny: []
+vegetarian: true
+poznamky: >-
+  Nejjednodušší svačina – čerstvé sezónní ovoce. Bez alergenů, vhodné pro všechny
+  diety (vegan, bezlepkové, bezlaktózové). Množství je odhad pro ~40 osob (~200 g/osoba).
+zdroj_dat: vlastni
+overit: true

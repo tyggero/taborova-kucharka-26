@@ -1,38 +1,41 @@
 id: koprovka
 nazev: Koprová omáčka s vejcem (Koprovka)
-zdroj: ruční poznámky (foto z Notionu)
-odkaz: ""
+zdroj: Prima Fresh
+odkaz: https://fresh.iprima.cz/recepty/koprova-omacka
 stitky: [Oběd, Večeře]
-porce_original: 40
+porce_original: 4
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "45 min" }
 suroviny:
-  - { surovina: houskový knedlík, mnozstvi: 7, jednotka: šiška, poznamka: "1 šiška ~ 18 plátků; cca 1 šiška na ~6 lidí (z poznámek kuchaře)" }
-  - { surovina: vejce, mnozstvi: 40, jednotka: ks, poznamka: "cca 1 vejce na osobu, uvařit natvrdo" }
-  - { surovina: máslo, mnozstvi: null, jednotka: "", poznamka: "plnotučné; na jíšku (bešamel) – kostka másla na zaprášení moukou" }
-  - { surovina: hladká mouka, mnozstvi: 0.75, jednotka: kg, poznamka: "na jíšku; množství z poznámek (3/4 kg)" }
-  - { surovina: mléko, mnozstvi: 5, jednotka: l, poznamka: "mléko + smetana dohromady cca 5 l + 3 l (z poznámek 2024)" }
-  - { surovina: smetana, mnozstvi: 3, jednotka: l, poznamka: "ke šlehání/na vaření; do bešamelu" }
-  - { surovina: kopr, mnozstvi: null, jednotka: "", poznamka: "čerstvý nebo naložený" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: cukr, mnozstvi: null, jednotka: "", poznamka: na dochucení }
-  - { surovina: ocet, mnozstvi: null, jednotka: "", poznamka: na dochucení }
+  - { surovina: máslo, mnozstvi: 50, jednotka: g, poznamka: "na jíšku", sekce: Omáčka }
+  - { surovina: hladká mouka, mnozstvi: 60, jednotka: g, poznamka: "", sekce: Omáčka }
+  - { surovina: vývar (zeleninový nebo hovězí), mnozstvi: 1, jednotka: l, poznamka: "přilévat postupně", sekce: Omáčka }
+  - { surovina: smetana ke šlehání (31%), mnozstvi: 200, jednotka: ml, poznamka: "", sekce: Omáčka }
+  - { surovina: kopr, mnozstvi: 1, jednotka: hrst, poznamka: "čerstvý, nasekaný (nebo naložený)", sekce: Omáčka }
+  - { surovina: jablečný ocet, mnozstvi: null, jednotka: "", poznamka: "cca 2 lžíce; na sladkokyselou chuť", sekce: Omáčka }
+  - { surovina: cukr, mnozstvi: null, jednotka: "", poznamka: "cca 5 lžiček; doladit", sekce: Omáčka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Omáčka }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Omáčka }
+  - { surovina: vejce, mnozstvi: 4, jednotka: ks, poznamka: "natvrdo, cca 1 na osobu", sekce: K podávání }
+  - { surovina: houskový knedlík, mnozstvi: null, jednotka: "", poznamka: "k podávání", sekce: K podávání }
 postup:
-  - "Vejce uvaříme natvrdo, oloupeme a necháme stranou."
-  - "Knedlíky: připravíme houskové knedlíky (šišky). Pokud máš parníček, pokládej je v několika vrstvách na utěrku a napař v páře. POZOR na vyvaření vody! (utěrka přivázaná na hrnec, voda dole)."
-  - "Bešamel (jíška): v hrnci rozpustíme kostku másla a zaprašujeme hladkou moukou, dokud nevznikne hustá kaše."
-  - "Do bešamelu postupně přiléváme mléko a smetanu, mícháme dohladka a ohříváme, dokud omáčka nezhoustne."
-  - "Kopr nakrájíme (čerstvý nebo naložený) a vmícháme do omáčky, prohřejeme."
-  - "Uvařená vejce nakrájíme a přidáme do omáčky (nebo podáváme navrch)."
-  - "Dochutíme octem, solí a cukrem."
-  - "Podáváme s nakrájeným houskovým knedlíkem."
-nutrice_na_porci: { kcal: 550, bilkoviny_g: 18, sacharidy_g: 70, tuky_g: 22 }
+  - "Vejce uvař natvrdo, oloupej a nech stranou. Připrav houskové knedlíky (napařit)."
+  - "Rozpusť máslo v hrnci, vsyp mouku a míchej cca 2 minuty (jíška)."
+  - "Postupně přilévej vývar, při každém přidání promíchej metlou, aby nevznikly hrudky. Osol, opepři a přiveď k varu."
+  - "Přiklop a nech provařit cca 30 minut na mírném ohni."
+  - "Nalij smetanu, přiveď k varu a vař 2 minuty. Stáhni z plotny a přidej nasekaný kopr (nebo část omáčky s koprem rozmixuj)."
+  - "Dochuť jablečným octem a cukrem na sladkokyselou chuť (začni 2 lžíce octa + 5 lžiček cukru)."
+  - "Podávej s nakrájeným houskovým knedlíkem a vejcem natvrdo."
+nutrice_na_porci: { kcal: 380, bilkoviny_g: 14, sacharidy_g: 45, tuky_g: 16 }
 alergeny: [lepek, mléko, vejce]
 vegetarian: true
 poznamky: >-
-  Vytěženo z ručně psané fotky receptu v Notionu (foto v assets/recepty/koprovka.jpg).
-  Přesná množství surovin nejsou v receptu uvedena jako gramáž – vychází z poznámek
-  kuchaře o předchozích várkách: 2019 ~45 osob; v r. 2019 vyšlo „moc" pro cca 30 lidí;
-  2024 → 7 šišek knedlíku, mléko+smetana cca 5 l + 3 l, hladká mouka ~3/4 kg.
-  Knedlíky se podle poznámky „jedly i po večeři, bylo jich moc". Množství proto PROJÍT
-  a upřesnit při vaření. Vegetariánské.
-zdroj_dat: foto
-overit: true
+  Vytěženo z webu uvedeného v Notion bookmarku (Prima Fresh – koprová omáčka). Recept je na
+  4 porce, generátor přepočítá na 10. Doplněno o vejce natvrdo a houskový knedlík (klasické
+  podávání). Pozn. kuchaře z minulých let pro velkou várku (~40 osob): cca 7 šišek knedlíku,
+  mléko+smetana ~5 l + 3 l, hladká mouka ~3/4 kg – množství projít při vaření. Alergeny:
+  lepek (mouka, knedlík), mléko (máslo, smetana), vejce. Pro vegetariánskou variantu použij
+  zeleninový vývar.
+zdroj_dat: url
+overit: false

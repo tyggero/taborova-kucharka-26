@@ -4,15 +4,18 @@ zdroj: bookmark v Notionu (mrkvovo-sýrová pomazánka s česnekem)
 odkaz: https://zenysro.cz/blogy/recepty/mrkvovo-syrova-pomazanka/
 stitky: [Svačina]
 porce_original: 4
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Odležení, popis: "30 min" }
 suroviny:
-  - { surovina: uzený sýr, mnozstvi: 150, jednotka: g, poznamka: "nastrouhaný na velké struhadlo" }
-  - { surovina: vejce, mnozstvi: 2, jednotka: ks, poznamka: "uvařená natvrdo, nastrouhaná" }
-  - { surovina: mrkev, mnozstvi: 2, jednotka: ks, poznamka: "1–2 ks, syrová, nastrouhaná na střední struhadlo" }
-  - { surovina: česnek, mnozstvi: 3, jednotka: stroužky, poznamka: "rozdrcený, dle chuti" }
-  - { surovina: majonéza, mnozstvi: 4, jednotka: lžíce, poznamka: "3–4 lžíce" }
-  - { surovina: petrželka, mnozstvi: null, jednotka: "", poznamka: "několik snítek, nasekaná najemno" }
-  - { surovina: mletý černý pepř, mnozstvi: 0.5, jednotka: lžička, poznamka: "" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
+  - { surovina: uzený sýr, mnozstvi: 150, jednotka: g, poznamka: "nastrouhaný na velké struhadlo", sekce: Pomazánka }
+  - { surovina: vejce, mnozstvi: 2, jednotka: ks, poznamka: "uvařená natvrdo, nastrouhaná", sekce: Pomazánka }
+  - { surovina: mrkev, mnozstvi: 2, jednotka: ks, poznamka: "1–2 ks, syrová, nastrouhaná na střední struhadlo", sekce: Pomazánka }
+  - { surovina: česnek, mnozstvi: 3, jednotka: stroužky, poznamka: "rozdrcený, dle chuti", sekce: Pomazánka }
+  - { surovina: majonéza, mnozstvi: 4, jednotka: lžíce, poznamka: "3–4 lžíce", sekce: Pomazánka }
+  - { surovina: petrželka, mnozstvi: null, jednotka: "", poznamka: "několik snítek, nasekaná najemno", sekce: Pomazánka }
+  - { surovina: mletý černý pepř, mnozstvi: 0.5, jednotka: lžička, poznamka: "", sekce: Pomazánka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Pomazánka }
 postup:
   - "Uzený sýr a vařená vejce nastrouhej přes velké struhadlo do mísy."
   - "Oloupej mrkev a nastrouhej ji na středním struhadle přímo do mísy."

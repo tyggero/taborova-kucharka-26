@@ -87,6 +87,19 @@ html, body {
   color: #bf360c;
 }
 
+/* ---- Časy přípravy / vaření ---- */
+.casy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 14px;
+  margin: 8px 0 2px;
+  font-size: 10pt;
+  color: #333;
+}
+.casy-ikona { font-size: 12pt; }
+.cas-pol strong { color: #1b5e20; font-weight: 600; }
+
 /* ---- Tělo: suroviny + postup ---- */
 .telo {
   display: grid;
@@ -121,6 +134,18 @@ h2 {
 .col-mnozstvi { white-space: nowrap; }
 .col-rucni { width: 22%; border-left: 1px dashed #bbb; background: #fafafa; }
 .pozn { color: #777; font-size: 9pt; }
+
+/* Podnadpis sekce surovin (Maso / Dresink / Těsto …) */
+.sekce-row .sekce-nadpis {
+  font-size: 8.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  color: #1b5e20;
+  background: #f1f8e9;
+  border-bottom: 1px solid #c8e6c9;
+  padding: 4px 4px 3px;
+}
 
 .postup ol { margin: 0; padding-left: 20px; }
 .postup li { margin-bottom: 6px; }
@@ -195,6 +220,10 @@ h2 {
 <span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;40 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -207,6 +236,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Brambory</td></tr>
           <tr>
             <td class="col-surovina">brambory <span class="pozn">(10 kg na 35 lidí = z poznámky kuchaře MÁLO; počítat ~3 brambory na osobu)</span></td>
             <td class="col-mnozstvi">2,9 kg</td>
@@ -222,6 +252,7 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Pomazánka</td></tr>
           <tr>
             <td class="col-surovina">tvaroh měkký <span class="pozn">(z poznámky 50 g na osobu = MÁLO, příště více; cca 2 kg na 35 osob)</span></td>
             <td class="col-mnozstvi"></td>

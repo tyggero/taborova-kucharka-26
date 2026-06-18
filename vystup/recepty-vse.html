@@ -87,6 +87,19 @@ html, body {
   color: #bf360c;
 }
 
+/* ---- Časy přípravy / vaření ---- */
+.casy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 14px;
+  margin: 8px 0 2px;
+  font-size: 10pt;
+  color: #333;
+}
+.casy-ikona { font-size: 12pt; }
+.cas-pol strong { color: #1b5e20; font-weight: 600; }
+
 /* ---- Tělo: suroviny + postup ---- */
 .telo {
   display: grid;
@@ -121,6 +134,18 @@ h2 {
 .col-mnozstvi { white-space: nowrap; }
 .col-rucni { width: 22%; border-left: 1px dashed #bbb; background: #fafafa; }
 .pozn { color: #777; font-size: 9pt; }
+
+/* Podnadpis sekce surovin (Maso / Dresink / Těsto …) */
+.sekce-row .sekce-nadpis {
+  font-size: 8.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  color: #1b5e20;
+  background: #f1f8e9;
+  border-bottom: 1px solid #c8e6c9;
+  padding: 4px 4px 3px;
+}
 
 .postup ol { margin: 0; padding-left: 20px; }
 .postup li { margin-bottom: 6px; }
@@ -195,6 +220,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">vejce</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Smažení</strong>&nbsp;15 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -207,6 +236,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Hlavní talíř</td></tr>
           <tr>
             <td class="col-surovina">anglické klobásy (párky) <span class="pozn">(na osobu)</span></td>
             <td class="col-mnozstvi">20 ks</td>
@@ -238,21 +268,6 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">bílý toustový chléb</td>
-            <td class="col-mnozstvi">20 ks</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">máslo</td>
-            <td class="col-mnozstvi">10 lžička</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">pomerančová marmeláda <span class="pozn">(k toustu)</span></td>
-            <td class="col-mnozstvi">10 lžíce</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
             <td class="col-surovina">olivový olej <span class="pozn">(na osmažení)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
@@ -265,6 +280,22 @@ h2 {
           <tr>
             <td class="col-surovina">pepř <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">K toustu</td></tr>
+          <tr>
+            <td class="col-surovina">bílý toustový chléb</td>
+            <td class="col-mnozstvi">20 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">máslo</td>
+            <td class="col-mnozstvi">10 lžička</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">pomerančová marmeláda <span class="pozn">(k toustu)</span></td>
+            <td class="col-mnozstvi">10 lžíce</td>
             <td class="col-rucni"></td>
           </tr>
         </tbody>
@@ -314,6 +345,10 @@ h2 {
 <span class="alergen">vejce</span><span class="alergen">celer</span><span class="alergen">kokos</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;20 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;1,5 hod</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -326,6 +361,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Vývar</td></tr>
           <tr>
             <td class="col-surovina">kuřecí stehna <span class="pozn">(lze i část z nich)</span></td>
             <td class="col-mnozstvi">5 ks</td>
@@ -337,43 +373,8 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">mrkev</td>
-            <td class="col-mnozstvi">350 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">širokých rýžových nudlí <span class="pozn">(vařit zvlášť)</span></td>
-            <td class="col-mnozstvi">250 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">řapíkatý celer</td>
-            <td class="col-mnozstvi">250 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">vejce <span class="pozn">(uvařená natvrdo)</span></td>
-            <td class="col-mnozstvi">10 ks</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
             <td class="col-surovina">kořenová zelenina (mrkev <span class="pozn">(4–5 ks)</span></td>
             <td class="col-mnozstvi">4 ks</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">kokosové mléko</td>
-            <td class="col-mnozstvi">1 konzerva</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">citron</td>
-            <td class="col-mnozstvi">1 ks</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">olej <span class="pozn">(na restování)</span></td>
-            <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -392,6 +393,32 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
+            <td class="col-surovina">olej <span class="pozn">(na restování)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Polévka</td></tr>
+          <tr>
+            <td class="col-surovina">mrkev</td>
+            <td class="col-mnozstvi">350 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">řapíkatý celer</td>
+            <td class="col-mnozstvi">250 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">kokosové mléko</td>
+            <td class="col-mnozstvi">1 konzerva</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">citron</td>
+            <td class="col-mnozstvi">1 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
             <td class="col-surovina">kari koření</td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
@@ -399,6 +426,17 @@ h2 {
           <tr>
             <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Příloha</td></tr>
+          <tr>
+            <td class="col-surovina">vejce <span class="pozn">(uvařená natvrdo)</span></td>
+            <td class="col-mnozstvi">10 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">širokých rýžových nudlí <span class="pozn">(vařit zvlášť)</span></td>
+            <td class="col-mnozstvi">250 g</td>
             <td class="col-rucni"></td>
           </tr>
         </tbody>
@@ -441,15 +479,19 @@ h2 {
 <span class="stitek">Snídaně</span>      </div>
     </div>
     <div class="zdroj">
-<div class="zdroj-radek">vlastní (běžný recept)</div>      <div class="porce-info">orig. recept na <strong>10</strong> porcí</div>
+<div class="zdroj-radek">Toprecepty.cz</div><div class="zdroj-odkaz">https://www.toprecepty.cz/clanky/3080-snadny-rychly-a-vynikajici-blt-sendvic-vite-co-se-ukryva-pod-tajemnou-zkratkou-a-jak-si-sendvic-pripravit/</div>      <div class="porce-info">orig. recept na <strong>2</strong> porcí</div>
     </div>
   </header>
 
   <div class="alergeny">
     <span class="alergeny-ikona">⚠️</span>
     <span class="alergeny-popis"><strong>ALERGENY:</strong>
-<span class="alergen">lepek</span><span class="alergen">vejce</span><span class="alergen">mléko</span>    </span>
+<span class="alergen">lepek</span><span class="alergen">vejce</span>    </span>
   </div>
+
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Smažení</strong>&nbsp;10 min</span>  </div>
 
   <div class="telo">
     <section class="suroviny">
@@ -463,34 +505,31 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Sendvič</td></tr>
           <tr>
-            <td class="col-surovina">toustový chléb <span class="pozn">(2 plátky na osobu)</span></td>
-            <td class="col-mnozstvi">20 plátek</td>
+            <td class="col-surovina">chléb <span class="pozn">(lehce opéct)</span></td>
+            <td class="col-mnozstvi">20 plátky</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">slanina (anglická/plátková) <span class="pozn">(cca 3 plátky na osobu)</span></td>
-            <td class="col-mnozstvi">600 g</td>
+            <td class="col-surovina">slanina <span class="pozn">(silnější; opéct dokřupava)</span></td>
+            <td class="col-mnozstvi">30 plátky</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">rajčata <span class="pozn">(na plátky)</span></td>
-            <td class="col-mnozstvi">6 ks</td>
+            <td class="col-surovina">rajčata <span class="pozn">(velká zralá, na silné plátky)</span></td>
+            <td class="col-mnozstvi">10 ks</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">ledový salát <span class="pozn">(listy, omýt)</span></td>
-            <td class="col-mnozstvi">1 ks</td>
+            <td class="col-surovina">ledový (nebo římský) salát <span class="pozn">(omýt, na nudličky)</span></td>
+            <td class="col-mnozstvi">20 listy</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dochucení</td></tr>
           <tr>
             <td class="col-surovina">majonéza <span class="pozn">(na potření; obsahuje vejce)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">máslo <span class="pozn">(na opečení / potření)</span></td>
-            <td class="col-mnozstvi"></td>
+            <td class="col-mnozstvi">20 lžíce</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -510,13 +549,13 @@ h2 {
     <section class="postup">
       <h2>Postup</h2>
       <ol>
-        <li>Slaninu opeč na suché pánvi dokřupava a nech okapat na utěrce.</li>
-        <li>Toustový chléb opeč (toustovač nebo pánev s trochou másla) dozlatova.</li>
-        <li>Rajčata nakrájej na plátky, salát omyj a osuš, listy potrhej.</li>
-        <li>Plátky chleba potři majonézou. Na jeden plátek navrstvi salát, rajče (osol, opepři) a křupavou slaninu.</li>
-        <li>Přiklop druhým plátkem chleba, případně překroj na trojúhelníky a podávej.</li>
+        <li>Salát omyj, osuš a nakrájej na tenké nudličky. Rajčata nakrájej na silné plátky.</li>
+        <li>Slaninu opeč na pánvi dokřupava a nech okapat na papírové utěrce.</li>
+        <li>Chléb lehce opeč na pánvi (případně namaž máslem).</li>
+        <li>Každý krajíc potři lžící majonézy. Oblož slaninou, rajčaty a salátem, osol a opepři.</li>
+        <li>Spoj sendviče dohromady, rozkroj na poloviny a podávej.</li>
       </ol>
-      <div class="recept-poznamky"><strong>Poznámka:</strong> POZOR: v Notionu u tohoto receptu NEBYLA žádná fotka ani použitelný text – jen vložená DB surovin a bookmark (žádný odkaz vyplněn). Recept je proto SESTAVEN VLASTNÍ jako standardní BLT sendvič; množství jsou odhadnutá na 10 porcí pro táborovou snídani. PROJÍT a upravit podle skutečného záměru kuchaře. Alergeny: lepek (chléb), vejce (majonéza), mléko (máslo); majonézu lze vynechat. Vegetariánská varianta: nahradit slaninu grilovanou zeleninou/sýrem.</div>
+      <div class="recept-poznamky"><strong>Poznámka:</strong> Vytěženo z webu uvedeného v Notion bookmarku (Toprecepty.cz). Recept je na 2 sendviče, generátor přepočítá na 10 porcí. Alergeny: lepek (chléb), vejce (majonéza). Vegetariánská varianta: nahradit slaninu grilovanou zeleninou nebo sýrem.</div>
     </section>
   </div>
 
@@ -549,6 +588,10 @@ h2 {
 <span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;40 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -561,6 +604,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Brambory</td></tr>
           <tr>
             <td class="col-surovina">brambory <span class="pozn">(10 kg na 35 lidí = z poznámky kuchaře MÁLO; počítat ~3 brambory na osobu)</span></td>
             <td class="col-mnozstvi">2,9 kg</td>
@@ -576,6 +620,7 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Pomazánka</td></tr>
           <tr>
             <td class="col-surovina">tvaroh měkký <span class="pozn">(z poznámky 50 g na osobu = MÁLO, příště více; cca 2 kg na 35 osob)</span></td>
             <td class="col-mnozstvi"></td>
@@ -642,6 +687,10 @@ h2 {
 <span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Restování</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Dušení</strong>&nbsp;30 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -654,29 +703,10 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Maso a zelenina</td></tr>
           <tr>
             <td class="col-surovina">mleté maso <span class="pozn">(mix hovězí/vepřové nebo jen hovězí)</span></td>
             <td class="col-mnozstvi">1 kg</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">sekaná rajčata v plechovce</td>
-            <td class="col-mnozstvi">1 kg</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">červené fazole v nálevu <span class="pozn">(přecedit)</span></td>
-            <td class="col-mnozstvi">1 kg</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">vývar/voda</td>
-            <td class="col-mnozstvi">750 ml</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">zakysaná smetana <span class="pozn">(k podávání)</span></td>
-            <td class="col-mnozstvi">500 ml</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -700,10 +730,32 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
+            <td class="col-surovina">olivový olej <span class="pozn">(na restování)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Omáčka</td></tr>
+          <tr>
+            <td class="col-surovina">sekaná rajčata v plechovce</td>
+            <td class="col-mnozstvi">1 kg</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">červené fazole v nálevu <span class="pozn">(přecedit)</span></td>
+            <td class="col-mnozstvi">1 kg</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">vývar/voda</td>
+            <td class="col-mnozstvi">750 ml</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
             <td class="col-surovina">hořká čokoláda 70%</td>
             <td class="col-mnozstvi">2 kostička</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Koření</td></tr>
           <tr>
             <td class="col-surovina">římský kmín <span class="pozn">((kávová lžička))</span></td>
             <td class="col-mnozstvi">2,5 KL</td>
@@ -725,11 +777,6 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">olivový olej <span class="pozn">(na restování)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
             <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
@@ -737,6 +784,12 @@ h2 {
           <tr>
             <td class="col-surovina">pepř <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">K podávání</td></tr>
+          <tr>
+            <td class="col-surovina">zakysaná smetana <span class="pozn">(k podávání)</span></td>
+            <td class="col-mnozstvi">500 ml</td>
             <td class="col-rucni"></td>
           </tr>
         </tbody>
@@ -779,6 +832,10 @@ h2 {
   </header>
 
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Vaření</strong>&nbsp;20 min</span><span class="cas-pol"><strong>Chlazení</strong>&nbsp;30 min</span><span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -791,6 +848,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Salát</td></tr>
           <tr>
             <td class="col-surovina">čočka beluga</td>
             <td class="col-mnozstvi">400 g</td>
@@ -812,17 +870,13 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
+            <td class="col-surovina">máta <span class="pozn">(VOLITELNÉ – pár nasekaných lístků)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dresink</td></tr>
+          <tr>
             <td class="col-surovina">olivový olej <span class="pozn">(na zálivku)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">pepř <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
@@ -832,7 +886,12 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">máta <span class="pozn">(VOLITELNÉ – pár nasekaných lístků)</span></td>
+            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">pepř <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
@@ -881,6 +940,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Dušení</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Smažení masa</strong>&nbsp;10 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -893,6 +956,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dušená mrkev</td></tr>
           <tr>
             <td class="col-surovina">máslo <span class="pozn">(na dušení mrkve)</span></td>
             <td class="col-mnozstvi">250 g</td>
@@ -924,21 +988,6 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">brambory <span class="pozn">(jako příloha)</span></td>
-            <td class="col-mnozstvi">2000 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">kuřecí prsní řízek <span class="pozn">(600–800 g; lze i stehenní řízky)</span></td>
-            <td class="col-mnozstvi">1750 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">přepuštěné máslo <span class="pozn">(na smažení masa)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
             <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
@@ -950,6 +999,23 @@ h2 {
           </tr>
           <tr>
             <td class="col-surovina">cukr <span class="pozn">(na dochucení mrkve)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Příloha</td></tr>
+          <tr>
+            <td class="col-surovina">brambory <span class="pozn">(jako příloha)</span></td>
+            <td class="col-mnozstvi">2000 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Maso</td></tr>
+          <tr>
+            <td class="col-surovina">kuřecí prsní řízek <span class="pozn">(600–800 g; lze i stehenní řízky)</span></td>
+            <td class="col-mnozstvi">1750 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">přepuštěné máslo <span class="pozn">(na smažení masa)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
@@ -999,6 +1065,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;45 min</span><span class="cas-pol"><strong>Pečení</strong>&nbsp;10 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -1011,6 +1081,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Polévka</td></tr>
           <tr>
             <td class="col-surovina">cibule <span class="pozn">(na tenké plátky; ideálně i část červené)</span></td>
             <td class="col-mnozstvi">1250 g</td>
@@ -1041,6 +1112,7 @@ h2 {
             <td class="col-mnozstvi">250 ml</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Topinky</td></tr>
           <tr>
             <td class="col-surovina">bageta/toustový chléb <span class="pozn">(opečené topinky na polévku)</span></td>
             <td class="col-mnozstvi">10 plátek</td>
@@ -1056,6 +1128,7 @@ h2 {
             <td class="col-mnozstvi">2,5 stroužek</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dochucení</td></tr>
           <tr>
             <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
@@ -1113,6 +1186,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span><span class="alergen">vejce</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;20 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -1125,6 +1202,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Bufetový stůl</td></tr>
           <tr>
             <td class="col-surovina">pečivo (chléb <span class="pozn">(doplnit množství)</span></td>
             <td class="col-mnozstvi"></td>
@@ -1208,6 +1286,10 @@ h2 {
 <span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Namáčení</strong>&nbsp;půl dne až den předem</span><span class="cas-pol"><strong>Příprava</strong>&nbsp;20 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;1,5 hod</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -1220,6 +1302,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Kaše</td></tr>
           <tr>
             <td class="col-surovina">žlutý půlený hrách <span class="pozn">(masová verze)</span></td>
             <td class="col-mnozstvi">1 kg</td>
@@ -1228,16 +1311,6 @@ h2 {
           <tr>
             <td class="col-surovina">bobkový list <span class="pozn">(případně fenyklová semínka, saturejka)</span></td>
             <td class="col-mnozstvi">5 ks</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">uzené maso <span class="pozn">(700 g–1 kg; koleno nebo krkovice)</span></td>
-            <td class="col-mnozstvi">0,85 kg</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">cibule</td>
-            <td class="col-mnozstvi">8 ks</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -1265,11 +1338,23 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Uzené maso a cibulka</td></tr>
+          <tr>
+            <td class="col-surovina">uzené maso <span class="pozn">(700 g–1 kg; koleno nebo krkovice)</span></td>
+            <td class="col-mnozstvi">0,85 kg</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">cibule</td>
+            <td class="col-mnozstvi">8 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
           <tr>
             <td class="col-surovina">olej / sádlo <span class="pozn">(na opečení cibulky)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">K podávání</td></tr>
           <tr>
             <td class="col-surovina">nakládané nebo kvašené okurky <span class="pozn">(k podávání)</span></td>
             <td class="col-mnozstvi"></td>
@@ -1311,13 +1396,22 @@ h2 {
     <div class="nadpis">
       <h1>Hrášková polévka</h1>
       <div class="stitky">
-<span class="stitek">polévka</span><span class="stitek veg">vegetariánské</span>      </div>
+<span class="stitek">polévka</span>      </div>
     </div>
     <div class="zdroj">
-      <div class="porce-info">orig. recept na <strong>10</strong> porcí</div>
+<div class="zdroj-radek">Toprecepty.cz (podle Pohlreicha)</div><div class="zdroj-odkaz">https://www.toprecepty.cz/recept/11012-hraskova-polevka-podle-pohlreicha/</div>      <div class="porce-info">orig. recept na <strong>4</strong> porcí</div>
     </div>
   </header>
 
+  <div class="alergeny">
+    <span class="alergeny-ikona">⚠️</span>
+    <span class="alergeny-popis"><strong>ALERGENY:</strong>
+<span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
+  </div>
+
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;30 min</span>  </div>
 
   <div class="telo">
     <section class="suroviny">
@@ -1331,44 +1425,61 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Polévka</td></tr>
           <tr>
-            <td class="col-surovina">hrášek (mražený nebo čerstvý) <span class="pozn">(PLACEHOLDER – recept nebyl v Notionu vytěžitelný (žádná fotka ani text); doplnit)</span></td>
+            <td class="col-surovina">hrášek (mražený) <span class="pozn">(rozmrazit ve vlažné vodě, okapat; 4 lžíce si odložit na ozdobu)</span></td>
+            <td class="col-mnozstvi">750 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">brambory <span class="pozn">(střední, na kostičky)</span></td>
+            <td class="col-mnozstvi">5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">cibule <span class="pozn">(oloupaná)</span></td>
+            <td class="col-mnozstvi">2,5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">slanina <span class="pozn">(50 g do polévky, zbytek osmažit na ozdobu)</span></td>
+            <td class="col-mnozstvi">375 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">česnek</td>
+            <td class="col-mnozstvi">2,5 stroužek</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">zeleninový vývar</td>
+            <td class="col-mnozstvi">2,5 l</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">olej nebo sádlo <span class="pozn">(na orestování)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">cibule <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
+            <td class="col-surovina">smetana ke šlehání</td>
+            <td class="col-mnozstvi">375 ml</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">brambory <span class="pozn">(PLACEHOLDER – na zahuštění; doplnit)</span></td>
+            <td class="col-surovina">mletý pepř <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Krutony</td></tr>
           <tr>
-            <td class="col-surovina">zeleninový vývar <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">máslo nebo olej <span class="pozn">(PLACEHOLDER – na orestování; doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">smetana <span class="pozn">(PLACEHOLDER – volitelně na zjemnění; doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">sůl <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">pepř <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
+            <td class="col-surovina">toustový chléb <span class="pozn">(na kostičky)</span></td>
+            <td class="col-mnozstvi">5 plátky</td>
             <td class="col-rucni"></td>
           </tr>
         </tbody>
@@ -1378,16 +1489,21 @@ h2 {
     <section class="postup">
       <h2>Postup</h2>
       <ol>
-        <li>POSTUP NENÍ VYTĚŽEN – v Notion stránce nebyl žádný použitelný text, fotka ani odkaz, pouze prázdná vložená databáze surovin a interní bookmark. Doplnit ručně.</li>
+        <li>Rozmraž hrášek ve vlažné vodě a okapej. Na oleji či sádle osmaž oloupanou cibuli a 50 g slaniny.</li>
+        <li>Přidej hrášek (4 lžíce si odlož) a brambory nakrájené na kostičky. Orestuj, pak přilij vývar, přidej česnek, pepř a sůl.</li>
+        <li>Po změknutí brambor odstav z ohně a rozmixuj do hladka.</li>
+        <li>Přilij smetanu a nech projít varem.</li>
+        <li>Zbylou slaninu osmaž, přidej na kostičky nakrájený toustový chléb a nech lehce zezlátnout.</li>
+        <li>Dochuť a podávej ozdobené slaninou, odloženým hráškem a krutony.</li>
       </ol>
-      <div class="recept-poznamky"><strong>Poznámka:</strong> NEVYTĚŽENO. V Notion stránce (382a86fa-0044-80c6-a0b9-edb2b4e66570) není žádný recept – jen prázdná vložená DB surovin a interní bookmark, žádná fotka ani odkaz. Suroviny i postup jsou pouze PLACEHOLDERY z běžné hráškové polévky a je NUTNÉ je celé doplnit ručně. Štítek: polévka. Nutrice je hrubý odhad. Alergeny závisí na doplnění (smetana = mléko, případná jíška = lepek). Vegetariánská varianta předpokládána.</div>
+      <div class="recept-poznamky"><strong>Poznámka:</strong> Vytěženo z webu uvedeného v Notion bookmarku (Hrášková polévka podle Pohlreicha). Pro vegetariánskou/bezlepkovou variantu: vynech slaninu (nahraď osmaženou zeleninou nebo opraženými semínky – pozor na alergeny) a krutony udělej z bezlepkového pečiva.</div>
     </section>
   </div>
 
   <footer class="paticka">
     <div class="nutrice">
       <span class="nutrice-titulek">Na porci (odhad):</span>
-<span class="nutri-pol"><strong>170</strong> kcal</span><span class="nutri-pol">B 8 g</span><span class="nutri-pol">S 22 g</span><span class="nutri-pol">T 6 g</span>    </div>
+<span class="nutri-pol"><strong>230</strong> kcal</span><span class="nutri-pol">B 9 g</span><span class="nutri-pol">S 20 g</span><span class="nutri-pol">T 13 g</span>    </div>
     <div class="poznamky-sluzby">
       <span class="poznamky-titulek">Poznámky služby:</span>
     </div>
@@ -1413,6 +1529,10 @@ h2 {
 <span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;5 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;25 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -1425,6 +1545,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Kaše</td></tr>
           <tr>
             <td class="col-surovina">mléko</td>
             <td class="col-mnozstvi">2 l</td>
@@ -1445,6 +1566,7 @@ h2 {
             <td class="col-mnozstvi">1 PL</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Ochucení</td></tr>
           <tr>
             <td class="col-surovina">dobroty na ochucení <span class="pozn">(marmeláda / kakao + cukr / ovoce / oříšky / opražená semínka – dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
@@ -1495,6 +1617,10 @@ h2 {
 <span class="alergen">mléko</span><span class="alergen">lepek</span><span class="alergen">ořechy</span><span class="alergen">sezam/semínka</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -1507,6 +1633,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Základ</td></tr>
           <tr>
             <td class="col-surovina">bílý jogurt <span class="pozn">(selský/řecký nebo polotučný; cca 150 g na osobu (větší kbelíky 5 kg))</span></td>
             <td class="col-mnozstvi">1,5 kg</td>
@@ -1517,6 +1644,7 @@ h2 {
             <td class="col-mnozstvi">0,62 kg</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Topping</td></tr>
           <tr>
             <td class="col-surovina">med nebo cukr <span class="pozn">(na doslazení dle chuti)</span></td>
             <td class="col-mnozstvi">0,12 kg</td>
@@ -1572,6 +1700,10 @@ h2 {
 <span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;5 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -1584,11 +1716,13 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Základ</td></tr>
           <tr>
             <td class="col-surovina">ovocný/bílý jogurt <span class="pozn">(1 kelímek (cca 150 g) na osobu; mix příchutí)</span></td>
             <td class="col-mnozstvi">10 ks</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">K podávání</td></tr>
           <tr>
             <td class="col-surovina">cukr nebo med <span class="pozn">(volitelně k bílému jogurtu)</span></td>
             <td class="col-mnozstvi"></td>
@@ -1627,7 +1761,7 @@ h2 {
 <span class="stitek">Oběd</span><span class="stitek">Večeře</span><span class="stitek veg">vegetariánské</span>      </div>
     </div>
     <div class="zdroj">
-<div class="zdroj-radek">ruční poznámky (foto z Notionu)</div>      <div class="porce-info">orig. recept na <strong>40</strong> porcí</div>
+<div class="zdroj-radek">Prima Fresh</div><div class="zdroj-odkaz">https://fresh.iprima.cz/recepty/koprova-omacka</div>      <div class="porce-info">orig. recept na <strong>4</strong> porcí</div>
     </div>
   </header>
 
@@ -1636,6 +1770,10 @@ h2 {
     <span class="alergeny-popis"><strong>ALERGENY:</strong>
 <span class="alergen">lepek</span><span class="alergen">mléko</span><span class="alergen">vejce</span>    </span>
   </div>
+
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;45 min</span>  </div>
 
   <div class="telo">
     <section class="suroviny">
@@ -1649,38 +1787,39 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Omáčka</td></tr>
           <tr>
-            <td class="col-surovina">houskový knedlík <span class="pozn">(1 šiška ~ 18 plátků; cca 1 šiška na ~6 lidí (z poznámek kuchaře))</span></td>
-            <td class="col-mnozstvi">1,8 šiška</td>
+            <td class="col-surovina">máslo <span class="pozn">(na jíšku)</span></td>
+            <td class="col-mnozstvi">125 g</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">vejce <span class="pozn">(cca 1 vejce na osobu, uvařit natvrdo)</span></td>
-            <td class="col-mnozstvi">10 ks</td>
+            <td class="col-surovina">hladká mouka</td>
+            <td class="col-mnozstvi">150 g</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">máslo <span class="pozn">(plnotučné; na jíšku (bešamel) – kostka másla na zaprášení moukou)</span></td>
+            <td class="col-surovina">vývar (zeleninový nebo hovězí) <span class="pozn">(přilévat postupně)</span></td>
+            <td class="col-mnozstvi">2,5 l</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">smetana ke šlehání (31%)</td>
+            <td class="col-mnozstvi">500 ml</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">kopr <span class="pozn">(čerstvý, nasekaný (nebo naložený))</span></td>
+            <td class="col-mnozstvi">2,5 hrst</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">jablečný ocet <span class="pozn">(cca 2 lžíce; na sladkokyselou chuť)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">hladká mouka <span class="pozn">(na jíšku; množství z poznámek (3/4 kg))</span></td>
-            <td class="col-mnozstvi">0,19 kg</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">mléko <span class="pozn">(mléko + smetana dohromady cca 5 l + 3 l (z poznámek 2024))</span></td>
-            <td class="col-mnozstvi">1,2 l</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">smetana <span class="pozn">(ke šlehání/na vaření; do bešamelu)</span></td>
-            <td class="col-mnozstvi">0,75 l</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">kopr <span class="pozn">(čerstvý nebo naložený)</span></td>
+            <td class="col-surovina">cukr <span class="pozn">(cca 5 lžiček; doladit)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
@@ -1690,12 +1829,18 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">cukr <span class="pozn">(na dochucení)</span></td>
+            <td class="col-surovina">pepř <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">K podávání</td></tr>
           <tr>
-            <td class="col-surovina">ocet <span class="pozn">(na dochucení)</span></td>
+            <td class="col-surovina">vejce <span class="pozn">(natvrdo, cca 1 na osobu)</span></td>
+            <td class="col-mnozstvi">10 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">houskový knedlík <span class="pozn">(k podávání)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
@@ -1706,23 +1851,22 @@ h2 {
     <section class="postup">
       <h2>Postup</h2>
       <ol>
-        <li>Vejce uvaříme natvrdo, oloupeme a necháme stranou.</li>
-        <li>Knedlíky: připravíme houskové knedlíky (šišky). Pokud máš parníček, pokládej je v několika vrstvách na utěrku a napař v páře. POZOR na vyvaření vody! (utěrka přivázaná na hrnec, voda dole).</li>
-        <li>Bešamel (jíška): v hrnci rozpustíme kostku másla a zaprašujeme hladkou moukou, dokud nevznikne hustá kaše.</li>
-        <li>Do bešamelu postupně přiléváme mléko a smetanu, mícháme dohladka a ohříváme, dokud omáčka nezhoustne.</li>
-        <li>Kopr nakrájíme (čerstvý nebo naložený) a vmícháme do omáčky, prohřejeme.</li>
-        <li>Uvařená vejce nakrájíme a přidáme do omáčky (nebo podáváme navrch).</li>
-        <li>Dochutíme octem, solí a cukrem.</li>
-        <li>Podáváme s nakrájeným houskovým knedlíkem.</li>
+        <li>Vejce uvař natvrdo, oloupej a nech stranou. Připrav houskové knedlíky (napařit).</li>
+        <li>Rozpusť máslo v hrnci, vsyp mouku a míchej cca 2 minuty (jíška).</li>
+        <li>Postupně přilévej vývar, při každém přidání promíchej metlou, aby nevznikly hrudky. Osol, opepři a přiveď k varu.</li>
+        <li>Přiklop a nech provařit cca 30 minut na mírném ohni.</li>
+        <li>Nalij smetanu, přiveď k varu a vař 2 minuty. Stáhni z plotny a přidej nasekaný kopr (nebo část omáčky s koprem rozmixuj).</li>
+        <li>Dochuť jablečným octem a cukrem na sladkokyselou chuť (začni 2 lžíce octa + 5 lžiček cukru).</li>
+        <li>Podávej s nakrájeným houskovým knedlíkem a vejcem natvrdo.</li>
       </ol>
-      <div class="recept-poznamky"><strong>Poznámka:</strong> Vytěženo z ručně psané fotky receptu v Notionu (foto v assets/recepty/koprovka.jpg). Přesná množství surovin nejsou v receptu uvedena jako gramáž – vychází z poznámek kuchaře o předchozích várkách: 2019 ~45 osob; v r. 2019 vyšlo „moc" pro cca 30 lidí; 2024 → 7 šišek knedlíku, mléko+smetana cca 5 l + 3 l, hladká mouka ~3/4 kg. Knedlíky se podle poznámky „jedly i po večeři, bylo jich moc". Množství proto PROJÍT a upřesnit při vaření. Vegetariánské.</div>
+      <div class="recept-poznamky"><strong>Poznámka:</strong> Vytěženo z webu uvedeného v Notion bookmarku (Prima Fresh – koprová omáčka). Recept je na 4 porce, generátor přepočítá na 10. Doplněno o vejce natvrdo a houskový knedlík (klasické podávání). Pozn. kuchaře z minulých let pro velkou várku (~40 osob): cca 7 šišek knedlíku, mléko+smetana ~5 l + 3 l, hladká mouka ~3/4 kg – množství projít při vaření. Alergeny: lepek (mouka, knedlík), mléko (máslo, smetana), vejce. Pro vegetariánskou variantu použij zeleninový vývar.</div>
     </section>
   </div>
 
   <footer class="paticka">
     <div class="nutrice">
       <span class="nutrice-titulek">Na porci (odhad):</span>
-<span class="nutri-pol"><strong>550</strong> kcal</span><span class="nutri-pol">B 18 g</span><span class="nutri-pol">S 70 g</span><span class="nutri-pol">T 22 g</span>    </div>
+<span class="nutri-pol"><strong>380</strong> kcal</span><span class="nutri-pol">B 14 g</span><span class="nutri-pol">S 45 g</span><span class="nutri-pol">T 16 g</span>    </div>
     <div class="poznamky-sluzby">
       <span class="poznamky-titulek">Poznámky služby:</span>
     </div>
@@ -1748,6 +1892,10 @@ h2 {
 <span class="alergen">mléko</span><span class="alergen">lepek</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;20 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -1760,6 +1908,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Polévka</td></tr>
           <tr>
             <td class="col-surovina">máslo</td>
             <td class="col-mnozstvi">5 velké lžíce</td>
@@ -1810,6 +1959,7 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Na ozdobu</td></tr>
           <tr>
             <td class="col-surovina">pečivo na krutony <span class="pozn">(+ máslo na opečení)</span></td>
             <td class="col-mnozstvi"></td>
@@ -1856,10 +2006,19 @@ h2 {
 <span class="stitek">polévka</span><span class="stitek veg">vegetariánské</span>      </div>
     </div>
     <div class="zdroj">
-      <div class="porce-info">orig. recept na <strong>10</strong> porcí</div>
+<div class="zdroj-radek">Prima Fresh</div><div class="zdroj-odkaz">https://fresh.iprima.cz/recepty/kukuricna-polevka</div>      <div class="porce-info">orig. recept na <strong>2</strong> porcí</div>
     </div>
   </header>
 
+  <div class="alergeny">
+    <span class="alergeny-ikona">⚠️</span>
+    <span class="alergeny-popis"><strong>ALERGENY:</strong>
+<span class="alergen">mléko</span>    </span>
+  </div>
+
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;20 min</span>  </div>
 
   <div class="telo">
     <section class="suroviny">
@@ -1873,43 +2032,55 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Základ</td></tr>
           <tr>
-            <td class="col-surovina">kukuřice (sladká <span class="pozn">(PLACEHOLDER – recept nebyl v Notionu vytěžitelný (žádná fotka ani text); doplnit)</span></td>
+            <td class="col-surovina">kukuřice (mražená) <span class="pozn">(propláchnout vlažnou vodou)</span></td>
+            <td class="col-mnozstvi">1250 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">mrkev <span class="pozn">(na malé kostičky)</span></td>
+            <td class="col-mnozstvi">7,5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">petržel <span class="pozn">(na malé kostičky)</span></td>
+            <td class="col-mnozstvi">5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">cibule <span class="pozn">(najemno)</span></td>
+            <td class="col-mnozstvi">2,5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">máslo</td>
+            <td class="col-mnozstvi">150 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">olivový olej</td>
+            <td class="col-mnozstvi">5 lžíce</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Vývar a koření</td></tr>
+          <tr>
+            <td class="col-surovina">zeleninový vývar</td>
+            <td class="col-mnozstvi">2500 ml</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">kurkuma <span class="pozn">(špetka)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">cibule <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
+            <td class="col-surovina">římský kmín</td>
+            <td class="col-mnozstvi">5 lžička</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">brambory <span class="pozn">(PLACEHOLDER – na zahuštění; doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">zeleninový vývar <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">máslo nebo olej <span class="pozn">(PLACEHOLDER – na orestování; doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">smetana <span class="pozn">(PLACEHOLDER – volitelně na zjemnění; doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">sůl <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">pepř <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
+            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
@@ -1920,16 +2091,21 @@ h2 {
     <section class="postup">
       <h2>Postup</h2>
       <ol>
-        <li>POSTUP NENÍ VYTĚŽEN – v Notion stránce nebyl žádný použitelný text, fotka ani odkaz, pouze prázdná vložená databáze surovin a interní bookmark. Doplnit ručně.</li>
+        <li>Mrkev a petržel oloupej a nakrájej na malé kostičky, cibuli nasekej najemno.</li>
+        <li>V hrnci rozpusť máslo s olivovým olejem, přidej kořenovou zeleninu a osmahni na vyšším plamenu dozlatova.</li>
+        <li>Přidej cibuli a nech zesklovatět (cca 3 min). Mezitím propláchni mraženou kukuřici a přidej k zelenině.</li>
+        <li>Vmíchej římský kmín a kurkumu, přilij vývar, osol a zamíchej.</li>
+        <li>Vař pod pokličkou 15–20 minut, dokud kukuřice nezměkne.</li>
+        <li>Rozmixuj tyčovým mixérem a podle chuti dosol.</li>
       </ol>
-      <div class="recept-poznamky"><strong>Poznámka:</strong> NEVYTĚŽENO. V Notion stránce (382a86fa-0044-8009-a842-f8a2bf48a145) není žádný recept – jen prázdná vložená DB surovin a interní bookmark, žádná fotka ani odkaz. Suroviny i postup jsou pouze PLACEHOLDERY z běžné kukuřičné polévky a je NUTNÉ je celé doplnit ručně. Štítek: polévka. Nutrice je hrubý odhad. Alergeny závisí na doplnění (smetana = mléko). Vegetariánská varianta předpokládána.</div>
+      <div class="recept-poznamky"><strong>Poznámka:</strong> Vytěženo z webu uvedeného v Notion bookmarku (Prima Fresh). Recept je na 2 porce, generátor přepočítá na 10. Polévku lze obohatit o smetanu nebo kokosové mléko (pozor na alergeny – kokos). Alergeny: mléko (máslo). Vegetariánské.</div>
     </section>
   </div>
 
   <footer class="paticka">
     <div class="nutrice">
       <span class="nutrice-titulek">Na porci (odhad):</span>
-<span class="nutri-pol"><strong>200</strong> kcal</span><span class="nutri-pol">B 5 g</span><span class="nutri-pol">S 30 g</span><span class="nutri-pol">T 7 g</span>    </div>
+<span class="nutri-pol"><strong>190</strong> kcal</span><span class="nutri-pol">B 5 g</span><span class="nutri-pol">S 26 g</span><span class="nutri-pol">T 8 g</span>    </div>
     <div class="poznamky-sluzby">
       <span class="poznamky-titulek">Poznámky služby:</span>
     </div>
@@ -1955,6 +2131,10 @@ h2 {
 <span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;25 min</span><span class="cas-pol"><strong>Restování</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;30 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -1967,6 +2147,23 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Maso</td></tr>
+          <tr>
+            <td class="col-surovina">kuřecí stehenní řízky</td>
+            <td class="col-mnozstvi">500 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">pikantní klobása <span class="pozn">(chorizo nebo čabajka)</span></td>
+            <td class="col-mnozstvi">2 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Rýže a základ</td></tr>
+          <tr>
+            <td class="col-surovina">kulatozrnná rýže (arborio)</td>
+            <td class="col-mnozstvi">1 kg</td>
+            <td class="col-rucni"></td>
+          </tr>
           <tr>
             <td class="col-surovina">kuřecí vývar</td>
             <td class="col-mnozstvi">2,5 l</td>
@@ -1978,20 +2175,16 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">kulatozrnná rýže (arborio)</td>
-            <td class="col-mnozstvi">1 kg</td>
+            <td class="col-surovina">máslo</td>
+            <td class="col-mnozstvi">250 g</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">kuřecí stehenní řízky</td>
-            <td class="col-mnozstvi">500 g</td>
+            <td class="col-surovina">olivový olej</td>
+            <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
-          <tr>
-            <td class="col-surovina">pikantní klobása <span class="pozn">(chorizo nebo čabajka)</span></td>
-            <td class="col-mnozstvi">2 ks</td>
-            <td class="col-rucni"></td>
-          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Zelenina</td></tr>
           <tr>
             <td class="col-surovina">sekaná rajčata</td>
             <td class="col-mnozstvi">400 g</td>
@@ -2000,11 +2193,6 @@ h2 {
           <tr>
             <td class="col-surovina">zelené fazolky</td>
             <td class="col-mnozstvi">400 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">máslo</td>
-            <td class="col-mnozstvi">250 g</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -2017,6 +2205,7 @@ h2 {
             <td class="col-mnozstvi">4 ks</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Gremolata</td></tr>
           <tr>
             <td class="col-surovina">citron <span class="pozn">(kůra do gremolaty)</span></td>
             <td class="col-mnozstvi">2 ks</td>
@@ -2032,6 +2221,7 @@ h2 {
             <td class="col-mnozstvi">5 PL</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Koření</td></tr>
           <tr>
             <td class="col-surovina">sladká paprika (mletá)</td>
             <td class="col-mnozstvi">3 PL</td>
@@ -2045,11 +2235,6 @@ h2 {
           <tr>
             <td class="col-surovina">tymián</td>
             <td class="col-mnozstvi">4 snítka</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">olivový olej</td>
-            <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -2112,6 +2297,10 @@ h2 {
 <span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;25 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -2124,6 +2313,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Polévka</td></tr>
           <tr>
             <td class="col-surovina">máslo</td>
             <td class="col-mnozstvi">50 g</td>
@@ -2160,11 +2350,6 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">smetana <span class="pozn">(nebo plnotučné mléko)</span></td>
-            <td class="col-mnozstvi">167 ml</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
             <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
@@ -2172,6 +2357,12 @@ h2 {
           <tr>
             <td class="col-surovina">pepř <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Na dokončení</td></tr>
+          <tr>
+            <td class="col-surovina">smetana <span class="pozn">(nebo plnotučné mléko)</span></td>
+            <td class="col-mnozstvi">167 ml</td>
             <td class="col-rucni"></td>
           </tr>
         </tbody>
@@ -2220,6 +2411,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;30 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -2232,14 +2427,10 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Kuře</td></tr>
           <tr>
             <td class="col-surovina">kuřecí prsa <span class="pozn">(1,5 lb, bez kosti a kůže, nakrájené na 2,5cm kousky)</span></td>
             <td class="col-mnozstvi">1133 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">penne těstoviny <span class="pozn">(10 oz)</span></td>
-            <td class="col-mnozstvi">467 g</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -2257,6 +2448,13 @@ h2 {
             <td class="col-mnozstvi">1,7 lžíce</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Těstoviny</td></tr>
+          <tr>
+            <td class="col-surovina">penne těstoviny <span class="pozn">(10 oz)</span></td>
+            <td class="col-mnozstvi">467 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Omáčka</td></tr>
           <tr>
             <td class="col-surovina">máslo</td>
             <td class="col-mnozstvi">5 lžíce</td>
@@ -2302,6 +2500,7 @@ h2 {
             <td class="col-mnozstvi">3,3 lžičky</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Na ozdobu</td></tr>
           <tr>
             <td class="col-surovina">čerstvá bazalka <span class="pozn">(na ozdobu)</span></td>
             <td class="col-mnozstvi"></td>
@@ -2353,6 +2552,10 @@ h2 {
   </header>
 
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;20 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -2365,6 +2568,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Základ</td></tr>
           <tr>
             <td class="col-surovina">červená cibule <span class="pozn">(malá)</span></td>
             <td class="col-mnozstvi">2,5 ks</td>
@@ -2380,6 +2584,7 @@ h2 {
             <td class="col-mnozstvi">2,5 polévková lžíce</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Polévka</td></tr>
           <tr>
             <td class="col-surovina">červené fazole <span class="pozn">(plechovka (200 g), scezené)</span></td>
             <td class="col-mnozstvi">500 g</td>
@@ -2449,6 +2654,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">vejce</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Smažení</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;20 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -2461,11 +2670,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td class="col-surovina">voda <span class="pozn">(9 litrů = 25 lidí (z poznámky v receptu))</span></td>
-            <td class="col-mnozstvi">3,6 l</td>
-            <td class="col-rucni"></td>
-          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Polévka</td></tr>
           <tr>
             <td class="col-surovina">mrkev <span class="pozn">(množství NEUVEDENO – v receptu jen poznámka „napsat množství: bílá mísa plast klasik" (cca jedna velká plastová mísa nastrouhané mrkve); PROJÍT)</span></td>
             <td class="col-mnozstvi"></td>
@@ -2477,10 +2682,21 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
+            <td class="col-surovina">voda <span class="pozn">(9 litrů = 25 lidí (z poznámky v receptu))</span></td>
+            <td class="col-mnozstvi">3,6 l</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
             <td class="col-surovina">polévkové koření nebo bujón <span class="pozn">(množství neuvedeno; dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr>
+            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Kapání</td></tr>
           <tr>
             <td class="col-surovina">krupička <span class="pozn">(množství NEUVEDENO („napsat množství"); na kapání (zápražku) smíchat s vajíčkem; PROJÍT)</span></td>
             <td class="col-mnozstvi"></td>
@@ -2488,11 +2704,6 @@ h2 {
           </tr>
           <tr>
             <td class="col-surovina">vajíčko <span class="pozn">(množství NEUVEDENO („napsat množství"); na kapání; PROJÍT)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
@@ -2544,6 +2755,10 @@ h2 {
 <span class="alergen">vejce</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Odležení</strong>&nbsp;30 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -2556,6 +2771,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Pomazánka</td></tr>
           <tr>
             <td class="col-surovina">uzený sýr <span class="pozn">(nastrouhaný na velké struhadlo)</span></td>
             <td class="col-mnozstvi">375 g</td>
@@ -2643,6 +2859,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span><span class="alergen">vejce</span><span class="alergen">hořčice</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;30 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;40 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -2655,6 +2875,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Noky</td></tr>
           <tr>
             <td class="col-surovina">brambory <span class="pozn">(typ C (varný typ C – moučné))</span></td>
             <td class="col-mnozstvi">1000 g</td>
@@ -2680,11 +2901,13 @@ h2 {
             <td class="col-mnozstvi">2 KL</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Špenát</td></tr>
           <tr>
             <td class="col-surovina">špenát <span class="pozn">(čerstvý listový; lze nahradit rukolou, polníčkem, brokolicí; nebo mražený listový)</span></td>
             <td class="col-mnozstvi">1000 g</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Sýrová omáčka</td></tr>
           <tr>
             <td class="col-surovina">smetana <span class="pozn">(na omáčku)</span></td>
             <td class="col-mnozstvi">1 l</td>
@@ -2785,6 +3008,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span><span class="alergen">vejce</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;15 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -2797,6 +3024,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Kaše</td></tr>
           <tr>
             <td class="col-surovina">ovesné vločky <span class="pozn">(jemné)</span></td>
             <td class="col-mnozstvi">667 g</td>
@@ -2823,6 +3051,17 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
+            <td class="col-surovina">sůl <span class="pozn">(cca 1/4 lžičky do kaše + dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">pepř <span class="pozn">(čerstvě mletý, dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">K podávání</td></tr>
+          <tr>
             <td class="col-surovina">vejce <span class="pozn">(vařená, dle preference (i volské oko))</span></td>
             <td class="col-mnozstvi">10 ks</td>
             <td class="col-rucni"></td>
@@ -2840,16 +3079,6 @@ h2 {
           <tr>
             <td class="col-surovina">červený vinný ocet <span class="pozn">(na pokapání salátu)</span></td>
             <td class="col-mnozstvi">3,3 lžička</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">sůl <span class="pozn">(cca 1/4 lžičky do kaše + dle chuti)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">pepř <span class="pozn">(čerstvě mletý, dle chuti)</span></td>
-            <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
         </tbody>
@@ -2898,6 +3127,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Namáčení</strong>&nbsp;přes noc (cca 8 hod)</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;15 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -2910,6 +3143,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Základ</td></tr>
           <tr>
             <td class="col-surovina">ovesné vločky <span class="pozn">(na 10 lidí (cca 2 várky))</span></td>
             <td class="col-mnozstvi">500 g</td>
@@ -2920,6 +3154,7 @@ h2 {
             <td class="col-mnozstvi">2 l</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dochucení</td></tr>
           <tr>
             <td class="col-surovina">cukr <span class="pozn">(na doslazení – sladit až nakonec)</span></td>
             <td class="col-mnozstvi"></td>
@@ -2971,6 +3206,10 @@ h2 {
   </header>
 
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -2983,6 +3222,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Základ</td></tr>
           <tr>
             <td class="col-surovina">sezónní ovoce <span class="pozn">(cca 200 g na osobu; mix – jablka, banány, pomeranče, hrušky, meruňky, melouny dle sezóny (červenec))</span></td>
             <td class="col-mnozstvi">2 kg</td>
@@ -3027,6 +3267,10 @@ h2 {
   </header>
 
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -3039,6 +3283,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Ovoce</td></tr>
           <tr>
             <td class="col-surovina">jablka <span class="pozn">(doplnit množství)</span></td>
             <td class="col-mnozstvi"></td>
@@ -3064,6 +3309,7 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">K dochucení</td></tr>
           <tr>
             <td class="col-surovina">citronová šťáva <span class="pozn">(proti zhnědnutí, dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
@@ -3103,7 +3349,7 @@ h2 {
 <span class="stitek">Svačina</span><span class="stitek">Snídaně</span><span class="stitek veg">vegetariánské</span>      </div>
     </div>
     <div class="zdroj">
-<div class="zdroj-radek">vlastní odhad (v Notionu bez receptu)</div>      <div class="porce-info">orig. recept na <strong>10</strong> porcí</div>
+<div class="zdroj-radek">Prima Fresh</div><div class="zdroj-odkaz">https://fresh.iprima.cz/paprikova-pomazanka-s-nivou-a-cottagem-451386</div>      <div class="porce-info">orig. recept na <strong>4</strong> porcí</div>
     </div>
   </header>
 
@@ -3112,6 +3358,10 @@ h2 {
     <span class="alergeny-popis"><strong>ALERGENY:</strong>
 <span class="alergen">mléko</span>    </span>
   </div>
+
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span>  </div>
 
   <div class="telo">
     <section class="suroviny">
@@ -3125,44 +3375,36 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Pomazánka</td></tr>
           <tr>
-            <td class="col-surovina">cottage sýr <span class="pozn">(základ pomazánky)</span></td>
-            <td class="col-mnozstvi">500 g</td>
+            <td class="col-surovina">niva <span class="pozn">(nalámat do mixéru)</span></td>
+            <td class="col-mnozstvi">250 g</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">niva (sýr s modrou plísní) <span class="pozn">(rozmačkaná vidličkou)</span></td>
-            <td class="col-mnozstvi">150 g</td>
+            <td class="col-surovina">červená paprika <span class="pozn">(na kousky)</span></td>
+            <td class="col-mnozstvi">2,5 ks</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">máslo nebo pomazánkové máslo <span class="pozn">(změklé, na pojení; lze vynechat)</span></td>
-            <td class="col-mnozstvi">100 g</td>
+            <td class="col-surovina">jarní cibulka</td>
+            <td class="col-mnozstvi">5 ks</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">paprika (červená) <span class="pozn">(nadrobno nakrájená)</span></td>
-            <td class="col-mnozstvi">2 ks</td>
+            <td class="col-surovina">cottage sýr</td>
+            <td class="col-mnozstvi">2,5 kelímek</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">cibule nebo jarní cibulka <span class="pozn">(najemno; dle chuti)</span></td>
-            <td class="col-mnozstvi">1 ks</td>
+            <td class="col-surovina">pažitka <span class="pozn">(nakrájená)</span></td>
+            <td class="col-mnozstvi">2,5 hrst</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">K podávání</td></tr>
           <tr>
-            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">pepř <span class="pozn">(dle chuti)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">mletá sladká paprika <span class="pozn">(na dobarvení a dochucení; volitelné)</span></td>
-            <td class="col-mnozstvi"></td>
+            <td class="col-surovina">pečivo <span class="pozn">(k podávání)</span></td>
+            <td class="col-mnozstvi">10 ks</td>
             <td class="col-rucni"></td>
           </tr>
         </tbody>
@@ -3172,12 +3414,11 @@ h2 {
     <section class="postup">
       <h2>Postup</h2>
       <ol>
-        <li>Nivu rozmačkej vidličkou a smíchej se sýrem cottage (a změklým máslem) do hladké pomazánky.</li>
-        <li>Papriku a cibuli nakrájej nadrobno a vmíchej do pomazánky.</li>
-        <li>Dochuť solí, pepřem a případně mletou sladkou paprikou.</li>
-        <li>Podávej na čerstvém pečivu, ozdob plátkem papriky nebo jarní cibulkou.</li>
+        <li>Nivu nalámej do mixéru, přidej na kousky nakrájenou papriku a jarní cibulku a důkladně umixuj. (Bez mixéru rozmačkej vidličkou.)</li>
+        <li>Do směsi vmíchej cottage a nakrájenou pažitku.</li>
+        <li>Podávej na pečivu, lze doplnit čerstvým rajčátkem.</li>
       </ol>
-      <div class="recept-poznamky"><strong>Poznámka:</strong> POZOR: v Notionu je tato položka (Svačina/Snídaně) BEZ fotky a BEZ receptu – tělo stránky obsahuje jen vloženou DB surovin a bookmark. Suroviny i množství jsou ROZUMNÝ ODHAD podle názvu (papriková pomazánka s nivou a cottage), připraveno na cca 10 porcí. Před vařením PROJÍT a upřesnit. Alergeny: mléko (niva, cottage, máslo). Vegetariánské. Niva je výrazná chuť – množství dolaď.</div>
+      <div class="recept-poznamky"><strong>Poznámka:</strong> Vytěženo z webu uvedeného v Notion bookmarku (Prima Fresh). Recept je na 4 porce (k pečivu), generátor přepočítá na 10. Alergeny: mléko (niva, cottage). Vegetariánské.</div>
     </section>
   </div>
 
@@ -3210,6 +3451,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;25 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -3222,16 +3467,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td class="col-surovina">vařená cizrna <span class="pozn">(3 hrnky, nebo 2 plechovky (425 g); část se rozmačká do omáčky)</span></td>
-            <td class="col-mnozstvi">1275 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">vývar (cizrnový/zeleninový/kuřecí) <span class="pozn">(4 hrnky; pro vegetariánskou verzi zeleninový)</span></td>
-            <td class="col-mnozstvi">2375 ml</td>
-            <td class="col-rucni"></td>
-          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Základ omáčky</td></tr>
           <tr>
             <td class="col-surovina">olivový olej <span class="pozn">(množství neuvedeno v textu + extra na zakápnutí)</span></td>
             <td class="col-mnozstvi"></td>
@@ -3262,11 +3498,23 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Polévka a těstoviny</td></tr>
+          <tr>
+            <td class="col-surovina">vařená cizrna <span class="pozn">(3 hrnky, nebo 2 plechovky (425 g); část se rozmačká do omáčky)</span></td>
+            <td class="col-mnozstvi">1275 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">vývar (cizrnový/zeleninový/kuřecí) <span class="pozn">(4 hrnky; pro vegetariánskou verzi zeleninový)</span></td>
+            <td class="col-mnozstvi">2375 ml</td>
+            <td class="col-rucni"></td>
+          </tr>
           <tr>
             <td class="col-surovina">krátké těstoviny (ditalini) <span class="pozn">(množství neuvedeno v textu)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dochucení</td></tr>
           <tr>
             <td class="col-surovina">sýr Pecorino Romano <span class="pozn">(strouhaný)</span></td>
             <td class="col-mnozstvi"></td>
@@ -3328,6 +3576,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -3340,6 +3592,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Pečivo</td></tr>
           <tr>
             <td class="col-surovina">pečivo (rohlíky/chléb/houska) <span class="pozn">(cca 2 ks na osobu)</span></td>
             <td class="col-mnozstvi">20 ks</td>
@@ -3350,6 +3603,7 @@ h2 {
             <td class="col-mnozstvi">0,3 kg</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Přílohy</td></tr>
           <tr>
             <td class="col-surovina">sýr (eidam/gouda plátky) <span class="pozn">(plátkový; cca 50 g na osobu)</span></td>
             <td class="col-mnozstvi">0,5 kg</td>
@@ -3410,6 +3664,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -3422,6 +3680,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Pečivo</td></tr>
           <tr>
             <td class="col-surovina">pečivo (rohlíky/chléb/houska) <span class="pozn">(cca 2 ks na osobu; mix rohlíků a krájeného chleba)</span></td>
             <td class="col-mnozstvi">20 ks</td>
@@ -3432,6 +3691,7 @@ h2 {
             <td class="col-mnozstvi">0,3 kg</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Pomazánky</td></tr>
           <tr>
             <td class="col-surovina">marmeláda/džem <span class="pozn">(různé druhy; cca 50 g na osobu)</span></td>
             <td class="col-mnozstvi">0,5 kg</td>
@@ -3487,6 +3747,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;25 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -3499,6 +3763,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Základ</td></tr>
           <tr>
             <td class="col-surovina">cibule <span class="pozn">(žlutá)</span></td>
             <td class="col-mnozstvi">1,2 ks</td>
@@ -3524,6 +3789,7 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Polévka</td></tr>
           <tr>
             <td class="col-surovina">brambory</td>
             <td class="col-mnozstvi">5 ks</td>
@@ -3544,11 +3810,7 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
-          <tr>
-            <td class="col-surovina">parmezán <span class="pozn">(k podávání)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dochucení a podávání</td></tr>
           <tr>
             <td class="col-surovina">italské koření <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
@@ -3571,6 +3833,11 @@ h2 {
           </tr>
           <tr>
             <td class="col-surovina">pepř <span class="pozn">(dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">parmezán <span class="pozn">(k podávání)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
@@ -3621,6 +3888,10 @@ h2 {
 <span class="alergen">lepek</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Restování</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;30 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -3633,16 +3904,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td class="col-surovina">červená čočka</td>
-            <td class="col-mnozstvi">500 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">rajčata <span class="pozn">(klidně z plechovky)</span></td>
-            <td class="col-mnozstvi">350 g</td>
-            <td class="col-rucni"></td>
-          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Základ</td></tr>
           <tr>
             <td class="col-surovina">cibule</td>
             <td class="col-mnozstvi">300 g</td>
@@ -3659,20 +3921,11 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">brambory</td>
-            <td class="col-mnozstvi">3 ks</td>
+            <td class="col-surovina">slunečnicový olej <span class="pozn">(na orestování)</span></td>
+            <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
-          <tr>
-            <td class="col-surovina">chleba <span class="pozn">(k podávání)</span></td>
-            <td class="col-mnozstvi">1 ks</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">citron <span class="pozn">(oloupaný, i bez bílé kůry)</span></td>
-            <td class="col-mnozstvi">1 ks</td>
-            <td class="col-rucni"></td>
-          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Koření</td></tr>
           <tr>
             <td class="col-surovina">česnek <span class="pozn">(rozmačkaný nebo utřený)</span></td>
             <td class="col-mnozstvi">5 stroužek</td>
@@ -3694,6 +3947,32 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
+            <td class="col-surovina">citron <span class="pozn">(oloupaný, i bez bílé kůry)</span></td>
+            <td class="col-mnozstvi">1 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Polévka</td></tr>
+          <tr>
+            <td class="col-surovina">červená čočka</td>
+            <td class="col-mnozstvi">500 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">rajčata <span class="pozn">(klidně z plechovky)</span></td>
+            <td class="col-mnozstvi">350 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">brambory</td>
+            <td class="col-mnozstvi">3 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">kokosové mléko <span class="pozn">(VOLITELNÉ – pro jemnější a krémovější chuť)</span></td>
+            <td class="col-mnozstvi">200 ml</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
             <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
@@ -3703,19 +3982,15 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
-          <tr>
-            <td class="col-surovina">slunečnicový olej <span class="pozn">(na orestování)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Na ozdobu</td></tr>
           <tr>
             <td class="col-surovina">zelené bylinky <span class="pozn">(např. petržel, koriandr nebo majoránka; na ozdobu)</span></td>
             <td class="col-mnozstvi">1 hrst</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">kokosové mléko <span class="pozn">(VOLITELNÉ – pro jemnější a krémovější chuť)</span></td>
-            <td class="col-mnozstvi">200 ml</td>
+            <td class="col-surovina">chleba <span class="pozn">(k podávání)</span></td>
+            <td class="col-mnozstvi">1 ks</td>
             <td class="col-rucni"></td>
           </tr>
         </tbody>
@@ -3765,6 +4040,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;20 min</span><span class="cas-pol"><strong>Vaření vývaru</strong>&nbsp;3 hod</span><span class="cas-pol"><strong>Vaření omáčky</strong>&nbsp;25 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -3777,6 +4056,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Vývar</td></tr>
           <tr>
             <td class="col-surovina">hovězí loupaná plec</td>
             <td class="col-mnozstvi">2,5 kg</td>
@@ -3822,6 +4102,7 @@ h2 {
             <td class="col-mnozstvi">50 kuličky</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Omáčka</td></tr>
           <tr>
             <td class="col-surovina">cibule <span class="pozn">(oloupaná)</span></td>
             <td class="col-mnozstvi">625 g</td>
@@ -3902,15 +4183,19 @@ h2 {
 <span class="stitek">polévka</span><span class="stitek veg">vegetariánské</span>      </div>
     </div>
     <div class="zdroj">
-      <div class="porce-info">orig. recept na <strong>10</strong> porcí</div>
+<div class="zdroj-radek">Toprecepty.cz</div><div class="zdroj-odkaz">https://www.toprecepty.cz/recept/4040-rajska-polevka-iii/</div>      <div class="porce-info">orig. recept na <strong>4</strong> porcí</div>
     </div>
   </header>
 
   <div class="alergeny">
     <span class="alergeny-ikona">⚠️</span>
     <span class="alergeny-popis"><strong>ALERGENY:</strong>
-<span class="alergen">lepek</span>    </span>
+<span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
   </div>
+
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;35 min</span>  </div>
 
   <div class="telo">
     <section class="suroviny">
@@ -3924,38 +4209,76 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Jíška a základ</td></tr>
           <tr>
-            <td class="col-surovina">rajčatový protlak nebo drcená rajčata <span class="pozn">(PLACEHOLDER – recept nebyl v Notionu vytěžitelný (žádná fotka ani text); doplnit)</span></td>
+            <td class="col-surovina">máslo <span class="pozn">(na jíšku)</span></td>
+            <td class="col-mnozstvi">2,5 lžíce</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">hladká mouka <span class="pozn">(na jíšku)</span></td>
+            <td class="col-mnozstvi">2,5 lžíce</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">voda <span class="pozn">(přilévat postupně)</span></td>
+            <td class="col-mnozstvi">2,5 l</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">rajský protlak</td>
+            <td class="col-mnozstvi">350 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">cibule <span class="pozn">(malá, celá (na konci vyjmout))</span></td>
+            <td class="col-mnozstvi">2,5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Koření</td></tr>
+          <tr>
+            <td class="col-surovina">bobkový list</td>
+            <td class="col-mnozstvi">2,5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">tymián <span class="pozn">(špetka)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">cibule <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
+            <td class="col-surovina">pepř</td>
+            <td class="col-mnozstvi">7,5 kuličky</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">nové koření</td>
+            <td class="col-mnozstvi">5 kuličky</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">hřebíček</td>
+            <td class="col-mnozstvi">2,5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">mrkev <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
+            <td class="col-surovina">cukr <span class="pozn">(na dochucení; doladit)</span></td>
+            <td class="col-mnozstvi">2,5 lžíce</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dokončení</td></tr>
+          <tr>
+            <td class="col-surovina">polévkové těstoviny <span class="pozn">(dle chuti; vařit do změknutí)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">zeleninový vývar <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">hladká mouka <span class="pozn">(PLACEHOLDER – na zahuštění (jíška/zásmažka); doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">cukr <span class="pozn">(PLACEHOLDER – na dochucení; doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">sůl <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
+            <td class="col-surovina">petrželka nebo pažitka <span class="pozn">(čerstvá, na posypání)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
@@ -3966,16 +4289,19 @@ h2 {
     <section class="postup">
       <h2>Postup</h2>
       <ol>
-        <li>POSTUP NENÍ VYTĚŽEN – v Notion stránce nebyl žádný použitelný text, fotka ani odkaz, pouze prázdná vložená databáze surovin a interní bookmark. Doplnit ručně.</li>
+        <li>V hrnci rozehřej máslo, přidej mouku a vytvoř světlou jíšku. Postupně přilévej vodu a stále míchej.</li>
+        <li>Vlij rajský protlak a přiveď k varu. Vlož celou cibuli, sůl a koření (bobkový list, tymián, pepř, nové koření, hřebíček).</li>
+        <li>Zvolna vař asi 20 minut.</li>
+        <li>Vyjmi cibuli a koření. Přidej polévkové těstoviny a vař do změknutí. Dochuť solí a cukrem, posyp čerstvou petrželkou.</li>
       </ol>
-      <div class="recept-poznamky"><strong>Poznámka:</strong> NEVYTĚŽENO. V Notion stránce (382a86fa-0044-8035-850e-f9587bc14e76) není žádný recept – jen prázdná vložená DB surovin a interní bookmark, žádná fotka ani odkaz. Suroviny i postup jsou pouze PLACEHOLDERY z běžné rajské polévky a je NUTNÉ je celé doplnit ručně (z jiného zdroje nebo od kuchařů). Štítek: polévka. Nutrice je hrubý odhad. Vegetariánská varianta předpokládána (lepek z jíšky).</div>
+      <div class="recept-poznamky"><strong>Poznámka:</strong> Vytěženo z dohledaného webu (Toprecepty – Rajská polévka III z protlaku); původní Notion bookmark mířil na vareni.cz, který nešlo načíst. Recept je na 4 porce, generátor přepočítá na 10. Alergeny: lepek (jíška, těstoviny), mléko (máslo) – pro bezlepkovou variantu zahusti jinak a použij bezlepkové těstoviny. Vegetariánské.</div>
     </section>
   </div>
 
   <footer class="paticka">
     <div class="nutrice">
       <span class="nutrice-titulek">Na porci (odhad):</span>
-<span class="nutri-pol"><strong>180</strong> kcal</span><span class="nutri-pol">B 4 g</span><span class="nutri-pol">S 28 g</span><span class="nutri-pol">T 6 g</span>    </div>
+<span class="nutri-pol"><strong>150</strong> kcal</span><span class="nutri-pol">B 4 g</span><span class="nutri-pol">S 26 g</span><span class="nutri-pol">T 4 g</span>    </div>
     <div class="poznamky-sluzby">
       <span class="poznamky-titulek">Poznámky služby:</span>
     </div>
@@ -4001,6 +4327,10 @@ h2 {
 <span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Chlazení</strong>&nbsp;min. 1 hod v lednici</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -4013,6 +4343,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Pomazánka</td></tr>
           <tr>
             <td class="col-surovina">cibule <span class="pozn">(nakrájená najemno)</span></td>
             <td class="col-mnozstvi">500 g</td>
@@ -4028,6 +4359,7 @@ h2 {
             <td class="col-mnozstvi">500 g</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dochucení</td></tr>
           <tr>
             <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
@@ -4084,6 +4416,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Namáčení</strong>&nbsp;cizrna přes noc (cca 8 hod)</span><span class="cas-pol"><strong>Příprava</strong>&nbsp;20 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;30 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -4096,19 +4432,26 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Kuskus</td></tr>
           <tr>
             <td class="col-surovina">kuskus</td>
             <td class="col-mnozstvi">700 g</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">rajčata</td>
-            <td class="col-mnozstvi">625 g</td>
+            <td class="col-surovina">voda / vývar <span class="pozn">(horký, na zalití kuskusu)</span></td>
+            <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
             <td class="col-surovina">suchá cizrna <span class="pozn">(namočit ideálně přes noc)</span></td>
             <td class="col-mnozstvi">250 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Salát</td></tr>
+          <tr>
+            <td class="col-surovina">rajčata</td>
+            <td class="col-mnozstvi">625 g</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -4127,18 +4470,19 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">citron</td>
-            <td class="col-mnozstvi">2 ks</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
             <td class="col-surovina">červená cibule</td>
             <td class="col-mnozstvi">2 ks</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dresink</td></tr>
           <tr>
             <td class="col-surovina">olivový olej <span class="pozn">(polévkové lžíce)</span></td>
             <td class="col-mnozstvi">12 PL</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">citron</td>
+            <td class="col-mnozstvi">2 ks</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -4153,11 +4497,6 @@ h2 {
           </tr>
           <tr>
             <td class="col-surovina">černý pepř <span class="pozn">(dle chuti)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">voda / vývar <span class="pozn">(horký, na zalití kuskusu)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
@@ -4206,6 +4545,10 @@ h2 {
 <span class="alergen">ořechy</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;30 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -4218,11 +4561,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td class="col-surovina">červená čočka <span class="pozn">(množství neuvedeno v textu – hlavní surovina; běžně cca 1,5 hrnku / 300 g)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Základ</td></tr>
           <tr>
             <td class="col-surovina">kokosový olej <span class="pozn">(na restování)</span></td>
             <td class="col-mnozstvi"></td>
@@ -4248,6 +4587,7 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Směs koření</td></tr>
           <tr>
             <td class="col-surovina">mletý kmín <span class="pozn">(ze směsi koření)</span></td>
             <td class="col-mnozstvi"></td>
@@ -4273,6 +4613,12 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Omáčka</td></tr>
+          <tr>
+            <td class="col-surovina">červená čočka <span class="pozn">(množství neuvedeno v textu – hlavní surovina; běžně cca 1,5 hrnku / 300 g)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
           <tr>
             <td class="col-surovina">zeleninový vývar <span class="pozn">(na podlití)</span></td>
             <td class="col-mnozstvi"></td>
@@ -4293,6 +4639,7 @@ h2 {
             <td class="col-mnozstvi">7,5 lžíce</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dochucení a podávání</td></tr>
           <tr>
             <td class="col-surovina">citronová šťáva <span class="pozn">(na dochucení)</span></td>
             <td class="col-mnozstvi"></td>
@@ -4361,6 +4708,10 @@ h2 {
 <span class="alergen">mléko</span><span class="alergen">ořechy</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Vaření</strong>&nbsp;1 hod</span><span class="cas-pol"><strong>Příprava</strong>&nbsp;20 min</span><span class="cas-pol"><strong>Chlazení</strong>&nbsp;30 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -4373,6 +4724,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Pomazánka</td></tr>
           <tr>
             <td class="col-surovina">červená řepa <span class="pozn">(uvařená ve slupce)</span></td>
             <td class="col-mnozstvi">750 g</td>
@@ -4394,17 +4746,18 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">jarní cibulka / petrželka / pažitka / čerstvé bylinky <span class="pozn">(na ozdobu a dochucení)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
             <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
             <td class="col-surovina">pepř <span class="pozn">(dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Na ozdobu</td></tr>
+          <tr>
+            <td class="col-surovina">jarní cibulka / petrželka / pažitka / čerstvé bylinky <span class="pozn">(na ozdobu a dochucení)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
@@ -4453,6 +4806,10 @@ h2 {
 <span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;25 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -4465,14 +4822,26 @@ h2 {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td class="col-surovina">rýže <span class="pozn">(množství odhadnuto – uvařit dle návodu na obalu)</span></td>
-            <td class="col-mnozstvi">750 g</td>
-            <td class="col-rucni"></td>
-          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Maso</td></tr>
           <tr>
             <td class="col-surovina">kuřecí prsa <span class="pozn">(množství odhadnuto; na nudličky nebo kostičky)</span></td>
             <td class="col-mnozstvi">1250 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">mletá sladká paprika <span class="pozn">(na ochucení masa, dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">kari koření <span class="pozn">(na ochucení masa, dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Rizoto</td></tr>
+          <tr>
+            <td class="col-surovina">rýže <span class="pozn">(množství odhadnuto – uvařit dle návodu na obalu)</span></td>
+            <td class="col-mnozstvi">750 g</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -4491,23 +4860,14 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">mletá sladká paprika <span class="pozn">(na ochucení masa, dle chuti)</span></td>
+            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
-          <tr>
-            <td class="col-surovina">kari koření <span class="pozn">(na ochucení masa, dle chuti)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">K podávání</td></tr>
           <tr>
             <td class="col-surovina">tvrdý sýr <span class="pozn">(nastrouhaný, na posypání; množství odhadnuto)</span></td>
             <td class="col-mnozstvi">200 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
-            <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
         </tbody>
@@ -4557,6 +4917,10 @@ h2 {
 <span class="alergen">kokos</span><span class="alergen">ryby</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Smažení</strong>&nbsp;20 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;15 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -4569,6 +4933,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Kari pasta</td></tr>
           <tr>
             <td class="col-surovina">cibule <span class="pozn">(do kari pasty)</span></td>
             <td class="col-mnozstvi">50 g</td>
@@ -4604,6 +4969,7 @@ h2 {
             <td class="col-mnozstvi">1 KL</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Omáčka</td></tr>
           <tr>
             <td class="col-surovina">kokosové mléko <span class="pozn">(do omáčky)</span></td>
             <td class="col-mnozstvi">1 l</td>
@@ -4619,6 +4985,7 @@ h2 {
             <td class="col-mnozstvi">500 g</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dochucení</td></tr>
           <tr>
             <td class="col-surovina">rybí omáčka/tamari <span class="pozn">(do omáčky, na dochucení)</span></td>
             <td class="col-mnozstvi"></td>
@@ -4635,12 +5002,13 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">rýže <span class="pozn">(příloha)</span></td>
+            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Příloha</td></tr>
           <tr>
-            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
+            <td class="col-surovina">rýže <span class="pozn">(příloha)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
@@ -4683,7 +5051,7 @@ h2 {
 <span class="stitek">Svačina</span><span class="stitek veg">vegetariánské</span>      </div>
     </div>
     <div class="zdroj">
-<div class="zdroj-radek">vlastní odhad (v Notionu bez receptu)</div>      <div class="porce-info">orig. recept na <strong>10</strong> porcí</div>
+<div class="zdroj-radek">Prima Fresh</div><div class="zdroj-odkaz">https://fresh.iprima.cz/recepty/sopsky-salat-autenticky-recept-na-bulharskou-klasiku</div>      <div class="porce-info">orig. recept na <strong>4</strong> porcí</div>
     </div>
   </header>
 
@@ -4692,6 +5060,10 @@ h2 {
     <span class="alergeny-popis"><strong>ALERGENY:</strong>
 <span class="alergen">mléko</span>    </span>
   </div>
+
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;20 min</span>  </div>
 
   <div class="telo">
     <section class="suroviny">
@@ -4705,39 +5077,46 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Salát</td></tr>
           <tr>
-            <td class="col-surovina">rajčata <span class="pozn">(nakrájená na kostky/měsíčky)</span></td>
-            <td class="col-mnozstvi">1,5 kg</td>
+            <td class="col-surovina">rajčata <span class="pozn">(velká zralá, na kostky)</span></td>
+            <td class="col-mnozstvi">5 ks</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">okurka salátová <span class="pozn">(cca 2–3 ks, nakrájené)</span></td>
-            <td class="col-mnozstvi">1,2 kg</td>
+            <td class="col-surovina">salátová okurka <span class="pozn">(na kostky)</span></td>
+            <td class="col-mnozstvi">2,5 ks</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">paprika <span class="pozn">(červená/zelená, na proužky)</span></td>
-            <td class="col-mnozstvi">0,6 kg</td>
+            <td class="col-surovina">paprika (zelená nebo červená) <span class="pozn">(na kostky)</span></td>
+            <td class="col-mnozstvi">2,5 ks</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">cibule (červená) <span class="pozn">(na tenká kolečka)</span></td>
-            <td class="col-mnozstvi">2 ks</td>
+            <td class="col-surovina">červená cibule <span class="pozn">(na tenké proužky)</span></td>
+            <td class="col-mnozstvi">1,2 ks</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">balkánský sýr (feta) <span class="pozn">(nastrouhaný nebo nadrobený navrch)</span></td>
-            <td class="col-mnozstvi">400 g</td>
+            <td class="col-surovina">hladkolistá petržel <span class="pozn">(nasekaná)</span></td>
+            <td class="col-mnozstvi">5 lžíce</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">olivový olej <span class="pozn">(na zálivku)</span></td>
-            <td class="col-mnozstvi"></td>
+            <td class="col-surovina">feta (nebo balkánský sýr) <span class="pozn">(nastrouhaná navrch)</span></td>
+            <td class="col-mnozstvi">375 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Zálivka</td></tr>
+          <tr>
+            <td class="col-surovina">extra virgin olivový olej</td>
+            <td class="col-mnozstvi">10 lžíce</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">vinný ocet nebo citronová šťáva <span class="pozn">(na zálivku)</span></td>
-            <td class="col-mnozstvi"></td>
+            <td class="col-surovina">červený vinný ocet</td>
+            <td class="col-mnozstvi">5 lžíce</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -4746,12 +5125,7 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">pepř <span class="pozn">(dle chuti)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">olivy <span class="pozn">(volitelné, na ozdobu)</span></td>
+            <td class="col-surovina">čerstvě namletý pepř <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
@@ -4762,12 +5136,12 @@ h2 {
     <section class="postup">
       <h2>Postup</h2>
       <ol>
-        <li>Rajčata, okurku a papriku nakrájej na kousky, cibuli na tenká kolečka. Smíchej v míse.</li>
-        <li>Zalij zálivkou z olivového oleje a octa (nebo citronu), osol a opepři, promíchej.</li>
-        <li>Navrch nastrouhej nebo nadrob balkánský sýr (feta), případně ozdob olivami.</li>
-        <li>Podávej vychlazené s pečivem.</li>
+        <li>Okurku, papriku a rajčata nakrájej na stejně velké kostky a dej do mísy.</li>
+        <li>Přidej tenké proužky červené cibule a nasekanou petržel, promíchej.</li>
+        <li>Osol, opepři, zalij olivovým olejem a vinným octem a jemně promíchej.</li>
+        <li>Nakonec zasyp nastrouhaným slaným sýrem a podávej.</li>
       </ol>
-      <div class="recept-poznamky"><strong>Poznámka:</strong> POZOR: v Notionu je Šopský salát (Svačina) BEZ fotky a BEZ receptu – tělo stránky obsahuje jen vloženou DB surovin a bookmark. Suroviny i množství jsou ROZUMNÝ ODHAD podle klasického receptu na šopský salát, připraveno na cca 10 porcí. Před vařením PROJÍT a upřesnit gramáže. Alergeny: mléko (balkánský sýr). Vegetariánské; bez sýra veganské a bez laktózy.</div>
+      <div class="recept-poznamky"><strong>Poznámka:</strong> Vytěženo z webu uvedeného v Notion bookmarku (Prima Fresh). Recept je na 4 porce, generátor přepočítá na 10. Alergeny: mléko (feta/balkánský sýr) – bez sýra veganské a bezlaktózové. Vegetariánské.</div>
     </section>
   </div>
 
@@ -4800,6 +5174,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">vejce</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;15 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -4812,14 +5190,21 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Těstoviny</td></tr>
           <tr>
             <td class="col-surovina">špagety <span class="pozn">(případně bucatini nebo linguine)</span></td>
             <td class="col-mnozstvi">1000 g</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">pancetta nebo guanciale <span class="pozn">(uzená, množství dle chuti (cca 80–100 g/porce))</span></td>
-            <td class="col-mnozstvi"></td>
+            <td class="col-surovina">sůl <span class="pozn">(do vody na těstoviny)</span></td>
+            <td class="col-mnozstvi">10 lžíce</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Omáčka</td></tr>
+          <tr>
+            <td class="col-surovina">žloutek</td>
+            <td class="col-mnozstvi">15 ks</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -4828,8 +5213,14 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">žloutek</td>
-            <td class="col-mnozstvi">15 ks</td>
+            <td class="col-surovina">čerstvě mletý pepř <span class="pozn">(dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Slanina</td></tr>
+          <tr>
+            <td class="col-surovina">pancetta nebo guanciale <span class="pozn">(uzená, množství dle chuti (cca 80–100 g/porce))</span></td>
+            <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -4839,16 +5230,6 @@ h2 {
           </tr>
           <tr>
             <td class="col-surovina">olivový olej</td>
-            <td class="col-mnozstvi">10 lžíce</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">čerstvě mletý pepř <span class="pozn">(dle chuti)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">sůl <span class="pozn">(do vody na těstoviny)</span></td>
             <td class="col-mnozstvi">10 lžíce</td>
             <td class="col-rucni"></td>
           </tr>
@@ -4898,6 +5279,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span><span class="alergen">vejce</span><span class="alergen">hořčice</span><span class="alergen">celer</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;30 min</span><span class="cas-pol"><strong>Smažení</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;40 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -4910,6 +5295,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Omáčka</td></tr>
           <tr>
             <td class="col-surovina">vývar hovězí/kuřecí <span class="pozn">(do omáčky)</span></td>
             <td class="col-mnozstvi">1 l</td>
@@ -4985,6 +5371,7 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Masové kuličky</td></tr>
           <tr>
             <td class="col-surovina">mleté maso (vepřové a hovězí) <span class="pozn">(dvakrát mleté; na kuličky)</span></td>
             <td class="col-mnozstvi">1 kg</td>
@@ -5021,16 +5408,6 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">brambory <span class="pozn">(příloha)</span></td>
-            <td class="col-mnozstvi">2 kg</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">brusinkový kompot <span class="pozn">(k podávání)</span></td>
-            <td class="col-mnozstvi">100 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
             <td class="col-surovina">nové koření mleté <span class="pozn">(na kuličky)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
@@ -5043,6 +5420,18 @@ h2 {
           <tr>
             <td class="col-surovina">pepř <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Příloha</td></tr>
+          <tr>
+            <td class="col-surovina">brambory <span class="pozn">(příloha)</span></td>
+            <td class="col-mnozstvi">2 kg</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">K podávání</td></tr>
+          <tr>
+            <td class="col-surovina">brusinkový kompot <span class="pozn">(k podávání)</span></td>
+            <td class="col-mnozstvi">100 g</td>
             <td class="col-rucni"></td>
           </tr>
         </tbody>
@@ -5094,6 +5483,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;12 min</span><span class="cas-pol"><strong>Chlazení</strong>&nbsp;30 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -5106,24 +5499,16 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Těstoviny</td></tr>
           <tr>
             <td class="col-surovina">těstoviny <span class="pozn">(nevařené; vařit al dente)</span></td>
             <td class="col-mnozstvi">600 g</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Rajčatová směs</td></tr>
           <tr>
             <td class="col-surovina">cherry rajčata <span class="pozn">(rozpůlená)</span></td>
             <td class="col-mnozstvi">750 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">čerstvý špenát</td>
-            <td class="col-mnozstvi">250 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">feta sýr</td>
-            <td class="col-mnozstvi">250 g</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -5132,28 +5517,8 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">červená cibule <span class="pozn">(na tenké plátky)</span></td>
-            <td class="col-mnozstvi">2,5 ks</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">česnek</td>
-            <td class="col-mnozstvi">10 stroužky</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">citron <span class="pozn">(šťáva + nastrouhaná kůra)</span></td>
-            <td class="col-mnozstvi">2,5 ks</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
             <td class="col-surovina">olivový olej</td>
             <td class="col-mnozstvi">200 ml</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">čerstvé bylinky <span class="pozn">(petržel, kopr, máta, bazalka)</span></td>
-            <td class="col-mnozstvi">5 hrsti</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -5169,6 +5534,38 @@ h2 {
           <tr>
             <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dresink</td></tr>
+          <tr>
+            <td class="col-surovina">červená cibule <span class="pozn">(na tenké plátky)</span></td>
+            <td class="col-mnozstvi">2,5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">česnek</td>
+            <td class="col-mnozstvi">10 stroužky</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">citron <span class="pozn">(šťáva + nastrouhaná kůra)</span></td>
+            <td class="col-mnozstvi">2,5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dokončení</td></tr>
+          <tr>
+            <td class="col-surovina">čerstvý špenát</td>
+            <td class="col-mnozstvi">250 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">feta sýr</td>
+            <td class="col-mnozstvi">250 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">čerstvé bylinky <span class="pozn">(petržel, kopr, máta, bazalka)</span></td>
+            <td class="col-mnozstvi">5 hrsti</td>
             <td class="col-rucni"></td>
           </tr>
         </tbody>
@@ -5219,6 +5616,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;12 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -5231,11 +5632,13 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Těstoviny</td></tr>
           <tr>
             <td class="col-surovina">těstoviny <span class="pozn">(200–250 g, např. tagliatelle nebo špagety)</span></td>
             <td class="col-mnozstvi">1125 g</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Omáčka</td></tr>
           <tr>
             <td class="col-surovina">ricotta nebo cottage <span class="pozn">(1 kelímek)</span></td>
             <td class="col-mnozstvi">1250 g</td>
@@ -5261,6 +5664,7 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dochucení</td></tr>
           <tr>
             <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
@@ -5321,6 +5725,10 @@ h2 {
 <span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -5333,6 +5741,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Pomazánka</td></tr>
           <tr>
             <td class="col-surovina">měkký tvaroh</td>
             <td class="col-mnozstvi">625 g</td>
@@ -5373,6 +5782,7 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">K pití</td></tr>
           <tr>
             <td class="col-surovina">kakao <span class="pozn">(k pití – kakaový prášek + mléko + cukr (samostatný nápoj k snídani))</span></td>
             <td class="col-mnozstvi"></td>
@@ -5423,6 +5833,10 @@ h2 {
 <span class="alergen">mléko</span><span class="alergen">vejce</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;10 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -5435,11 +5849,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td class="col-surovina">vejce <span class="pozn">(uvařená natvrdo, nastrouhaná/nadrobno – DOPLNĚNO (název receptu uvádí vajíčková, ale zdrojový recept brynzy je bez vajec))</span></td>
-            <td class="col-mnozstvi">10 ks</td>
-            <td class="col-rucni"></td>
-          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Základ</td></tr>
           <tr>
             <td class="col-surovina">brynza <span class="pozn">(rozmačkaná vidličkou)</span></td>
             <td class="col-mnozstvi">312 g</td>
@@ -5460,6 +5870,7 @@ h2 {
             <td class="col-mnozstvi">2,5 lžíce</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dochucení</td></tr>
           <tr>
             <td class="col-surovina">uzená paprika <span class="pozn">(mletá)</span></td>
             <td class="col-mnozstvi">2,5 lžíce</td>
@@ -5468,6 +5879,17 @@ h2 {
           <tr>
             <td class="col-surovina">pálivá paprika <span class="pozn">(1/2–1 lžička dle chuti)</span></td>
             <td class="col-mnozstvi">1,2 lžička</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Vmíchat</td></tr>
+          <tr>
+            <td class="col-surovina">vejce <span class="pozn">(uvařená natvrdo, nastrouhaná/nadrobno – DOPLNĚNO (název receptu uvádí vajíčková, ale zdrojový recept brynzy je bez vajec))</span></td>
+            <td class="col-mnozstvi">10 ks</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -5482,11 +5904,6 @@ h2 {
           </tr>
           <tr>
             <td class="col-surovina">jarní cibulka <span class="pozn">(nadrobno, dle chuti)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
@@ -5536,6 +5953,10 @@ h2 {
 <span class="alergen">vejce</span><span class="alergen">mléko</span><span class="alergen">hořčice</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;10 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -5548,6 +5969,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Pomazánka</td></tr>
           <tr>
             <td class="col-surovina">vejce <span class="pozn">(uvařená natvrdo)</span></td>
             <td class="col-mnozstvi">20 ks</td>
@@ -5583,6 +6005,7 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Na podávání</td></tr>
           <tr>
             <td class="col-surovina">pažitka <span class="pozn">(na ozdobu)</span></td>
             <td class="col-mnozstvi"></td>
@@ -5638,6 +6061,10 @@ h2 {
 <span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;20 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;20 min</span><span class="cas-pol"><strong>Smažení</strong>&nbsp;15 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -5650,6 +6077,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Základ</td></tr>
           <tr>
             <td class="col-surovina">slanina <span class="pozn">(nebo 600 g uzeného masa)</span></td>
             <td class="col-mnozstvi">500 g</td>
@@ -5680,6 +6108,7 @@ h2 {
             <td class="col-mnozstvi">6 stroužek</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dochucení</td></tr>
           <tr>
             <td class="col-surovina">majoránka <span class="pozn">(na dochucení)</span></td>
             <td class="col-mnozstvi"></td>
@@ -5700,6 +6129,7 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">K podávání</td></tr>
           <tr>
             <td class="col-surovina">kysané zelí <span class="pozn">(volitelné, k podávání)</span></td>
             <td class="col-mnozstvi"></td>
@@ -5764,6 +6194,10 @@ h2 {
 <span class="alergen">sója</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;20 min</span><span class="cas-pol"><strong>Pečení</strong>&nbsp;30 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;15 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -5776,6 +6210,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Tofu</td></tr>
           <tr>
             <td class="col-surovina">extra tofu (pevné) <span class="pozn">(2 bloky po 16 oz)</span></td>
             <td class="col-mnozstvi">1500 g</td>
@@ -5796,6 +6231,7 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Omáčka</td></tr>
           <tr>
             <td class="col-surovina">veganské máslo <span class="pozn">(nebo olivový olej)</span></td>
             <td class="col-mnozstvi">3,3 polévková lžíce</td>
@@ -5846,6 +6282,7 @@ h2 {
             <td class="col-mnozstvi">667 ml</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Na podávání</td></tr>
           <tr>
             <td class="col-surovina">rýže <span class="pozn">(vařená)</span></td>
             <td class="col-mnozstvi">6,7 hrneček</td>

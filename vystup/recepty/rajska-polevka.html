@@ -87,6 +87,19 @@ html, body {
   color: #bf360c;
 }
 
+/* ---- Časy přípravy / vaření ---- */
+.casy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 14px;
+  margin: 8px 0 2px;
+  font-size: 10pt;
+  color: #333;
+}
+.casy-ikona { font-size: 12pt; }
+.cas-pol strong { color: #1b5e20; font-weight: 600; }
+
 /* ---- Tělo: suroviny + postup ---- */
 .telo {
   display: grid;
@@ -121,6 +134,18 @@ h2 {
 .col-mnozstvi { white-space: nowrap; }
 .col-rucni { width: 22%; border-left: 1px dashed #bbb; background: #fafafa; }
 .pozn { color: #777; font-size: 9pt; }
+
+/* Podnadpis sekce surovin (Maso / Dresink / Těsto …) */
+.sekce-row .sekce-nadpis {
+  font-size: 8.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  color: #1b5e20;
+  background: #f1f8e9;
+  border-bottom: 1px solid #c8e6c9;
+  padding: 4px 4px 3px;
+}
 
 .postup ol { margin: 0; padding-left: 20px; }
 .postup li { margin-bottom: 6px; }
@@ -185,15 +210,19 @@ h2 {
 <span class="stitek">polévka</span><span class="stitek veg">vegetariánské</span>      </div>
     </div>
     <div class="zdroj">
-      <div class="porce-info">orig. recept na <strong>10</strong> porcí</div>
+<div class="zdroj-radek">Toprecepty.cz</div><div class="zdroj-odkaz">https://www.toprecepty.cz/recept/4040-rajska-polevka-iii/</div>      <div class="porce-info">orig. recept na <strong>4</strong> porcí</div>
     </div>
   </header>
 
   <div class="alergeny">
     <span class="alergeny-ikona">⚠️</span>
     <span class="alergeny-popis"><strong>ALERGENY:</strong>
-<span class="alergen">lepek</span>    </span>
+<span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
   </div>
+
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;35 min</span>  </div>
 
   <div class="telo">
     <section class="suroviny">
@@ -207,38 +236,76 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Jíška a základ</td></tr>
           <tr>
-            <td class="col-surovina">rajčatový protlak nebo drcená rajčata <span class="pozn">(PLACEHOLDER – recept nebyl v Notionu vytěžitelný (žádná fotka ani text); doplnit)</span></td>
+            <td class="col-surovina">máslo <span class="pozn">(na jíšku)</span></td>
+            <td class="col-mnozstvi">2,5 lžíce</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">hladká mouka <span class="pozn">(na jíšku)</span></td>
+            <td class="col-mnozstvi">2,5 lžíce</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">voda <span class="pozn">(přilévat postupně)</span></td>
+            <td class="col-mnozstvi">2,5 l</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">rajský protlak</td>
+            <td class="col-mnozstvi">350 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">cibule <span class="pozn">(malá, celá (na konci vyjmout))</span></td>
+            <td class="col-mnozstvi">2,5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Koření</td></tr>
+          <tr>
+            <td class="col-surovina">bobkový list</td>
+            <td class="col-mnozstvi">2,5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">tymián <span class="pozn">(špetka)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">cibule <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
+            <td class="col-surovina">pepř</td>
+            <td class="col-mnozstvi">7,5 kuličky</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">nové koření</td>
+            <td class="col-mnozstvi">5 kuličky</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">hřebíček</td>
+            <td class="col-mnozstvi">2,5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">mrkev <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
+            <td class="col-surovina">cukr <span class="pozn">(na dochucení; doladit)</span></td>
+            <td class="col-mnozstvi">2,5 lžíce</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dokončení</td></tr>
+          <tr>
+            <td class="col-surovina">polévkové těstoviny <span class="pozn">(dle chuti; vařit do změknutí)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">zeleninový vývar <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">hladká mouka <span class="pozn">(PLACEHOLDER – na zahuštění (jíška/zásmažka); doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">cukr <span class="pozn">(PLACEHOLDER – na dochucení; doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">sůl <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
+            <td class="col-surovina">petrželka nebo pažitka <span class="pozn">(čerstvá, na posypání)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
@@ -249,16 +316,19 @@ h2 {
     <section class="postup">
       <h2>Postup</h2>
       <ol>
-        <li>POSTUP NENÍ VYTĚŽEN – v Notion stránce nebyl žádný použitelný text, fotka ani odkaz, pouze prázdná vložená databáze surovin a interní bookmark. Doplnit ručně.</li>
+        <li>V hrnci rozehřej máslo, přidej mouku a vytvoř světlou jíšku. Postupně přilévej vodu a stále míchej.</li>
+        <li>Vlij rajský protlak a přiveď k varu. Vlož celou cibuli, sůl a koření (bobkový list, tymián, pepř, nové koření, hřebíček).</li>
+        <li>Zvolna vař asi 20 minut.</li>
+        <li>Vyjmi cibuli a koření. Přidej polévkové těstoviny a vař do změknutí. Dochuť solí a cukrem, posyp čerstvou petrželkou.</li>
       </ol>
-      <div class="recept-poznamky"><strong>Poznámka:</strong> NEVYTĚŽENO. V Notion stránce (382a86fa-0044-8035-850e-f9587bc14e76) není žádný recept – jen prázdná vložená DB surovin a interní bookmark, žádná fotka ani odkaz. Suroviny i postup jsou pouze PLACEHOLDERY z běžné rajské polévky a je NUTNÉ je celé doplnit ručně (z jiného zdroje nebo od kuchařů). Štítek: polévka. Nutrice je hrubý odhad. Vegetariánská varianta předpokládána (lepek z jíšky).</div>
+      <div class="recept-poznamky"><strong>Poznámka:</strong> Vytěženo z dohledaného webu (Toprecepty – Rajská polévka III z protlaku); původní Notion bookmark mířil na vareni.cz, který nešlo načíst. Recept je na 4 porce, generátor přepočítá na 10. Alergeny: lepek (jíška, těstoviny), mléko (máslo) – pro bezlepkovou variantu zahusti jinak a použij bezlepkové těstoviny. Vegetariánské.</div>
     </section>
   </div>
 
   <footer class="paticka">
     <div class="nutrice">
       <span class="nutrice-titulek">Na porci (odhad):</span>
-<span class="nutri-pol"><strong>180</strong> kcal</span><span class="nutri-pol">B 4 g</span><span class="nutri-pol">S 28 g</span><span class="nutri-pol">T 6 g</span>    </div>
+<span class="nutri-pol"><strong>150</strong> kcal</span><span class="nutri-pol">B 4 g</span><span class="nutri-pol">S 26 g</span><span class="nutri-pol">T 4 g</span>    </div>
     <div class="poznamky-sluzby">
       <span class="poznamky-titulek">Poznámky služby:</span>
     </div>

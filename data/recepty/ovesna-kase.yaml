@@ -4,11 +4,14 @@ zdroj: ruční poznámky (foto z Notionu)
 odkaz: ""
 stitky: [Snídaně]
 porce_original: 10
+casy:
+  - { faze: Namáčení, popis: "přes noc (cca 8 hod)" }
+  - { faze: Vaření, popis: "15 min" }
 suroviny:
-  - { surovina: ovesné vločky, mnozstvi: 500, jednotka: g, poznamka: "na 10 lidí (cca 2 várky)" }
-  - { surovina: mléko, mnozstvi: 2, jednotka: l, poznamka: "na 10 lidí na hustou kaši; přesné množství doplnit při vaření (kolik se spotřebuje)" }
-  - { surovina: cukr, mnozstvi: null, jednotka: "", poznamka: "na doslazení – sladit až nakonec" }
-  - { surovina: zlepšováky na dochucení, mnozstvi: null, jednotka: "", poznamka: "rozinky, ovoce, …" }
+  - { surovina: ovesné vločky, mnozstvi: 500, jednotka: g, poznamka: "na 10 lidí (cca 2 várky)", sekce: Základ }
+  - { surovina: mléko, mnozstvi: 2, jednotka: l, poznamka: "na 10 lidí na hustou kaši; přesné množství doplnit při vaření (kolik se spotřebuje)", sekce: Základ }
+  - { surovina: cukr, mnozstvi: null, jednotka: "", poznamka: "na doslazení – sladit až nakonec", sekce: Dochucení }
+  - { surovina: zlepšováky na dochucení, mnozstvi: null, jednotka: "", poznamka: "rozinky, ovoce, …", sekce: Dochucení }
 postup:
   - "Přes noc necháme vločky nasáknout v mléce – mléka dáme tolik, aby byly vločky ponořené a bylo mléko cca 3 cm nad vločkami."
   - "Ráno přilijeme mléko – opět trochu nad vločky, cca 1 cm."

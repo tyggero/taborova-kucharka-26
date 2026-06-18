@@ -4,16 +4,18 @@ zdroj: fresh.iprima.cz (rozhuda) – snídaňový set s kakaem
 odkaz: https://fresh.iprima.cz/recepty/rozhuda-tradicni-tvarohova-pomazanka-s-pazitkou
 stitky: [Snídaně]
 porce_original: 4
+casy:
+  - { faze: Příprava, popis: "15 min" }
 suroviny:
-  - { surovina: měkký tvaroh, mnozstvi: 250, jednotka: g, poznamka: "" }
-  - { surovina: máslo, mnozstvi: 75, jednotka: g, poznamka: "změklé" }
-  - { surovina: smetana nebo mléko, mnozstvi: 3, jednotka: lžíce, poznamka: "na zředění konzistence (2–3 lžíce)" }
-  - { surovina: cukr, mnozstvi: 0.5, jednotka: lžička, poznamka: "" }
-  - { surovina: drcený kmín, mnozstvi: 1, jednotka: lžička, poznamka: "" }
-  - { surovina: pažitka, mnozstvi: 3, jednotka: lžíce, poznamka: "nasekaná (2–3 lžíce)" }
-  - { surovina: cibule, mnozstvi: 0.5, jednotka: ks, poznamka: "najemno; lze vynechat" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: kakao, mnozstvi: null, jednotka: "", poznamka: "k pití – kakaový prášek + mléko + cukr (samostatný nápoj k snídani)" }
+  - { surovina: měkký tvaroh, mnozstvi: 250, jednotka: g, poznamka: "", sekce: Pomazánka }
+  - { surovina: máslo, mnozstvi: 75, jednotka: g, poznamka: "změklé", sekce: Pomazánka }
+  - { surovina: smetana nebo mléko, mnozstvi: 3, jednotka: lžíce, poznamka: "na zředění konzistence (2–3 lžíce)", sekce: Pomazánka }
+  - { surovina: cukr, mnozstvi: 0.5, jednotka: lžička, poznamka: "", sekce: Pomazánka }
+  - { surovina: drcený kmín, mnozstvi: 1, jednotka: lžička, poznamka: "", sekce: Pomazánka }
+  - { surovina: pažitka, mnozstvi: 3, jednotka: lžíce, poznamka: "nasekaná (2–3 lžíce)", sekce: Pomazánka }
+  - { surovina: cibule, mnozstvi: 0.5, jednotka: ks, poznamka: "najemno; lze vynechat", sekce: Pomazánka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Pomazánka }
+  - { surovina: kakao, mnozstvi: null, jednotka: "", poznamka: "k pití – kakaový prášek + mléko + cukr (samostatný nápoj k snídani)", sekce: K pití }
 postup:
   - "Máslo utři do pěny, přimíchej tvaroh a zřeď smetanou nebo mlékem na požadovanou konzistenci."
   - "Dochuť solí, cukrem a drceným kmínem."

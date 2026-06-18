@@ -1,31 +1,27 @@
 id: paprikova-pomazanka-s-nivou-a-cottage
 nazev: Papriková pomazánka s nivou a sýrem cottage
-zdroj: vlastní odhad (v Notionu bez receptu)
-odkaz: ""
+zdroj: Prima Fresh
+odkaz: https://fresh.iprima.cz/paprikova-pomazanka-s-nivou-a-cottagem-451386
 stitky: [Svačina, Snídaně]
-porce_original: 10
+porce_original: 4
+casy:
+  - { faze: Příprava, popis: "10 min" }
 suroviny:
-  - { surovina: cottage sýr, mnozstvi: 500, jednotka: g, poznamka: "základ pomazánky" }
-  - { surovina: niva (sýr s modrou plísní), mnozstvi: 150, jednotka: g, poznamka: "rozmačkaná vidličkou" }
-  - { surovina: máslo nebo pomazánkové máslo, mnozstvi: 100, jednotka: g, poznamka: "změklé, na pojení; lze vynechat" }
-  - { surovina: paprika (červená), mnozstvi: 2, jednotka: ks, poznamka: "nadrobno nakrájená" }
-  - { surovina: cibule nebo jarní cibulka, mnozstvi: 1, jednotka: ks, poznamka: "najemno; dle chuti" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: mletá sladká paprika, mnozstvi: null, jednotka: "", poznamka: "na dobarvení a dochucení; volitelné" }
+  - { surovina: niva, mnozstvi: 100, jednotka: g, poznamka: "nalámat do mixéru", sekce: Pomazánka }
+  - { surovina: červená paprika, mnozstvi: 1, jednotka: ks, poznamka: "na kousky", sekce: Pomazánka }
+  - { surovina: jarní cibulka, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Pomazánka }
+  - { surovina: cottage sýr, mnozstvi: 1, jednotka: kelímek, poznamka: "", sekce: Pomazánka }
+  - { surovina: pažitka, mnozstvi: 1, jednotka: hrst, poznamka: "nakrájená", sekce: Pomazánka }
+  - { surovina: pečivo, mnozstvi: 4, jednotka: ks, poznamka: "k podávání", sekce: K podávání }
 postup:
-  - "Nivu rozmačkej vidličkou a smíchej se sýrem cottage (a změklým máslem) do hladké pomazánky."
-  - "Papriku a cibuli nakrájej nadrobno a vmíchej do pomazánky."
-  - "Dochuť solí, pepřem a případně mletou sladkou paprikou."
-  - "Podávej na čerstvém pečivu, ozdob plátkem papriky nebo jarní cibulkou."
+  - "Nivu nalámej do mixéru, přidej na kousky nakrájenou papriku a jarní cibulku a důkladně umixuj. (Bez mixéru rozmačkej vidličkou.)"
+  - "Do směsi vmíchej cottage a nakrájenou pažitku."
+  - "Podávej na pečivu, lze doplnit čerstvým rajčátkem."
 nutrice_na_porci: { kcal: 160, bilkoviny_g: 9, sacharidy_g: 4, tuky_g: 12 }
 alergeny: [mléko]
 vegetarian: true
 poznamky: >-
-  POZOR: v Notionu je tato položka (Svačina/Snídaně) BEZ fotky a BEZ receptu –
-  tělo stránky obsahuje jen vloženou DB surovin a bookmark. Suroviny i množství
-  jsou ROZUMNÝ ODHAD podle názvu (papriková pomazánka s nivou a cottage),
-  připraveno na cca 10 porcí. Před vařením PROJÍT a upřesnit. Alergeny: mléko
-  (niva, cottage, máslo). Vegetariánské. Niva je výrazná chuť – množství dolaď.
-zdroj_dat: vlastni
-overit: true
+  Vytěženo z webu uvedeného v Notion bookmarku (Prima Fresh). Recept je na 4 porce
+  (k pečivu), generátor přepočítá na 10. Alergeny: mléko (niva, cottage). Vegetariánské.
+zdroj_dat: url
+overit: false

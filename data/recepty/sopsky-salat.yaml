@@ -1,33 +1,33 @@
 id: sopsky-salat
 nazev: Šopský salát
-zdroj: vlastní odhad (v Notionu bez receptu)
-odkaz: ""
+zdroj: Prima Fresh
+odkaz: https://fresh.iprima.cz/recepty/sopsky-salat-autenticky-recept-na-bulharskou-klasiku
 stitky: [Svačina]
-porce_original: 10
+porce_original: 4
+casy:
+  - { faze: Příprava, popis: "20 min" }
 suroviny:
-  - { surovina: rajčata, mnozstvi: 1.5, jednotka: kg, poznamka: "nakrájená na kostky/měsíčky" }
-  - { surovina: okurka salátová, mnozstvi: 1.2, jednotka: kg, poznamka: "cca 2–3 ks, nakrájené" }
-  - { surovina: paprika, mnozstvi: 0.6, jednotka: kg, poznamka: "červená/zelená, na proužky" }
-  - { surovina: cibule (červená), mnozstvi: 2, jednotka: ks, poznamka: "na tenká kolečka" }
-  - { surovina: balkánský sýr (feta), mnozstvi: 400, jednotka: g, poznamka: "nastrouhaný nebo nadrobený navrch" }
-  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "na zálivku" }
-  - { surovina: vinný ocet nebo citronová šťáva, mnozstvi: null, jednotka: "", poznamka: "na zálivku" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: olivy, mnozstvi: null, jednotka: "", poznamka: "volitelné, na ozdobu" }
+  - { surovina: rajčata, mnozstvi: 2, jednotka: ks, poznamka: "velká zralá, na kostky", sekce: Salát }
+  - { surovina: salátová okurka, mnozstvi: 1, jednotka: ks, poznamka: "na kostky", sekce: Salát }
+  - { surovina: paprika (zelená nebo červená), mnozstvi: 1, jednotka: ks, poznamka: "na kostky", sekce: Salát }
+  - { surovina: červená cibule, mnozstvi: 0.5, jednotka: ks, poznamka: "na tenké proužky", sekce: Salát }
+  - { surovina: hladkolistá petržel, mnozstvi: 2, jednotka: lžíce, poznamka: "nasekaná", sekce: Salát }
+  - { surovina: feta (nebo balkánský sýr), mnozstvi: 150, jednotka: g, poznamka: "nastrouhaná navrch", sekce: Salát }
+  - { surovina: extra virgin olivový olej, mnozstvi: 4, jednotka: lžíce, poznamka: "", sekce: Zálivka }
+  - { surovina: červený vinný ocet, mnozstvi: 2, jednotka: lžíce, poznamka: "", sekce: Zálivka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Zálivka }
+  - { surovina: čerstvě namletý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Zálivka }
 postup:
-  - "Rajčata, okurku a papriku nakrájej na kousky, cibuli na tenká kolečka. Smíchej v míse."
-  - "Zalij zálivkou z olivového oleje a octa (nebo citronu), osol a opepři, promíchej."
-  - "Navrch nastrouhej nebo nadrob balkánský sýr (feta), případně ozdob olivami."
-  - "Podávej vychlazené s pečivem."
+  - "Okurku, papriku a rajčata nakrájej na stejně velké kostky a dej do mísy."
+  - "Přidej tenké proužky červené cibule a nasekanou petržel, promíchej."
+  - "Osol, opepři, zalij olivovým olejem a vinným octem a jemně promíchej."
+  - "Nakonec zasyp nastrouhaným slaným sýrem a podávej."
 nutrice_na_porci: { kcal: 180, bilkoviny_g: 7, sacharidy_g: 8, tuky_g: 13 }
 alergeny: [mléko]
 vegetarian: true
 poznamky: >-
-  POZOR: v Notionu je Šopský salát (Svačina) BEZ fotky a BEZ receptu – tělo
-  stránky obsahuje jen vloženou DB surovin a bookmark. Suroviny i množství jsou
-  ROZUMNÝ ODHAD podle klasického receptu na šopský salát, připraveno na cca 10
-  porcí. Před vařením PROJÍT a upřesnit gramáže. Alergeny: mléko (balkánský sýr).
-  Vegetariánské; bez sýra veganské a bez laktózy.
-zdroj_dat: vlastni
-overit: true
+  Vytěženo z webu uvedeného v Notion bookmarku (Prima Fresh). Recept je na 4 porce,
+  generátor přepočítá na 10. Alergeny: mléko (feta/balkánský sýr) – bez sýra veganské
+  a bezlaktózové. Vegetariánské.
+zdroj_dat: url
+overit: false

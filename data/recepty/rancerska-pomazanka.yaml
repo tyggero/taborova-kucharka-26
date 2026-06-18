@@ -4,12 +4,15 @@ zdroj: ruční poznámky (foto z Notionu)
 odkaz: ""
 stitky: [Svačina]
 porce_original: 10
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Chlazení, popis: "min. 1 hod v lednici" }
 suroviny:
-  - { surovina: cibule, mnozstvi: 500, jednotka: g, poznamka: "nakrájená najemno" }
-  - { surovina: sýr (gouda nebo podobný), mnozstvi: 500, jednotka: g, poznamka: "nahrubo nastrouhaný" }
-  - { surovina: rajský protlak, mnozstvi: 500, jednotka: g, poznamka: "tomato paste" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: cibule, mnozstvi: 500, jednotka: g, poznamka: "nakrájená najemno", sekce: Pomazánka }
+  - { surovina: sýr (gouda nebo podobný), mnozstvi: 500, jednotka: g, poznamka: "nahrubo nastrouhaný", sekce: Pomazánka }
+  - { surovina: rajský protlak, mnozstvi: 500, jednotka: g, poznamka: "tomato paste", sekce: Pomazánka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení }
 postup:
   - "Cibuli nakrájíme najemno (kdo nemá rád syrovou cibuli, může ji krátce poduit doměkka a nechat vychladnout)."
   - "Sýr nahrubo nastrouháme."

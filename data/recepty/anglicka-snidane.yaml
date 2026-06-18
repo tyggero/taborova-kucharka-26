@@ -4,19 +4,22 @@ zdroj: foodora.cz / zena.aktualne.cz (bookmark v Notionu)
 odkaz: https://www.foodora.cz/c/blog/anglicka-snidane-na-3-zpusoby/
 stitky: [Snídaně]
 porce_original: 1
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Smažení, popis: "15 min" }
 suroviny:
-  - { surovina: anglické klobásy (párky), mnozstvi: 2, jednotka: ks, poznamka: "na osobu" }
-  - { surovina: anglická slanina, mnozstvi: 1, jednotka: plátek, poznamka: "silný plátek" }
-  - { surovina: vejce, mnozstvi: 1, jednotka: ks, poznamka: "na volské oko (žloutek tekutý)" }
-  - { surovina: fazole v rajčatové omáčce, mnozstvi: 100, jednotka: g, poznamka: "baked beans" }
-  - { surovina: rajče, mnozstvi: 1, jednotka: ks, poznamka: "středně velké, na silné plátky" }
-  - { surovina: žampiony, mnozstvi: 2, jednotka: ks, poznamka: "2 velké nebo 3 malé, rozpůlené" }
-  - { surovina: bílý toustový chléb, mnozstvi: 2, jednotka: ks, poznamka: "" }
-  - { surovina: máslo, mnozstvi: 1, jednotka: lžička, poznamka: "" }
-  - { surovina: pomerančová marmeláda, mnozstvi: 1, jednotka: lžíce, poznamka: "k toustu" }
-  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "na osmažení" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
-  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
+  - { surovina: anglické klobásy (párky), mnozstvi: 2, jednotka: ks, poznamka: "na osobu", sekce: Hlavní talíř }
+  - { surovina: anglická slanina, mnozstvi: 1, jednotka: plátek, poznamka: "silný plátek", sekce: Hlavní talíř }
+  - { surovina: vejce, mnozstvi: 1, jednotka: ks, poznamka: "na volské oko (žloutek tekutý)", sekce: Hlavní talíř }
+  - { surovina: fazole v rajčatové omáčce, mnozstvi: 100, jednotka: g, poznamka: "baked beans", sekce: Hlavní talíř }
+  - { surovina: rajče, mnozstvi: 1, jednotka: ks, poznamka: "středně velké, na silné plátky", sekce: Hlavní talíř }
+  - { surovina: žampiony, mnozstvi: 2, jednotka: ks, poznamka: "2 velké nebo 3 malé, rozpůlené", sekce: Hlavní talíř }
+  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "na osmažení", sekce: Hlavní talíř }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Hlavní talíř }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Hlavní talíř }
+  - { surovina: bílý toustový chléb, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: K toustu }
+  - { surovina: máslo, mnozstvi: 1, jednotka: lžička, poznamka: "", sekce: K toustu }
+  - { surovina: pomerančová marmeláda, mnozstvi: 1, jednotka: lžíce, poznamka: "k toustu", sekce: K toustu }
 postup:
   - "Rozpal grilovací pánev a nasucho v ní osmahni toasty."
   - "Přidej lžičku olivového oleje a osmahni slaninu. Až pustí tuk, opeč párky. Hotové uzeniny odeber z pánve a ulož pod pokličku, aby nevychladly."

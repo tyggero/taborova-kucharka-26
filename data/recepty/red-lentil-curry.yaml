@@ -4,26 +4,29 @@ zdroj: Rainbow Plant Life
 odkaz: https://rainbowplantlife.com/vegan-red-lentil-curry/
 stitky: [Oběd, Večeře]
 porce_original: 4
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Vaření, popis: "30 min" }
 suroviny:
-  - { surovina: červená čočka, mnozstvi: null, jednotka: "", poznamka: "množství neuvedeno v textu – hlavní surovina; běžně cca 1,5 hrnku / 300 g" }
-  - { surovina: kokosový olej, mnozstvi: null, jednotka: "", poznamka: na restování }
-  - { surovina: česnek, mnozstvi: null, jednotka: "", poznamka: nasekaný }
-  - { surovina: čerstvý zázvor, mnozstvi: null, jednotka: "", poznamka: nasekaný }
-  - { surovina: čerstvá kurkuma, mnozstvi: null, jednotka: "", poznamka: nebo 1 lžička mleté kurkumy }
-  - { surovina: chilli paprička (serrano/jalapeño), mnozstvi: null, jednotka: "", poznamka: dle požadované pálivosti }
-  - { surovina: mletý kmín, mnozstvi: null, jednotka: "", poznamka: ze směsi koření }
-  - { surovina: mletý koriandr, mnozstvi: null, jednotka: "", poznamka: ze směsi koření }
-  - { surovina: indické chilli (lal mirch), mnozstvi: null, jednotka: "", poznamka: nebo 1 lžička běžného chilli }
-  - { surovina: kari koření, mnozstvi: null, jednotka: "", poznamka: ze směsi koření }
-  - { surovina: garam masala, mnozstvi: null, jednotka: "", poznamka: ze směsi koření }
-  - { surovina: zeleninový vývar, mnozstvi: null, jednotka: "", poznamka: na podlití }
-  - { surovina: drcená rajčata, mnozstvi: null, jednotka: "", poznamka: "" }
-  - { surovina: plnotučné kokosové mléko, mnozstvi: 1, jednotka: plechovka, poznamka: "" }
-  - { surovina: mandlové máslo, mnozstvi: 3, jednotka: lžíce, poznamka: "hladké přírodní; při alergii na ořechy nahradit tahini" }
-  - { surovina: citronová šťáva, mnozstvi: null, jednotka: "", poznamka: na dochucení }
-  - { surovina: čerstvý koriandr (cilantro), mnozstvi: null, jednotka: "", poznamka: na ozdobu }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: kokosový olej, mnozstvi: null, jednotka: "", poznamka: na restování, sekce: Základ }
+  - { surovina: česnek, mnozstvi: null, jednotka: "", poznamka: nasekaný, sekce: Základ }
+  - { surovina: čerstvý zázvor, mnozstvi: null, jednotka: "", poznamka: nasekaný, sekce: Základ }
+  - { surovina: čerstvá kurkuma, mnozstvi: null, jednotka: "", poznamka: nebo 1 lžička mleté kurkumy, sekce: Základ }
+  - { surovina: chilli paprička (serrano/jalapeño), mnozstvi: null, jednotka: "", poznamka: dle požadované pálivosti, sekce: Základ }
+  - { surovina: mletý kmín, mnozstvi: null, jednotka: "", poznamka: ze směsi koření, sekce: Směs koření }
+  - { surovina: mletý koriandr, mnozstvi: null, jednotka: "", poznamka: ze směsi koření, sekce: Směs koření }
+  - { surovina: indické chilli (lal mirch), mnozstvi: null, jednotka: "", poznamka: nebo 1 lžička běžného chilli, sekce: Směs koření }
+  - { surovina: kari koření, mnozstvi: null, jednotka: "", poznamka: ze směsi koření, sekce: Směs koření }
+  - { surovina: garam masala, mnozstvi: null, jednotka: "", poznamka: ze směsi koření, sekce: Směs koření }
+  - { surovina: červená čočka, mnozstvi: null, jednotka: "", poznamka: "množství neuvedeno v textu – hlavní surovina; běžně cca 1,5 hrnku / 300 g", sekce: Omáčka }
+  - { surovina: zeleninový vývar, mnozstvi: null, jednotka: "", poznamka: na podlití, sekce: Omáčka }
+  - { surovina: drcená rajčata, mnozstvi: null, jednotka: "", poznamka: "", sekce: Omáčka }
+  - { surovina: plnotučné kokosové mléko, mnozstvi: 1, jednotka: plechovka, poznamka: "", sekce: Omáčka }
+  - { surovina: mandlové máslo, mnozstvi: 3, jednotka: lžíce, poznamka: "hladké přírodní; při alergii na ořechy nahradit tahini", sekce: Omáčka }
+  - { surovina: citronová šťáva, mnozstvi: null, jednotka: "", poznamka: na dochucení, sekce: Dochucení a podávání }
+  - { surovina: čerstvý koriandr (cilantro), mnozstvi: null, jednotka: "", poznamka: na ozdobu, sekce: Dochucení a podávání }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení a podávání }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení a podávání }
 postup:
   - Červenou čočku propláchněte a přeberte (mohou v ní být kamínky).
   - V hluboké pánvi rozehřejte kokosový olej na středně vysokém ohni. Přidejte česnek, zázvor, čerstvou kurkumu a chilli papričku a restujte doměkka a dovonění.

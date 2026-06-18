@@ -1,28 +1,37 @@
 id: hraskova-polevka
 nazev: Hrášková polévka
-zdroj: ""
-odkaz: ""
+zdroj: Toprecepty.cz (podle Pohlreicha)
+odkaz: https://www.toprecepty.cz/recept/11012-hraskova-polevka-podle-pohlreicha/
 stitky: [polévka]
-porce_original: 10
+porce_original: 4
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "30 min" }
 suroviny:
-  - { surovina: hrášek (mražený nebo čerstvý), mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – recept nebyl v Notionu vytěžitelný (žádná fotka ani text); doplnit" }
-  - { surovina: cibule, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – doplnit" }
-  - { surovina: brambory, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – na zahuštění; doplnit" }
-  - { surovina: zeleninový vývar, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – doplnit" }
-  - { surovina: máslo nebo olej, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – na orestování; doplnit" }
-  - { surovina: smetana, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – volitelně na zjemnění; doplnit" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – doplnit" }
-  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "PLACEHOLDER – doplnit" }
+  - { surovina: hrášek (mražený), mnozstvi: 300, jednotka: g, poznamka: "rozmrazit ve vlažné vodě, okapat; 4 lžíce si odložit na ozdobu", sekce: Polévka }
+  - { surovina: brambory, mnozstvi: 2, jednotka: ks, poznamka: "střední, na kostičky", sekce: Polévka }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: "oloupaná", sekce: Polévka }
+  - { surovina: slanina, mnozstvi: 150, jednotka: g, poznamka: "50 g do polévky, zbytek osmažit na ozdobu", sekce: Polévka }
+  - { surovina: česnek, mnozstvi: 1, jednotka: stroužek, poznamka: "", sekce: Polévka }
+  - { surovina: zeleninový vývar, mnozstvi: 1, jednotka: l, poznamka: "", sekce: Polévka }
+  - { surovina: olej nebo sádlo, mnozstvi: null, jednotka: "", poznamka: "na orestování", sekce: Polévka }
+  - { surovina: smetana ke šlehání, mnozstvi: 150, jednotka: ml, poznamka: "", sekce: Polévka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Polévka }
+  - { surovina: mletý pepř, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Polévka }
+  - { surovina: toustový chléb, mnozstvi: 2, jednotka: plátky, poznamka: "na kostičky", sekce: Krutony }
 postup:
-  - "POSTUP NENÍ VYTĚŽEN – v Notion stránce nebyl žádný použitelný text, fotka ani odkaz, pouze prázdná vložená databáze surovin a interní bookmark. Doplnit ručně."
-nutrice_na_porci: { kcal: 170, bilkoviny_g: 8, sacharidy_g: 22, tuky_g: 6 }
-alergeny: []
-vegetarian: true
+  - "Rozmraž hrášek ve vlažné vodě a okapej. Na oleji či sádle osmaž oloupanou cibuli a 50 g slaniny."
+  - "Přidej hrášek (4 lžíce si odlož) a brambory nakrájené na kostičky. Orestuj, pak přilij vývar, přidej česnek, pepř a sůl."
+  - "Po změknutí brambor odstav z ohně a rozmixuj do hladka."
+  - "Přilij smetanu a nech projít varem."
+  - "Zbylou slaninu osmaž, přidej na kostičky nakrájený toustový chléb a nech lehce zezlátnout."
+  - "Dochuť a podávej ozdobené slaninou, odloženým hráškem a krutony."
+nutrice_na_porci: { kcal: 230, bilkoviny_g: 9, sacharidy_g: 20, tuky_g: 13 }
+alergeny: [lepek, mléko]
+vegetarian: false
 poznamky: >-
-  NEVYTĚŽENO. V Notion stránce (382a86fa-0044-80c6-a0b9-edb2b4e66570) není žádný recept –
-  jen prázdná vložená DB surovin a interní bookmark, žádná fotka ani odkaz. Suroviny i postup
-  jsou pouze PLACEHOLDERY z běžné hráškové polévky a je NUTNÉ je celé doplnit ručně. Štítek:
-  polévka. Nutrice je hrubý odhad. Alergeny závisí na doplnění (smetana = mléko, případná
-  jíška = lepek). Vegetariánská varianta předpokládána.
-zdroj_dat: vlastni
-overit: true
+  Vytěženo z webu uvedeného v Notion bookmarku (Hrášková polévka podle Pohlreicha).
+  Pro vegetariánskou/bezlepkovou variantu: vynech slaninu (nahraď osmaženou zeleninou
+  nebo opraženými semínky – pozor na alergeny) a krutony udělej z bezlepkového pečiva.
+zdroj_dat: url
+overit: false

@@ -4,22 +4,25 @@ zdroj: Táborová Skautská Kuchařka
 odkaz: ""
 stitky: [polévka]
 porce_original: 10
+casy:
+  - { faze: Příprava, popis: "20 min" }
+  - { faze: Vaření, popis: "1,5 hod" }
 suroviny:
-  - { surovina: kuřecí stehna, mnozstvi: 5, jednotka: ks, poznamka: "lze i část z nich" }
-  - { surovina: voda, mnozstvi: 3, jednotka: l, poznamka: "na vývar" }
-  - { surovina: mrkev, mnozstvi: 350, jednotka: g, poznamka: "" }
-  - { surovina: širokých rýžových nudlí, mnozstvi: 250, jednotka: g, poznamka: "vařit zvlášť" }
-  - { surovina: řapíkatý celer, mnozstvi: 250, jednotka: g, poznamka: "" }
-  - { surovina: vejce, mnozstvi: 10, jednotka: ks, poznamka: "uvařená natvrdo" }
-  - { surovina: kořenová zelenina (mrkev, petržel, celer), mnozstvi: 4, jednotka: ks, poznamka: "4–5 ks" }
-  - { surovina: kokosové mléko, mnozstvi: 1, jednotka: konzerva, poznamka: "" }
-  - { surovina: citron, mnozstvi: 1, jednotka: ks, poznamka: "" }
-  - { surovina: olej, mnozstvi: null, jednotka: "", poznamka: "na restování" }
-  - { surovina: bobkový list, mnozstvi: null, jednotka: "", poznamka: "" }
-  - { surovina: nové koření, mnozstvi: null, jednotka: "", poznamka: "" }
-  - { surovina: jalovec, mnozstvi: null, jednotka: "", poznamka: "" }
-  - { surovina: kari koření, mnozstvi: null, jednotka: "", poznamka: "" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
+  - { surovina: kuřecí stehna, mnozstvi: 5, jednotka: ks, poznamka: "lze i část z nich", sekce: Vývar }
+  - { surovina: voda, mnozstvi: 3, jednotka: l, poznamka: "na vývar", sekce: Vývar }
+  - { surovina: kořenová zelenina (mrkev, petržel, celer), mnozstvi: 4, jednotka: ks, poznamka: "4–5 ks", sekce: Vývar }
+  - { surovina: bobkový list, mnozstvi: null, jednotka: "", poznamka: "", sekce: Vývar }
+  - { surovina: nové koření, mnozstvi: null, jednotka: "", poznamka: "", sekce: Vývar }
+  - { surovina: jalovec, mnozstvi: null, jednotka: "", poznamka: "", sekce: Vývar }
+  - { surovina: olej, mnozstvi: null, jednotka: "", poznamka: "na restování", sekce: Vývar }
+  - { surovina: mrkev, mnozstvi: 350, jednotka: g, poznamka: "", sekce: Polévka }
+  - { surovina: řapíkatý celer, mnozstvi: 250, jednotka: g, poznamka: "", sekce: Polévka }
+  - { surovina: kokosové mléko, mnozstvi: 1, jednotka: konzerva, poznamka: "", sekce: Polévka }
+  - { surovina: citron, mnozstvi: 1, jednotka: ks, poznamka: "", sekce: Polévka }
+  - { surovina: kari koření, mnozstvi: null, jednotka: "", poznamka: "", sekce: Polévka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Polévka }
+  - { surovina: vejce, mnozstvi: 10, jednotka: ks, poznamka: "uvařená natvrdo", sekce: Příloha }
+  - { surovina: širokých rýžových nudlí, mnozstvi: 250, jednotka: g, poznamka: "vařit zvlášť", sekce: Příloha }
 postup:
   - "V hrnci rozehřej olej a dej na něj kuřecí stehna (nebo část z nich). Nechej je hezky zezlátnout ze všech stran a pak zalij studenou vodou."
   - "Přidej pár kousků oloupané kořenové zeleniny a 4 bobkové listy, pár kuliček nového koření, pepř a případně jalovec."

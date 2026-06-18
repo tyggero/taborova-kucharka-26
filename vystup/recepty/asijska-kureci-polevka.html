@@ -87,6 +87,19 @@ html, body {
   color: #bf360c;
 }
 
+/* ---- Časy přípravy / vaření ---- */
+.casy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 14px;
+  margin: 8px 0 2px;
+  font-size: 10pt;
+  color: #333;
+}
+.casy-ikona { font-size: 12pt; }
+.cas-pol strong { color: #1b5e20; font-weight: 600; }
+
 /* ---- Tělo: suroviny + postup ---- */
 .telo {
   display: grid;
@@ -121,6 +134,18 @@ h2 {
 .col-mnozstvi { white-space: nowrap; }
 .col-rucni { width: 22%; border-left: 1px dashed #bbb; background: #fafafa; }
 .pozn { color: #777; font-size: 9pt; }
+
+/* Podnadpis sekce surovin (Maso / Dresink / Těsto …) */
+.sekce-row .sekce-nadpis {
+  font-size: 8.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  color: #1b5e20;
+  background: #f1f8e9;
+  border-bottom: 1px solid #c8e6c9;
+  padding: 4px 4px 3px;
+}
 
 .postup ol { margin: 0; padding-left: 20px; }
 .postup li { margin-bottom: 6px; }
@@ -195,6 +220,10 @@ h2 {
 <span class="alergen">vejce</span><span class="alergen">celer</span><span class="alergen">kokos</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;20 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;1,5 hod</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -207,6 +236,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Vývar</td></tr>
           <tr>
             <td class="col-surovina">kuřecí stehna <span class="pozn">(lze i část z nich)</span></td>
             <td class="col-mnozstvi">5 ks</td>
@@ -218,43 +248,8 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">mrkev</td>
-            <td class="col-mnozstvi">350 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">širokých rýžových nudlí <span class="pozn">(vařit zvlášť)</span></td>
-            <td class="col-mnozstvi">250 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">řapíkatý celer</td>
-            <td class="col-mnozstvi">250 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">vejce <span class="pozn">(uvařená natvrdo)</span></td>
-            <td class="col-mnozstvi">10 ks</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
             <td class="col-surovina">kořenová zelenina (mrkev <span class="pozn">(4–5 ks)</span></td>
             <td class="col-mnozstvi">4 ks</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">kokosové mléko</td>
-            <td class="col-mnozstvi">1 konzerva</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">citron</td>
-            <td class="col-mnozstvi">1 ks</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">olej <span class="pozn">(na restování)</span></td>
-            <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
@@ -273,6 +268,32 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
+            <td class="col-surovina">olej <span class="pozn">(na restování)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Polévka</td></tr>
+          <tr>
+            <td class="col-surovina">mrkev</td>
+            <td class="col-mnozstvi">350 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">řapíkatý celer</td>
+            <td class="col-mnozstvi">250 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">kokosové mléko</td>
+            <td class="col-mnozstvi">1 konzerva</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">citron</td>
+            <td class="col-mnozstvi">1 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
             <td class="col-surovina">kari koření</td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
@@ -280,6 +301,17 @@ h2 {
           <tr>
             <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Příloha</td></tr>
+          <tr>
+            <td class="col-surovina">vejce <span class="pozn">(uvařená natvrdo)</span></td>
+            <td class="col-mnozstvi">10 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">širokých rýžových nudlí <span class="pozn">(vařit zvlášť)</span></td>
+            <td class="col-mnozstvi">250 g</td>
             <td class="col-rucni"></td>
           </tr>
         </tbody>

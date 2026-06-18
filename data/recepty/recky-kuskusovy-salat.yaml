@@ -4,20 +4,24 @@ zdroj: Vaříme na cestách (Skautská kuchařka)
 odkaz: ""
 stitky: [Oběd, Večeře]
 porce_original: 10
+casy:
+  - { faze: Namáčení, popis: "cizrna přes noc (cca 8 hod)" }
+  - { faze: Příprava, popis: "20 min" }
+  - { faze: Vaření, popis: "30 min" }
 suroviny:
-  - { surovina: kuskus, mnozstvi: 700, jednotka: g, poznamka: "" }
-  - { surovina: rajčata, mnozstvi: 625, jednotka: g, poznamka: "" }
-  - { surovina: suchá cizrna, mnozstvi: 250, jednotka: g, poznamka: "namočit ideálně přes noc" }
-  - { surovina: sýr feta, mnozstvi: 190, jednotka: g, poznamka: "" }
-  - { surovina: černé olivy, mnozstvi: 2, jednotka: balení, poznamka: "" }
-  - { surovina: okurka, mnozstvi: 3, jednotka: ks, poznamka: "" }
-  - { surovina: citron, mnozstvi: 2, jednotka: ks, poznamka: "" }
-  - { surovina: červená cibule, mnozstvi: 2, jednotka: ks, poznamka: "" }
-  - { surovina: olivový olej, mnozstvi: 12, jednotka: PL, poznamka: "polévkové lžíce" }
-  - { surovina: oregano, mnozstvi: 2.5, jednotka: KL, poznamka: "kávové lžičky" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: černý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: voda / vývar, mnozstvi: null, jednotka: "", poznamka: "horký, na zalití kuskusu" }
+  - { surovina: kuskus, mnozstvi: 700, jednotka: g, poznamka: "", sekce: Kuskus }
+  - { surovina: voda / vývar, mnozstvi: null, jednotka: "", poznamka: "horký, na zalití kuskusu", sekce: Kuskus }
+  - { surovina: suchá cizrna, mnozstvi: 250, jednotka: g, poznamka: "namočit ideálně přes noc", sekce: Kuskus }
+  - { surovina: rajčata, mnozstvi: 625, jednotka: g, poznamka: "", sekce: Salát }
+  - { surovina: sýr feta, mnozstvi: 190, jednotka: g, poznamka: "", sekce: Salát }
+  - { surovina: černé olivy, mnozstvi: 2, jednotka: balení, poznamka: "", sekce: Salát }
+  - { surovina: okurka, mnozstvi: 3, jednotka: ks, poznamka: "", sekce: Salát }
+  - { surovina: červená cibule, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Salát }
+  - { surovina: olivový olej, mnozstvi: 12, jednotka: PL, poznamka: "polévkové lžíce", sekce: Dresink }
+  - { surovina: citron, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Dresink }
+  - { surovina: oregano, mnozstvi: 2.5, jednotka: KL, poznamka: "kávové lžičky", sekce: Dresink }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dresink }
+  - { surovina: černý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dresink }
 postup:
   - "Cizrnu uvař doměkka (namoč ji ideálně přes noc do dostatečného množství vody)."
   - "Do kotlíku dej kuskus, zakápni olivovým olejem, přidej 3 špetky soli, oregano a promíchej vidličkou tak, aby se každé zrnko potkalo s trochou oleje. Zalij horkým vývarem či vodou, přiklop a nech nabobtnat. V závislosti na teplotě a množství vody bude kuskus měkký po 5–10 minutách."

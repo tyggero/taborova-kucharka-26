@@ -87,6 +87,19 @@ html, body {
   color: #bf360c;
 }
 
+/* ---- Časy přípravy / vaření ---- */
+.casy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 14px;
+  margin: 8px 0 2px;
+  font-size: 10pt;
+  color: #333;
+}
+.casy-ikona { font-size: 12pt; }
+.cas-pol strong { color: #1b5e20; font-weight: 600; }
+
 /* ---- Tělo: suroviny + postup ---- */
 .telo {
   display: grid;
@@ -121,6 +134,18 @@ h2 {
 .col-mnozstvi { white-space: nowrap; }
 .col-rucni { width: 22%; border-left: 1px dashed #bbb; background: #fafafa; }
 .pozn { color: #777; font-size: 9pt; }
+
+/* Podnadpis sekce surovin (Maso / Dresink / Těsto …) */
+.sekce-row .sekce-nadpis {
+  font-size: 8.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  color: #1b5e20;
+  background: #f1f8e9;
+  border-bottom: 1px solid #c8e6c9;
+  padding: 4px 4px 3px;
+}
 
 .postup ol { margin: 0; padding-left: 20px; }
 .postup li { margin-bottom: 6px; }
@@ -195,6 +220,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Dušení</strong>&nbsp;15 min</span><span class="cas-pol"><strong>Smažení masa</strong>&nbsp;10 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -207,6 +236,7 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dušená mrkev</td></tr>
           <tr>
             <td class="col-surovina">máslo <span class="pozn">(na dušení mrkve)</span></td>
             <td class="col-mnozstvi">250 g</td>
@@ -238,21 +268,6 @@ h2 {
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">brambory <span class="pozn">(jako příloha)</span></td>
-            <td class="col-mnozstvi">2000 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">kuřecí prsní řízek <span class="pozn">(600–800 g; lze i stehenní řízky)</span></td>
-            <td class="col-mnozstvi">1750 g</td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">přepuštěné máslo <span class="pozn">(na smažení masa)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
             <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
@@ -264,6 +279,23 @@ h2 {
           </tr>
           <tr>
             <td class="col-surovina">cukr <span class="pozn">(na dochucení mrkve)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Příloha</td></tr>
+          <tr>
+            <td class="col-surovina">brambory <span class="pozn">(jako příloha)</span></td>
+            <td class="col-mnozstvi">2000 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Maso</td></tr>
+          <tr>
+            <td class="col-surovina">kuřecí prsní řízek <span class="pozn">(600–800 g; lze i stehenní řízky)</span></td>
+            <td class="col-mnozstvi">1750 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">přepuštěné máslo <span class="pozn">(na smažení masa)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>

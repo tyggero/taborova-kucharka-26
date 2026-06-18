@@ -4,22 +4,25 @@ zdroj: Instagram reel (@reel/DO-aAjQiBlv)
 odkaz: https://www.instagram.com/reel/DO-aAjQiBlv/
 stitky: [polévka]
 porce_original: 4
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Vaření, popis: "25 min" }
 suroviny:
-  - { surovina: cibule, mnozstvi: 0.5, jednotka: ks, poznamka: "žlutá" }
-  - { surovina: mrkev, mnozstvi: 2, jednotka: ks, poznamka: "" }
-  - { surovina: celer, mnozstvi: 1, jednotka: hrst, poznamka: "" }
-  - { surovina: česnek, mnozstvi: 2, jednotka: stroužek, poznamka: "" }
-  - { surovina: máslo, mnozstvi: null, jednotka: "", poznamka: "na opečení zeleniny" }
-  - { surovina: brambory, mnozstvi: 2, jednotka: ks, poznamka: "" }
-  - { surovina: menší těstoviny, mnozstvi: 1, jednotka: hrnek, poznamka: "" }
-  - { surovina: voda nebo vývar, mnozstvi: 2, jednotka: hrnek, poznamka: "přibližně, doplnit dle potřeby" }
-  - { surovina: smetana, mnozstvi: null, jednotka: "", poznamka: "množství neuvedeno; na zjemnění" }
-  - { surovina: parmezán, mnozstvi: null, jednotka: "", poznamka: "k podávání" }
-  - { surovina: italské koření, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: kari, mnozstvi: null, jednotka: "", poznamka: "špetka" }
-  - { surovina: paprika (mletá), mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: cibule, mnozstvi: 0.5, jednotka: ks, poznamka: "žlutá", sekce: Základ }
+  - { surovina: mrkev, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Základ }
+  - { surovina: celer, mnozstvi: 1, jednotka: hrst, poznamka: "", sekce: Základ }
+  - { surovina: česnek, mnozstvi: 2, jednotka: stroužek, poznamka: "", sekce: Základ }
+  - { surovina: máslo, mnozstvi: null, jednotka: "", poznamka: "na opečení zeleniny", sekce: Základ }
+  - { surovina: brambory, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Polévka }
+  - { surovina: menší těstoviny, mnozstvi: 1, jednotka: hrnek, poznamka: "", sekce: Polévka }
+  - { surovina: voda nebo vývar, mnozstvi: 2, jednotka: hrnek, poznamka: "přibližně, doplnit dle potřeby", sekce: Polévka }
+  - { surovina: smetana, mnozstvi: null, jednotka: "", poznamka: "množství neuvedeno; na zjemnění", sekce: Polévka }
+  - { surovina: italské koření, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení a podávání }
+  - { surovina: kari, mnozstvi: null, jednotka: "", poznamka: "špetka", sekce: Dochucení a podávání }
+  - { surovina: paprika (mletá), mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení a podávání }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení a podávání }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení a podávání }
+  - { surovina: parmezán, mnozstvi: null, jednotka: "", poznamka: "k podávání", sekce: Dochucení a podávání }
 postup:
   - "Zeleninu (cibuli, mrkev, celer) opečte na másle, přidejte česnek a koření (italské koření, sůl, pepř, špetku kari, papriku)."
   - "Zalijte vodou nebo vývarem, vložte nakrájené brambory a vařte pod pokličkou do změknutí."

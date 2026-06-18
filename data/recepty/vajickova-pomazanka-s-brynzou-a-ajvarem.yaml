@@ -4,18 +4,21 @@ zdroj: Prima Fresh (bookmark v Notionu – brynzová pomazánka s ajvarem)
 odkaz: https://fresh.iprima.cz/recepty/s-klarou-v-kuchyni-brynzova-pomazanka-s-ajvarem
 stitky: [Svačina, Snídaně]
 porce_original: 4
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Vaření, popis: "10 min" }
 suroviny:
-  - { surovina: vejce, mnozstvi: 4, jednotka: ks, poznamka: "uvařená natvrdo, nastrouhaná/nadrobno – DOPLNĚNO (název receptu uvádí vajíčková, ale zdrojový recept brynzy je bez vajec)" }
-  - { surovina: brynza, mnozstvi: 125, jednotka: g, poznamka: "rozmačkaná vidličkou" }
-  - { surovina: tvaroh (nízkotučný), mnozstvi: 250, jednotka: g, poznamka: "" }
-  - { surovina: ajvar (jemný), mnozstvi: 3, jednotka: lžíce, poznamka: "" }
-  - { surovina: majonéza, mnozstvi: 1, jednotka: lžíce, poznamka: "" }
-  - { surovina: uzená paprika, mnozstvi: 1, jednotka: lžíce, poznamka: "mletá" }
-  - { surovina: pálivá paprika, mnozstvi: 0.5, jednotka: lžička, poznamka: "1/2–1 lžička dle chuti" }
-  - { surovina: červená cibule, mnozstvi: 1, jednotka: ks, poznamka: "malá, nadrobno" }
-  - { surovina: kyselé okurky, mnozstvi: 2, jednotka: ks, poznamka: "nadrobno" }
-  - { surovina: jarní cibulka, mnozstvi: null, jednotka: "", poznamka: "nadrobno, dle chuti" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
+  - { surovina: brynza, mnozstvi: 125, jednotka: g, poznamka: "rozmačkaná vidličkou", sekce: Základ }
+  - { surovina: tvaroh (nízkotučný), mnozstvi: 250, jednotka: g, poznamka: "", sekce: Základ }
+  - { surovina: ajvar (jemný), mnozstvi: 3, jednotka: lžíce, poznamka: "", sekce: Základ }
+  - { surovina: majonéza, mnozstvi: 1, jednotka: lžíce, poznamka: "", sekce: Základ }
+  - { surovina: uzená paprika, mnozstvi: 1, jednotka: lžíce, poznamka: "mletá", sekce: Dochucení }
+  - { surovina: pálivá paprika, mnozstvi: 0.5, jednotka: lžička, poznamka: "1/2–1 lžička dle chuti", sekce: Dochucení }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Dochucení }
+  - { surovina: vejce, mnozstvi: 4, jednotka: ks, poznamka: "uvařená natvrdo, nastrouhaná/nadrobno – DOPLNĚNO (název receptu uvádí vajíčková, ale zdrojový recept brynzy je bez vajec)", sekce: Vmíchat }
+  - { surovina: červená cibule, mnozstvi: 1, jednotka: ks, poznamka: "malá, nadrobno", sekce: Vmíchat }
+  - { surovina: kyselé okurky, mnozstvi: 2, jednotka: ks, poznamka: "nadrobno", sekce: Vmíchat }
+  - { surovina: jarní cibulka, mnozstvi: null, jednotka: "", poznamka: "nadrobno, dle chuti", sekce: Vmíchat }
 postup:
   - "Do větší mísy dej brynzu a rozmačkej ji vidličkou. Přidej tvaroh, majonézu a ajvar."
   - "Dochuť solí, uzenou a pálivou paprikou podle chuti."

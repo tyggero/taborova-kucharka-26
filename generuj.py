@@ -70,6 +70,7 @@ def skaluj_suroviny(recept, cilove_porce):
             "mnozstvi": mn_skal,
             "jednotka": s.get("jednotka", "") or "",
             "poznamka": s.get("poznamka", "") or "",
+            "sekce": s.get("sekce", "") or "",
         })
     return vystup
 

@@ -4,18 +4,22 @@ zdroj: vlastní (běžný recept)
 odkaz: ""
 stitky: [polévka]
 porce_original: 4
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "45 min" }
+  - { faze: Pečení, popis: "10 min" }
 suroviny:
-  - { surovina: cibule, mnozstvi: 500, jednotka: g, poznamka: "na tenké plátky; ideálně i část červené" }
-  - { surovina: máslo, mnozstvi: 50, jednotka: g, poznamka: "na karamelizaci cibule" }
-  - { surovina: olej, mnozstvi: 1, jednotka: lžíce, poznamka: "k máslu, aby se nepřepálilo" }
-  - { surovina: hovězí nebo zeleninový vývar, mnozstvi: 1, jednotka: l, poznamka: "" }
-  - { surovina: hladká mouka, mnozstvi: 1, jednotka: lžíce, poznamka: "na zahuštění (volitelné)" }
-  - { surovina: bílé víno, mnozstvi: 100, jednotka: ml, poznamka: "volitelné, na deglazování" }
-  - { surovina: bageta/toustový chléb, mnozstvi: 4, jednotka: plátek, poznamka: "opečené topinky na polévku" }
-  - { surovina: strouhaný sýr (ementál/gruyère), mnozstvi: 100, jednotka: g, poznamka: "na zapečení" }
-  - { surovina: česnek, mnozstvi: 1, jednotka: stroužek, poznamka: "na potření topinek" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
-  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
+  - { surovina: cibule, mnozstvi: 500, jednotka: g, poznamka: "na tenké plátky; ideálně i část červené", sekce: Polévka }
+  - { surovina: máslo, mnozstvi: 50, jednotka: g, poznamka: "na karamelizaci cibule", sekce: Polévka }
+  - { surovina: olej, mnozstvi: 1, jednotka: lžíce, poznamka: "k máslu, aby se nepřepálilo", sekce: Polévka }
+  - { surovina: hovězí nebo zeleninový vývar, mnozstvi: 1, jednotka: l, poznamka: "", sekce: Polévka }
+  - { surovina: hladká mouka, mnozstvi: 1, jednotka: lžíce, poznamka: "na zahuštění (volitelné)", sekce: Polévka }
+  - { surovina: bílé víno, mnozstvi: 100, jednotka: ml, poznamka: "volitelné, na deglazování", sekce: Polévka }
+  - { surovina: bageta/toustový chléb, mnozstvi: 4, jednotka: plátek, poznamka: "opečené topinky na polévku", sekce: Topinky }
+  - { surovina: strouhaný sýr (ementál/gruyère), mnozstvi: 100, jednotka: g, poznamka: "na zapečení", sekce: Topinky }
+  - { surovina: česnek, mnozstvi: 1, jednotka: stroužek, poznamka: "na potření topinek", sekce: Topinky }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Dochucení }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Dochucení }
 postup:
   - "Cibuli oloupejte a nakrájejte na tenké plátky."
   - "V hrnci rozehřejte máslo s lžící oleje a cibuli na mírném ohni pomalu karamelizujte cca 20–30 minut do zlatohněda, občas zamíchejte."

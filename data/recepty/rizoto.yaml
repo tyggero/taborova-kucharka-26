@@ -4,16 +4,19 @@ zdroj: Vaření.cz
 odkaz: https://www.vareni.cz/recepty/zeleninove-rizoto-s-kurecim-masem/
 stitky: [Oběd, Večeře]
 porce_original: 4
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Vaření, popis: "25 min" }
 suroviny:
-  - { surovina: rýže, mnozstvi: 300, jednotka: g, poznamka: "množství odhadnuto – uvařit dle návodu na obalu" }
-  - { surovina: kuřecí prsa, mnozstvi: 500, jednotka: g, poznamka: "množství odhadnuto; na nudličky nebo kostičky" }
-  - { surovina: mražená zelenina s kukuřicí, mnozstvi: 400, jednotka: g, poznamka: "množství odhadnuto" }
-  - { surovina: máslo, mnozstvi: 50, jednotka: g, poznamka: "na opečení masa + na zjemnění; množství odhadnuto" }
-  - { surovina: zeleninový bujon, mnozstvi: 1, jednotka: kostka, poznamka: "+ trocha vody/vývaru na podlití" }
-  - { surovina: mletá sladká paprika, mnozstvi: null, jednotka: "", poznamka: "na ochucení masa, dle chuti" }
-  - { surovina: kari koření, mnozstvi: null, jednotka: "", poznamka: "na ochucení masa, dle chuti" }
-  - { surovina: tvrdý sýr, mnozstvi: 80, jednotka: g, poznamka: "nastrouhaný, na posypání; množství odhadnuto" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
+  - { surovina: kuřecí prsa, mnozstvi: 500, jednotka: g, poznamka: "množství odhadnuto; na nudličky nebo kostičky", sekce: Maso }
+  - { surovina: mletá sladká paprika, mnozstvi: null, jednotka: "", poznamka: "na ochucení masa, dle chuti", sekce: Maso }
+  - { surovina: kari koření, mnozstvi: null, jednotka: "", poznamka: "na ochucení masa, dle chuti", sekce: Maso }
+  - { surovina: rýže, mnozstvi: 300, jednotka: g, poznamka: "množství odhadnuto – uvařit dle návodu na obalu", sekce: Rizoto }
+  - { surovina: mražená zelenina s kukuřicí, mnozstvi: 400, jednotka: g, poznamka: "množství odhadnuto", sekce: Rizoto }
+  - { surovina: máslo, mnozstvi: 50, jednotka: g, poznamka: "na opečení masa + na zjemnění; množství odhadnuto", sekce: Rizoto }
+  - { surovina: zeleninový bujon, mnozstvi: 1, jednotka: kostka, poznamka: "+ trocha vody/vývaru na podlití", sekce: Rizoto }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Rizoto }
+  - { surovina: tvrdý sýr, mnozstvi: 80, jednotka: g, poznamka: "nastrouhaný, na posypání; množství odhadnuto", sekce: K podávání }
 postup:
   - "Rýži uvaříme podle návodu na obalu v osolené vodě, po uvaření ji scedíme a necháme krátce okapat."
   - "Kuřecí prsa nakrájíme na menší nudličky nebo kostičky, osolíme je a ochutíme mletou sladkou paprikou a kari kořením."

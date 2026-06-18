@@ -4,19 +4,23 @@ zdroj: Prima Fresh
 odkaz: https://fresh.iprima.cz/recepty/dusena-mrkev-na-masle-s-kurecim-platkem-a-bramborem
 stitky: [Oběd, Večeře]
 porce_original: 4
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Dušení, popis: "15 min" }
+  - { faze: Smažení masa, popis: "10 min" }
 suroviny:
-  - { surovina: máslo, mnozstvi: 100, jednotka: g, poznamka: "na dušení mrkve" }
-  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: "na kostičky" }
-  - { surovina: mrkev, mnozstvi: 1, jednotka: kg, poznamka: "kolečka, půlkolečka, kostičky nebo nudličky" }
-  - { surovina: hladká mouka, mnozstvi: 2, jednotka: lžíce, poznamka: "1–2 lžíce na zaprášení + na obalení masa" }
-  - { surovina: zeleninový vývar, mnozstvi: null, jednotka: "", poznamka: "nebo voda na podlití mrkve" }
-  - { surovina: muškátový květ, mnozstvi: null, jednotka: "", poznamka: "nebo muškátový oříšek, dle chuti" }
-  - { surovina: brambory, mnozstvi: 800, jednotka: g, poznamka: "jako příloha" }
-  - { surovina: kuřecí prsní řízek, mnozstvi: 700, jednotka: g, poznamka: "600–800 g; lze i stehenní řízky" }
-  - { surovina: přepuštěné máslo, mnozstvi: null, jednotka: "", poznamka: "na smažení masa" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
-  - { surovina: bílý pepř, mnozstvi: null, jednotka: "", poznamka: "čerstvě namletý, dle chuti" }
-  - { surovina: cukr, mnozstvi: null, jednotka: "", poznamka: "na dochucení mrkve" }
+  - { surovina: máslo, mnozstvi: 100, jednotka: g, poznamka: "na dušení mrkve", sekce: Dušená mrkev }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: "na kostičky", sekce: Dušená mrkev }
+  - { surovina: mrkev, mnozstvi: 1, jednotka: kg, poznamka: "kolečka, půlkolečka, kostičky nebo nudličky", sekce: Dušená mrkev }
+  - { surovina: hladká mouka, mnozstvi: 2, jednotka: lžíce, poznamka: "1–2 lžíce na zaprášení + na obalení masa", sekce: Dušená mrkev }
+  - { surovina: zeleninový vývar, mnozstvi: null, jednotka: "", poznamka: "nebo voda na podlití mrkve", sekce: Dušená mrkev }
+  - { surovina: muškátový květ, mnozstvi: null, jednotka: "", poznamka: "nebo muškátový oříšek, dle chuti", sekce: Dušená mrkev }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Dušená mrkev }
+  - { surovina: bílý pepř, mnozstvi: null, jednotka: "", poznamka: "čerstvě namletý, dle chuti", sekce: Dušená mrkev }
+  - { surovina: cukr, mnozstvi: null, jednotka: "", poznamka: "na dochucení mrkve", sekce: Dušená mrkev }
+  - { surovina: brambory, mnozstvi: 800, jednotka: g, poznamka: "jako příloha", sekce: Příloha }
+  - { surovina: kuřecí prsní řízek, mnozstvi: 700, jednotka: g, poznamka: "600–800 g; lze i stehenní řízky", sekce: Maso }
+  - { surovina: přepuštěné máslo, mnozstvi: null, jednotka: "", poznamka: "na smažení masa", sekce: Maso }
 postup:
   - "V pánvi nebo nižším kastrolu rozehřejte máslo a restujte na něm cibuli nakrájenou na kostičky. Přidejte mrkev nakrájenou podle výběru (kolečka, půlkolečka, kostičky či nudličky). Restujte na mírném plameni zhruba 2 minuty."
   - "Zaprašte hladkou moukou, zamíchejte a zalijte vývarem či vodou. Rozmíchejte dohladka, dochuťte solí, bílým pepřem a muškátovým květem. Duste přibližně 10 minut, až bude mrkev měkká. Na závěr dochuťte cukrem nebo citronovou šťávou."

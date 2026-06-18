@@ -36,6 +36,13 @@
   </div>
   {% endif %}
 
+  {% if r.casy %}
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+    {% for c in r.casy %}<span class="cas-pol"><strong>{{ c.faze }}</strong>&nbsp;{{ c.popis }}</span>{% endfor %}
+  </div>
+  {% endif %}
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -48,7 +55,13 @@
           </tr>
         </thead>
         <tbody>
+          {% set ns = namespace(akt=None) %}
+          {% set ma_sekce = (r.suroviny_skal | selectattr('sekce') | list | length) > 0 %}
           {% for s in r.suroviny_skal %}
+          {% if ma_sekce and s.sekce != ns.akt %}
+          {% set ns.akt = s.sekce %}
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">{{ s.sekce or "Další" }}</td></tr>
+          {% endif %}
           <tr>
             <td class="col-surovina">{{ s.surovina }}{% if s.poznamka %} <span class="pozn">({{ s.poznamka }})</span>{% endif %}</td>
             <td class="col-mnozstvi">{% if s.mnozstvi %}{{ s.mnozstvi }} {{ s.jednotka }}{% else %}{{ s.jednotka }}{% endif %}</td>

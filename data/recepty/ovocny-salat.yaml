@@ -4,13 +4,15 @@ zdroj: ""
 odkaz: ""
 stitky: [Svačina]
 porce_original: 10
+casy:
+  - { faze: Příprava, popis: "15 min" }
 suroviny:
-  - { surovina: jablka, mnozstvi: null, jednotka: "", poznamka: "doplnit množství" }
-  - { surovina: banány, mnozstvi: null, jednotka: "", poznamka: "doplnit množství" }
-  - { surovina: pomeranče, mnozstvi: null, jednotka: "", poznamka: "doplnit množství" }
-  - { surovina: hrušky, mnozstvi: null, jednotka: "", poznamka: "doplnit množství" }
-  - { surovina: sezónní ovoce (jahody, hroznové víno, broskve…), mnozstvi: null, jednotka: "", poznamka: "dle dostupnosti" }
-  - { surovina: citronová šťáva, mnozstvi: null, jednotka: "", poznamka: "proti zhnědnutí, dle chuti" }
+  - { surovina: jablka, mnozstvi: null, jednotka: "", poznamka: "doplnit množství", sekce: Ovoce }
+  - { surovina: banány, mnozstvi: null, jednotka: "", poznamka: "doplnit množství", sekce: Ovoce }
+  - { surovina: pomeranče, mnozstvi: null, jednotka: "", poznamka: "doplnit množství", sekce: Ovoce }
+  - { surovina: hrušky, mnozstvi: null, jednotka: "", poznamka: "doplnit množství", sekce: Ovoce }
+  - { surovina: sezónní ovoce (jahody, hroznové víno, broskve…), mnozstvi: null, jednotka: "", poznamka: "dle dostupnosti", sekce: Ovoce }
+  - { surovina: citronová šťáva, mnozstvi: null, jednotka: "", poznamka: "proti zhnědnutí, dle chuti", sekce: K dochucení }
 postup:
   - "Ovoce omyjeme, oloupeme (kde je třeba) a nakrájíme na kostičky."
   - "Smícháme dohromady, zakápneme citronovou šťávou, aby ovoce nezhnědlo."

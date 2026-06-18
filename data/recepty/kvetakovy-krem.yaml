@@ -4,17 +4,20 @@ zdroj: Prima Fresh
 odkaz: https://fresh.iprima.cz/recepty/kremova-kvetakova-polevka
 stitky: [polévka]
 porce_original: 6
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "25 min" }
 suroviny:
-  - { surovina: máslo, mnozstvi: 30, jednotka: g, poznamka: "" }
-  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: "oloupaná a nasekaná" }
-  - { surovina: brambory, mnozstvi: 1, jednotka: ks, poznamka: "větší moučná, oškrábaná a na kostičky" }
-  - { surovina: květák, mnozstvi: 500, jednotka: g, poznamka: "1 ks, natrhaný na růžičky a nasekaný na větší kousky" }
-  - { surovina: bobkový list, mnozstvi: 1, jednotka: ks, poznamka: "" }
-  - { surovina: muškátový oříšek, mnozstvi: null, jednotka: "", poznamka: "čerstvě nastrouhaný, dle chuti" }
-  - { surovina: zeleninový vývar, mnozstvi: 1, jednotka: l, poznamka: "horký" }
-  - { surovina: smetana, mnozstvi: 100, jednotka: ml, poznamka: "nebo plnotučné mléko" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
-  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
+  - { surovina: máslo, mnozstvi: 30, jednotka: g, poznamka: "", sekce: Polévka }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: "oloupaná a nasekaná", sekce: Polévka }
+  - { surovina: brambory, mnozstvi: 1, jednotka: ks, poznamka: "větší moučná, oškrábaná a na kostičky", sekce: Polévka }
+  - { surovina: květák, mnozstvi: 500, jednotka: g, poznamka: "1 ks, natrhaný na růžičky a nasekaný na větší kousky", sekce: Polévka }
+  - { surovina: bobkový list, mnozstvi: 1, jednotka: ks, poznamka: "", sekce: Polévka }
+  - { surovina: muškátový oříšek, mnozstvi: null, jednotka: "", poznamka: "čerstvě nastrouhaný, dle chuti", sekce: Polévka }
+  - { surovina: zeleninový vývar, mnozstvi: 1, jednotka: l, poznamka: "horký", sekce: Polévka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Polévka }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Polévka }
+  - { surovina: smetana, mnozstvi: 100, jednotka: ml, poznamka: "nebo plnotučné mléko", sekce: Na dokončení }
 postup:
   - "V hrnci rozehřejte máslo a na něm opékejte cibuli, dokud nezměkne. Přidejte bramboru a vařte 1 minutu, pak květák. Okořeňte, přidejte bobkový list a muškátový oříšek. Přiklopte a vařte 5 minut."
   - "Přilijte vývar, uveďte do varu a vařte dalších 20 minut, dokud květák nezměkne."

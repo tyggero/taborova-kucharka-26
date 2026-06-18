@@ -4,18 +4,21 @@ zdroj: Apetit Online (bookmark v Notionu)
 odkaz: https://www.apetitonline.cz/recept/ovesna-kase-naslano
 stitky: [Snídaně]
 porce_original: 3
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "15 min" }
 suroviny:
-  - { surovina: ovesné vločky, mnozstvi: 200, jednotka: g, poznamka: "jemné" }
-  - { surovina: voda, mnozstvi: 1, jednotka: l, poznamka: "lze nahradit vývarem" }
-  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: "nadrobno" }
-  - { surovina: řepkový nebo slunečnicový olej, mnozstvi: 2, jednotka: lžíce, poznamka: "" }
-  - { surovina: eidam, mnozstvi: 70, jednotka: g, poznamka: "nasekaný/nastrouhaný" }
-  - { surovina: vejce, mnozstvi: 3, jednotka: ks, poznamka: "vařená, dle preference (i volské oko)" }
-  - { surovina: rajče, mnozstvi: 1, jednotka: ks, poznamka: "na šestinky, k podávání" }
-  - { surovina: hlávkový salát, mnozstvi: 3, jednotka: listy, poznamka: "malé listy, k podávání" }
-  - { surovina: červený vinný ocet, mnozstvi: 1, jednotka: lžička, poznamka: "na pokapání salátu" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "cca 1/4 lžičky do kaše + dle chuti" }
-  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "čerstvě mletý, dle chuti" }
+  - { surovina: ovesné vločky, mnozstvi: 200, jednotka: g, poznamka: "jemné", sekce: Kaše }
+  - { surovina: voda, mnozstvi: 1, jednotka: l, poznamka: "lze nahradit vývarem", sekce: Kaše }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: "nadrobno", sekce: Kaše }
+  - { surovina: řepkový nebo slunečnicový olej, mnozstvi: 2, jednotka: lžíce, poznamka: "", sekce: Kaše }
+  - { surovina: eidam, mnozstvi: 70, jednotka: g, poznamka: "nasekaný/nastrouhaný", sekce: Kaše }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "cca 1/4 lžičky do kaše + dle chuti", sekce: Kaše }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "čerstvě mletý, dle chuti", sekce: Kaše }
+  - { surovina: vejce, mnozstvi: 3, jednotka: ks, poznamka: "vařená, dle preference (i volské oko)", sekce: K podávání }
+  - { surovina: rajče, mnozstvi: 1, jednotka: ks, poznamka: "na šestinky, k podávání", sekce: K podávání }
+  - { surovina: hlávkový salát, mnozstvi: 3, jednotka: listy, poznamka: "malé listy, k podávání", sekce: K podávání }
+  - { surovina: červený vinný ocet, mnozstvi: 1, jednotka: lžička, poznamka: "na pokapání salátu", sekce: K podávání }
 postup:
   - "V rendlíku na středním ohni rozehřej olej. Vsyp cibuli a za občasného míchání ji opékej doměkka (1–2 minuty)."
   - "Vsyp vločky a minutu míchej."

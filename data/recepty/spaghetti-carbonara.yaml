@@ -4,15 +4,18 @@ zdroj: Prima Fresh (Cat & Cook)
 odkaz: https://fresh.iprima.cz/recepty/naprosto-dokonale-spaghetti-carbonara
 stitky: [Oběd, Večeře]
 porce_original: 2
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "15 min" }
 suroviny:
-  - { surovina: špagety, mnozstvi: 200, jednotka: g, poznamka: případně bucatini nebo linguine }
-  - { surovina: pancetta nebo guanciale, mnozstvi: null, jednotka: "", poznamka: "uzená, množství dle chuti (cca 80–100 g/porce)" }
-  - { surovina: parmazán, mnozstvi: 50, jednotka: g, poznamka: + na podávání }
-  - { surovina: žloutek, mnozstvi: 3, jednotka: ks, poznamka: "" }
-  - { surovina: máslo, mnozstvi: 1, jednotka: lžíce, poznamka: "" }
-  - { surovina: olivový olej, mnozstvi: 2, jednotka: lžíce, poznamka: "" }
-  - { surovina: čerstvě mletý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: sůl, mnozstvi: 2, jednotka: lžíce, poznamka: do vody na těstoviny }
+  - { surovina: špagety, mnozstvi: 200, jednotka: g, poznamka: případně bucatini nebo linguine, sekce: Těstoviny }
+  - { surovina: sůl, mnozstvi: 2, jednotka: lžíce, poznamka: do vody na těstoviny, sekce: Těstoviny }
+  - { surovina: žloutek, mnozstvi: 3, jednotka: ks, poznamka: "", sekce: Omáčka }
+  - { surovina: parmazán, mnozstvi: 50, jednotka: g, poznamka: + na podávání, sekce: Omáčka }
+  - { surovina: čerstvě mletý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Omáčka }
+  - { surovina: pancetta nebo guanciale, mnozstvi: null, jednotka: "", poznamka: "uzená, množství dle chuti (cca 80–100 g/porce)", sekce: Slanina }
+  - { surovina: máslo, mnozstvi: 1, jednotka: lžíce, poznamka: "", sekce: Slanina }
+  - { surovina: olivový olej, mnozstvi: 2, jednotka: lžíce, poznamka: "", sekce: Slanina }
 postup:
   - Ve velkém hrnci zahřejeme alespoň 3 l vody, osolíme a vsypeme těstoviny. Vaříme na nejvyšší stupeň podle návodu na obalu, akorát na skus (al dente).
   - Slaninu nakrájíme na proužky/kostičky, parmazán nastrouháme najemno. Žloutky lehce prošleháme se sýrem a opepříme. Přilijeme 1,5–2 sběračky vroucí vody z těstovin a promícháme.

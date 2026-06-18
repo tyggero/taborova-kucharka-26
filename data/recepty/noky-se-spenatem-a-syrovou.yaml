@@ -4,25 +4,28 @@ zdroj: Skautská kuchařka (Vaříme na cestách)
 odkaz: ""
 stitky: [Oběd, Večeře]
 porce_original: 10
+casy:
+  - { faze: Příprava, popis: "30 min" }
+  - { faze: Vaření, popis: "40 min" }
 suroviny:
   # Noky
-  - { surovina: brambory, mnozstvi: 1000, jednotka: g, poznamka: "typ C (varný typ C – moučné)" }
-  - { surovina: polohrubá mouka, mnozstvi: 500, jednotka: g, poznamka: "na noky; lze vyzkoušet semolinu nebo kukuřičnou mouku = bezlepková varianta" }
-  - { surovina: vejce, mnozstvi: 2, jednotka: ks, poznamka: "do těsta na noky" }
-  - { surovina: žloutek, mnozstvi: 2, jednotka: ks, poznamka: "do těsta na noky" }
-  - { surovina: sůl, mnozstvi: 2, jednotka: KL, poznamka: "do těsta na noky (KL = kávová lžička)" }
-  - { surovina: špenát, mnozstvi: 1000, jednotka: g, poznamka: "čerstvý listový; lze nahradit rukolou, polníčkem, brokolicí; nebo mražený listový" }
+  - { surovina: brambory, mnozstvi: 1000, jednotka: g, poznamka: "typ C (varný typ C – moučné)", sekce: Noky }
+  - { surovina: polohrubá mouka, mnozstvi: 500, jednotka: g, poznamka: "na noky; lze vyzkoušet semolinu nebo kukuřičnou mouku = bezlepková varianta", sekce: Noky }
+  - { surovina: vejce, mnozstvi: 2, jednotka: ks, poznamka: "do těsta na noky", sekce: Noky }
+  - { surovina: žloutek, mnozstvi: 2, jednotka: ks, poznamka: "do těsta na noky", sekce: Noky }
+  - { surovina: sůl, mnozstvi: 2, jednotka: KL, poznamka: "do těsta na noky (KL = kávová lžička)", sekce: Noky }
+  - { surovina: špenát, mnozstvi: 1000, jednotka: g, poznamka: "čerstvý listový; lze nahradit rukolou, polníčkem, brokolicí; nebo mražený listový", sekce: Špenát }
   # Sýrová omáčka / domácí taveňák
-  - { surovina: smetana, mnozstvi: 1, jednotka: l, poznamka: "na omáčku" }
-  - { surovina: sýr (parmazán), mnozstvi: 200, jednotka: g, poznamka: "na omáčku; část na posypání" }
-  - { surovina: plnotučná hořčice, mnozstvi: 1, jednotka: PL, poznamka: "PL = polévková lžíce" }
-  - { surovina: tabasco, mnozstvi: 5, jednotka: kapek, poznamka: "" }
-  - { surovina: máslo, mnozstvi: 50, jednotka: g, poznamka: "na omáčku" }
-  - { surovina: muškátový oříšek, mnozstvi: 0.5, jednotka: KL, poznamka: "mletý" }
-  - { surovina: škrob, mnozstvi: 0.5, jednotka: KL, poznamka: "na zahuštění omáčky; rozmíchat ve 2 PL studené vody" }
-  - { surovina: česnek, mnozstvi: 2, jednotka: stroužky, poznamka: "do omáčky utřít se solí na pastu" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
-  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
+  - { surovina: smetana, mnozstvi: 1, jednotka: l, poznamka: "na omáčku", sekce: Sýrová omáčka }
+  - { surovina: sýr (parmazán), mnozstvi: 200, jednotka: g, poznamka: "na omáčku; část na posypání", sekce: Sýrová omáčka }
+  - { surovina: plnotučná hořčice, mnozstvi: 1, jednotka: PL, poznamka: "PL = polévková lžíce", sekce: Sýrová omáčka }
+  - { surovina: tabasco, mnozstvi: 5, jednotka: kapek, poznamka: "", sekce: Sýrová omáčka }
+  - { surovina: máslo, mnozstvi: 50, jednotka: g, poznamka: "na omáčku", sekce: Sýrová omáčka }
+  - { surovina: muškátový oříšek, mnozstvi: 0.5, jednotka: KL, poznamka: "mletý", sekce: Sýrová omáčka }
+  - { surovina: škrob, mnozstvi: 0.5, jednotka: KL, poznamka: "na zahuštění omáčky; rozmíchat ve 2 PL studené vody", sekce: Sýrová omáčka }
+  - { surovina: česnek, mnozstvi: 2, jednotka: stroužky, poznamka: "do omáčky utřít se solí na pastu", sekce: Sýrová omáčka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Sýrová omáčka }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Sýrová omáčka }
 postup:
   - "Noky: brambory vař v osolené vodě ve slupce cca 20 min doměkka. Sceď a nech trochu vychladnout. Oloupej a ještě teplé najemno nastrouhej, protlač přes cedník nebo rozšťouchej šťouchadlem."
   - "Smíchej s solí, moukou, vejci a žloutky. Vypracuj kompaktní lehké těsto, které rozděl na 8 částí. Jako vždy to jde nejlépe umytýma rukama."

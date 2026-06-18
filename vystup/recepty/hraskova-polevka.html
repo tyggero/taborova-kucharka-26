@@ -87,6 +87,19 @@ html, body {
   color: #bf360c;
 }
 
+/* ---- Časy přípravy / vaření ---- */
+.casy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 14px;
+  margin: 8px 0 2px;
+  font-size: 10pt;
+  color: #333;
+}
+.casy-ikona { font-size: 12pt; }
+.cas-pol strong { color: #1b5e20; font-weight: 600; }
+
 /* ---- Tělo: suroviny + postup ---- */
 .telo {
   display: grid;
@@ -121,6 +134,18 @@ h2 {
 .col-mnozstvi { white-space: nowrap; }
 .col-rucni { width: 22%; border-left: 1px dashed #bbb; background: #fafafa; }
 .pozn { color: #777; font-size: 9pt; }
+
+/* Podnadpis sekce surovin (Maso / Dresink / Těsto …) */
+.sekce-row .sekce-nadpis {
+  font-size: 8.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  color: #1b5e20;
+  background: #f1f8e9;
+  border-bottom: 1px solid #c8e6c9;
+  padding: 4px 4px 3px;
+}
 
 .postup ol { margin: 0; padding-left: 20px; }
 .postup li { margin-bottom: 6px; }
@@ -182,13 +207,22 @@ h2 {
     <div class="nadpis">
       <h1>Hrášková polévka</h1>
       <div class="stitky">
-<span class="stitek">polévka</span><span class="stitek veg">vegetariánské</span>      </div>
+<span class="stitek">polévka</span>      </div>
     </div>
     <div class="zdroj">
-      <div class="porce-info">orig. recept na <strong>10</strong> porcí</div>
+<div class="zdroj-radek">Toprecepty.cz (podle Pohlreicha)</div><div class="zdroj-odkaz">https://www.toprecepty.cz/recept/11012-hraskova-polevka-podle-pohlreicha/</div>      <div class="porce-info">orig. recept na <strong>4</strong> porcí</div>
     </div>
   </header>
 
+  <div class="alergeny">
+    <span class="alergeny-ikona">⚠️</span>
+    <span class="alergeny-popis"><strong>ALERGENY:</strong>
+<span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
+  </div>
+
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;30 min</span>  </div>
 
   <div class="telo">
     <section class="suroviny">
@@ -202,44 +236,61 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Polévka</td></tr>
           <tr>
-            <td class="col-surovina">hrášek (mražený nebo čerstvý) <span class="pozn">(PLACEHOLDER – recept nebyl v Notionu vytěžitelný (žádná fotka ani text); doplnit)</span></td>
+            <td class="col-surovina">hrášek (mražený) <span class="pozn">(rozmrazit ve vlažné vodě, okapat; 4 lžíce si odložit na ozdobu)</span></td>
+            <td class="col-mnozstvi">750 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">brambory <span class="pozn">(střední, na kostičky)</span></td>
+            <td class="col-mnozstvi">5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">cibule <span class="pozn">(oloupaná)</span></td>
+            <td class="col-mnozstvi">2,5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">slanina <span class="pozn">(50 g do polévky, zbytek osmažit na ozdobu)</span></td>
+            <td class="col-mnozstvi">375 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">česnek</td>
+            <td class="col-mnozstvi">2,5 stroužek</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">zeleninový vývar</td>
+            <td class="col-mnozstvi">2,5 l</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">olej nebo sádlo <span class="pozn">(na orestování)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">cibule <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
+            <td class="col-surovina">smetana ke šlehání</td>
+            <td class="col-mnozstvi">375 ml</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">brambory <span class="pozn">(PLACEHOLDER – na zahuštění; doplnit)</span></td>
+            <td class="col-surovina">mletý pepř <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Krutony</td></tr>
           <tr>
-            <td class="col-surovina">zeleninový vývar <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">máslo nebo olej <span class="pozn">(PLACEHOLDER – na orestování; doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">smetana <span class="pozn">(PLACEHOLDER – volitelně na zjemnění; doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">sůl <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">pepř <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
+            <td class="col-surovina">toustový chléb <span class="pozn">(na kostičky)</span></td>
+            <td class="col-mnozstvi">5 plátky</td>
             <td class="col-rucni"></td>
           </tr>
         </tbody>
@@ -249,16 +300,21 @@ h2 {
     <section class="postup">
       <h2>Postup</h2>
       <ol>
-        <li>POSTUP NENÍ VYTĚŽEN – v Notion stránce nebyl žádný použitelný text, fotka ani odkaz, pouze prázdná vložená databáze surovin a interní bookmark. Doplnit ručně.</li>
+        <li>Rozmraž hrášek ve vlažné vodě a okapej. Na oleji či sádle osmaž oloupanou cibuli a 50 g slaniny.</li>
+        <li>Přidej hrášek (4 lžíce si odlož) a brambory nakrájené na kostičky. Orestuj, pak přilij vývar, přidej česnek, pepř a sůl.</li>
+        <li>Po změknutí brambor odstav z ohně a rozmixuj do hladka.</li>
+        <li>Přilij smetanu a nech projít varem.</li>
+        <li>Zbylou slaninu osmaž, přidej na kostičky nakrájený toustový chléb a nech lehce zezlátnout.</li>
+        <li>Dochuť a podávej ozdobené slaninou, odloženým hráškem a krutony.</li>
       </ol>
-      <div class="recept-poznamky"><strong>Poznámka:</strong> NEVYTĚŽENO. V Notion stránce (382a86fa-0044-80c6-a0b9-edb2b4e66570) není žádný recept – jen prázdná vložená DB surovin a interní bookmark, žádná fotka ani odkaz. Suroviny i postup jsou pouze PLACEHOLDERY z běžné hráškové polévky a je NUTNÉ je celé doplnit ručně. Štítek: polévka. Nutrice je hrubý odhad. Alergeny závisí na doplnění (smetana = mléko, případná jíška = lepek). Vegetariánská varianta předpokládána.</div>
+      <div class="recept-poznamky"><strong>Poznámka:</strong> Vytěženo z webu uvedeného v Notion bookmarku (Hrášková polévka podle Pohlreicha). Pro vegetariánskou/bezlepkovou variantu: vynech slaninu (nahraď osmaženou zeleninou nebo opraženými semínky – pozor na alergeny) a krutony udělej z bezlepkového pečiva.</div>
     </section>
   </div>
 
   <footer class="paticka">
     <div class="nutrice">
       <span class="nutrice-titulek">Na porci (odhad):</span>
-<span class="nutri-pol"><strong>170</strong> kcal</span><span class="nutri-pol">B 8 g</span><span class="nutri-pol">S 22 g</span><span class="nutri-pol">T 6 g</span>    </div>
+<span class="nutri-pol"><strong>230</strong> kcal</span><span class="nutri-pol">B 9 g</span><span class="nutri-pol">S 20 g</span><span class="nutri-pol">T 13 g</span>    </div>
     <div class="poznamky-sluzby">
       <span class="poznamky-titulek">Poznámky služby:</span>
     </div>

@@ -4,26 +4,30 @@ zdroj: Skautská kuchařka (Táborová Skautská Kuchařka)
 odkaz: ""
 stitky: [Oběd, Večeře]
 porce_original: 10
+casy:
+  - { faze: Příprava, popis: "25 min" }
+  - { faze: Restování, popis: "15 min" }
+  - { faze: Vaření, popis: "30 min" }
 suroviny:
-  - { surovina: kuřecí vývar, mnozstvi: 2.5, jednotka: l, poznamka: "" }
-  - { surovina: bílé víno, mnozstvi: 500, jednotka: ml, poznamka: "alkohol se odpaří" }
-  - { surovina: kulatozrnná rýže (arborio), mnozstvi: 1, jednotka: kg, poznamka: "" }
-  - { surovina: kuřecí stehenní řízky, mnozstvi: 500, jednotka: g, poznamka: "" }
-  - { surovina: pikantní klobása, mnozstvi: 2, jednotka: ks, poznamka: "chorizo nebo čabajka" }
-  - { surovina: sekaná rajčata, mnozstvi: 400, jednotka: g, poznamka: "" }
-  - { surovina: zelené fazolky, mnozstvi: 400, jednotka: g, poznamka: "" }
-  - { surovina: máslo, mnozstvi: 250, jednotka: g, poznamka: "" }
-  - { surovina: cibule, mnozstvi: 4, jednotka: ks, poznamka: "" }
-  - { surovina: čerstvé papriky, mnozstvi: 4, jednotka: ks, poznamka: "" }
-  - { surovina: citron, mnozstvi: 2, jednotka: ks, poznamka: "kůra do gremolaty" }
-  - { surovina: česnek, mnozstvi: 6, jednotka: stroužek, poznamka: "" }
-  - { surovina: hladkolistá petrželka, mnozstvi: 5, jednotka: PL, poznamka: "(polévková lžíce)" }
-  - { surovina: sladká paprika (mletá), mnozstvi: 3, jednotka: PL, poznamka: "" }
-  - { surovina: kari koření, mnozstvi: 1, jednotka: PL, poznamka: "" }
-  - { surovina: tymián, mnozstvi: 4, jednotka: snítka, poznamka: "" }
-  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: kuřecí stehenní řízky, mnozstvi: 500, jednotka: g, poznamka: "", sekce: Maso }
+  - { surovina: pikantní klobása, mnozstvi: 2, jednotka: ks, poznamka: "chorizo nebo čabajka", sekce: Maso }
+  - { surovina: kulatozrnná rýže (arborio), mnozstvi: 1, jednotka: kg, poznamka: "", sekce: "Rýže a základ" }
+  - { surovina: kuřecí vývar, mnozstvi: 2.5, jednotka: l, poznamka: "", sekce: "Rýže a základ" }
+  - { surovina: bílé víno, mnozstvi: 500, jednotka: ml, poznamka: "alkohol se odpaří", sekce: "Rýže a základ" }
+  - { surovina: máslo, mnozstvi: 250, jednotka: g, poznamka: "", sekce: "Rýže a základ" }
+  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "", sekce: "Rýže a základ" }
+  - { surovina: sekaná rajčata, mnozstvi: 400, jednotka: g, poznamka: "", sekce: Zelenina }
+  - { surovina: zelené fazolky, mnozstvi: 400, jednotka: g, poznamka: "", sekce: Zelenina }
+  - { surovina: cibule, mnozstvi: 4, jednotka: ks, poznamka: "", sekce: Zelenina }
+  - { surovina: čerstvé papriky, mnozstvi: 4, jednotka: ks, poznamka: "", sekce: Zelenina }
+  - { surovina: citron, mnozstvi: 2, jednotka: ks, poznamka: "kůra do gremolaty", sekce: Gremolata }
+  - { surovina: česnek, mnozstvi: 6, jednotka: stroužek, poznamka: "", sekce: Gremolata }
+  - { surovina: hladkolistá petrželka, mnozstvi: 5, jednotka: PL, poznamka: "(polévková lžíce)", sekce: Gremolata }
+  - { surovina: sladká paprika (mletá), mnozstvi: 3, jednotka: PL, poznamka: "", sekce: Koření }
+  - { surovina: kari koření, mnozstvi: 1, jednotka: PL, poznamka: "", sekce: Koření }
+  - { surovina: tymián, mnozstvi: 4, jednotka: snítka, poznamka: "", sekce: Koření }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
 postup:
   - "Kuřecí maso a papriku si nakrájej na menší kostky. Klobásu na kolečka a cibuli s česnekem najemno."
   - "Kuřecí maso osol, opepři a restuj na oleji v hrnci asi 4 minuty."

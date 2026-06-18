@@ -4,14 +4,18 @@ zdroj: Oddílová kuchařka
 odkaz: ""
 stitky: [polévka]
 porce_original: 25
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Smažení, popis: "10 min" }
+  - { faze: Vaření, popis: "20 min" }
 suroviny:
-  - { surovina: voda, mnozstvi: 9, jednotka: l, poznamka: "9 litrů = 25 lidí (z poznámky v receptu)" }
-  - { surovina: mrkev, mnozstvi: null, jednotka: "", poznamka: "množství NEUVEDENO – v receptu jen poznámka „napsat množství: bílá mísa plast klasik\" (cca jedna velká plastová mísa nastrouhané mrkve); PROJÍT" }
-  - { surovina: olej na smažení, mnozstvi: null, jednotka: "", poznamka: "na osmažení mrkve" }
-  - { surovina: polévkové koření nebo bujón, mnozstvi: null, jednotka: "", poznamka: "množství neuvedeno; dle chuti" }
-  - { surovina: krupička, mnozstvi: null, jednotka: "", poznamka: "množství NEUVEDENO („napsat množství\"); na kapání (zápražku) smíchat s vajíčkem; PROJÍT" }
-  - { surovina: vajíčko, mnozstvi: null, jednotka: "", poznamka: "množství NEUVEDENO („napsat množství\"); na kapání; PROJÍT" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: mrkev, mnozstvi: null, jednotka: "", poznamka: "množství NEUVEDENO – v receptu jen poznámka „napsat množství: bílá mísa plast klasik\" (cca jedna velká plastová mísa nastrouhané mrkve); PROJÍT", sekce: Polévka }
+  - { surovina: olej na smažení, mnozstvi: null, jednotka: "", poznamka: "na osmažení mrkve", sekce: Polévka }
+  - { surovina: voda, mnozstvi: 9, jednotka: l, poznamka: "9 litrů = 25 lidí (z poznámky v receptu)", sekce: Polévka }
+  - { surovina: polévkové koření nebo bujón, mnozstvi: null, jednotka: "", poznamka: "množství neuvedeno; dle chuti", sekce: Polévka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Polévka }
+  - { surovina: krupička, mnozstvi: null, jednotka: "", poznamka: "množství NEUVEDENO („napsat množství\"); na kapání (zápražku) smíchat s vajíčkem; PROJÍT", sekce: Kapání }
+  - { surovina: vajíčko, mnozstvi: null, jednotka: "", poznamka: "množství NEUVEDENO („napsat množství\"); na kapání; PROJÍT", sekce: Kapání }
 postup:
   - "Oškrábanou mrkev nastrouháme najemno."
   - "V hrnci rozpálíme olej a osmažíme mrkev."

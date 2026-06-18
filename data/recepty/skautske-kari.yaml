@@ -4,22 +4,26 @@ zdroj: Vaříme na cestách (Skautská kuchařka)
 odkaz: ""
 stitky: [Oběd, Večeře]
 porce_original: 10
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Smažení, popis: "20 min" }
+  - { faze: Vaření, popis: "15 min" }
 suroviny:
-  - { surovina: cibule, mnozstvi: 50, jednotka: g, poznamka: "do kari pasty" }
-  - { surovina: paprika kapie, mnozstvi: 30, jednotka: g, poznamka: "místo kapie možné použít chilli papriky nebo je zkombinovat" }
-  - { surovina: zázvor, mnozstvi: 24, jednotka: g, poznamka: "do kari pasty" }
-  - { surovina: cukr, mnozstvi: 10, jednotka: g, poznamka: "do kari pasty" }
-  - { surovina: česnek, mnozstvi: 2, jednotka: stroužek, poznamka: "do kari pasty" }
-  - { surovina: rybí omáčka/tamari, mnozstvi: 14, jednotka: ml, poznamka: "tamari pro vege variantu" }
-  - { surovina: sypké kari koření, mnozstvi: 1, jednotka: KL, poznamka: "(kávová lžička), do kari pasty" }
-  - { surovina: kokosové mléko, mnozstvi: 1, jednotka: l, poznamka: "do omáčky" }
-  - { surovina: vývar (masový/zeleninový), mnozstvi: 1, jednotka: l, poznamka: "do omáčky" }
-  - { surovina: drcená rajčata, mnozstvi: 500, jednotka: g, poznamka: "do omáčky" }
-  - { surovina: rybí omáčka/tamari, mnozstvi: null, jednotka: "", poznamka: "do omáčky, na dochucení" }
-  - { surovina: cukr, mnozstvi: null, jednotka: "", poznamka: "do omáčky, na dochucení" }
-  - { surovina: limeta/citron, mnozstvi: null, jednotka: "", poznamka: "na dochucení" }
-  - { surovina: rýže, mnozstvi: null, jednotka: "", poznamka: "příloha" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: cibule, mnozstvi: 50, jednotka: g, poznamka: "do kari pasty", sekce: Kari pasta }
+  - { surovina: paprika kapie, mnozstvi: 30, jednotka: g, poznamka: "místo kapie možné použít chilli papriky nebo je zkombinovat", sekce: Kari pasta }
+  - { surovina: zázvor, mnozstvi: 24, jednotka: g, poznamka: "do kari pasty", sekce: Kari pasta }
+  - { surovina: cukr, mnozstvi: 10, jednotka: g, poznamka: "do kari pasty", sekce: Kari pasta }
+  - { surovina: česnek, mnozstvi: 2, jednotka: stroužek, poznamka: "do kari pasty", sekce: Kari pasta }
+  - { surovina: rybí omáčka/tamari, mnozstvi: 14, jednotka: ml, poznamka: "tamari pro vege variantu", sekce: Kari pasta }
+  - { surovina: sypké kari koření, mnozstvi: 1, jednotka: KL, poznamka: "(kávová lžička), do kari pasty", sekce: Kari pasta }
+  - { surovina: kokosové mléko, mnozstvi: 1, jednotka: l, poznamka: "do omáčky", sekce: Omáčka }
+  - { surovina: vývar (masový/zeleninový), mnozstvi: 1, jednotka: l, poznamka: "do omáčky", sekce: Omáčka }
+  - { surovina: drcená rajčata, mnozstvi: 500, jednotka: g, poznamka: "do omáčky", sekce: Omáčka }
+  - { surovina: rybí omáčka/tamari, mnozstvi: null, jednotka: "", poznamka: "do omáčky, na dochucení", sekce: Dochucení }
+  - { surovina: cukr, mnozstvi: null, jednotka: "", poznamka: "do omáčky, na dochucení", sekce: Dochucení }
+  - { surovina: limeta/citron, mnozstvi: null, jednotka: "", poznamka: "na dochucení", sekce: Dochucení }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení }
+  - { surovina: rýže, mnozstvi: null, jednotka: "", poznamka: "příloha", sekce: Příloha }
 postup:
   - "Kari pasta: Zeleninu oloupej a najemno nastrouhej nebo nakrájej na menší kousky a dohladka rozmixuj v mixéru."
   - "Do hrnce nalij olej a přidej zeleninu. Vzniklou směs pomalu za stálého míchání restuj cca 10 až 15 minut."

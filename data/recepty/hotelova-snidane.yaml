@@ -4,15 +4,17 @@ zdroj: ""
 odkaz: ""
 stitky: [Snídaně]
 porce_original: 10
+casy:
+  - { faze: Příprava, popis: "20 min" }
 suroviny:
-  - { surovina: pečivo (chléb, rohlíky, housky), mnozstvi: null, jednotka: "", poznamka: "doplnit množství" }
-  - { surovina: máslo, mnozstvi: null, jednotka: "", poznamka: "doplnit množství" }
-  - { surovina: šunka, mnozstvi: null, jednotka: "", poznamka: "doplnit množství" }
-  - { surovina: sýr (plátkový), mnozstvi: null, jednotka: "", poznamka: "doplnit množství" }
-  - { surovina: vejce, mnozstvi: null, jednotka: "", poznamka: "natvrdo nebo míchaná – doplnit" }
-  - { surovina: zelenina (rajče, paprika, okurka), mnozstvi: null, jednotka: "", poznamka: "doplnit množství" }
-  - { surovina: džem / med, mnozstvi: null, jednotka: "", poznamka: "doplnit množství" }
-  - { surovina: jogurt / müsli / ovesné vločky, mnozstvi: null, jednotka: "", poznamka: "doplnit množství" }
+  - { surovina: pečivo (chléb, rohlíky, housky), mnozstvi: null, jednotka: "", poznamka: "doplnit množství", sekce: Bufetový stůl }
+  - { surovina: máslo, mnozstvi: null, jednotka: "", poznamka: "doplnit množství", sekce: Bufetový stůl }
+  - { surovina: šunka, mnozstvi: null, jednotka: "", poznamka: "doplnit množství", sekce: Bufetový stůl }
+  - { surovina: sýr (plátkový), mnozstvi: null, jednotka: "", poznamka: "doplnit množství", sekce: Bufetový stůl }
+  - { surovina: vejce, mnozstvi: null, jednotka: "", poznamka: "natvrdo nebo míchaná – doplnit", sekce: Bufetový stůl }
+  - { surovina: zelenina (rajče, paprika, okurka), mnozstvi: null, jednotka: "", poznamka: "doplnit množství", sekce: Bufetový stůl }
+  - { surovina: džem / med, mnozstvi: null, jednotka: "", poznamka: "doplnit množství", sekce: Bufetový stůl }
+  - { surovina: jogurt / müsli / ovesné vločky, mnozstvi: null, jednotka: "", poznamka: "doplnit množství", sekce: Bufetový stůl }
 postup:
   - "Připravíme bufetový (švédský) stůl: pečivo, máslo, šunka, sýr, vejce, čerstvá zelenina, džem/med a jogurt s müsli."
   - "Strávníci si snídani skládají sami dle chuti."

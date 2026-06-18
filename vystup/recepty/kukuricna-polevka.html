@@ -87,6 +87,19 @@ html, body {
   color: #bf360c;
 }
 
+/* ---- Časy přípravy / vaření ---- */
+.casy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 14px;
+  margin: 8px 0 2px;
+  font-size: 10pt;
+  color: #333;
+}
+.casy-ikona { font-size: 12pt; }
+.cas-pol strong { color: #1b5e20; font-weight: 600; }
+
 /* ---- Tělo: suroviny + postup ---- */
 .telo {
   display: grid;
@@ -121,6 +134,18 @@ h2 {
 .col-mnozstvi { white-space: nowrap; }
 .col-rucni { width: 22%; border-left: 1px dashed #bbb; background: #fafafa; }
 .pozn { color: #777; font-size: 9pt; }
+
+/* Podnadpis sekce surovin (Maso / Dresink / Těsto …) */
+.sekce-row .sekce-nadpis {
+  font-size: 8.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  color: #1b5e20;
+  background: #f1f8e9;
+  border-bottom: 1px solid #c8e6c9;
+  padding: 4px 4px 3px;
+}
 
 .postup ol { margin: 0; padding-left: 20px; }
 .postup li { margin-bottom: 6px; }
@@ -185,10 +210,19 @@ h2 {
 <span class="stitek">polévka</span><span class="stitek veg">vegetariánské</span>      </div>
     </div>
     <div class="zdroj">
-      <div class="porce-info">orig. recept na <strong>10</strong> porcí</div>
+<div class="zdroj-radek">Prima Fresh</div><div class="zdroj-odkaz">https://fresh.iprima.cz/recepty/kukuricna-polevka</div>      <div class="porce-info">orig. recept na <strong>2</strong> porcí</div>
     </div>
   </header>
 
+  <div class="alergeny">
+    <span class="alergeny-ikona">⚠️</span>
+    <span class="alergeny-popis"><strong>ALERGENY:</strong>
+<span class="alergen">mléko</span>    </span>
+  </div>
+
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;20 min</span>  </div>
 
   <div class="telo">
     <section class="suroviny">
@@ -202,43 +236,55 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Základ</td></tr>
           <tr>
-            <td class="col-surovina">kukuřice (sladká <span class="pozn">(PLACEHOLDER – recept nebyl v Notionu vytěžitelný (žádná fotka ani text); doplnit)</span></td>
+            <td class="col-surovina">kukuřice (mražená) <span class="pozn">(propláchnout vlažnou vodou)</span></td>
+            <td class="col-mnozstvi">1250 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">mrkev <span class="pozn">(na malé kostičky)</span></td>
+            <td class="col-mnozstvi">7,5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">petržel <span class="pozn">(na malé kostičky)</span></td>
+            <td class="col-mnozstvi">5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">cibule <span class="pozn">(najemno)</span></td>
+            <td class="col-mnozstvi">2,5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">máslo</td>
+            <td class="col-mnozstvi">150 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">olivový olej</td>
+            <td class="col-mnozstvi">5 lžíce</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Vývar a koření</td></tr>
+          <tr>
+            <td class="col-surovina">zeleninový vývar</td>
+            <td class="col-mnozstvi">2500 ml</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">kurkuma <span class="pozn">(špetka)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">cibule <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
+            <td class="col-surovina">římský kmín</td>
+            <td class="col-mnozstvi">5 lžička</td>
             <td class="col-rucni"></td>
           </tr>
           <tr>
-            <td class="col-surovina">brambory <span class="pozn">(PLACEHOLDER – na zahuštění; doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">zeleninový vývar <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">máslo nebo olej <span class="pozn">(PLACEHOLDER – na orestování; doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">smetana <span class="pozn">(PLACEHOLDER – volitelně na zjemnění; doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">sůl <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
-            <td class="col-mnozstvi"></td>
-            <td class="col-rucni"></td>
-          </tr>
-          <tr>
-            <td class="col-surovina">pepř <span class="pozn">(PLACEHOLDER – doplnit)</span></td>
+            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
@@ -249,16 +295,21 @@ h2 {
     <section class="postup">
       <h2>Postup</h2>
       <ol>
-        <li>POSTUP NENÍ VYTĚŽEN – v Notion stránce nebyl žádný použitelný text, fotka ani odkaz, pouze prázdná vložená databáze surovin a interní bookmark. Doplnit ručně.</li>
+        <li>Mrkev a petržel oloupej a nakrájej na malé kostičky, cibuli nasekej najemno.</li>
+        <li>V hrnci rozpusť máslo s olivovým olejem, přidej kořenovou zeleninu a osmahni na vyšším plamenu dozlatova.</li>
+        <li>Přidej cibuli a nech zesklovatět (cca 3 min). Mezitím propláchni mraženou kukuřici a přidej k zelenině.</li>
+        <li>Vmíchej římský kmín a kurkumu, přilij vývar, osol a zamíchej.</li>
+        <li>Vař pod pokličkou 15–20 minut, dokud kukuřice nezměkne.</li>
+        <li>Rozmixuj tyčovým mixérem a podle chuti dosol.</li>
       </ol>
-      <div class="recept-poznamky"><strong>Poznámka:</strong> NEVYTĚŽENO. V Notion stránce (382a86fa-0044-8009-a842-f8a2bf48a145) není žádný recept – jen prázdná vložená DB surovin a interní bookmark, žádná fotka ani odkaz. Suroviny i postup jsou pouze PLACEHOLDERY z běžné kukuřičné polévky a je NUTNÉ je celé doplnit ručně. Štítek: polévka. Nutrice je hrubý odhad. Alergeny závisí na doplnění (smetana = mléko). Vegetariánská varianta předpokládána.</div>
+      <div class="recept-poznamky"><strong>Poznámka:</strong> Vytěženo z webu uvedeného v Notion bookmarku (Prima Fresh). Recept je na 2 porce, generátor přepočítá na 10. Polévku lze obohatit o smetanu nebo kokosové mléko (pozor na alergeny – kokos). Alergeny: mléko (máslo). Vegetariánské.</div>
     </section>
   </div>
 
   <footer class="paticka">
     <div class="nutrice">
       <span class="nutrice-titulek">Na porci (odhad):</span>
-<span class="nutri-pol"><strong>200</strong> kcal</span><span class="nutri-pol">B 5 g</span><span class="nutri-pol">S 30 g</span><span class="nutri-pol">T 7 g</span>    </div>
+<span class="nutri-pol"><strong>190</strong> kcal</span><span class="nutri-pol">B 5 g</span><span class="nutri-pol">S 26 g</span><span class="nutri-pol">T 8 g</span>    </div>
     <div class="poznamky-sluzby">
       <span class="poznamky-titulek">Poznámky služby:</span>
     </div>

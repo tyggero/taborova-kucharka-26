@@ -4,14 +4,17 @@ zdroj: kuchařka pro začátečníky
 odkaz: ""
 stitky: [polévka]
 porce_original: 4
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "20 min" }
 suroviny:
-  - { surovina: červená cibule, mnozstvi: 1, jednotka: ks, poznamka: "malá" }
-  - { surovina: česnek, mnozstvi: 1, jednotka: stroužek, poznamka: "" }
-  - { surovina: olivový olej, mnozstvi: 1, jednotka: polévková lžíce, poznamka: "" }
-  - { surovina: červené fazole, mnozstvi: 200, jednotka: g, poznamka: "plechovka (200 g), scezené" }
-  - { surovina: sladké chilli, mnozstvi: 0.5, jednotka: kávová lžička, poznamka: "půl lžičky" }
-  - { surovina: loupaná rajčata s bylinkami, mnozstvi: 400, jednotka: g, poznamka: "plechovka (400 g)" }
-  - { surovina: zeleninový bujon, mnozstvi: 1, jednotka: kostka, poznamka: "rozpustit ve ~150 ml vody" }
+  - { surovina: červená cibule, mnozstvi: 1, jednotka: ks, poznamka: "malá", sekce: Základ }
+  - { surovina: česnek, mnozstvi: 1, jednotka: stroužek, poznamka: "", sekce: Základ }
+  - { surovina: olivový olej, mnozstvi: 1, jednotka: polévková lžíce, poznamka: "", sekce: Základ }
+  - { surovina: červené fazole, mnozstvi: 200, jednotka: g, poznamka: "plechovka (200 g), scezené", sekce: Polévka }
+  - { surovina: sladké chilli, mnozstvi: 0.5, jednotka: kávová lžička, poznamka: "půl lžičky", sekce: Polévka }
+  - { surovina: loupaná rajčata s bylinkami, mnozstvi: 400, jednotka: g, poznamka: "plechovka (400 g)", sekce: Polévka }
+  - { surovina: zeleninový bujon, mnozstvi: 1, jednotka: kostka, poznamka: "rozpustit ve ~150 ml vody", sekce: Polévka }
 postup:
   - "Oloupejte cibuli a jemně ji nakrájejte. Oloupejte a prolisujte česnek."
   - "Rozehřejte na mírném plameni v rendlíku olivový olej. Smažte v něm cibuli a česnek asi pět minut domekka."

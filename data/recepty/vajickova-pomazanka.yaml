@@ -4,16 +4,19 @@ zdroj: Prima Fresh (bookmark v Notionu)
 odkaz: https://fresh.iprima.cz/prima-fresh/vajickova-pomazanka
 stitky: [Snídaně]
 porce_original: 2
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "10 min" }
 suroviny:
-  - { surovina: vejce, mnozstvi: 4, jednotka: ks, poznamka: "uvařená natvrdo" }
-  - { surovina: jarní cibulka, mnozstvi: 1, jednotka: ks, poznamka: "na kolečka" }
-  - { surovina: lučina (smetanový sýr), mnozstvi: 200, jednotka: g, poznamka: "" }
-  - { surovina: majonéza, mnozstvi: 4, jednotka: lžíce, poznamka: "" }
-  - { surovina: dijonská hořčice, mnozstvi: 1, jednotka: lžička, poznamka: "" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
-  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "čerstvě mletý, dle chuti" }
-  - { surovina: pažitka, mnozstvi: null, jednotka: "", poznamka: "na ozdobu" }
-  - { surovina: ředkvičky, mnozstvi: 1, jednotka: svazek, poznamka: "na podávání" }
+  - { surovina: vejce, mnozstvi: 4, jednotka: ks, poznamka: "uvařená natvrdo", sekce: Pomazánka }
+  - { surovina: jarní cibulka, mnozstvi: 1, jednotka: ks, poznamka: "na kolečka", sekce: Pomazánka }
+  - { surovina: lučina (smetanový sýr), mnozstvi: 200, jednotka: g, poznamka: "", sekce: Pomazánka }
+  - { surovina: majonéza, mnozstvi: 4, jednotka: lžíce, poznamka: "", sekce: Pomazánka }
+  - { surovina: dijonská hořčice, mnozstvi: 1, jednotka: lžička, poznamka: "", sekce: Pomazánka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Pomazánka }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "čerstvě mletý, dle chuti", sekce: Pomazánka }
+  - { surovina: pažitka, mnozstvi: null, jednotka: "", poznamka: "na ozdobu", sekce: Na podávání }
+  - { surovina: ředkvičky, mnozstvi: 1, jednotka: svazek, poznamka: "na podávání", sekce: Na podávání }
 postup:
   - "Vejce oloupej a nakrájej na co nejmenší kousky, dej do větší mísy."
   - "Přidej na kolečka nakrájenou jarní cibulku, lučinu, majonézu a dijonskou hořčici."

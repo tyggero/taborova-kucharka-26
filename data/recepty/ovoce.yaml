@@ -4,8 +4,10 @@ zdroj: ""
 odkaz: ""
 stitky: [Svačina]
 porce_original: 40
+casy:
+  - { faze: Příprava, popis: "10 min" }
 suroviny:
-  - { surovina: sezónní ovoce, mnozstvi: 8, jednotka: kg, poznamka: "cca 200 g na osobu; mix – jablka, banány, pomeranče, hrušky, meruňky, melouny dle sezóny (červenec)" }
+  - { surovina: sezónní ovoce, mnozstvi: 8, jednotka: kg, poznamka: "cca 200 g na osobu; mix – jablka, banány, pomeranče, hrušky, meruňky, melouny dle sezóny (červenec)", sekce: Základ }
 postup:
   - "Ovoce omyjeme."
   - "Větší kusy (melouny, ananas) nakrájíme; drobné ovoce naservírujeme vcelku do mís."

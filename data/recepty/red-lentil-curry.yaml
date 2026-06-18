@@ -1,0 +1,40 @@
+id: red-lentil-curry
+nazev: Red Lentil Curry (Červené čočkové kari)
+zdroj: Rainbow Plant Life
+odkaz: https://rainbowplantlife.com/vegan-red-lentil-curry/
+stitky: [Oběd, Večeře]
+porce_original: 4
+suroviny:
+  - { surovina: červená čočka, mnozstvi: null, jednotka: "", poznamka: "množství neuvedeno v textu – hlavní surovina; běžně cca 1,5 hrnku / 300 g" }
+  - { surovina: kokosový olej, mnozstvi: null, jednotka: "", poznamka: na restování }
+  - { surovina: česnek, mnozstvi: null, jednotka: "", poznamka: nasekaný }
+  - { surovina: čerstvý zázvor, mnozstvi: null, jednotka: "", poznamka: nasekaný }
+  - { surovina: čerstvá kurkuma, mnozstvi: null, jednotka: "", poznamka: nebo 1 lžička mleté kurkumy }
+  - { surovina: chilli paprička (serrano/jalapeño), mnozstvi: null, jednotka: "", poznamka: dle požadované pálivosti }
+  - { surovina: mletý kmín, mnozstvi: null, jednotka: "", poznamka: ze směsi koření }
+  - { surovina: mletý koriandr, mnozstvi: null, jednotka: "", poznamka: ze směsi koření }
+  - { surovina: indické chilli (lal mirch), mnozstvi: null, jednotka: "", poznamka: nebo 1 lžička běžného chilli }
+  - { surovina: kari koření, mnozstvi: null, jednotka: "", poznamka: ze směsi koření }
+  - { surovina: garam masala, mnozstvi: null, jednotka: "", poznamka: ze směsi koření }
+  - { surovina: zeleninový vývar, mnozstvi: null, jednotka: "", poznamka: na podlití }
+  - { surovina: drcená rajčata, mnozstvi: null, jednotka: "", poznamka: "" }
+  - { surovina: plnotučné kokosové mléko, mnozstvi: 1, jednotka: plechovka, poznamka: "" }
+  - { surovina: mandlové máslo, mnozstvi: 3, jednotka: lžíce, poznamka: "hladké přírodní; při alergii na ořechy nahradit tahini" }
+  - { surovina: citronová šťáva, mnozstvi: null, jednotka: "", poznamka: na dochucení }
+  - { surovina: čerstvý koriandr (cilantro), mnozstvi: null, jednotka: "", poznamka: na ozdobu }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+postup:
+  - Červenou čočku propláchněte a přeberte (mohou v ní být kamínky).
+  - V hluboké pánvi rozehřejte kokosový olej na středně vysokém ohni. Přidejte česnek, zázvor, čerstvou kurkumu a chilli papričku a restujte doměkka a dovonění.
+  - Přidejte mleté koření (kmín, koriandr, indické chilli, kari, garam masala) a nechte cca 1 minutu opražit, aby se rozvonělo.
+  - Podlijte zeleninovým vývarem a seškrábněte připečené kousky ze dna. Přidejte čočku a drcená rajčata, promíchejte.
+  - Stáhněte oheň, přiklopte a nechte probublávat, dokud čočka většinou nezměkne.
+  - Vmíchejte kokosové mléko, mandlové máslo, sůl a pepř. Ochutnejte a dolaďte koření. Vařte dál, dokud kari nezhoustne a nebude krémové.
+  - Na závěr vmíchejte citronovou šťávu a čerstvý koriandr, odstavte z ohně. Podávejte s rýží a indickým plackovým chlebem.
+nutrice_na_porci: { kcal: 450, bilkoviny_g: 18, sacharidy_g: 45, tuky_g: 22 }
+alergeny: [ořechy]
+vegetarian: true
+poznamky: "POZOR: v textu z Notionu nebyla u většiny surovin uvedena přesná množství (chyběla recepturní karta) – množství je třeba doplnit z webu. Obsahuje mandlové máslo (ořechy); pro tábor lze nahradit tahini (sezam). Vegan."
+zdroj_dat: url
+overit: true

@@ -1,0 +1,27 @@
+id: testoviny-s-pestem-a-cottage
+nazev: Těstoviny s pestem a cottage
+zdroj: ochutnejorech.cz / iprima Fresh
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 2
+suroviny:
+  - { surovina: těstoviny, mnozstvi: 225, jednotka: g, poznamka: "200–250 g, např. tagliatelle nebo špagety" }
+  - { surovina: ricotta nebo cottage, mnozstvi: 250, jednotka: g, poznamka: 1 kelímek }
+  - { surovina: bazalkové pesto, mnozstvi: 3, jednotka: lžíce, poznamka: "2–3 lžíce, domácí či kupované" }
+  - { surovina: cherry rajčata, mnozstvi: 125, jednotka: g, poznamka: "100–150 g, nebo 4–5 sušených rajčat" }
+  - { surovina: česnek, mnozstvi: 1, jednotka: stroužek, poznamka: na dochucení }
+  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: na restování }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: parmazán, mnozstvi: null, jednotka: "", poznamka: nastrouhaný, na dochucení }
+postup:
+  - Uvařte těstoviny v osolené vodě (slané jako moře) podle návodu, aby byly al dente. Před slitím si nechte stranou asi 1 naběračku vody z těstovin.
+  - Na pánvi rozehřejte kapku olivového oleje. Přidejte přepůlená cherry rajčata (nebo na proužky nakrájená sušená rajčata) a orestujte je. Můžete přidat nasekaný česnek.
+  - Do misky nebo přímo do pánve k rajčatům přidejte ricottu (cottage) a bazalkové pesto. Promíchejte a přilijte trochu horké vody z těstovin, aby vznikla hladká a krémová konzistence.
+  - Scezené těstoviny přidejte k omáčce a promíchejte. Dle chuti osolte a opepřete, případně posypte parmazánem.
+nutrice_na_porci: { kcal: 560, bilkoviny_g: 24, sacharidy_g: 60, tuky_g: 24 }
+alergeny: [lepek, mléko]
+vegetarian: true
+poznamky: "Množství jsou rozpětí (např. 200–250 g těstovin), zvolen střed. Pesto a parmazán mohou obsahovat ořechy/kešu dle značky – ověřit u konkrétního výrobku."
+zdroj_dat: notion-text
+overit: false

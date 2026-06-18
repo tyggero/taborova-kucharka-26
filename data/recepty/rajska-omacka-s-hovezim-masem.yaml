@@ -1,0 +1,36 @@
+id: rajska-omacka-s-hovezim-masem
+nazev: Rajská omáčka s hovězím masem
+zdroj: Rohlik.cz
+odkaz: https://www.rohlik.cz/chef/59-rajska-omacka-s-hovezim-masem
+stitky: [Oběd, Večeře]
+porce_original: 4
+suroviny:
+  - { surovina: hovězí loupaná plec, mnozstvi: 1, jednotka: kg, poznamka: "" }
+  - { surovina: mrkev, mnozstvi: 2, jednotka: ks, poznamka: větší, oloupaná (do vývaru) }
+  - { surovina: petržel, mnozstvi: 1, jednotka: ks, poznamka: střední, oloupaná (do vývaru) }
+  - { surovina: celer, mnozstvi: 0.25, jednotka: ks, poznamka: oloupaný (do vývaru) }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: střední, do vývaru }
+  - { surovina: česnek, mnozstvi: 3, jednotka: stroužky, poznamka: oloupané }
+  - { surovina: bobkový list, mnozstvi: 5, jednotka: ks, poznamka: "3 do vývaru + 2 do omáčky" }
+  - { surovina: nové koření, mnozstvi: 10, jednotka: kuličky, poznamka: "5 do vývaru + 5 do omáčky" }
+  - { surovina: černý pepř, mnozstvi: 20, jednotka: kuličky, poznamka: "10 do vývaru + 10 do omáčky" }
+  - { surovina: cibule, mnozstvi: 250, jednotka: g, poznamka: oloupaná, do omáčky }
+  - { surovina: sádlo, mnozstvi: 1, jednotka: lžíce, poznamka: "" }
+  - { surovina: rajský protlak, mnozstvi: 230, jednotka: g, poznamka: "" }
+  - { surovina: hladká mouka, mnozstvi: 80, jednotka: g, poznamka: "" }
+  - { surovina: cukr krupice, mnozstvi: 150, jednotka: g, poznamka: "" }
+  - { surovina: ocet, mnozstvi: 5, jednotka: lžíce, poznamka: "" }
+  - { surovina: studené máslo, mnozstvi: 20, jednotka: g, poznamka: na zjemnění na závěr }
+  - { surovina: hovězí vývar, mnozstvi: 1.2, jednotka: l, poznamka: vlastní z masa a zeleniny }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+postup:
+  - Vývar - Zeleninu (mrkev, petržel, celer, cibuli) překrojíme na velké kusy a spolu s hovězím masem vložíme do hrnce. Zalijeme studenou vodou a přivedeme k varu. Jakmile začne voda bublat, stáhneme oheň na minimum a naběračkou sbíráme pěnu. Přidáme bobkový list, nové koření, sůl a černý pepř a táhneme doměkka (cca 3 hodiny).
+  - Omáčka - Na sádle zpěníme nakrájenou cibuli (250 g) a rajský protlak. Přidáme mouku a za stálého míchání ji asi půl minuty restujeme.
+  - Zalijeme hovězím vývarem a promícháme metličkou. Přidáme špetku soli, cukr, ocet a koření (pepř, bobkový list, nové koření). Přivedeme k varu, stáhneme oheň na třetinu a vaříme za občasného míchání 20 minut.
+  - Omáčku scedíme a na závěr vmícháme chlazené máslo, které ji zjemní a naleští. Podáváme s vařeným hovězím masem a houskovými knedlíky nebo těstovinami.
+nutrice_na_porci: { kcal: 720, bilkoviny_g: 55, sacharidy_g: 60, tuky_g: 28 }
+alergeny: [lepek, mléko]
+vegetarian: false
+poznamky: "Recept počítá s domácím hovězím vývarem vařeným z plece a zeleniny. Cukr (150 g) a ocet (5 lžic) dávají typicky sladkokyselou chuť – dochuťte dle potřeby. Volitelně lze zjemnit zakysanou smetanou."
+zdroj_dat: url
+overit: false

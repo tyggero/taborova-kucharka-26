@@ -1,0 +1,31 @@
+id: pasta-e-ceci
+nazev: Pasta e Ceci (těstoviny s cizrnou)
+zdroj: Serious Eats
+odkaz: https://www.seriouseats.com/pasta-e-ceci-pasta-with-chickpeas
+stitky: [Oběd, Večeře]
+porce_original: 4
+suroviny:
+  - { surovina: vařená cizrna, mnozstvi: 510, jednotka: g, poznamka: "3 hrnky, nebo 2 plechovky (425 g); část se rozmačká do omáčky" }
+  - { surovina: vývar (cizrnový/zeleninový/kuřecí), mnozstvi: 950, jednotka: ml, poznamka: "4 hrnky; pro vegetariánskou verzi zeleninový" }
+  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "množství neuvedeno v textu + extra na zakápnutí" }
+  - { surovina: česnek, mnozstvi: null, jednotka: "", poznamka: množství neuvedeno }
+  - { surovina: rozmarýn, mnozstvi: null, jednotka: "", poznamka: 1 snítka }
+  - { surovina: chilli vločky, mnozstvi: null, jednotka: "", poznamka: množství neuvedeno }
+  - { surovina: rajčatový protlak, mnozstvi: null, jednotka: "", poznamka: "1 lžíce (z textu)" }
+  - { surovina: bílé víno, mnozstvi: null, jednotka: "", poznamka: množství neuvedeno }
+  - { surovina: krátké těstoviny (ditalini), mnozstvi: null, jednotka: "", poznamka: množství neuvedeno v textu }
+  - { surovina: sýr Pecorino Romano, mnozstvi: null, jednotka: "", poznamka: strouhaný, množství neuvedeno }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: černý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+postup:
+  - Ve velkém hrnci rozehřej olivový olej, přidej česnek a rozmarýn, lehce osol a za stálého míchání smaž asi 5 minut do zlatova. Přidej chilli vločky a po 30 sekundách rajčatový protlak, smaž asi 1 minutu do ztmavnutí.
+  - Vlij víno, seškrábni připečené kousky ze dna a vař asi 2 minuty, dokud se mírně nezredukuje.
+  - Vmíchej 1 hrnek cizrny a 1 hrnek vývaru a cizrnu rozmačkej o stěnu hrnce. Přidej zbytek cizrny a vývaru (celkem cca 3 hrnky) a černý pepř, osol dle chuti. (U konzervované cizrny lze část cizrny s vývarem rozmixovat dohladka pro krémovější základ.)
+  - Přiveď k varu, vsyp těstoviny a vař za častého míchání, dokud nejsou těsně před al dente a tekutina není mezi polévkovou a omáčkovou konzistencí. Podle potřeby dolij vodu nebo vývar.
+  - Stáhni z ohně, vmíchej sýr a rychle zamíchej. Dochuť solí, rozděl do misek a zakápni olivovým olejem. Podávej s dalším strouhaným sýrem.
+nutrice_na_porci: { kcal: 420, bilkoviny_g: 17, sacharidy_g: 58, tuky_g: 13 }
+alergeny: [lepek, mléko]
+vegetarian: true
+poznamky: "U většiny surovin (olej, česnek, chilli, víno, těstoviny, sýr) chybí v Notion textu množství - uvedeny jen 2 hlavní suroviny s gramáží. Množství doplnit dle originálního receptu. Nutrice je hrubý odhad."
+zdroj_dat: url
+overit: true

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>Red Lentil Curry (Červené čočkové kari)</title>
+<style>
+/* A4 recept – tisknutelná šablona. 1 recept = 1 stránka. */
+@page {
+  size: A4;
+  margin: 12mm 14mm;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: #1c1c1c;
+  font-size: 11.5pt;
+  line-height: 1.4;
+}
+
+.recept {
+  display: flex;
+  flex-direction: column;
+  min-height: 273mm;            /* A4 výška minus okraje */
+  page-break-after: always;
+  break-after: page;
+}
+.recept:last-child { page-break-after: auto; }
+
+/* ---- Hlavička ---- */
+.hlavicka {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  border-bottom: 3px solid #2e7d32;
+  padding-bottom: 8px;
+}
+.hlavicka h1 {
+  margin: 0 0 4px;
+  font-size: 22pt;
+  color: #1b5e20;
+  line-height: 1.1;
+}
+.stitky { display: flex; flex-wrap: wrap; gap: 5px; }
+.stitek {
+  font-size: 8.5pt;
+  background: #e8f5e9;
+  color: #1b5e20;
+  border: 1px solid #a5d6a7;
+  border-radius: 10px;
+  padding: 1px 8px;
+}
+.stitek.veg { background: #f1f8e9; border-color: #aed581; color: #33691e; }
+.zdroj {
+  text-align: right;
+  font-size: 9pt;
+  color: #555;
+  min-width: 38%;
+}
+.zdroj-odkaz { word-break: break-all; color: #777; font-size: 8pt; }
+.porce-info { margin-top: 4px; }
+
+/* ---- Alergeny ---- */
+.alergeny {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+  padding: 7px 12px;
+  background: #fff3e0;
+  border: 2px solid #e65100;
+  border-radius: 6px;
+}
+.alergeny-ikona { font-size: 15pt; }
+.alergen {
+  display: inline-block;
+  background: #ffe0b2;
+  border: 1px solid #ffb74d;
+  border-radius: 4px;
+  padding: 0 7px;
+  margin: 0 2px;
+  font-weight: 600;
+  color: #bf360c;
+}
+
+/* ---- Tělo: suroviny + postup ---- */
+.telo {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 18px;
+  margin-top: 12px;
+  flex: 1;
+}
+h2 {
+  font-size: 13pt;
+  color: #1b5e20;
+  margin: 0 0 6px;
+  border-bottom: 1px solid #c8e6c9;
+  padding-bottom: 3px;
+}
+
+.suroviny table { width: 100%; border-collapse: collapse; font-size: 10.5pt; }
+.suroviny th {
+  text-align: left;
+  font-size: 8.5pt;
+  text-transform: uppercase;
+  letter-spacing: .3px;
+  color: #555;
+  border-bottom: 1.5px solid #999;
+  padding: 3px 4px;
+}
+.suroviny td {
+  padding: 3px 4px;
+  border-bottom: 1px solid #e0e0e0;
+  vertical-align: top;
+}
+.col-mnozstvi { white-space: nowrap; }
+.col-rucni { width: 22%; border-left: 1px dashed #bbb; background: #fafafa; }
+.pozn { color: #777; font-size: 9pt; }
+
+.postup ol { margin: 0; padding-left: 20px; }
+.postup li { margin-bottom: 6px; }
+.recept-poznamky {
+  margin-top: 10px;
+  padding: 6px 10px;
+  background: #f5f5f5;
+  border-left: 3px solid #9e9e9e;
+  font-size: 10pt;
+}
+
+/* ---- Patička: nutrice + poznámky služby ---- */
+.paticka {
+  margin-top: 12px;
+  border-top: 2px solid #c8e6c9;
+  padding-top: 8px;
+}
+.nutrice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: baseline;
+  font-size: 10pt;
+}
+.nutrice-titulek { font-weight: 600; color: #1b5e20; }
+.nutri-pol {
+  background: #e8f5e9;
+  border-radius: 4px;
+  padding: 1px 8px;
+}
+.poznamky-sluzby {
+  margin-top: 8px;
+  border: 1px dashed #bbb;
+  border-radius: 5px;
+  min-height: 18mm;
+  padding: 5px 8px;
+}
+.poznamky-titulek { font-size: 9pt; color: #888; }
+
+</style>
+</head>
+<body>
+<article class="recept">
+
+  <header class="hlavicka">
+    <div class="nadpis">
+      <h1>Red Lentil Curry (Červené čočkové kari)</h1>
+      <div class="stitky">
+<span class="stitek">Oběd</span><span class="stitek">Večeře</span><span class="stitek veg">vegetariánské</span>      </div>
+    </div>
+    <div class="zdroj">
+<div class="zdroj-radek">Rainbow Plant Life</div><div class="zdroj-odkaz">https://rainbowplantlife.com/vegan-red-lentil-curry/</div>      <div class="porce-info">orig. recept na <strong>4</strong> porcí</div>
+    </div>
+  </header>
+
+  <div class="alergeny">
+    <span class="alergeny-ikona">⚠️</span>
+    <span class="alergeny-popis"><strong>ALERGENY:</strong>
+<span class="alergen">ořechy</span>    </span>
+  </div>
+
+  <div class="telo">
+    <section class="suroviny">
+      <h2>Suroviny</h2>
+      <table>
+        <thead>
+          <tr>
+            <th class="col-surovina">Surovina</th>
+            <th class="col-mnozstvi">na 10 osob</th>
+            <th class="col-rucni">na <u>&nbsp;&nbsp;&nbsp;&nbsp;</u> osob</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="col-surovina">červená čočka <span class="pozn">(množství neuvedeno v textu – hlavní surovina; běžně cca 1,5 hrnku / 300 g)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">kokosový olej <span class="pozn">(na restování)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">česnek <span class="pozn">(nasekaný)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">čerstvý zázvor <span class="pozn">(nasekaný)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">čerstvá kurkuma <span class="pozn">(nebo 1 lžička mleté kurkumy)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">chilli paprička (serrano/jalapeño) <span class="pozn">(dle požadované pálivosti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">mletý kmín <span class="pozn">(ze směsi koření)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">mletý koriandr <span class="pozn">(ze směsi koření)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">indické chilli (lal mirch) <span class="pozn">(nebo 1 lžička běžného chilli)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">kari koření <span class="pozn">(ze směsi koření)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">garam masala <span class="pozn">(ze směsi koření)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">zeleninový vývar <span class="pozn">(na podlití)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">drcená rajčata</td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">plnotučné kokosové mléko</td>
+            <td class="col-mnozstvi">2,5 plechovka</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">mandlové máslo <span class="pozn">(hladké přírodní; při alergii na ořechy nahradit tahini)</span></td>
+            <td class="col-mnozstvi">7,5 lžíce</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">citronová šťáva <span class="pozn">(na dochucení)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">čerstvý koriandr (cilantro) <span class="pozn">(na ozdobu)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">pepř <span class="pozn">(dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="postup">
+      <h2>Postup</h2>
+      <ol>
+        <li>Červenou čočku propláchněte a přeberte (mohou v ní být kamínky).</li>
+        <li>V hluboké pánvi rozehřejte kokosový olej na středně vysokém ohni. Přidejte česnek, zázvor, čerstvou kurkumu a chilli papričku a restujte doměkka a dovonění.</li>
+        <li>Přidejte mleté koření (kmín, koriandr, indické chilli, kari, garam masala) a nechte cca 1 minutu opražit, aby se rozvonělo.</li>
+        <li>Podlijte zeleninovým vývarem a seškrábněte připečené kousky ze dna. Přidejte čočku a drcená rajčata, promíchejte.</li>
+        <li>Stáhněte oheň, přiklopte a nechte probublávat, dokud čočka většinou nezměkne.</li>
+        <li>Vmíchejte kokosové mléko, mandlové máslo, sůl a pepř. Ochutnejte a dolaďte koření. Vařte dál, dokud kari nezhoustne a nebude krémové.</li>
+        <li>Na závěr vmíchejte citronovou šťávu a čerstvý koriandr, odstavte z ohně. Podávejte s rýží a indickým plackovým chlebem.</li>
+      </ol>
+      <div class="recept-poznamky"><strong>Poznámka:</strong> POZOR: v textu z Notionu nebyla u většiny surovin uvedena přesná množství (chyběla recepturní karta) – množství je třeba doplnit z webu. Obsahuje mandlové máslo (ořechy); pro tábor lze nahradit tahini (sezam). Vegan.</div>
+    </section>
+  </div>
+
+  <footer class="paticka">
+    <div class="nutrice">
+      <span class="nutrice-titulek">Na porci (odhad):</span>
+<span class="nutri-pol"><strong>450</strong> kcal</span><span class="nutri-pol">B 18 g</span><span class="nutri-pol">S 45 g</span><span class="nutri-pol">T 22 g</span>    </div>
+    <div class="poznamky-sluzby">
+      <span class="poznamky-titulek">Poznámky služby:</span>
+    </div>
+  </footer>
+
+</article>
+</body>
+</html>

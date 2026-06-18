@@ -1,0 +1,37 @@
+id: vegan-butter-chicken
+nazev: Vegan Butter Chicken
+zdroj: Nora Cooks
+odkaz: https://www.noracooks.com/vegan-butter-chicken/
+stitky: [Oběd, Večeře]
+porce_original: 6
+suroviny:
+  - { surovina: extra tofu (pevné), mnozstvi: 900, jednotka: g, poznamka: "2 bloky po 16 oz" }
+  - { surovina: olivový olej, mnozstvi: 2, jednotka: polévková lžíce, poznamka: na obalení tofu }
+  - { surovina: kukuřičný škrob, mnozstvi: 2, jednotka: polévková lžíce, poznamka: "" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "1/2 lžičky na tofu + 1 lžička do omáčky" }
+  - { surovina: veganské máslo, mnozstvi: 2, jednotka: polévková lžíce, poznamka: nebo olivový olej }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: velká, najemno }
+  - { surovina: čerstvý zázvor, mnozstvi: 1, jednotka: polévková lžíce, poznamka: strouhaný (nebo 1 lžička sušeného) }
+  - { surovina: česnek, mnozstvi: 2, jednotka: ks, poznamka: stroužky, prolisované }
+  - { surovina: garam masala, mnozstvi: 1, jednotka: polévková lžíce, poznamka: "" }
+  - { surovina: kari koření, mnozstvi: 1, jednotka: čajová lžička, poznamka: "" }
+  - { surovina: mletý koriandr, mnozstvi: 1, jednotka: čajová lžička, poznamka: "" }
+  - { surovina: kajenský pepř, mnozstvi: null, jednotka: "", poznamka: "1/4 lžičky" }
+  - { surovina: rajčatový protlak, mnozstvi: 85, jednotka: g, poznamka: "3 oz" }
+  - { surovina: kokosové mléko, mnozstvi: 400, jednotka: ml, poznamka: plnotučné, 1 plechovka (13.5 oz) }
+  - { surovina: rýže, mnozstvi: 4, jednotka: hrneček, poznamka: vařená, bílá nebo natural, k podávání }
+  - { surovina: čerstvý koriandr, mnozstvi: null, jednotka: "", poznamka: nasekaný, na ozdobení }
+postup:
+  - Tofu zabal do papírových utěrek, zatěž talířem a něčím těžkým a nech 20 minut odkapat (lze vynechat u extra pevného tofu).
+  - Troubu předehřej na 200 °C a plech vylož pečicím papírem.
+  - Tofu nakrájej na asi 6 plátků a každý plátek natrhej na středně velké kousky (dodá to lepší texturu než kostky).
+  - Kousky tofu vlož do sáčku spolu s olivovým olejem, škrobem a solí, zavři a jemně protřep, aby se obalily. Rozlož na plech a peč 25–30 minut do zlatova a křupava.
+  - Mezitím připrav omáčku - ve velké pánvi rozpusť veganské máslo, restuj cibuli 3–4 minuty, přidej zázvor a česnek a smaž ještě 1 minutu.
+  - Přidej koření, sůl, rajčatový protlak a kokosové mléko. Míchej do hladka a poté nech 5–10 minut probublávat za občasného míchání.
+  - Hotové tofu vmíchej do omáčky a obal kousky. Podávej s rýží a naanem, posyp čerstvým koriandrem.
+nutrice_na_porci: { kcal: 330, bilkoviny_g: 17, sacharidy_g: 28, tuky_g: 17 }
+alergeny: [sója]
+vegetarian: true
+poznamky: "Nutrice je odhad pro tofu se omáčkou na 1 z 6 porcí, bez přílohy (rýže/naan). Lze nahradit pečeným květákem místo tofu."
+zdroj_dat: url
+overit: false

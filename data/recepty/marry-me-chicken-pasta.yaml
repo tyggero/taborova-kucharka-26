@@ -1,0 +1,39 @@
+id: marry-me-chicken-pasta
+nazev: Marry Me Chicken Pasta
+zdroj: The Recipe Critic
+odkaz: https://therecipecritic.com/marry-me-chicken-pasta/
+stitky: [Oběd, Večeře]
+porce_original: 6
+suroviny:
+  - { surovina: kuřecí prsa, mnozstvi: 680, jednotka: g, poznamka: "1,5 lb, bez kosti a kůže, nakrájené na 2,5cm kousky" }
+  - { surovina: penne těstoviny, mnozstvi: 280, jednotka: g, poznamka: 10 oz }
+  - { surovina: sůl, mnozstvi: 0.5, jednotka: lžička, poznamka: "" }
+  - { surovina: pepř, mnozstvi: 0.25, jednotka: lžička, poznamka: "" }
+  - { surovina: olivový olej, mnozstvi: 1, jednotka: lžíce, poznamka: "" }
+  - { surovina: máslo, mnozstvi: 3, jednotka: lžíce, poznamka: "" }
+  - { surovina: česnek, mnozstvi: 2, jednotka: lžičky, poznamka: nasekaný }
+  - { surovina: hladká mouka, mnozstvi: 3, jednotka: lžíce, poznamka: "" }
+  - { surovina: kuřecí vývar, mnozstvi: 480, jednotka: ml, poznamka: 2 cups }
+  - { surovina: smetana ke šlehání, mnozstvi: 240, jednotka: ml, poznamka: "1 cup, plnotučná" }
+  - { surovina: parmazán, mnozstvi: 100, jednotka: g, poznamka: "1 cup, strouhaný" }
+  - { surovina: sušená rajčata, mnozstvi: 1, jednotka: cup, poznamka: scezená (cca 110 g) }
+  - { surovina: paprika mletá, mnozstvi: 1, jednotka: lžička, poznamka: "" }
+  - { surovina: italské bylinky sušené, mnozstvi: 2, jednotka: lžičky, poznamka: "" }
+  - { surovina: čerstvá bazalka, mnozstvi: null, jednotka: "", poznamka: na ozdobu }
+postup:
+  - Uvařte penne podle návodu na obalu. Sceďte a odstavte stranou, než připravíte kuře a omáčku.
+  - Kuře nakrájejte na 2,5cm kousky a osolte a opepřete.
+  - Ve velké pánvi rozehřejte olivový olej na středně vysokém ohni. Přidejte kuře a smažte 6–8 minut, dokud není propečené a růžová barva zmizí.
+  - Kuře přendejte na talíř a odstavte, než připravíte omáčku.
+  - Do stejné pánve dejte máslo. Po rozpuštění osmahněte česnek asi 30 sekund do vůně. Přidejte mouku a zamíchejte do pasty (jíška).
+  - Vmetejte kuřecí vývar, smetanu a parmazán.
+  - Vmíchejte scezená sušená rajčata, papriku a italské bylinky. Dle potřeby dosolte a dopepřete.
+  - Omáčku nechte několik minut probublávat, aby zhoustla.
+  - Vraťte kuře do pánve spolu s uvařenými těstovinami. Promíchejte, aby se kuře i těstoviny obalily omáčkou.
+  - Ozdobte nasekanou bazalkou a posypte parmazánem. Podávejte.
+nutrice_na_porci: { kcal: 620, bilkoviny_g: 40, sacharidy_g: 45, tuky_g: 30 }
+alergeny: [lepek, mléko]
+vegetarian: false
+poznamky: "Originál v amerických jednotkách (lb, oz, cup) – převedeno přibližně. Sušená rajčata uvedena jako 1 cup scezených (≈110 g)."
+zdroj_dat: url
+overit: false

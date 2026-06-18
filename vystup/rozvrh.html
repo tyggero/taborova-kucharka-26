@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>Jídelníček — Tábor 26</title>
+<style>
+/* ===== Rozvrh jídel – tisk na A3 na šířku ===== */
+@page {
+  size: A3 landscape;
+  margin: 10mm;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+}
+
+.rozvrh { width: 100%; }
+
+.rozvrh-hlavicka {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 3px solid #1b5e20;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+}
+.rozvrh-hlavicka h1 {
+  font-size: 22pt;
+  margin: 0;
+  color: #1b5e20;
+}
+.rozvrh-hlavicka .termin {
+  font-size: 13pt;
+  font-weight: 600;
+  color: #444;
+}
+
+/* ----- Tabulka ----- */
+.tabulka {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.c-den { width: 11%; }
+.c-jidlo { width: 17.8%; }
+
+.tabulka th, .tabulka td {
+  border: 1px solid #c8d6c8;
+  padding: 5px 7px;
+  vertical-align: top;
+  font-size: 10.5pt;
+  line-height: 1.2;
+}
+
+/* Záhlaví sloupců */
+.tabulka thead th {
+  background: #1b5e20;
+  color: #fff;
+  font-size: 11pt;
+  text-align: left;
+  letter-spacing: .3px;
+  padding: 7px;
+}
+
+/* Sloupec dne */
+.tabulka .den {
+  background: #f1f8e9;
+  text-align: left;
+  white-space: nowrap;
+}
+.den-nazev { display: block; font-weight: 700; color: #1b5e20; }
+.den-datum { display: block; font-size: 9.5pt; color: #666; font-weight: 600; }
+
+/* Zebrování řádků */
+.tabulka tbody tr:nth-child(even) td { background: #fafdf8; }
+
+/* Buňka oběda (polévka + hlavní) zvýrazněná */
+.tabulka td.obed { background: #fff8e1; }
+.tabulka tbody tr:nth-child(even) td.obed { background: #fef6da; }
+
+/* Jednotlivá jídla v buňce */
+.jidlo { margin: 0; padding: 1px 0; }
+.jidlo + .jidlo {
+  margin-top: 3px;
+  padding-top: 3px;
+  border-top: 1px dotted #cdb; /* oddělí polévku od hlavního u oběda */
+}
+
+.rozvrh-pozn {
+  margin-top: 10px;
+  font-size: 9pt;
+  color: #777;
+  font-style: italic;
+}
+
+@media screen {
+  body { background: #e9e9e9; padding: 16px; }
+  .rozvrh {
+    background: #fff;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 18px 22px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.18);
+  }
+}
+
+</style>
+</head>
+<body>
+<div class="rozvrh">
+  <header class="rozvrh-hlavicka">
+    <h1>Jídelníček — Tábor 26</h1>
+<div class="termin">2026-07-02 – 2026-07-18</div>  </header>
+
+  <table class="tabulka">
+    <colgroup>
+      <col class="c-den">
+      <col class="c-jidlo"><col class="c-jidlo"><col class="c-jidlo c-obed"><col class="c-jidlo"><col class="c-jidlo">
+    </colgroup>
+    <thead>
+      <tr>
+        <th class="th-den">Den</th>
+        <th>Snídaně</th>
+        <th>Svačina 1</th>
+        <th>Oběd</th>
+        <th>Svačina 2</th>
+        <th>Večeře</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Čtvrtek</span>
+          <span class="den-datum">2.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">Anglická snídaně</div></td>
+        <td><div class="jidlo">Šopský salát</div></td>
+        <td class="obed"><div class="jidlo">Mexická fazolová polévka</div><div class="jidlo">Rychlé zeleninové rizoto s kuřecím masem</div></td>
+        <td><div class="jidlo">Jogurt</div></td>
+        <td><div class="jidlo">Marry Me Chicken Pasta</div></td>
+      </tr>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Pátek</span>
+          <span class="den-datum">3.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">Pečivo s marmeládou</div></td>
+        <td><div class="jidlo">Rančerská pomazánka</div></td>
+        <td class="obed"><div class="jidlo">Rajská polévka</div><div class="jidlo">Chilli con carne</div></td>
+        <td><div class="jidlo">Mrkvovo-česneková pomazánka</div></td>
+        <td><div class="jidlo">Pasta e Ceci (těstoviny s cizrnou)</div></td>
+      </tr>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Sobota</span>
+          <span class="den-datum">4.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">Hotelová snídaně</div></td>
+        <td><div class="jidlo">Papriková pomazánka s nivou a sýrem cottage</div></td>
+        <td class="obed"><div class="jidlo">Francouzská cibulová polévka</div><div class="jidlo">Spaghetti carbonara</div></td>
+        <td><div class="jidlo">Vajíčková pomazánka s brynzou a ajvarem</div></td>
+        <td><div class="jidlo">Hrachová kaše (s uzeným masem / vegan s lilkem)</div></td>
+      </tr>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Neděle</span>
+          <span class="den-datum">5.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">Papriková pomazánka s nivou a sýrem cottage</div></td>
+        <td><div class="jidlo">Ovocný salát</div></td>
+        <td class="obed"><div class="jidlo">Kukuřičná polévka</div><div class="jidlo">Skautské kari</div></td>
+        <td><div class="jidlo">Čočkový salát</div></td>
+        <td><div class="jidlo">Kuřecí paella</div></td>
+      </tr>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Pondělí</span>
+          <span class="den-datum">6.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">Vajíčková pomazánka s brynzou a ajvarem</div></td>
+        <td><div class="jidlo">Ovoce</div></td>
+        <td class="obed"><div class="jidlo">Podzimní polévka</div><div class="jidlo">Brambory na loupačku (s tvarohovou pomazánkou)</div></td>
+        <td><div class="jidlo">Řepová pomazánka</div></td>
+        <td><div class="jidlo">Koprová omáčka s vejcem (Koprovka)</div></td>
+      </tr>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Úterý</span>
+          <span class="den-datum">7.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">Ovesná kaše</div></td>
+        <td><div class="jidlo">Těstovinový salát (bez majonézy)</div></td>
+        <td class="obed"><div class="jidlo">Hrášková polévka</div><div class="jidlo">Masové kuličky se svíčkovou omáčkou, bramborem a brusinkami</div></td>
+        <td><div class="jidlo">Čočkový salát</div></td>
+        <td><div class="jidlo">Red Lentil Curry (Červené čočkové kari)</div></td>
+      </tr>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Středa</span>
+          <span class="den-datum">8.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">Jogurt s müsli</div></td>
+        <td><div class="jidlo">Vajíčková pomazánka s brynzou a ajvarem</div></td>
+        <td class="obed"><div class="jidlo">Polévka z červené čočky</div><div class="jidlo">Vegan Butter Chicken</div></td>
+        <td><div class="jidlo">Papriková pomazánka s nivou a sýrem cottage</div></td>
+        <td><div class="jidlo">Valašská pohanka</div></td>
+      </tr>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Čtvrtek</span>
+          <span class="den-datum">9.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">Jáhlová kaše</div></td>
+        <td><div class="jidlo">Těstovinový salát (bez majonézy)</div></td>
+        <td class="obed"><div class="jidlo">Krémová česnečka</div><div class="jidlo">Bramborové noky se špenátem a sýrovou omáčkou</div></td>
+        <td><div class="jidlo">Mrkvovo-česneková pomazánka</div></td>
+        <td><div class="jidlo">Těstoviny s pestem a cottage</div></td>
+      </tr>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Pátek</span>
+          <span class="den-datum">10.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">Vajíčková pomazánka</div></td>
+        <td><div class="jidlo">Ovocný salát</div></td>
+        <td class="obed"><div class="jidlo">Květákový krém (Krémová květáková polévka)</div><div class="jidlo">Rajská omáčka s hovězím masem</div></td>
+        <td><div class="jidlo">Ovoce</div></td>
+        <td><div class="jidlo">Dušená mrkev na másle s kuřecím plátkem a bramborem</div></td>
+      </tr>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Sobota</span>
+          <span class="den-datum">11.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">Tvarohová pomazánka (rozhuda) + kakao</div></td>
+        <td><div class="jidlo">Řepová pomazánka</div></td>
+        <td class="obed"><div class="jidlo">Hubertova mrkvičková s kapáním</div><div class="jidlo">Řecký kuskusový salát</div></td>
+        <td><div class="jidlo">Šopský salát</div></td>
+        <td><div class="jidlo">Kuřecí paella</div></td>
+      </tr>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Neděle</span>
+          <span class="den-datum">12.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">Pečivo na slano</div></td>
+        <td><div class="jidlo">Rančerská pomazánka</div></td>
+        <td class="obed"><div class="jidlo">Asijská kuřecí polévka</div><div class="jidlo">Koprová omáčka s vejcem (Koprovka)</div></td>
+        <td><div class="jidlo">Jogurt</div></td>
+        <td><div class="jidlo">Skautské kari</div></td>
+      </tr>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Pondělí</span>
+          <span class="den-datum">13.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">Ovesná kaše na slano</div></td>
+        <td><div class="jidlo">Čočkový salát</div></td>
+        <td class="obed"><div class="jidlo">Mexická fazolová polévka</div><div class="jidlo">Spaghetti carbonara</div></td>
+        <td><div class="jidlo">Rančerská pomazánka</div></td>
+        <td><div class="jidlo">Řecký kuskusový salát</div></td>
+      </tr>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Úterý</span>
+          <span class="den-datum">14.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">BLT Sandwich (slanina, salát, rajče)</div></td>
+        <td><div class="jidlo">Jogurt</div></td>
+        <td class="obed"><div class="jidlo">Květákový krém (Krémová květáková polévka)</div><div class="jidlo">Hrachová kaše (s uzeným masem / vegan s lilkem)</div></td>
+        <td><div class="jidlo">Papriková pomazánka s nivou a sýrem cottage</div></td>
+        <td><div class="jidlo">Rajská omáčka s hovězím masem</div></td>
+      </tr>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Středa</span>
+          <span class="den-datum">15.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">Vajíčková pomazánka</div></td>
+        <td><div class="jidlo">Mrkvovo-česneková pomazánka</div></td>
+        <td class="obed"><div class="jidlo">Hrášková polévka</div><div class="jidlo">Masové kuličky se svíčkovou omáčkou, bramborem a brusinkami</div></td>
+        <td><div class="jidlo">Ovoce</div></td>
+        <td><div class="jidlo">Marry Me Chicken Pasta</div></td>
+      </tr>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Čtvrtek</span>
+          <span class="den-datum">16.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">Hotelová snídaně</div></td>
+        <td><div class="jidlo">Těstovinový salát (bez majonézy)</div></td>
+        <td class="obed"><div class="jidlo">Rajská polévka</div><div class="jidlo">Chilli con carne</div></td>
+        <td><div class="jidlo">Ovocný salát</div></td>
+        <td><div class="jidlo">Pasta e Ceci (těstoviny s cizrnou)</div></td>
+      </tr>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Pátek</span>
+          <span class="den-datum">17.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">BLT Sandwich (slanina, salát, rajče)</div></td>
+        <td><div class="jidlo">Šopský salát</div></td>
+        <td class="obed"><div class="jidlo">Podzimní polévka</div><div class="jidlo">Red Lentil Curry (Červené čočkové kari)</div></td>
+        <td><div class="jidlo">Řepová pomazánka</div></td>
+        <td><div class="jidlo">Valašská pohanka</div></td>
+      </tr>
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">Sobota</span>
+          <span class="den-datum">18.&nbsp;7.</span>
+        </th>
+        <td><div class="jidlo">Anglická snídaně</div></td>
+        <td><div class="jidlo">Vajíčková pomazánka s brynzou a ajvarem</div></td>
+        <td class="obed"><div class="jidlo">Francouzská cibulová polévka</div><div class="jidlo">Dušená mrkev na másle s kuřecím plátkem a bramborem</div></td>
+        <td><div class="jidlo">Mrkvovo-česneková pomazánka</div></td>
+        <td><div class="jidlo">Rychlé zeleninové rizoto s kuřecím masem</div></td>
+      </tr>
+    </tbody>
+  </table>
+
+<div class="rozvrh-pozn">Náhodné rozvržení (zatím), respektuje typ jídla dle štítků. Oběd = polévka + hlavní jídlo. K ruční úpravě.</div></div>
+</body>
+</html>

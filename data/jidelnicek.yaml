@@ -1,0 +1,140 @@
+nazev: "Jídelníček — Tábor 26"
+termin: "2026-07-02 – 2026-07-18"
+pozn: "Náhodné rozvržení (zatím), respektuje typ jídla dle štítků. Oběd = polévka + hlavní jídlo. K ruční úpravě."
+dny:
+  - datum: "2026-07-02"
+    den: Čtvrtek
+    snidane: [anglicka-snidane]
+    svacina1: [sopsky-salat]
+    obed: [mexicka-fazolova-polevka, rizoto]
+    svacina2: [jogurt]
+    vecere: [marry-me-chicken-pasta]
+    poznamky: ""
+  - datum: "2026-07-03"
+    den: Pátek
+    snidane: [pecivo-s-marmeladou]
+    svacina1: [rancerska-pomazanka]
+    obed: [rajska-polevka, chilli-con-carne]
+    svacina2: [mrkvovo-cesnekova-pomazanka]
+    vecere: [pasta-e-ceci]
+    poznamky: ""
+  - datum: "2026-07-04"
+    den: Sobota
+    snidane: [hotelova-snidane]
+    svacina1: [paprikova-pomazanka-s-nivou-a-cottage]
+    obed: [francouzska-polevka, spaghetti-carbonara]
+    svacina2: [vajickova-pomazanka-s-brynzou-a-ajvarem]
+    vecere: [hrachova-kase]
+    poznamky: ""
+  - datum: "2026-07-05"
+    den: Neděle
+    snidane: [paprikova-pomazanka-s-nivou-a-cottage]
+    svacina1: [ovocny-salat]
+    obed: [kukuricna-polevka, skautske-kari]
+    svacina2: [cockovy-salat]
+    vecere: [kureci-paella]
+    poznamky: ""
+  - datum: "2026-07-06"
+    den: Pondělí
+    snidane: [vajickova-pomazanka-s-brynzou-a-ajvarem]
+    svacina1: [ovoce]
+    obed: [podzimni-polevka, brambory-na-loupacku]
+    svacina2: [repova-pomazanka]
+    vecere: [koprovka]
+    poznamky: ""
+  - datum: "2026-07-07"
+    den: Úterý
+    snidane: [ovesna-kase]
+    svacina1: [testovinovy-salat]
+    obed: [hraskova-polevka, svickova-omacka]
+    svacina2: [cockovy-salat]
+    vecere: [red-lentil-curry]
+    poznamky: ""
+  - datum: "2026-07-08"
+    den: Středa
+    snidane: [jogurt-s-musli]
+    svacina1: [vajickova-pomazanka-s-brynzou-a-ajvarem]
+    obed: [polevka-z-cervene-cocky, vegan-butter-chicken]
+    svacina2: [paprikova-pomazanka-s-nivou-a-cottage]
+    vecere: [valasska-pohanka]
+    poznamky: ""
+  - datum: "2026-07-09"
+    den: Čtvrtek
+    snidane: [jahlova-kase]
+    svacina1: [testovinovy-salat]
+    obed: [kremova-cesnecka, noky-se-spenatem-a-syrovou]
+    svacina2: [mrkvovo-cesnekova-pomazanka]
+    vecere: [testoviny-s-pestem-a-cottage]
+    poznamky: ""
+  - datum: "2026-07-10"
+    den: Pátek
+    snidane: [vajickova-pomazanka]
+    svacina1: [ovocny-salat]
+    obed: [kvetakovy-krem, rajska-omacka-s-hovezim-masem]
+    svacina2: [ovoce]
+    vecere: [dusena-mrkev]
+    poznamky: ""
+  - datum: "2026-07-11"
+    den: Sobota
+    snidane: [tvarohova-pomazanka-kakao]
+    svacina1: [repova-pomazanka]
+    obed: [mrkvickova-polevka, recky-kuskusovy-salat]
+    svacina2: [sopsky-salat]
+    vecere: [kureci-paella]
+    poznamky: ""
+  - datum: "2026-07-12"
+    den: Neděle
+    snidane: [pecivo-na-slano]
+    svacina1: [rancerska-pomazanka]
+    obed: [asijska-kureci-polevka, koprovka]
+    svacina2: [jogurt]
+    vecere: [skautske-kari]
+    poznamky: ""
+  - datum: "2026-07-13"
+    den: Pondělí
+    snidane: [ovesna-kase-na-slano]
+    svacina1: [cockovy-salat]
+    obed: [mexicka-fazolova-polevka, spaghetti-carbonara]
+    svacina2: [rancerska-pomazanka]
+    vecere: [recky-kuskusovy-salat]
+    poznamky: ""
+  - datum: "2026-07-14"
+    den: Úterý
+    snidane: [blt-sandwich]
+    svacina1: [jogurt]
+    obed: [kvetakovy-krem, hrachova-kase]
+    svacina2: [paprikova-pomazanka-s-nivou-a-cottage]
+    vecere: [rajska-omacka-s-hovezim-masem]
+    poznamky: ""
+  - datum: "2026-07-15"
+    den: Středa
+    snidane: [vajickova-pomazanka]
+    svacina1: [mrkvovo-cesnekova-pomazanka]
+    obed: [hraskova-polevka, svickova-omacka]
+    svacina2: [ovoce]
+    vecere: [marry-me-chicken-pasta]
+    poznamky: ""
+  - datum: "2026-07-16"
+    den: Čtvrtek
+    snidane: [hotelova-snidane]
+    svacina1: [testovinovy-salat]
+    obed: [rajska-polevka, chilli-con-carne]
+    svacina2: [ovocny-salat]
+    vecere: [pasta-e-ceci]
+    poznamky: ""
+  - datum: "2026-07-17"
+    den: Pátek
+    snidane: [blt-sandwich]
+    svacina1: [sopsky-salat]
+    obed: [podzimni-polevka, red-lentil-curry]
+    svacina2: [repova-pomazanka]
+    vecere: [valasska-pohanka]
+    poznamky: ""
+  - datum: "2026-07-18"
+    den: Sobota
+    snidane: [anglicka-snidane]
+    svacina1: [vajickova-pomazanka-s-brynzou-a-ajvarem]
+    obed: [francouzska-polevka, dusena-mrkev]
+    svacina2: [mrkvovo-cesnekova-pomazanka]
+    vecere: [rizoto]
+    poznamky: ""

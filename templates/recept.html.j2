@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>{% if jeden %}{{ recepty[0].nazev }}{% else %}Recepty – Tábor 26{% endif %}</title>
+<style>
+{{ css }}
+</style>
+</head>
+<body>
+{% for r in recepty %}
+<article class="recept">
+
+  <header class="hlavicka">
+    <div class="nadpis">
+      <h1>{{ r.nazev }}</h1>
+      <div class="stitky">
+        {% for s in r.stitky or [] %}<span class="stitek">{{ s }}</span>{% endfor %}
+        {% if r.vegetarian %}<span class="stitek veg">vegetariánské</span>{% endif %}
+        {% if r.veganske %}<span class="stitek veg">veganské</span>{% endif %}
+      </div>
+    </div>
+    <div class="zdroj">
+      {% if r.zdroj %}<div class="zdroj-radek">{{ r.zdroj }}</div>{% endif %}
+      {% if r.odkaz %}<div class="zdroj-odkaz">{{ r.odkaz }}</div>{% endif %}
+      <div class="porce-info">orig. recept na <strong>{{ r.porce_original or '?' }}</strong> porcí</div>
+    </div>
+  </header>
+
+  {% if r.alergeny %}
+  <div class="alergeny">
+    <span class="alergeny-ikona">⚠️</span>
+    <span class="alergeny-popis"><strong>ALERGENY:</strong>
+      {% for a in r.alergeny %}<span class="alergen">{{ a }}</span>{% endfor %}
+    </span>
+  </div>
+  {% endif %}
+
+  <div class="telo">
+    <section class="suroviny">
+      <h2>Suroviny</h2>
+      <table>
+        <thead>
+          <tr>
+            <th class="col-surovina">Surovina</th>
+            <th class="col-mnozstvi">na {{ r.porce_tisk }} osob</th>
+            <th class="col-rucni">na <u>&nbsp;&nbsp;&nbsp;&nbsp;</u> osob</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for s in r.suroviny_skal %}
+          <tr>
+            <td class="col-surovina">{{ s.surovina }}{% if s.poznamka %} <span class="pozn">({{ s.poznamka }})</span>{% endif %}</td>
+            <td class="col-mnozstvi">{% if s.mnozstvi %}{{ s.mnozstvi }} {{ s.jednotka }}{% else %}{{ s.jednotka }}{% endif %}</td>
+            <td class="col-rucni"></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </section>
+
+    <section class="postup">
+      <h2>Postup</h2>
+      <ol>
+        {% for krok in r.postup or [] %}
+        <li>{{ krok }}</li>
+        {% endfor %}
+      </ol>
+      {% if r.poznamky %}
+      <div class="recept-poznamky"><strong>Poznámka:</strong> {{ r.poznamky }}</div>
+      {% endif %}
+    </section>
+  </div>
+
+  <footer class="paticka">
+    {% if r.nutrice_na_porci %}
+    <div class="nutrice">
+      <span class="nutrice-titulek">Na porci (odhad):</span>
+      {% if r.nutrice_na_porci.kcal is not none %}<span class="nutri-pol"><strong>{{ r.nutrice_na_porci.kcal }}</strong> kcal</span>{% endif %}
+      {% if r.nutrice_na_porci.bilkoviny_g is not none %}<span class="nutri-pol">B {{ r.nutrice_na_porci.bilkoviny_g }} g</span>{% endif %}
+      {% if r.nutrice_na_porci.sacharidy_g is not none %}<span class="nutri-pol">S {{ r.nutrice_na_porci.sacharidy_g }} g</span>{% endif %}
+      {% if r.nutrice_na_porci.tuky_g is not none %}<span class="nutri-pol">T {{ r.nutrice_na_porci.tuky_g }} g</span>{% endif %}
+    </div>
+    {% endif %}
+    <div class="poznamky-sluzby">
+      <span class="poznamky-titulek">Poznámky služby:</span>
+    </div>
+  </footer>
+
+</article>
+{% endfor %}
+</body>
+</html>

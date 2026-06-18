@@ -1,0 +1,31 @@
+id: kremova-cesnecka
+nazev: Krémová česnečka
+zdroj: My Cooking Diary
+odkaz: https://www.mycookingdiary.cz/recept/kremova-cesnecka/
+stitky: [polévka]
+porce_original: 4
+suroviny:
+  - { surovina: máslo, mnozstvi: 2, jednotka: velké lžíce, poznamka: "" }
+  - { surovina: kvalitní olivový olej, mnozstvi: 2, jednotka: lžíce, poznamka: "" }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: velká, bílá nebo žlutá }
+  - { surovina: česnek, mnozstvi: 2, jednotka: hlavičky, poznamka: cca 25 stroužků }
+  - { surovina: čerstvý tymián, mnozstvi: 3, jednotka: snítky, poznamka: nebo sušený dle chuti }
+  - { surovina: brambory, mnozstvi: 4, jednotka: ks, poznamka: střední }
+  - { surovina: zeleninový vývar, mnozstvi: 500, jednotka: ml, poznamka: cca }
+  - { surovina: plnotučné mléko, mnozstvi: 150, jednotka: ml, poznamka: cca }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: bílý mletý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: pečivo na krutony, mnozstvi: null, jednotka: "", poznamka: + máslo na opečení }
+  - { surovina: čerstvá petrželka a tymián, mnozstvi: null, jednotka: "", poznamka: na ozdobu }
+postup:
+  - Cibuli oloupeme, nakrájíme najemno a na másle s olejem opečeme doměkka.
+  - Česnek oloupeme, zbavíme klíčků a prolisujeme. Přidáme k cibuli spolu s tymiánem (bez stonků) a opékáme asi 1,5 minuty, dokud se nerozvoní. Nesmí se připálit, jinak zhořkne.
+  - Zalijeme vývarem, přidáme oloupané, na menší kostky nakrájené brambory, osolíme a opepříme. Na středním plameni vaříme asi 15 minut, dokud brambory nezměknou.
+  - Polévku rozmixujeme do hladka (ideálně stolním mixérem). Podle potřeby přiléváme mléko podle požadované hustoty. Dochutíme solí a pepřem.
+  - Podáváme s krutony opečenými na másle, ozdobíme petrželkou a tymiánem.
+nutrice_na_porci: { kcal: 370, bilkoviny_g: 8, sacharidy_g: 35, tuky_g: 22 }
+alergeny: [mléko, lepek]
+vegetarian: true
+poznamky: Snadno převoditelné na veganskou verzi – místo másla olivový olej, místo mléka rostlinné. Lepek pouze z krutonů/pečiva (volitelné).
+zdroj_dat: notion-text
+overit: false

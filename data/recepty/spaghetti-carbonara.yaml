@@ -1,0 +1,27 @@
+id: spaghetti-carbonara
+nazev: Spaghetti carbonara
+zdroj: Prima Fresh (Cat & Cook)
+odkaz: https://fresh.iprima.cz/recepty/naprosto-dokonale-spaghetti-carbonara
+stitky: [Oběd, Večeře]
+porce_original: 2
+suroviny:
+  - { surovina: špagety, mnozstvi: 200, jednotka: g, poznamka: případně bucatini nebo linguine }
+  - { surovina: pancetta nebo guanciale, mnozstvi: null, jednotka: "", poznamka: "uzená, množství dle chuti (cca 80–100 g/porce)" }
+  - { surovina: parmazán, mnozstvi: 50, jednotka: g, poznamka: + na podávání }
+  - { surovina: žloutek, mnozstvi: 3, jednotka: ks, poznamka: "" }
+  - { surovina: máslo, mnozstvi: 1, jednotka: lžíce, poznamka: "" }
+  - { surovina: olivový olej, mnozstvi: 2, jednotka: lžíce, poznamka: "" }
+  - { surovina: čerstvě mletý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: sůl, mnozstvi: 2, jednotka: lžíce, poznamka: do vody na těstoviny }
+postup:
+  - Ve velkém hrnci zahřejeme alespoň 3 l vody, osolíme a vsypeme těstoviny. Vaříme na nejvyšší stupeň podle návodu na obalu, akorát na skus (al dente).
+  - Slaninu nakrájíme na proužky/kostičky, parmazán nastrouháme najemno. Žloutky lehce prošleháme se sýrem a opepříme. Přilijeme 1,5–2 sběračky vroucí vody z těstovin a promícháme.
+  - V pánvi rozehřejeme máslo a lžičku oleje, vsypeme slaninu a opečeme dokřupava.
+  - Uvařené těstoviny slijeme (vodu nevyléváme!), přidáme do pánve, přilijeme sběračku vody, promícháme, povaříme 1 minutu, odstavíme a necháme 2 minuty odpočinout.
+  - Vlijeme žloutkovou směs a promícháme do hladké omáčky, která obalí těstoviny. Rozdělíme na talíře a posypeme parmazánem.
+nutrice_na_porci: { kcal: 820, bilkoviny_g: 30, sacharidy_g: 75, tuky_g: 42 }
+alergeny: [lepek, vejce, mléko]
+vegetarian: false
+poznamky: Výtěžnost odhadnuta na 2 porce (200 g těstovin, 3 žloutky). U slaniny zdroj neuvádí přesné množství.
+zdroj_dat: notion-text
+overit: true

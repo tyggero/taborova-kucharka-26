@@ -122,3 +122,16 @@ h2 {
   font-size: 9pt;
 }
 .zavaznost { font-weight: 600; color: #c62828; }
+
+/* ---- Náhled na obrazovce: bílý list A4 (tisk se nemění) ---- */
+@media screen {
+  body { background: #d8d8d8; padding: 18px 0; }
+  .manual {
+    width: 210mm;
+    min-height: 297mm;          /* celý list včetně okrajů */
+    padding: 12mm 14mm;         /* = @page margin */
+    margin: 0 auto;             /* vycentrovat */
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, .25);
+  }
+}

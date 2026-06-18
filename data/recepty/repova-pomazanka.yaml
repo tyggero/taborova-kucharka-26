@@ -1,0 +1,29 @@
+id: repova-pomazanka
+nazev: Řepová pomazánka
+zdroj: Táborová Skautská Kuchařka
+odkaz: ""
+stitky: [Svačina]
+porce_original: 10
+suroviny:
+  - { surovina: červená řepa, mnozstvi: 750, jednotka: g, poznamka: "uvařená ve slupce" }
+  - { surovina: vlašské ořechy, mnozstvi: 100, jednotka: g, poznamka: "" }
+  - { surovina: Lučina nebo pomazánkové máslo, mnozstvi: 250, jednotka: g, poznamka: "" }
+  - { surovina: česnek, mnozstvi: 7, jednotka: stroužek, poznamka: "" }
+  - { surovina: jarní cibulka / petrželka / pažitka / čerstvé bylinky, mnozstvi: null, jednotka: "", poznamka: "na ozdobu a dochucení" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+postup:
+  - "Řepu vař ve vroucí vodě i se slupkou nejlépe úplně ponořenou cca 1 hodinu, dokud není měkká (záleží na velikosti). Můžeš ji péct i zabalenou v alobalu při 200 °C asi 45–60 minut – tím zesílí její sladkou chuť."
+  - "Uvařenou řepu slij, nechej vychladnout a oloupej. Poté ji nastrouhej nahrubo či najemno do velké mísy."
+  - "K nastrouhané řepě přidej Lučinu nebo pomazánkové máslo, nasekané nebo namleté vlašské ořechy a prolisovaný česnek. Promíchej, osol a opepři podle chuti."
+  - "Pomazánku namaž na čerstvé pečivo a ozdob nasekanou jarní cibulkou, petrželkou nebo jinými bylinkami podle chuti."
+nutrice_na_porci: { kcal: 180, bilkoviny_g: 5, sacharidy_g: 9, tuky_g: 14 }
+alergeny: [mléko, ořechy]
+vegetarian: true
+poznamky: >-
+  Vytěženo z tištěné Skautské kuchařky (foto v assets/recepty/repova-pomazanka.jpg).
+  Suroviny i postup čitelné a kompletní (porce 10). POZOR alergeny: vlašské ořechy
+  (lze vynechat nebo nahradit slunečnicovými semínky pro děti s alergií na ořechy)
+  a mléko (Lučina). Nutrice odhad na porci. Vegetariánské.
+zdroj_dat: foto
+overit: false

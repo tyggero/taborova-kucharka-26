@@ -1,0 +1,31 @@
+id: paprikova-pomazanka-s-nivou-a-cottage
+nazev: Papriková pomazánka s nivou a sýrem cottage
+zdroj: vlastní odhad (v Notionu bez receptu)
+odkaz: ""
+stitky: [Svačina, Snídaně]
+porce_original: 10
+suroviny:
+  - { surovina: cottage sýr, mnozstvi: 500, jednotka: g, poznamka: "základ pomazánky" }
+  - { surovina: niva (sýr s modrou plísní), mnozstvi: 150, jednotka: g, poznamka: "rozmačkaná vidličkou" }
+  - { surovina: máslo nebo pomazánkové máslo, mnozstvi: 100, jednotka: g, poznamka: "změklé, na pojení; lze vynechat" }
+  - { surovina: paprika (červená), mnozstvi: 2, jednotka: ks, poznamka: "nadrobno nakrájená" }
+  - { surovina: cibule nebo jarní cibulka, mnozstvi: 1, jednotka: ks, poznamka: "najemno; dle chuti" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: mletá sladká paprika, mnozstvi: null, jednotka: "", poznamka: "na dobarvení a dochucení; volitelné" }
+postup:
+  - "Nivu rozmačkej vidličkou a smíchej se sýrem cottage (a změklým máslem) do hladké pomazánky."
+  - "Papriku a cibuli nakrájej nadrobno a vmíchej do pomazánky."
+  - "Dochuť solí, pepřem a případně mletou sladkou paprikou."
+  - "Podávej na čerstvém pečivu, ozdob plátkem papriky nebo jarní cibulkou."
+nutrice_na_porci: { kcal: 160, bilkoviny_g: 9, sacharidy_g: 4, tuky_g: 12 }
+alergeny: [mléko]
+vegetarian: true
+poznamky: >-
+  POZOR: v Notionu je tato položka (Svačina/Snídaně) BEZ fotky a BEZ receptu –
+  tělo stránky obsahuje jen vloženou DB surovin a bookmark. Suroviny i množství
+  jsou ROZUMNÝ ODHAD podle názvu (papriková pomazánka s nivou a cottage),
+  připraveno na cca 10 porcí. Před vařením PROJÍT a upřesnit. Alergeny: mléko
+  (niva, cottage, máslo). Vegetariánské. Niva je výrazná chuť – množství dolaď.
+zdroj_dat: vlastni
+overit: true

@@ -1,0 +1,33 @@
+id: sopsky-salat
+nazev: Šopský salát
+zdroj: vlastní odhad (v Notionu bez receptu)
+odkaz: ""
+stitky: [Svačina]
+porce_original: 10
+suroviny:
+  - { surovina: rajčata, mnozstvi: 1.5, jednotka: kg, poznamka: "nakrájená na kostky/měsíčky" }
+  - { surovina: okurka salátová, mnozstvi: 1.2, jednotka: kg, poznamka: "cca 2–3 ks, nakrájené" }
+  - { surovina: paprika, mnozstvi: 0.6, jednotka: kg, poznamka: "červená/zelená, na proužky" }
+  - { surovina: cibule (červená), mnozstvi: 2, jednotka: ks, poznamka: "na tenká kolečka" }
+  - { surovina: balkánský sýr (feta), mnozstvi: 400, jednotka: g, poznamka: "nastrouhaný nebo nadrobený navrch" }
+  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "na zálivku" }
+  - { surovina: vinný ocet nebo citronová šťáva, mnozstvi: null, jednotka: "", poznamka: "na zálivku" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: olivy, mnozstvi: null, jednotka: "", poznamka: "volitelné, na ozdobu" }
+postup:
+  - "Rajčata, okurku a papriku nakrájej na kousky, cibuli na tenká kolečka. Smíchej v míse."
+  - "Zalij zálivkou z olivového oleje a octa (nebo citronu), osol a opepři, promíchej."
+  - "Navrch nastrouhej nebo nadrob balkánský sýr (feta), případně ozdob olivami."
+  - "Podávej vychlazené s pečivem."
+nutrice_na_porci: { kcal: 180, bilkoviny_g: 7, sacharidy_g: 8, tuky_g: 13 }
+alergeny: [mléko]
+vegetarian: true
+poznamky: >-
+  POZOR: v Notionu je Šopský salát (Svačina) BEZ fotky a BEZ receptu – tělo
+  stránky obsahuje jen vloženou DB surovin a bookmark. Suroviny i množství jsou
+  ROZUMNÝ ODHAD podle klasického receptu na šopský salát, připraveno na cca 10
+  porcí. Před vařením PROJÍT a upřesnit gramáže. Alergeny: mléko (balkánský sýr).
+  Vegetariánské; bez sýra veganské a bez laktózy.
+zdroj_dat: vlastni
+overit: true

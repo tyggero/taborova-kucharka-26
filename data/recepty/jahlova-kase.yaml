@@ -1,0 +1,28 @@
+id: jahlova-kase
+nazev: Jáhlová kaše
+zdroj: Táborová Skautská Kuchařka
+odkaz: ""
+stitky: [Snídaně]
+porce_original: 10
+suroviny:
+  - { surovina: mléko, mnozstvi: 2, jednotka: l, poznamka: "" }
+  - { surovina: jáhly, mnozstvi: 500, jednotka: g, poznamka: "před vařením spařit/přelít horkou vodou" }
+  - { surovina: máslo, mnozstvi: 100, jednotka: g, poznamka: "" }
+  - { surovina: sůl, mnozstvi: 1, jednotka: PL, poznamka: "" }
+  - { surovina: dobroty na ochucení, mnozstvi: null, jednotka: "", poznamka: "marmeláda / kakao + cukr / ovoce / oříšky / opražená semínka – dle chuti" }
+postup:
+  - "Jáhly v sítku spař (přelij horkou vodou). Díky tomu následně při vaření nezhořknou."
+  - "Uvař v lehce osoleném mléce za stálého míchání do kašovité konzistence."
+  - "Můžeš podávat s rozličnými dobrotami – doporučujeme dochutit kaši salkem a přidat pár sušených nebo čerstvých lesních plodů. Skvěle bude fungovat i svařené ovoce (jahody, lesní plody, hrušky, jablka…)."
+  - "Tip: aby se kaše nepřipálila, vař ji ve vodní lázni nebo na mírnějším plameni a častěji míchej. A vždycky kaši slaď až v posledním kroku."
+nutrice_na_porci: { kcal: 320, bilkoviny_g: 9, sacharidy_g: 45, tuky_g: 12 }
+alergeny: [mléko]
+vegetarian: true
+poznamky: >-
+  Vytěženo z tištěné Skautské kuchařky (foto v assets/recepty/jahlova-kase.jpg).
+  Suroviny i postup čitelné a kompletní (porce 10). Štítek SAN / ochucení (oříšky,
+  semínka) jsou volitelné – při alergiích vynechat. Nutrice je odhad na porci bez
+  ovoce/dobrot. Při použití rostlinného mléka a margarínu lze připravit veganskou
+  i bezlaktózovou variantu (jáhly samy o sobě bezlepkové).
+zdroj_dat: foto
+overit: false

@@ -1,0 +1,34 @@
+id: mrkvovo-cesnekova-pomazanka
+nazev: Mrkvovo-česneková pomazánka
+zdroj: bookmark v Notionu (mrkvovo-sýrová pomazánka s česnekem)
+odkaz: https://zenysro.cz/blogy/recepty/mrkvovo-syrova-pomazanka/
+stitky: [Svačina]
+porce_original: 4
+suroviny:
+  - { surovina: uzený sýr, mnozstvi: 150, jednotka: g, poznamka: "nastrouhaný na velké struhadlo" }
+  - { surovina: vejce, mnozstvi: 2, jednotka: ks, poznamka: "uvařená natvrdo, nastrouhaná" }
+  - { surovina: mrkev, mnozstvi: 2, jednotka: ks, poznamka: "1–2 ks, syrová, nastrouhaná na střední struhadlo" }
+  - { surovina: česnek, mnozstvi: 3, jednotka: stroužky, poznamka: "rozdrcený, dle chuti" }
+  - { surovina: majonéza, mnozstvi: 4, jednotka: lžíce, poznamka: "3–4 lžíce" }
+  - { surovina: petrželka, mnozstvi: null, jednotka: "", poznamka: "několik snítek, nasekaná najemno" }
+  - { surovina: mletý černý pepř, mnozstvi: 0.5, jednotka: lžička, poznamka: "" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
+postup:
+  - "Uzený sýr a vařená vejce nastrouhej přes velké struhadlo do mísy."
+  - "Oloupej mrkev a nastrouhej ji na středním struhadle přímo do mísy."
+  - "Přidej rozdrcené stroužky česneku podle chuti."
+  - "Nasekej petrželku najemno a přidej do mísy."
+  - "Směs osol a opepři, přidej 3–4 lžíce majonézy a promíchej."
+  - "Plátky chleba můžeš opéct v toustovači nebo na pánvi s kostkou másla a pomazánku na ně nanést."
+nutrice_na_porci: { kcal: 280, bilkoviny_g: 10, sacharidy_g: 6, tuky_g: 24 }
+alergeny: [vejce, mléko]
+vegetarian: true
+poznamky: >-
+  V Notionu jen bookmark s titulkem „Mrkvovo-česneková pomazánka – chuťovka na
+  chlebík se sýrovým základem" + vložená DB surovin. Cílovou URL bookmarku
+  notion-fetch nevrací; přesnou shodu titulku se nepodařilo dohledat, použit
+  odpovídající recept mrkvovo-sýrové pomazánky s česnekem (uzený sýr + vejce +
+  mrkev + česnek + majonéza). Sýrový základ může být i jiný (tavený/smetanový
+  sýr). Overit – ověřit dle původního odkazu a upřesnit množství pro tábor.
+zdroj_dat: url
+overit: true

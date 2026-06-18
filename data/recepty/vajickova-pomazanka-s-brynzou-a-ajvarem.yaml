@@ -1,0 +1,35 @@
+id: vajickova-pomazanka-s-brynzou-a-ajvarem
+nazev: Vajíčková pomazánka s brynzou a ajvarem
+zdroj: Prima Fresh (bookmark v Notionu – brynzová pomazánka s ajvarem)
+odkaz: https://fresh.iprima.cz/recepty/s-klarou-v-kuchyni-brynzova-pomazanka-s-ajvarem
+stitky: [Svačina, Snídaně]
+porce_original: 4
+suroviny:
+  - { surovina: vejce, mnozstvi: 4, jednotka: ks, poznamka: "uvařená natvrdo, nastrouhaná/nadrobno – DOPLNĚNO (název receptu uvádí vajíčková, ale zdrojový recept brynzy je bez vajec)" }
+  - { surovina: brynza, mnozstvi: 125, jednotka: g, poznamka: "rozmačkaná vidličkou" }
+  - { surovina: tvaroh (nízkotučný), mnozstvi: 250, jednotka: g, poznamka: "" }
+  - { surovina: ajvar (jemný), mnozstvi: 3, jednotka: lžíce, poznamka: "" }
+  - { surovina: majonéza, mnozstvi: 1, jednotka: lžíce, poznamka: "" }
+  - { surovina: uzená paprika, mnozstvi: 1, jednotka: lžíce, poznamka: "mletá" }
+  - { surovina: pálivá paprika, mnozstvi: 0.5, jednotka: lžička, poznamka: "1/2–1 lžička dle chuti" }
+  - { surovina: červená cibule, mnozstvi: 1, jednotka: ks, poznamka: "malá, nadrobno" }
+  - { surovina: kyselé okurky, mnozstvi: 2, jednotka: ks, poznamka: "nadrobno" }
+  - { surovina: jarní cibulka, mnozstvi: null, jednotka: "", poznamka: "nadrobno, dle chuti" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti" }
+postup:
+  - "Do větší mísy dej brynzu a rozmačkej ji vidličkou. Přidej tvaroh, majonézu a ajvar."
+  - "Dochuť solí, uzenou a pálivou paprikou podle chuti."
+  - "Vejce uvař natvrdo, oloupej a nastrouhej / nakrájej nadrobno a vmíchej do pomazánky."
+  - "Přimíchej nadrobno nakrájenou jarní cibulku, červenou cibuli a kyselé okurky."
+  - "Vše pořádně promíchej a mazej na dobrý (kváskový) chléb."
+nutrice_na_porci: { kcal: 220, bilkoviny_g: 14, sacharidy_g: 7, tuky_g: 15 }
+alergeny: [mléko, vejce]
+vegetarian: true
+poznamky: >-
+  V Notionu jen bookmark „Vajíčková pomazánka s brynzou a ajvarem" + vložená DB
+  surovin; cílovou URL notion-fetch nevrací. Vytěženo z odpovídajícího receptu
+  Prima Fresh „Pikantní brynzová pomazánka s ajvarem". POZOR: zdrojový recept je
+  BEZ VAJEC, název v Notionu ale vejce uvádí – vejce doplněna z hlavy (cca 4 ks).
+  Ověřit původní recepturu a přidání vajec/množství pro tábor. Vegetariánské.
+zdroj_dat: url
+overit: true

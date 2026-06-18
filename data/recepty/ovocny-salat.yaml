@@ -1,0 +1,27 @@
+id: ovocny-salat
+nazev: Ovocný salát
+zdroj: ""
+odkaz: ""
+stitky: [Svačina]
+porce_original: 10
+suroviny:
+  - { surovina: jablka, mnozstvi: null, jednotka: "", poznamka: "doplnit množství" }
+  - { surovina: banány, mnozstvi: null, jednotka: "", poznamka: "doplnit množství" }
+  - { surovina: pomeranče, mnozstvi: null, jednotka: "", poznamka: "doplnit množství" }
+  - { surovina: hrušky, mnozstvi: null, jednotka: "", poznamka: "doplnit množství" }
+  - { surovina: sezónní ovoce (jahody, hroznové víno, broskve…), mnozstvi: null, jednotka: "", poznamka: "dle dostupnosti" }
+  - { surovina: citronová šťáva, mnozstvi: null, jednotka: "", poznamka: "proti zhnědnutí, dle chuti" }
+postup:
+  - "Ovoce omyjeme, oloupeme (kde je třeba) a nakrájíme na kostičky."
+  - "Smícháme dohromady, zakápneme citronovou šťávou, aby ovoce nezhnědlo."
+  - "Podle chuti lze osladit nebo přidat lžíci jogurtu/medu. Podáváme vychlazené."
+nutrice_na_porci: { kcal: 110, bilkoviny_g: 1, sacharidy_g: 26, tuky_g: 0.5 }
+alergeny: []
+vegetarian: true
+poznamky: >-
+  POZOR: Notion stránka NEOBSAHUJE fotku ani text receptu – tělo je jen vložená
+  databáze surovin (kterou dle rozhodnutí projektu ignorujeme). Suroviny i množství
+  jsou ODHAD (běžný ovocný salát) a je nutné je doplnit dle dostupného sezónního
+  ovoce. Vegan a bezlepkový (pokud se nepřidá jogurt/müsli).
+zdroj_dat: vlastni
+overit: true

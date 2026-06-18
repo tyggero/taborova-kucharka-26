@@ -1,0 +1,34 @@
+id: cockovy-salat
+nazev: Čočkový salát
+zdroj: Táborová Skautská Kuchařka (str. 138)
+odkaz: ""
+stitky: [Svačina]
+porce_original: 10
+suroviny:
+  - { surovina: čočka beluga, mnozstvi: 400, jednotka: g, poznamka: "" }
+  - { surovina: salátová okurka, mnozstvi: 2, jednotka: ks, poznamka: "" }
+  - { surovina: červená paprika, mnozstvi: 2, jednotka: ks, poznamka: "" }
+  - { surovina: červená cibule, mnozstvi: 2, jednotka: ks, poznamka: "" }
+  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: na zálivku }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: šťáva z limety, mnozstvi: 1, jednotka: limeta, poznamka: "šťáva z jedné limety" }
+  - { surovina: máta, mnozstvi: null, jednotka: "", poznamka: "VOLITELNÉ – pár nasekaných lístků" }
+postup:
+  - "Čočku pečlivě propláchni a dej vařit přibližně na 20 minut. Jakmile je hotová, tak ji sceď a nech vystydnout. Luštěniny nikdy nesol v průběhu vaření, nezměkly by."
+  - "Nakrájej si zeleninu na kostičky, cibuli najemno a smíchej se studenou čočkou."
+  - "Zalij limetovou šťávou, zakapej olivovým olejem, jemně osol a opepři."
+  - "Fajnšmekři můžou dochutit několika najemno nasekanými mátovými lístky (volitelné)."
+nutrice_na_porci: { kcal: 180, bilkoviny_g: 9, sacharidy_g: 22, tuky_g: 6 }
+alergeny: []
+vegetarian: true
+poznamky: >-
+  Vytěženo z fotky stránky kuchařky v Notionu (assets/recepty/cockovy-salat.jpg).
+  Suroviny i postup čitelné a kompletní. 10 porcí, vege, obtížnost 1/5, 120 min.
+  Na fotce je i NADSTAVBA na teplý salát pro hladovce (přidat: 400 g sýra halloumi
+  opečeného na plátky, 100 g sušených rajčat – orestovat na nich cibuli místo
+  olivového oleje, 1 balení baby špenátu nebo rukoly; v této variantě se nedochucuje
+  mátou). Teplá varianta = NENÍ bezlepková kvůli halloumi? halloumi je bezlepkový,
+  ale obsahuje mléko. Základní studená varianta je vegan a bezlepková.
+zdroj_dat: foto
+overit: false

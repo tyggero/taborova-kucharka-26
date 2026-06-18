@@ -1,0 +1,38 @@
+id: koprovka
+nazev: Koprová omáčka s vejcem (Koprovka)
+zdroj: ruční poznámky (foto z Notionu)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 40
+suroviny:
+  - { surovina: houskový knedlík, mnozstvi: 7, jednotka: šiška, poznamka: "1 šiška ~ 18 plátků; cca 1 šiška na ~6 lidí (z poznámek kuchaře)" }
+  - { surovina: vejce, mnozstvi: 40, jednotka: ks, poznamka: "cca 1 vejce na osobu, uvařit natvrdo" }
+  - { surovina: máslo, mnozstvi: null, jednotka: "", poznamka: "plnotučné; na jíšku (bešamel) – kostka másla na zaprášení moukou" }
+  - { surovina: hladká mouka, mnozstvi: 0.75, jednotka: kg, poznamka: "na jíšku; množství z poznámek (3/4 kg)" }
+  - { surovina: mléko, mnozstvi: 5, jednotka: l, poznamka: "mléko + smetana dohromady cca 5 l + 3 l (z poznámek 2024)" }
+  - { surovina: smetana, mnozstvi: 3, jednotka: l, poznamka: "ke šlehání/na vaření; do bešamelu" }
+  - { surovina: kopr, mnozstvi: null, jednotka: "", poznamka: "čerstvý nebo naložený" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: cukr, mnozstvi: null, jednotka: "", poznamka: na dochucení }
+  - { surovina: ocet, mnozstvi: null, jednotka: "", poznamka: na dochucení }
+postup:
+  - "Vejce uvaříme natvrdo, oloupeme a necháme stranou."
+  - "Knedlíky: připravíme houskové knedlíky (šišky). Pokud máš parníček, pokládej je v několika vrstvách na utěrku a napař v páře. POZOR na vyvaření vody! (utěrka přivázaná na hrnec, voda dole)."
+  - "Bešamel (jíška): v hrnci rozpustíme kostku másla a zaprašujeme hladkou moukou, dokud nevznikne hustá kaše."
+  - "Do bešamelu postupně přiléváme mléko a smetanu, mícháme dohladka a ohříváme, dokud omáčka nezhoustne."
+  - "Kopr nakrájíme (čerstvý nebo naložený) a vmícháme do omáčky, prohřejeme."
+  - "Uvařená vejce nakrájíme a přidáme do omáčky (nebo podáváme navrch)."
+  - "Dochutíme octem, solí a cukrem."
+  - "Podáváme s nakrájeným houskovým knedlíkem."
+nutrice_na_porci: { kcal: 550, bilkoviny_g: 18, sacharidy_g: 70, tuky_g: 22 }
+alergeny: [lepek, mléko, vejce]
+vegetarian: true
+poznamky: >-
+  Vytěženo z ručně psané fotky receptu v Notionu (foto v assets/recepty/koprovka.jpg).
+  Přesná množství surovin nejsou v receptu uvedena jako gramáž – vychází z poznámek
+  kuchaře o předchozích várkách: 2019 ~45 osob; v r. 2019 vyšlo „moc" pro cca 30 lidí;
+  2024 → 7 šišek knedlíku, mléko+smetana cca 5 l + 3 l, hladká mouka ~3/4 kg.
+  Knedlíky se podle poznámky „jedly i po večeři, bylo jich moc". Množství proto PROJÍT
+  a upřesnit při vaření. Vegetariánské.
+zdroj_dat: foto
+overit: true

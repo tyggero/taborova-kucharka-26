@@ -1,0 +1,124 @@
+/* A4 manuál stravovacích omezení – jedna tisknutelná stránka. */
+@page {
+  size: A4;
+  margin: 12mm 14mm;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: #1c1c1c;
+  font-size: 11.5pt;
+  line-height: 1.4;
+}
+
+.manual {
+  display: flex;
+  flex-direction: column;
+  min-height: 273mm;            /* A4 výška minus okraje */
+}
+
+/* ---- Hlavička (sladěno s recepty) ---- */
+.hlavicka {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  border-bottom: 3px solid #2e7d32;
+  padding-bottom: 8px;
+}
+.hlavicka h1 {
+  margin: 0;
+  font-size: 22pt;
+  color: #1b5e20;
+  line-height: 1.1;
+}
+.datum { font-size: 9pt; color: #555; }
+
+h2 {
+  font-size: 13pt;
+  color: #1b5e20;
+  margin: 18px 0 8px;
+  border-bottom: 1px solid #c8e6c9;
+  padding-bottom: 3px;
+}
+
+.prazdno { color: #888; font-style: italic; }
+
+/* ---- Watch-list (výrazný oranžový blok jako alergeny na receptu) ---- */
+.watchlist {
+  margin-top: 6px;
+}
+.watch-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+.watch-box {
+  background: #fff3e0;
+  border: 2px solid #e65100;
+  border-radius: 6px;
+  padding: 7px 12px;
+}
+.watch-nazev {
+  font-weight: 700;
+  color: #bf360c;
+  font-size: 12pt;
+}
+.watch-ikona { font-size: 14pt; }
+.watch-koho { font-size: 9.5pt; color: #555; margin-top: 2px; }
+
+/* ---- Tabulka strávníků ---- */
+.stravnici table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 10.5pt;
+}
+.stravnici th {
+  text-align: left;
+  font-size: 8.5pt;
+  text-transform: uppercase;
+  letter-spacing: .3px;
+  color: #555;
+  border-bottom: 1.5px solid #999;
+  padding: 4px 5px;
+}
+.stravnici td {
+  padding: 5px;
+  border-bottom: 1px solid #e0e0e0;
+  vertical-align: top;
+}
+.col-kdo { width: 14%; font-weight: 600; }
+.col-pritomnost { width: 13%; color: #555; }
+.col-diety { width: 13%; }
+.col-alergeny { width: 20%; }
+.col-neji { width: 15%; color: #333; }
+.col-pozn { width: 25%; }
+
+/* Tagy alergenů (stejný styl jako na receptu) */
+.alergen {
+  display: inline-block;
+  background: #ffe0b2;
+  border: 1px solid #ffb74d;
+  border-radius: 4px;
+  padding: 0 7px;
+  margin: 1px 2px 1px 0;
+  font-weight: 600;
+  color: #bf360c;
+  font-size: 9.5pt;
+}
+/* Tagy diet (zelený styl jako štítky receptu) */
+.dieta {
+  display: inline-block;
+  background: #f1f8e9;
+  border: 1px solid #aed581;
+  border-radius: 10px;
+  padding: 1px 8px;
+  margin: 1px 2px 1px 0;
+  color: #33691e;
+  font-size: 9pt;
+}
+.zavaznost { font-weight: 600; color: #c62828; }

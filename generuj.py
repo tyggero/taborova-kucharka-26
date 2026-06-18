@@ -4,7 +4,8 @@
 Použití:
     python3 generuj.py recepty   # vyrenderuje A4 recepty do vystup/
     python3 generuj.py rozvrh    # vyrenderuje rozvrh jídel do vystup/
-    python3 generuj.py all       # obojí
+    python3 generuj.py omezeni   # vyrenderuje manuál stravovacích omezení
+    python3 generuj.py all       # vše
 
 Data jsou v data/recepty/*.yaml a data/jidelnicek.yaml (ručně editovatelné).
 Suroviny se pro tisk přepočítávají na PORCE_TISK osob; navíc zůstává prázdný
@@ -124,12 +125,61 @@ def render_rozvrh():
     print(f"✓ Vygenerován rozvrh → {VYSTUP / 'rozvrh.html'}")
 
 
+def render_omezeni():
+    """Vygeneruje A4 manuál stravovacích omezení z data/alergeny.yaml.
+
+    Watch-list (seznam alergenů ke sledování) se odvodí jako sjednocení polí
+    `alergeny` přes všechny strávníky – ručně se neudržuje.
+    """
+    cesta = DATA / "alergeny.yaml"
+    if not cesta.exists():
+        print("⚠  data/alergeny.yaml zatím neexistuje – manuál omezení přeskočen.")
+        return
+    with cesta.open(encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    stravnici = data.get("stravnici") or []
+    ciselnik = {a["id"]: a for a in (data.get("ciselnik_alergenu") or [])}
+
+    # Odvození watch-listu: alergen -> kdo je jím dotčen, s popiskem a ikonou.
+    watch = {}
+    for s in stravnici:
+        for alg in s.get("alergeny") or []:
+            if alg not in ciselnik:
+                print(f"⚠  Neznámý alergen '{alg}' u '{s.get('kdo', '?')}' "
+                      f"– není v ciselnik_alergenu (překlep?).")
+            zaznam = watch.setdefault(alg, {
+                "id": alg,
+                "nazev": ciselnik.get(alg, {}).get("nazev", alg),
+                "ikona": ciselnik.get(alg, {}).get("ikona", "⚠️"),
+                "koho": [],
+            })
+            zaznam["koho"].append(s.get("kdo", "?"))
+    # Seřadit dle počtu dotčených (sestupně), pak abecedně dle názvu.
+    watchlist = sorted(watch.values(), key=lambda w: (-len(w["koho"]), w["nazev"]))
+
+    sablona = env.get_template("omezeni.html.j2")
+    css = nacti_css("omezeni.css")
+    html = sablona.render(
+        nadpis="Stravovací omezení — Tábor 26",
+        datum=data.get("datum", ""),
+        stravnici=stravnici,
+        watchlist=watchlist,
+        css=css,
+    )
+    VYSTUP.mkdir(parents=True, exist_ok=True)
+    (VYSTUP / "omezeni.html").write_text(html, encoding="utf-8")
+    print(f"✓ Vygenerován manuál omezení ({len(stravnici)} strávníků, "
+          f"{len(watchlist)} alergenů ke sledování) → {VYSTUP / 'omezeni.html'}")
+
+
 def main():
     prikaz = sys.argv[1] if len(sys.argv) > 1 else "all"
     if prikaz in ("recepty", "all"):
         render_recepty()
     if prikaz in ("rozvrh", "all"):
         render_rozvrh()
+    if prikaz in ("omezeni", "all"):
+        render_omezeni()
 
 
 if __name__ == "__main__":

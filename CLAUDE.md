@@ -72,8 +72,10 @@ proto z relace nejde vyčíst → bereme z fotky.
 - **Alergeny:** výrazný box na receptu. Diety k zohlednění v jídelníčku:
   vegetariáni, bezlepkové/bezlaktózové; alergeny: **semínka, kokos, ořechy** +
   jedna holčička se speciálním omezením.
-- **Čeká se na uživatele (neblokuje skeleton):** přesný seznam relevantních
-  alergenů + speciální omezení té holčičky → do `data/alergeny.yaml`.
+- **Registr `data/alergeny.yaml` existuje** (strávníci + číselník alergenů);
+  generuje A4 manuál `vystup/omezeni.html` (`python3 generuj.py omezeni`) s tabulkou
+  strávníků a odvozeným watch-listem alergenů. **Čeká se na uživatele:** doplnit
+  skutečné strávníky (zatím placeholder záznamy) vč. speciálního omezení té holčičky.
 
 ## Repo a build
 
@@ -88,7 +90,7 @@ Ctrl+P → Uložit jako PDF (A4). Jeden recept = jedna stránka.
 |-------|-------|
 | `data/recepty/*.yaml` | recepty (ručně editovatelné) — schéma viz kterýkoliv soubor |
 | `data/jidelnicek.yaml` | rozvrh jídel (zatím neexistuje — Milník 4) |
-| `data/alergeny.yaml` | registr alergenů + děti s omezeními (zatím neexistuje) |
+| `data/alergeny.yaml` | registr strávníků s omezeními + číselník alergenů → manuál `vystup/omezeni.html` |
 | `assets/recepty/` | archiv foto z kuchařek |
 | `templates/`, `styles/` | HTML šablony a CSS |
 | `generuj.py` | generátor; `PORCE_TISK = 10` |

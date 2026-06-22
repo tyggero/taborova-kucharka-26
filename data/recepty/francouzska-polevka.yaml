@@ -15,7 +15,7 @@ suroviny:
   - { surovina: olej nebo máslo, mnozstvi: null, jednotka: "", poznamka: "trochu na orestování", sekce: Základ }
   - { surovina: mrkev, mnozstvi: 2, jednotka: ks, poznamka: "cca 150 g", sekce: Kořenová zelenina }
   - { surovina: petržel, mnozstvi: 1, jednotka: ks, poznamka: "cca 100 g", sekce: Kořenová zelenina }
-  - { surovina: stonkový celer, mnozstvi: 1, jednotka: stonek, poznamka: "cca 60 g", sekce: Kořenová zelenina }
+  - { surovina: řapíkatý celer, mnozstvi: 1, jednotka: stonek, poznamka: "cca 60 g", sekce: Kořenová zelenina }
   - { surovina: voda, mnozstvi: 800, jednotka: ml, poznamka: "", sekce: Vývar a koření }
   - { surovina: bobkový list, mnozstvi: 1, jednotka: ks, poznamka: "", sekce: Vývar a koření }
   - { surovina: kurkuma, mnozstvi: 0.5, jednotka: lžička, poznamka: "", sekce: Vývar a koření }
@@ -25,7 +25,7 @@ suroviny:
 postup:
   - "Na troše oleje nebo másla orestuj nadrobno nakrájenou cibuli a lisovaný česnek dozlatova."
   - "Přidej mleté maso a opékej, dokud není maso úplně propečené a hnědé."
-  - "Přidej jemně nakrájenou mrkev, petržel a stonkový celer (mrkev s petrželí lze umlít v mixéru na mini kousky). Chvíli osmaž, přidej koření (bobkový list, kurkumu, pepř, sůl) a zalij vodou."
+  - "Přidej jemně nakrájenou mrkev, petržel a řapíkatý celer (mrkev s petrželí lze umlít v mixéru na mini kousky). Chvíli osmaž, přidej koření (bobkový list, kurkumu, pepř, sůl) a zalij vodou."
   - "Vař cca 45–50 minut."
   - "Mušličky uvař zvlášť a přidej do talíře (nebo je uvař přímo v polévce – těstovinová polévka chutná víc)."
 nutrice_na_porci: { kcal: 230, bilkoviny_g: 13, sacharidy_g: 20, tuky_g: 9 }

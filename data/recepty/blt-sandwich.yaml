@@ -12,17 +12,17 @@ suroviny:
   - { surovina: slanina, mnozstvi: 6, jednotka: plátky, poznamka: "silnější; opéct dokřupava", sekce: Sendvič }
   - { surovina: rajčata, mnozstvi: 2, jednotka: ks, poznamka: "velká zralá, na silné plátky", sekce: Sendvič }
   - { surovina: ledový (nebo římský) salát, mnozstvi: 4, jednotka: listy, poznamka: "omýt, na nudličky", sekce: Sendvič }
-  - { surovina: majonéza, mnozstvi: 4, jednotka: lžíce, poznamka: "na potření; obsahuje vejce", sekce: Dochucení }
+  - { surovina: mazací sýr, mnozstvi: 0.2, jednotka: balení, poznamka: "na potření", sekce: Dochucení }
   - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení }
   - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení }
 postup:
   - "Salát omyj, osuš a nakrájej na tenké nudličky. Rajčata nakrájej na silné plátky."
   - "Slaninu opeč na pánvi dokřupava a nech okapat na papírové utěrce."
   - "Chléb lehce opeč na pánvi (případně namaž máslem)."
-  - "Každý krajíc potři lžící majonézy. Oblož slaninou, rajčaty a salátem, osol a opepři."
+  - "Každý krajíc potři lžící mazacího sýru. Oblož slaninou, rajčaty a salátem, osol a opepři."
   - "Spoj sendviče dohromady, rozkroj na poloviny a podávej."
 nutrice_na_porci: { kcal: 420, bilkoviny_g: 15, sacharidy_g: 30, tuky_g: 26 }
-alergeny: [lepek, vejce]
+alergeny: [lepek, mléko]
 vegetarian: false
 poznamky: >-
   Vytěženo z webu uvedeného v Notion bookmarku (Toprecepty.cz). Recept je na 2 sendviče,

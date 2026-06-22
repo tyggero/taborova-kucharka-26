@@ -10,8 +10,8 @@ casy:
 suroviny:
   - { surovina: brambory, mnozstvi: 10, jednotka: kg, poznamka: "10 kg na 35 lidí = z poznámky kuchaře MÁLO; počítat ~3 brambory na osobu", sekce: Brambory }
   - { surovina: kmín, mnozstvi: null, jednotka: "", poznamka: "trochu, do vody na vaření", sekce: Brambory }
-  - { surovina: máslo, mnozstvi: null, jednotka: "", poznamka: "z poznámky stačilo 1 máslo (kostka); plátek másla k podávání", sekce: Brambory }
-  - { surovina: tvaroh měkký, mnozstvi: null, jednotka: "", poznamka: "z poznámky 50 g na osobu = MÁLO, příště více; cca 2 kg na 35 osob", sekce: Pomazánka }
+  - { surovina: máslo, mnozstvi: 1, jednotka: "kostka", poznamka: "z poznámky stačilo 1 máslo (kostka); plátek másla k podávání", sekce: Brambory }
+  - { surovina: tvaroh měkký, mnozstvi: 2, jednotka: "kg", poznamka: "z poznámky 50 g na osobu = MÁLO, příště více; cca 2 kg na 35 osob", sekce: Pomazánka }
   - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Pomazánka }
   - { surovina: česnek, mnozstvi: null, jednotka: "", poznamka: "prolisovaný, do tvarohové směsi", sekce: Pomazánka }
   - { surovina: pažitka či jiná bylina, mnozstvi: null, jednotka: "", poznamka: "nasekaná, na posypání a do tvarohové směsi", sekce: Pomazánka }

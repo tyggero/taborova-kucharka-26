@@ -12,7 +12,6 @@ suroviny:
   - { surovina: mleté maso, mnozstvi: 1, jednotka: kg, poznamka: "mix hovězí/vepřové nebo jen hovězí", sekce: "Maso a zelenina" }
   - { surovina: cibule, mnozstvi: 5, jednotka: ks, poznamka: "", sekce: "Maso a zelenina" }
   - { surovina: mrkev, mnozstvi: 3, jednotka: ks, poznamka: "nastrouhaná", sekce: "Maso a zelenina" }
-  - { surovina: feferonka, mnozstvi: 2, jednotka: ks, poznamka: "nasekaná", sekce: "Maso a zelenina" }
   - { surovina: česnek, mnozstvi: 10, jednotka: stroužek, poznamka: "", sekce: "Maso a zelenina" }
   - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "na restování", sekce: "Maso a zelenina" }
   - { surovina: sekaná rajčata v plechovce, mnozstvi: 1, jednotka: kg, poznamka: "", sekce: Omáčka }
@@ -28,7 +27,7 @@ suroviny:
   - { surovina: zakysaná smetana, mnozstvi: 500, jednotka: ml, poznamka: "k podávání", sekce: "K podávání" }
 postup:
   - "Najemno si nakrájej cibuli a orestuj ji v hrnci. Když začne zlátnout, přidej 7 stroužků nasekaného česneku a promíchej. Pak přidej oloupanou a nahrubo nastrouhanou mrkev, orestuj a následně přidej maso."
-  - "Maso osol, opepři, posyp kmínem a zprudka opékej asi 5 minut. Vařečkou nebo šťouchadlem na brambory maso odděluj od sebe, aby bylo sypké. Přidej nasekanou feferonku, rajčata a znovu orestuj."
+  - "Maso osol, opepři, posyp kmínem a zprudka opékej asi 5 minut. Vařečkou nebo šťouchadlem na brambory maso odděluj od sebe, aby bylo sypké. Přidej rajčata a znovu orestuj."
   - "Poté přidej vývar/vodu, čokoládu, cukr, zbytek česneku, oregano a přecezené fazole. Na mírném ohni vše společně dus ještě asi 30 minut."
   - "Finálně dochuť solí, pepřem, přidej nasekaný tymián/petrželku a podávej do ešusu spolu s lžící smetany. Jako příloha se nejlépe hodí rýže, chleba nebo nachos."
 nutrice_na_porci: { kcal: 480, bilkoviny_g: 28, sacharidy_g: 35, tuky_g: 24 }

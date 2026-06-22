@@ -12,8 +12,7 @@ suroviny:
   - { surovina: anglická slanina, mnozstvi: 1, jednotka: plátek, poznamka: "silný plátek", sekce: Hlavní talíř }
   - { surovina: vejce, mnozstvi: 1, jednotka: ks, poznamka: "na volské oko (žloutek tekutý)", sekce: Hlavní talíř }
   - { surovina: fazole v rajčatové omáčce, mnozstvi: 100, jednotka: g, poznamka: "baked beans", sekce: Hlavní talíř }
-  - { surovina: rajče, mnozstvi: 1, jednotka: ks, poznamka: "středně velké, na silné plátky", sekce: Hlavní talíř }
-  - { surovina: žampiony, mnozstvi: 2, jednotka: ks, poznamka: "2 velké nebo 3 malé, rozpůlené", sekce: Hlavní talíř }
+  - { surovina: rajče, mnozstvi: 1, jednotka: ks, poznamka: "cherry, na silné plátky", sekce: Hlavní talíř }
   - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "na osmažení", sekce: Hlavní talíř }
   - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Hlavní talíř }
   - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Hlavní talíř }
@@ -23,18 +22,14 @@ suroviny:
 postup:
   - "Rozpal grilovací pánev a nasucho v ní osmahni toasty."
   - "Přidej lžičku olivového oleje a osmahni slaninu. Až pustí tuk, opeč párky. Hotové uzeniny odeber z pánve a ulož pod pokličku, aby nevychladly."
-  - "Narychlo osmaž rozpůlené žampiony a na silné plátky nakrájená rajčata. Houby a zeleninu lehce osol a opepři."
-  - "Fazole ohřej (v hrnci nebo mikrovlnce) a dochuť."
+  - "(volitelné)Narychlo osmaž na silné plátky nakrájená rajčata, lehce osol a opepři."
+  - "Fazole ohřej v hrnci a dochuť."
   - "Nakonec usmaž volské oko tak, aby žloutek zůstal krásně tekutý."
-  - "Vše naservíruj na talíř, toust pomaž máslem a podávej s pomerančovou marmeládou."
+  - "Vše naservíruj na talíř, toust pomaž máslem (a podávej s pomerančovou marmeládou.)"
 nutrice_na_porci: { kcal: 750, bilkoviny_g: 30, sacharidy_g: 55, tuky_g: 45 }
 alergeny: [lepek, vejce, mléko]
 vegetarian: false
 poznamky: >-
-  V Notionu byl jen bookmark (odkaz) s titulkem „3 recepty na pravou anglickou
-  snídani – foodora.cz" + vložená DB surovin. Recept vytěžen z webu (foodora.cz
-  vrací 403, množství doplněna z paralelního receptu zena.aktualne.cz „Pravá
-  anglická snídaně" – suroviny na 1 osobu). Pro tábor (~40 osob) je třeba množství
-  násobit a zjednodušit (např. míchaná vejce místo volských ok). Mléko = máslo.
+  
 zdroj_dat: url
 overit: true

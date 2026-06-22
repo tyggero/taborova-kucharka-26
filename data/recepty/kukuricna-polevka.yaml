@@ -1,0 +1,36 @@
+id: kukuricna-polevka
+nazev: Kukuřičná polévka
+zdroj: Prima Fresh
+odkaz: https://fresh.iprima.cz/recepty/kukuricna-polevka
+stitky: [polévka]
+porce_original: 2
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "20 min" }
+suroviny:
+  - { surovina: kukuřice (mražená), mnozstvi: 250, jednotka: g, poznamka: "propláchnout vlažnou vodou", sekce: Základ }
+  - { surovina: mrkev, mnozstvi: 1.5, jednotka: ks, poznamka: "na malé kostičky", sekce: Základ }
+  - { surovina: petržel, mnozstvi: 1, jednotka: ks, poznamka: "na malé kostičky", sekce: Základ }
+  - { surovina: cibule, mnozstvi: 0.5, jednotka: ks, poznamka: "najemno", sekce: Základ }
+  - { surovina: máslo, mnozstvi: 30, jednotka: g, poznamka: "", sekce: Základ }
+  - { surovina: olivový olej, mnozstvi: 1, jednotka: lžíce, poznamka: "", sekce: Základ }
+  - { surovina: zeleninový vývar, mnozstvi: 500, jednotka: ml, poznamka: "", sekce: Vývar a koření }
+  - { surovina: kurkuma, mnozstvi: null, jednotka: "", poznamka: "špetka", sekce: Vývar a koření }
+  - { surovina: římský kmín, mnozstvi: 1, jednotka: lžička, poznamka: "", sekce: Vývar a koření }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Vývar a koření }
+postup:
+  - "Mrkev a petržel oloupej a nakrájej na malé kostičky, cibuli nasekej najemno."
+  - "V hrnci rozpusť máslo s olivovým olejem, přidej kořenovou zeleninu a osmahni na vyšším plamenu dozlatova."
+  - "Přidej cibuli a nech zesklovatět (cca 3 min). Mezitím propláchni mraženou kukuřici a přidej k zelenině."
+  - "Vmíchej římský kmín a kurkumu, přilij vývar, osol a zamíchej."
+  - "Vař pod pokličkou 15–20 minut, dokud kukuřice nezměkne."
+  - "Rozmixuj tyčovým mixérem a podle chuti dosol."
+nutrice_na_porci: { kcal: 190, bilkoviny_g: 5, sacharidy_g: 26, tuky_g: 8 }
+alergeny: [mléko]
+vegetarian: true
+poznamky: >-
+  Vytěženo z webu uvedeného v Notion bookmarku (Prima Fresh). Recept je na 2 porce,
+  generátor přepočítá na 10. Polévku lze obohatit o smetanu nebo kokosové mléko (pozor na
+  alergeny – kokos). Alergeny: mléko (máslo). Vegetariánské.
+zdroj_dat: url
+overit: false

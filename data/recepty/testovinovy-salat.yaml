@@ -1,0 +1,43 @@
+id: testovinovy-salat
+nazev: Těstovinový salát (bez majonézy)
+zdroj: Recepty od Aničky (bookmark v Notionu)
+odkaz: https://www.receptyodanicky.cz/testovinovy-salat-bez-majonezy/
+stitky: [Svačina]
+porce_original: 4
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Vaření, popis: "12 min" }
+  - { faze: Chlazení, popis: "30 min" }
+suroviny:
+  - { surovina: těstoviny, mnozstvi: 240, jednotka: g, poznamka: "nevařené; vařit al dente", sekce: Těstoviny }
+  - { surovina: cherry rajčata, mnozstvi: 300, jednotka: g, poznamka: "rozpůlená", sekce: Rajčatová směs }
+  - { surovina: černé olivy, mnozstvi: 25, jednotka: ks, poznamka: "20–25 ks vypeckovaných, nakrájené", sekce: Rajčatová směs }
+  - { surovina: olivový olej, mnozstvi: 80, jednotka: ml, poznamka: "", sekce: Rajčatová směs }
+  - { surovina: růžový pepř, mnozstvi: 1, jednotka: lžička, poznamka: "", sekce: Rajčatová směs }
+  - { surovina: chilli vločky, mnozstvi: 0.25, jednotka: lžička, poznamka: "", sekce: Rajčatová směs }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Rajčatová směs }
+  - { surovina: červená cibule, mnozstvi: 1, jednotka: ks, poznamka: "na tenké plátky", sekce: Dresink }
+  - { surovina: česnek, mnozstvi: 4, jednotka: stroužky, poznamka: "", sekce: Dresink }
+  - { surovina: citron, mnozstvi: 1, jednotka: ks, poznamka: "šťáva + nastrouhaná kůra", sekce: Dresink }
+  - { surovina: čerstvý špenát, mnozstvi: 100, jednotka: g, poznamka: "", sekce: Dokončení }
+  - { surovina: feta sýr, mnozstvi: 100, jednotka: g, poznamka: "", sekce: Dokončení }
+  - { surovina: čerstvé bylinky, mnozstvi: 2, jednotka: hrsti, poznamka: "petržel, kopr, máta, bazalka", sekce: Dokončení }
+postup:
+  - "Nastrouhej citronovou kůru na větší kousky."
+  - "Nakrájej cibuli na tenké plátky, vlož do mísy, přidej česnekové stroužky a zmáčkni šťávu z citronu. Dobře promíchej."
+  - "Rozpul rajčata a nakrájej olivy. Vlož do pánve spolu s kůrou, pepřem, chilli a solí. Nalij olej."
+  - "Přiveď k varu a nech 10–12 minut pomalu bublat."
+  - "Uvař těstoviny al dente v osolené vodě, sceď a propláchni studenou vodou."
+  - "Rajčatovou směs nalij na připravenou cibuli a promíchej."
+  - "Vlož těstoviny do mísy, zalij směsí, přidej bylinky, fetu a špenát. Znovu promíchej a podávej chlazené."
+nutrice_na_porci: { kcal: 420, bilkoviny_g: 11, sacharidy_g: 48, tuky_g: 21 }
+alergeny: [lepek, mléko]
+vegetarian: true
+poznamky: >-
+  V Notionu jen bookmark „Těstovinový salát" + poznámka „(bez majonézy)" + vložená
+  DB surovin; cílovou URL notion-fetch nevrací. Vytěženo z odpovídajícího receptu
+  „Těstovinový salát bez majonézy" (Recepty od Aničky), který je bez majonézy =
+  odpovídá poznámce v Notionu. Konkrétní recept v Notionu mohl být jiný – ověřit.
+  Lepek = těstoviny (lze bezlepkové), mléko = feta. Vegetariánské.
+zdroj_dat: url
+overit: true

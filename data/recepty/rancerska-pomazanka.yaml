@@ -1,0 +1,31 @@
+id: rancerska-pomazanka
+nazev: Rančerská pomazánka
+zdroj: ruční poznámky (foto z Notionu)
+odkaz: ""
+stitky: [Svačina]
+porce_original: 10
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Chlazení, popis: "min. 1 hod v lednici" }
+suroviny:
+  - { surovina: cibule, mnozstvi: 500, jednotka: g, poznamka: "nakrájená najemno", sekce: Pomazánka }
+  - { surovina: sýr (gouda nebo podobný), mnozstvi: 500, jednotka: g, poznamka: "nahrubo nastrouhaný", sekce: Pomazánka }
+  - { surovina: rajský protlak, mnozstvi: 500, jednotka: g, poznamka: "tomato paste", sekce: Pomazánka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení }
+postup:
+  - "Cibuli nakrájíme najemno (kdo nemá rád syrovou cibuli, může ji krátce poduit doměkka a nechat vychladnout)."
+  - "Sýr nahrubo nastrouháme."
+  - "Smícháme cibuli, sýr a rajský protlak dohromady."
+  - "Osolíme a opepříme dle chuti, dobře promícháme."
+  - "Necháme v lednici uležet. Mažeme na pečivo."
+nutrice_na_porci: { kcal: 230, bilkoviny_g: 12, sacharidy_g: 9, tuky_g: 16 }
+alergeny: [mléko]
+vegetarian: true
+poznamky: >-
+  Vytěženo z fotky (screenshot z aplikace) v Notionu, viz assets/recepty/rancerska-pomazanka.jpg.
+  Foto obsahovalo POUZE seznam surovin na 10 porcí (cibule 500 g, sýr 500 g, rajský
+  protlak 500 g, sůl, pepř) – POSTUP NENÍ na fotce uveden a byl doplněn dle běžné
+  přípravy rančerské pomazánky. Postup ověřit/upřesnit při vaření. Vegetariánské.
+zdroj_dat: foto
+overit: true

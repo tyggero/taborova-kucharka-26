@@ -1,0 +1,37 @@
+id: rizoto
+nazev: Rychlé zeleninové rizoto s kuřecím masem
+zdroj: Vaření.cz
+odkaz: https://www.vareni.cz/recepty/zeleninove-rizoto-s-kurecim-masem/
+stitky: [Oběd, Večeře]
+porce_original: 4
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Vaření, popis: "25 min" }
+suroviny:
+  - { surovina: kuřecí prsa, mnozstvi: 500, jednotka: g, poznamka: "množství odhadnuto; na nudličky nebo kostičky", sekce: Maso }
+  - { surovina: mletá sladká paprika, mnozstvi: null, jednotka: "", poznamka: "na ochucení masa, dle chuti", sekce: Maso }
+  - { surovina: kari koření, mnozstvi: null, jednotka: "", poznamka: "na ochucení masa, dle chuti", sekce: Maso }
+  - { surovina: rýže, mnozstvi: 300, jednotka: g, poznamka: "množství odhadnuto – uvařit dle návodu na obalu", sekce: Rizoto }
+  - { surovina: mražená zelenina s kukuřicí, mnozstvi: 400, jednotka: g, poznamka: "množství odhadnuto", sekce: Rizoto }
+  - { surovina: máslo, mnozstvi: 50, jednotka: g, poznamka: "na opečení masa + na zjemnění; množství odhadnuto", sekce: Rizoto }
+  - { surovina: zeleninový bujon, mnozstvi: 1, jednotka: kostka, poznamka: "+ trocha vody/vývaru na podlití", sekce: Rizoto }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Rizoto }
+  - { surovina: tvrdý sýr, mnozstvi: 80, jednotka: g, poznamka: "nastrouhaný, na posypání; množství odhadnuto", sekce: K podávání }
+postup:
+  - "Rýži uvaříme podle návodu na obalu v osolené vodě, po uvaření ji scedíme a necháme krátce okapat."
+  - "Kuřecí prsa nakrájíme na menší nudličky nebo kostičky, osolíme je a ochutíme mletou sladkou paprikou a kari kořením."
+  - "Ve větší pánvi nebo kastrolu rozpustíme máslo, přidáme kuřecí maso a zprudka ho opečeme, aby se zatáhlo a lehce zezlátlo."
+  - "K masu přidáme mraženou zeleninu s kukuřicí, podlijeme trochou vody nebo vývaru, přidáme zeleninový bujon a dusíme asi 10 minut, dokud zelenina nezměkne a maso není hotové."
+  - "Do masovo-zeleninové směsi vmícháme uvařenou rýži, přidáme kousek másla a vše krátce prohřejeme."
+  - "Rizoto podáváme posypané nastrouhaným tvrdým sýrem."
+nutrice_na_porci: { kcal: 560, bilkoviny_g: 35, sacharidy_g: 60, tuky_g: 18 }
+alergeny: [mléko]
+vegetarian: false
+poznamky: >-
+  Vytěženo z webu (bookmark v Notionu odkazuje na recept „Rychlé zeleninové rizoto
+  s kuřecím masem | Vaření.cz"). Postup je z receptu, ale PŘESNÁ MNOŽSTVÍ surovin
+  nebyla dostupná (stránka vaření.cz blokuje automatické načtení) – gramáže rýže,
+  masa, zeleniny, másla a sýra jsou odhadnuté na 4 porce, je třeba je ověřit/upřesnit.
+  Rýže je bezlepková; sýr a máslo = alergen mléko. Pro bezmléčnou variantu vynechat sýr.
+zdroj_dat: url
+overit: true

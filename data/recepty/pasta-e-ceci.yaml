@@ -4,19 +4,22 @@ zdroj: Serious Eats
 odkaz: https://www.seriouseats.com/pasta-e-ceci-pasta-with-chickpeas
 stitky: [Oběd, Večeře]
 porce_original: 4
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "25 min" }
 suroviny:
-  - { surovina: vařená cizrna, mnozstvi: 510, jednotka: g, poznamka: "3 hrnky, nebo 2 plechovky (425 g); část se rozmačká do omáčky" }
-  - { surovina: vývar (cizrnový/zeleninový/kuřecí), mnozstvi: 950, jednotka: ml, poznamka: "4 hrnky; pro vegetariánskou verzi zeleninový" }
-  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "množství neuvedeno v textu + extra na zakápnutí" }
-  - { surovina: česnek, mnozstvi: null, jednotka: "", poznamka: množství neuvedeno }
-  - { surovina: rozmarýn, mnozstvi: null, jednotka: "", poznamka: 1 snítka }
-  - { surovina: chilli vločky, mnozstvi: null, jednotka: "", poznamka: množství neuvedeno }
-  - { surovina: rajčatový protlak, mnozstvi: null, jednotka: "", poznamka: "1 lžíce (z textu)" }
-  - { surovina: bílé víno, mnozstvi: null, jednotka: "", poznamka: množství neuvedeno }
-  - { surovina: krátké těstoviny (ditalini), mnozstvi: null, jednotka: "", poznamka: množství neuvedeno v textu }
-  - { surovina: sýr Pecorino Romano, mnozstvi: null, jednotka: "", poznamka: strouhaný, množství neuvedeno }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: černý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "množství neuvedeno v textu + extra na zakápnutí", sekce: Základ omáčky }
+  - { surovina: česnek, mnozstvi: null, jednotka: "", poznamka: množství neuvedeno, sekce: Základ omáčky }
+  - { surovina: rozmarýn, mnozstvi: null, jednotka: "", poznamka: 1 snítka, sekce: Základ omáčky }
+  - { surovina: chilli vločky, mnozstvi: null, jednotka: "", poznamka: množství neuvedeno, sekce: Základ omáčky }
+  - { surovina: rajčatový protlak, mnozstvi: null, jednotka: "", poznamka: "1 lžíce (z textu)", sekce: Základ omáčky }
+  - { surovina: bílé víno, mnozstvi: null, jednotka: "", poznamka: množství neuvedeno, sekce: Základ omáčky }
+  - { surovina: vařená cizrna, mnozstvi: 510, jednotka: g, poznamka: "3 hrnky, nebo 2 plechovky (425 g); část se rozmačká do omáčky", sekce: Polévka a těstoviny }
+  - { surovina: vývar (cizrnový/zeleninový/kuřecí), mnozstvi: 950, jednotka: ml, poznamka: "4 hrnky; pro vegetariánskou verzi zeleninový", sekce: Polévka a těstoviny }
+  - { surovina: krátké těstoviny (ditalini), mnozstvi: null, jednotka: "", poznamka: množství neuvedeno v textu, sekce: Polévka a těstoviny }
+  - { surovina: sýr Pecorino Romano, mnozstvi: null, jednotka: "", poznamka: strouhaný, množství neuvedeno, sekce: Dochucení }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení }
+  - { surovina: černý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení }
 postup:
   - Ve velkém hrnci rozehřej olivový olej, přidej česnek a rozmarýn, lehce osol a za stálého míchání smaž asi 5 minut do zlatova. Přidej chilli vločky a po 30 sekundách rajčatový protlak, smaž asi 1 minutu do ztmavnutí.
   - Vlij víno, seškrábni připečené kousky ze dna a vař asi 2 minuty, dokud se mírně nezredukuje.

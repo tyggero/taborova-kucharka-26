@@ -87,6 +87,19 @@ html, body {
   color: #bf360c;
 }
 
+/* ---- Časy přípravy / vaření ---- */
+.casy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 14px;
+  margin: 8px 0 2px;
+  font-size: 10pt;
+  color: #333;
+}
+.casy-ikona { font-size: 12pt; }
+.cas-pol strong { color: #1b5e20; font-weight: 600; }
+
 /* ---- Tělo: suroviny + postup ---- */
 .telo {
   display: grid;
@@ -121,6 +134,18 @@ h2 {
 .col-mnozstvi { white-space: nowrap; }
 .col-rucni { width: 22%; border-left: 1px dashed #bbb; background: #fafafa; }
 .pozn { color: #777; font-size: 9pt; }
+
+/* Podnadpis sekce surovin (Maso / Dresink / Těsto …) */
+.sekce-row .sekce-nadpis {
+  font-size: 8.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  color: #1b5e20;
+  background: #f1f8e9;
+  border-bottom: 1px solid #c8e6c9;
+  padding: 4px 4px 3px;
+}
 
 .postup ol { margin: 0; padding-left: 20px; }
 .postup li { margin-bottom: 6px; }
@@ -160,6 +185,19 @@ h2 {
 }
 .poznamky-titulek { font-size: 9pt; color: #888; }
 
+/* ---- Náhled na obrazovce: bílý list A4 (tisk se nemění) ---- */
+@media screen {
+  body { background: #d8d8d8; padding: 18px 0; }
+  .recept {
+    width: 210mm;
+    min-height: 297mm;          /* celý list včetně okrajů */
+    padding: 12mm 14mm;         /* = @page margin */
+    margin: 0 auto 18px;        /* vycentrovat + mezera mezi stránkami */
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, .25);
+  }
+}
+
 </style>
 </head>
 <body>
@@ -182,6 +220,10 @@ h2 {
 <span class="alergen">lepek</span><span class="alergen">mléko</span>    </span>
   </div>
 
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;12 min</span>  </div>
+
   <div class="telo">
     <section class="suroviny">
       <h2>Suroviny</h2>
@@ -194,11 +236,13 @@ h2 {
           </tr>
         </thead>
         <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Těstoviny</td></tr>
           <tr>
             <td class="col-surovina">těstoviny <span class="pozn">(200–250 g, např. tagliatelle nebo špagety)</span></td>
             <td class="col-mnozstvi">1125 g</td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Omáčka</td></tr>
           <tr>
             <td class="col-surovina">ricotta nebo cottage <span class="pozn">(1 kelímek)</span></td>
             <td class="col-mnozstvi">1250 g</td>
@@ -224,6 +268,7 @@ h2 {
             <td class="col-mnozstvi"></td>
             <td class="col-rucni"></td>
           </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Dochucení</td></tr>
           <tr>
             <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
             <td class="col-mnozstvi"></td>

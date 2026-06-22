@@ -1,0 +1,32 @@
+id: blt-sandwich
+nazev: BLT Sandwich (slanina, salát, rajče)
+zdroj: Toprecepty.cz
+odkaz: https://www.toprecepty.cz/clanky/3080-snadny-rychly-a-vynikajici-blt-sendvic-vite-co-se-ukryva-pod-tajemnou-zkratkou-a-jak-si-sendvic-pripravit/
+stitky: [Snídaně]
+porce_original: 2
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Smažení, popis: "10 min" }
+suroviny:
+  - { surovina: chléb, mnozstvi: 4, jednotka: plátky, poznamka: "lehce opéct", sekce: Sendvič }
+  - { surovina: slanina, mnozstvi: 6, jednotka: plátky, poznamka: "silnější; opéct dokřupava", sekce: Sendvič }
+  - { surovina: rajčata, mnozstvi: 2, jednotka: ks, poznamka: "velká zralá, na silné plátky", sekce: Sendvič }
+  - { surovina: ledový (nebo římský) salát, mnozstvi: 4, jednotka: listy, poznamka: "omýt, na nudličky", sekce: Sendvič }
+  - { surovina: mazací sýr, mnozstvi: 0.2, jednotka: balení, poznamka: "na potření", sekce: Dochucení }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení }
+postup:
+  - "Salát omyj, osuš a nakrájej na tenké nudličky. Rajčata nakrájej na silné plátky."
+  - "Slaninu opeč na pánvi dokřupava a nech okapat na papírové utěrce."
+  - "Chléb lehce opeč na pánvi (případně namaž máslem)."
+  - "Každý krajíc potři lžící mazacího sýru. Oblož slaninou, rajčaty a salátem, osol a opepři."
+  - "Spoj sendviče dohromady, rozkroj na poloviny a podávej."
+nutrice_na_porci: { kcal: 420, bilkoviny_g: 15, sacharidy_g: 30, tuky_g: 26 }
+alergeny: [lepek, mléko]
+vegetarian: false
+poznamky: >-
+  Vytěženo z webu uvedeného v Notion bookmarku (Toprecepty.cz). Recept je na 2 sendviče,
+  generátor přepočítá na 10 porcí. Alergeny: lepek (chléb), vejce (majonéza). Vegetariánská
+  varianta: nahradit slaninu grilovanou zeleninou nebo sýrem.
+zdroj_dat: url
+overit: false

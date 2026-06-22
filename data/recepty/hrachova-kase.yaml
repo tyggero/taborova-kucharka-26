@@ -1,0 +1,42 @@
+id: hrachova-kase
+nazev: Hrachová kaše s uzeným masem
+zdroj: Táborová Skautská Kuchařka
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 10
+casy:
+  - { faze: Namáčení, popis: "půl dne až den předem" }
+  - { faze: Příprava, popis: "20 min" }
+  - { faze: Vaření, popis: "1,5 hod" }
+suroviny:
+  # Masová verze (uzené maso)
+  - { surovina: žlutý půlený hrách, mnozstvi: 1, jednotka: kg, poznamka: "", sekce: Kaše }
+  - { surovina: bobkový list, mnozstvi: 5, jednotka: ks, poznamka: "případně fenyklová semínka, saturejka", sekce: Kaše }
+  - { surovina: česnek, mnozstvi: null, jednotka: "", poznamka: podle chuti, sekce: Kaše }
+  - { surovina: majoránka, mnozstvi: null, jednotka: "", poznamka: "", sekce: Kaše }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Kaše }
+  - { surovina: máslo, mnozstvi: 125, jednotka: g, poznamka: "100–150 g", sekce: Kaše }
+  - { surovina: mléko, mnozstvi: null, jednotka: "", poznamka: "na zředění příliš husté kaše", sekce: Kaše }
+  - { surovina: uzené maso, mnozstvi: 0.85, jednotka: kg, poznamka: "700 g–1 kg; koleno nebo krkovice", sekce: "Uzené maso a cibulka" }
+  - { surovina: cibule, mnozstvi: 8, jednotka: ks, poznamka: "", sekce: "Uzené maso a cibulka" }
+  - { surovina: olej / sádlo, mnozstvi: null, jednotka: "", poznamka: "na opečení cibulky", sekce: "Uzené maso a cibulka" }
+  - { surovina: nakládané nebo kvašené okurky, mnozstvi: null, jednotka: "", poznamka: "k podávání", sekce: "K podávání" }
+postup:
+  - "Hrách si nemusíš namáčet do vody příliš dlouho předem – je totiž už oloupaný. Může se ale stát, že se ti bude špatně odhadovat čas potřebný k uvaření jídla. Doporučujeme proto hrách namočit na půl dne – den předem."
+  - "Uzené maso zalij vodou tak, aby bylo ponořené, osol a dej vařit. Vař doměkka – když do něj píchneš vidlička musí snadno projít. Maso vylov a nechej vychladnout třeba na tácech."
+  - "Vodu, ve které byl hrách namočený, slij. Zalij ho dvakrát tak velkým objemem vývaru z uzeného masa (případně doplň vodou). Pokud je to potřeba, dosol. Přidej koření. Vař spíš na mírném nebo středním plameni až do chvíle, než se hrách úplně rozpadne. Pokud se vytvoří na hladině pěna, seber ji lžící nebo naběračkou."
+  - "Do horké kaše přidej máslo, aby se hezky rozpustilo. Pokud je příliš hustá (a to by být neměla), můžeš ji zředit teplým mlékem. Počítej s tím, že čekáním v hrnci zhoustne."
+  - "Kaši dochuť: použij rozmačkaný česnek a majoránku rozemnutou v dlani. Česnek přidávej postupně a ochutnávej (vždycky novou lžičkou). Pokud máš možnost, můžeš kaši rozmixovat tyčovým mixérem, nebo prolisovat přes masový mlýnek – pokud vaříš spíš méně porcí. Použít se dá i mačkadlo na brambory."
+  - "Uzené maso po vychladnutí ober – okrájej a otrhej z něj všechny kousky až na kost. Tučné a trochu gumové kousky dej zvlášť. Cibulku si nakrájej na kostičky, nemusí být úplně malé. Tučné maso nakrájej na zhruba stejné kousky."
+  - "Na pánev dej trochu oleje a pomalu opékej kousky tučného masa. Až začnou vypadat trochu jako škvarky, přidej i cibuli a opékej dozlatova. Přidej koření. Vař spíš na hezky zlatavé, nepřepečené, a vysyp spíš menší plamen."
+  - "Kaši pořádně dochuť máslem, zředěnou kaši namáčej nebo nakladej s opečenou cibulkou a masem. Podávej s nakládanou nebo kvašenou okurkou."
+nutrice_na_porci: { kcal: 480, bilkoviny_g: 26, sacharidy_g: 50, tuky_g: 18 }
+alergeny: [mléko]
+vegetarian: false
+poznamky: >-
+  Vytěženo z tištěné Skautské kuchařky (2 strany; foto v assets/recepty/hrachova-kase-1.jpg
+  a hrachova-kase-2.jpg). Porce 10. Zapsána masová verze s uzeným masem (koleno nebo
+  krkovice). Obsahuje mléko (a máslo). Množství uzeného masa a másla je orientační –
+  projít při finalizaci (proto overit: true).
+zdroj_dat: foto
+overit: true

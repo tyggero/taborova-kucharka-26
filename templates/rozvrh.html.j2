@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>{{ jidelnicek.nazev or "Jídelníček – Tábor 26" }}</title>
+<style>
+{{ css }}
+</style>
+</head>
+<body>
+{% macro jidlo(ids) %}
+  {%- for i in ids -%}
+    {%- set r = recepty.get(i) -%}
+    <div class="jidlo">{{ r.nazev if r else i }}</div>
+  {%- endfor -%}
+{% endmacro %}
+<div class="rozvrh">
+  <header class="rozvrh-hlavicka">
+    <h1>{{ jidelnicek.nazev or "Jídelníček – Tábor 26" }}</h1>
+    {% if jidelnicek.termin %}<div class="termin">{{ jidelnicek.termin }}</div>{% endif %}
+  </header>
+
+  <table class="tabulka">
+    <colgroup>
+      <col class="c-den">
+      <col class="c-jidlo"><col class="c-jidlo"><col class="c-jidlo c-obed"><col class="c-jidlo"><col class="c-jidlo">
+    </colgroup>
+    <thead>
+      <tr>
+        <th class="th-den">Den</th>
+        <th>Snídaně</th>
+        <th>Svačina 1</th>
+        <th>Oběd</th>
+        <th>Svačina 2</th>
+        <th>Večeře</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for d in jidelnicek.dny or [] %}
+      <tr>
+        <th class="den" scope="row">
+          <span class="den-nazev">{{ d.den }}</span>
+          <span class="den-datum">{{ d.datum[8:10]|int }}.&nbsp;{{ d.datum[5:7]|int }}.</span>
+        </th>
+        <td>{{ jidlo(d.snidane or []) }}</td>
+        <td>{{ jidlo(d.svacina1 or []) }}</td>
+        <td class="obed">{{ jidlo(d.obed or []) }}</td>
+        <td>{{ jidlo(d.svacina2 or []) }}</td>
+        <td>{{ jidlo(d.vecere or []) }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  {% if jidelnicek.pozn %}<div class="rozvrh-pozn">{{ jidelnicek.pozn }}</div>{% endif %}
+</div>
+</body>
+</html>

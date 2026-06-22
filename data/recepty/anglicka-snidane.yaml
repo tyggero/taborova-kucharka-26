@@ -1,0 +1,35 @@
+id: anglicka-snidane
+nazev: Anglická snídaně
+zdroj: foodora.cz / zena.aktualne.cz (bookmark v Notionu)
+odkaz: https://www.foodora.cz/c/blog/anglicka-snidane-na-3-zpusoby/
+stitky: [Snídaně]
+porce_original: 1
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Smažení, popis: "15 min" }
+suroviny:
+  - { surovina: anglické klobásy (párky), mnozstvi: 2, jednotka: ks, poznamka: "na osobu", sekce: Hlavní talíř }
+  - { surovina: anglická slanina, mnozstvi: 1, jednotka: plátek, poznamka: "silný plátek", sekce: Hlavní talíř }
+  - { surovina: vejce, mnozstvi: 1, jednotka: ks, poznamka: "na volské oko (žloutek tekutý)", sekce: Hlavní talíř }
+  - { surovina: fazole v rajčatové omáčce, mnozstvi: 100, jednotka: g, poznamka: "baked beans", sekce: Hlavní talíř }
+  - { surovina: rajče, mnozstvi: 1, jednotka: ks, poznamka: "cherry, na silné plátky", sekce: Hlavní talíř }
+  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "na osmažení", sekce: Hlavní talíř }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Hlavní talíř }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Hlavní talíř }
+  - { surovina: bílý toustový chléb, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: K toustu }
+  - { surovina: máslo, mnozstvi: 1, jednotka: lžička, poznamka: "", sekce: K toustu }
+  - { surovina: pomerančová marmeláda, mnozstvi: 1, jednotka: lžíce, poznamka: "k toustu", sekce: K toustu }
+postup:
+  - "Rozpal grilovací pánev a nasucho v ní osmahni toasty."
+  - "Přidej lžičku olivového oleje a osmahni slaninu. Až pustí tuk, opeč párky. Hotové uzeniny odeber z pánve a ulož pod pokličku, aby nevychladly."
+  - "(volitelné)Narychlo osmaž na silné plátky nakrájená rajčata, lehce osol a opepři."
+  - "Fazole ohřej v hrnci a dochuť."
+  - "Nakonec usmaž volské oko tak, aby žloutek zůstal krásně tekutý."
+  - "Vše naservíruj na talíř, toust pomaž máslem (a podávej s pomerančovou marmeládou.)"
+nutrice_na_porci: { kcal: 750, bilkoviny_g: 30, sacharidy_g: 55, tuky_g: 45 }
+alergeny: [lepek, vejce, mléko]
+vegetarian: false
+poznamky: >-
+  
+zdroj_dat: url
+overit: true

@@ -4,22 +4,25 @@ zdroj: The Recipe Critic
 odkaz: https://therecipecritic.com/marry-me-chicken-pasta/
 stitky: [Oběd, Večeře]
 porce_original: 6
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "30 min" }
 suroviny:
-  - { surovina: kuřecí prsa, mnozstvi: 680, jednotka: g, poznamka: "1,5 lb, bez kosti a kůže, nakrájené na 2,5cm kousky" }
-  - { surovina: penne těstoviny, mnozstvi: 280, jednotka: g, poznamka: 10 oz }
-  - { surovina: sůl, mnozstvi: 0.5, jednotka: lžička, poznamka: "" }
-  - { surovina: pepř, mnozstvi: 0.25, jednotka: lžička, poznamka: "" }
-  - { surovina: olivový olej, mnozstvi: 1, jednotka: lžíce, poznamka: "" }
-  - { surovina: máslo, mnozstvi: 3, jednotka: lžíce, poznamka: "" }
-  - { surovina: česnek, mnozstvi: 2, jednotka: lžičky, poznamka: nasekaný }
-  - { surovina: hladká mouka, mnozstvi: 3, jednotka: lžíce, poznamka: "" }
-  - { surovina: kuřecí vývar, mnozstvi: 480, jednotka: ml, poznamka: 2 cups }
-  - { surovina: smetana ke šlehání, mnozstvi: 240, jednotka: ml, poznamka: "1 cup, plnotučná" }
-  - { surovina: parmazán, mnozstvi: 100, jednotka: g, poznamka: "1 cup, strouhaný" }
-  - { surovina: sušená rajčata, mnozstvi: 1, jednotka: cup, poznamka: scezená (cca 110 g) }
-  - { surovina: paprika mletá, mnozstvi: 1, jednotka: lžička, poznamka: "" }
-  - { surovina: italské bylinky sušené, mnozstvi: 2, jednotka: lžičky, poznamka: "" }
-  - { surovina: čerstvá bazalka, mnozstvi: null, jednotka: "", poznamka: na ozdobu }
+  - { surovina: kuřecí prsa, mnozstvi: 680, jednotka: g, poznamka: "1,5 lb, bez kosti a kůže, nakrájené na 2,5cm kousky", sekce: Kuře }
+  - { surovina: sůl, mnozstvi: 0.5, jednotka: lžička, poznamka: "", sekce: Kuře }
+  - { surovina: pepř, mnozstvi: 0.25, jednotka: lžička, poznamka: "", sekce: Kuře }
+  - { surovina: olivový olej, mnozstvi: 1, jednotka: lžíce, poznamka: "", sekce: Kuře }
+  - { surovina: penne těstoviny, mnozstvi: 280, jednotka: g, poznamka: 10 oz, sekce: Těstoviny }
+  - { surovina: máslo, mnozstvi: 3, jednotka: lžíce, poznamka: "", sekce: Omáčka }
+  - { surovina: česnek, mnozstvi: 2, jednotka: lžičky, poznamka: nasekaný, sekce: Omáčka }
+  - { surovina: hladká mouka, mnozstvi: 3, jednotka: lžíce, poznamka: "", sekce: Omáčka }
+  - { surovina: kuřecí vývar, mnozstvi: 480, jednotka: ml, poznamka: 2 cups, sekce: Omáčka }
+  - { surovina: smetana ke šlehání, mnozstvi: 240, jednotka: ml, poznamka: "1 cup, plnotučná", sekce: Omáčka }
+  - { surovina: parmazán, mnozstvi: 100, jednotka: g, poznamka: "1 cup, strouhaný", sekce: Omáčka }
+  - { surovina: sušená rajčata, mnozstvi: 1, jednotka: cup, poznamka: scezená (cca 110 g), sekce: Omáčka }
+  - { surovina: paprika mletá, mnozstvi: 1, jednotka: lžička, poznamka: "", sekce: Omáčka }
+  - { surovina: italské bylinky sušené, mnozstvi: 2, jednotka: lžičky, poznamka: "", sekce: Omáčka }
+  - { surovina: čerstvá bazalka, mnozstvi: null, jednotka: "", poznamka: na ozdobu, sekce: Na ozdobu }
 postup:
   - Uvařte penne podle návodu na obalu. Sceďte a odstavte stranou, než připravíte kuře a omáčku.
   - Kuře nakrájejte na 2,5cm kousky a osolte a opepřete.

@@ -4,16 +4,19 @@ zdroj: ochutnejorech.cz / iprima Fresh
 odkaz: ""
 stitky: [Oběd, Večeře]
 porce_original: 2
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "12 min" }
 suroviny:
-  - { surovina: těstoviny, mnozstvi: 225, jednotka: g, poznamka: "200–250 g, např. tagliatelle nebo špagety" }
-  - { surovina: ricotta nebo cottage, mnozstvi: 250, jednotka: g, poznamka: 1 kelímek }
-  - { surovina: bazalkové pesto, mnozstvi: 3, jednotka: lžíce, poznamka: "2–3 lžíce, domácí či kupované" }
-  - { surovina: cherry rajčata, mnozstvi: 125, jednotka: g, poznamka: "100–150 g, nebo 4–5 sušených rajčat" }
-  - { surovina: česnek, mnozstvi: 1, jednotka: stroužek, poznamka: na dochucení }
-  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: na restování }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: parmazán, mnozstvi: null, jednotka: "", poznamka: nastrouhaný, na dochucení }
+  - { surovina: těstoviny, mnozstvi: 225, jednotka: g, poznamka: "200–250 g, např. tagliatelle nebo špagety", sekce: Těstoviny }
+  - { surovina: ricotta nebo cottage, mnozstvi: 250, jednotka: g, poznamka: 1 kelímek, sekce: Omáčka }
+  - { surovina: bazalkové pesto, mnozstvi: 3, jednotka: lžíce, poznamka: "2–3 lžíce, domácí či kupované", sekce: Omáčka }
+  - { surovina: cherry rajčata, mnozstvi: 125, jednotka: g, poznamka: "100–150 g, nebo 4–5 sušených rajčat", sekce: Omáčka }
+  - { surovina: česnek, mnozstvi: 1, jednotka: stroužek, poznamka: na dochucení, sekce: Omáčka }
+  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: na restování, sekce: Omáčka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení }
+  - { surovina: parmazán, mnozstvi: null, jednotka: "", poznamka: nastrouhaný, na dochucení, sekce: Dochucení }
 postup:
   - Uvařte těstoviny v osolené vodě (slané jako moře) podle návodu, aby byly al dente. Před slitím si nechte stranou asi 1 naběračku vody z těstovin.
   - Na pánvi rozehřejte kapku olivového oleje. Přidejte přepůlená cherry rajčata (nebo na proužky nakrájená sušená rajčata) a orestujte je. Můžete přidat nasekaný česnek.

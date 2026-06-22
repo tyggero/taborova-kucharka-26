@@ -1,0 +1,43 @@
+id: podzimni-polevka
+nazev: Podzimní polévka
+zdroj: Instagram reel (@reel/DO-aAjQiBlv)
+odkaz: https://www.instagram.com/reel/DO-aAjQiBlv/
+stitky: [polévka]
+porce_original: 4
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Vaření, popis: "25 min" }
+suroviny:
+  - { surovina: cibule, mnozstvi: 0.5, jednotka: ks, poznamka: "žlutá", sekce: Základ }
+  - { surovina: mrkev, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Základ }
+  - { surovina: celer, mnozstvi: 1, jednotka: hrst, poznamka: "", sekce: Základ }
+  - { surovina: česnek, mnozstvi: 2, jednotka: stroužek, poznamka: "", sekce: Základ }
+  - { surovina: máslo, mnozstvi: null, jednotka: "", poznamka: "na opečení zeleniny", sekce: Základ }
+  - { surovina: brambory, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Polévka }
+  - { surovina: menší těstoviny, mnozstvi: 1, jednotka: hrnek, poznamka: "", sekce: Polévka }
+  - { surovina: voda nebo vývar, mnozstvi: 2, jednotka: hrnek, poznamka: "přibližně, doplnit dle potřeby", sekce: Polévka }
+  - { surovina: smetana, mnozstvi: null, jednotka: "", poznamka: "množství neuvedeno; na zjemnění", sekce: Polévka }
+  - { surovina: italské koření, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení a podávání }
+  - { surovina: kari, mnozstvi: null, jednotka: "", poznamka: "špetka", sekce: Dochucení a podávání }
+  - { surovina: paprika (mletá), mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení a podávání }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení a podávání }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení a podávání }
+  - { surovina: parmezán, mnozstvi: null, jednotka: "", poznamka: "k podávání", sekce: Dochucení a podávání }
+postup:
+  - "Zeleninu (cibuli, mrkev, celer) opečte na másle, přidejte česnek a koření (italské koření, sůl, pepř, špetku kari, papriku)."
+  - "Zalijte vodou nebo vývarem, vložte nakrájené brambory a vařte pod pokličkou do změknutí."
+  - "Část polévky (zhruba 1/3) rozmixujte do hladka pro zahuštění a vraťte zpět."
+  - "Přidejte smetanu, dokořeňte."
+  - "Vhoďte těstoviny a vařte pod pokličkou až do stavu al dente."
+  - "Podávejte s nastrouhaným parmezánem."
+nutrice_na_porci: { kcal: 280, bilkoviny_g: 9, sacharidy_g: 34, tuky_g: 12 }
+alergeny: [lepek, mléko]
+vegetarian: true
+poznamky: >-
+  Vytěženo z popisku Instagram reelu (odkaz v těle Notion stránky); v Notionu samotném
+  recept nebyl, jen odkaz a vložená (prázdná) DB surovin. Množství jsou orientační „na oko"
+  (hrnky, hrsti) pro cca 4 porce – PROJÍT a přepočítat na táborové množství. Spolehlivost
+  popisku videa je nejistá. Lepek z těstovin, mléko ze smetany a parmezánu. Pozor: parmezán
+  bývá se zvířecím syřidlem – pro striktní vegetariány nahradit vegetariánskou variantou.
+zdroj_dat: url
+overit: true

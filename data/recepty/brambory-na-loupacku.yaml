@@ -1,0 +1,34 @@
+id: brambory-na-loupacku
+nazev: Brambory na loupačku (s tvarohovou pomazánkou)
+zdroj: ruční poznámky (Oddílová kuchařka, foto z Notionu)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 35
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Vaření, popis: "40 min" }
+suroviny:
+  - { surovina: brambory, mnozstvi: 10, jednotka: kg, poznamka: "10 kg na 35 lidí = z poznámky kuchaře MÁLO; počítat ~3 brambory na osobu", sekce: Brambory }
+  - { surovina: kmín, mnozstvi: null, jednotka: "", poznamka: "trochu, do vody na vaření", sekce: Brambory }
+  - { surovina: máslo, mnozstvi: 1, jednotka: "kostka", poznamka: "z poznámky stačilo 1 máslo (kostka); plátek másla k podávání", sekce: Brambory }
+  - { surovina: tvaroh měkký, mnozstvi: 2, jednotka: "kg", poznamka: "z poznámky 50 g na osobu = MÁLO, příště více; cca 2 kg na 35 osob", sekce: Pomazánka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Pomazánka }
+  - { surovina: česnek, mnozstvi: null, jednotka: "", poznamka: "prolisovaný, do tvarohové směsi", sekce: Pomazánka }
+  - { surovina: pažitka či jiná bylina, mnozstvi: null, jednotka: "", poznamka: "nasekaná, na posypání a do tvarohové směsi", sekce: Pomazánka }
+postup:
+  - "Brambory umyjeme houbičkou na nádobí ve vodě (nebo kartáčkem)."
+  - "Brambory neloupeme, neškrábeme a vložíme do hrnce se studenou vodou, přidáme kmín a přivedeme k varu."
+  - "Jakmile začnou brambory vařit, počkáme 30 minut, pak najdeme největší bramboru, vyndáme ji, rozpůlíme a ochutnáme. Je-li brambora uvnitř hotová, brambory slijeme a podáváme. Pokud brambora hotová není, vrátíme ji zpět a po chvíli opět velkou bramboru otestujeme."
+  - "Do měkkého tvarohu přidáme sůl, prolisovaný česnek a nasekané bylinky."
+  - "Podáváme brambory, plátek másla a tvarohovou směs."
+nutrice_na_porci: { kcal: 380, bilkoviny_g: 14, sacharidy_g: 50, tuky_g: 13 }
+alergeny: [mléko]
+vegetarian: true
+poznamky: >-
+  Vytěženo z ručně psané fotky receptu v Notionu (foto v assets/recepty/brambory-na-loupacku.jpg).
+  Rukopis čitelný, ale PŘESNÁ MNOŽSTVÍ chybí – jsou jen orientační poznámky z předchozích várek:
+  10 kg brambor na 35 lidí bylo MÁLO (počítat cca 3 brambory na osobu); 50 g tvarohu na osobu
+  bylo MÁLO (příště více); 1 kostka másla stačila. porce_original odhadnuto na 35 osob dle poznámky.
+  Množství PROJÍT a upřesnit při vaření. Vegetariánské, bezlepkové. Tvaroh a máslo = mléko.
+zdroj_dat: foto
+overit: true

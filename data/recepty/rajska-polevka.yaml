@@ -1,0 +1,39 @@
+id: rajska-polevka
+nazev: Rajská polévka
+zdroj: Toprecepty.cz
+odkaz: https://www.toprecepty.cz/recept/4040-rajska-polevka-iii/
+stitky: [polévka]
+porce_original: 4
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Vaření, popis: "35 min" }
+suroviny:
+  - { surovina: máslo, mnozstvi: 1, jednotka: lžíce, poznamka: "na jíšku", sekce: Jíška a základ }
+  - { surovina: hladká mouka, mnozstvi: 1, jednotka: lžíce, poznamka: "na jíšku", sekce: Jíška a základ }
+  - { surovina: voda, mnozstvi: 1, jednotka: l, poznamka: "přilévat postupně", sekce: Jíška a základ }
+  - { surovina: rajský protlak, mnozstvi: 140, jednotka: g, poznamka: "", sekce: Jíška a základ }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: "malá, celá (na konci vyjmout)", sekce: Jíška a základ }
+  - { surovina: bobkový list, mnozstvi: 1, jednotka: ks, poznamka: "", sekce: Koření }
+  - { surovina: tymián, mnozstvi: null, jednotka: "", poznamka: "špetka", sekce: Koření }
+  - { surovina: pepř, mnozstvi: 3, jednotka: kuličky, poznamka: "", sekce: Koření }
+  - { surovina: nové koření, mnozstvi: 2, jednotka: kuličky, poznamka: "", sekce: Koření }
+  - { surovina: hřebíček, mnozstvi: 1, jednotka: ks, poznamka: "", sekce: Koření }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+  - { surovina: cukr, mnozstvi: 1, jednotka: lžíce, poznamka: "na dochucení; doladit", sekce: Koření }
+  - { surovina: polévkové těstoviny, mnozstvi: null, jednotka: "", poznamka: "dle chuti; vařit do změknutí", sekce: Dokončení }
+  - { surovina: petrželka nebo pažitka, mnozstvi: null, jednotka: "", poznamka: "čerstvá, na posypání", sekce: Dokončení }
+postup:
+  - "V hrnci rozehřej máslo, přidej mouku a vytvoř světlou jíšku. Postupně přilévej vodu a stále míchej."
+  - "Vlij rajský protlak a přiveď k varu. Vlož celou cibuli, sůl a koření (bobkový list, tymián, pepř, nové koření, hřebíček)."
+  - "Zvolna vař asi 20 minut."
+  - "Vyjmi cibuli a koření. Přidej polévkové těstoviny a vař do změknutí. Dochuť solí a cukrem, posyp čerstvou petrželkou."
+nutrice_na_porci: { kcal: 150, bilkoviny_g: 4, sacharidy_g: 26, tuky_g: 4 }
+alergeny: [lepek, mléko]
+vegetarian: true
+poznamky: >-
+  Vytěženo z dohledaného webu (Toprecepty – Rajská polévka III z protlaku); původní Notion
+  bookmark mířil na vareni.cz, který nešlo načíst. Recept je na 4 porce, generátor přepočítá
+  na 10. Alergeny: lepek (jíška, těstoviny), mléko (máslo) – pro bezlepkovou variantu zahusti
+  jinak a použij bezlepkové těstoviny. Vegetariánské.
+zdroj_dat: url
+overit: false

@@ -1,0 +1,38 @@
+id: mexicka-fazolova-polevka
+nazev: Mexická fazolová polévka
+zdroj: kuchařka pro začátečníky
+odkaz: ""
+stitky: [polévka]
+porce_original: 4
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "20 min" }
+suroviny:
+  - { surovina: červená cibule, mnozstvi: 1, jednotka: ks, poznamka: "malá", sekce: Základ }
+  - { surovina: česnek, mnozstvi: 1, jednotka: stroužek, poznamka: "", sekce: Základ }
+  - { surovina: olivový olej, mnozstvi: 1, jednotka: polévková lžíce, poznamka: "", sekce: Základ }
+  - { surovina: červené fazole, mnozstvi: 200, jednotka: g, poznamka: "plechovka (200 g), scezené", sekce: Polévka }
+  - { surovina: sladké chilli, mnozstvi: 0.5, jednotka: kávová lžička, poznamka: "půl lžičky", sekce: Polévka }
+  - { surovina: loupaná rajčata s bylinkami, mnozstvi: 400, jednotka: g, poznamka: "plechovka (400 g)", sekce: Polévka }
+  - { surovina: zeleninový bujon, mnozstvi: 1, jednotka: kostka, poznamka: "rozpustit ve ~150 ml vody", sekce: Polévka }
+postup:
+  - "Oloupejte cibuli a jemně ji nakrájejte. Oloupejte a prolisujte česnek."
+  - "Rozehřejte na mírném plameni v rendlíku olivový olej. Smažte v něm cibuli a česnek asi pět minut domekka."
+  - "Otevřete plechovku s fazolemi a nalijte je do síta nebo do cedníku. Plechovku je pod proudem studené vody a nechte okapat."
+  - "Přidejte fazole do rendlíku spolu s chilli a loupanými rajčaty. Všechno dobře promíchejte."
+  - "Rozdrobte kostku bujonu do odměrky. Zalijte 150 ml horké vody a kostku promíchejte. Nalijte bujon do rendlíku."
+  - "Zvyšte teplotu, aby se směs začala vařit. Pak teplotu zase ztlumte, aby polévka jen mírně bublala."
+  - "Zakryjte rendlík pokličkou a nechte asi 15 minut vařit. Občas zakryté a zamíchejte, aby se polévka nepřipálila."
+  - "Sundejte rendlík ze sporáku. Nalijte naběračkou polévku do misek. Přesvědčte se, že není moc horká, a opatrně rozlijte. Hned jezte."
+nutrice_na_porci: { kcal: 180, bilkoviny_g: 8, sacharidy_g: 26, tuky_g: 5 }
+alergeny: []
+vegetarian: true
+poznamky: >-
+  Vytěženo ze dvou fotek receptu (kuchařka pro začátečníky) v Notionu —
+  assets/recepty/mexicka-fazolova-polevka-1.jpg (suroviny) a -2.jpg (postup).
+  Recept psaný na 4 porce. Tip z kuchařky: navrch lze přidat na oleji osmaženou
+  nakrájenou cibuli (smažit do hnědozlatova, snížit teplotu, kdyby cibulka začala
+  hnědnout). Voda na bujon (~150 ml) odhadnuta z postupu. Vegetariánské.
+  Ověřit množství vývaru/vody – polévka je hustá.
+zdroj_dat: foto
+overit: true

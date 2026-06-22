@@ -40,9 +40,10 @@ Schéma YAML viz libovolný soubor v `data/recepty/`. Klíčová pole: `porce_or
   A4 šablona, 2 ukázkové recepty. *(Vzhled šablony ještě k doladění s uživatelem.)*
 - **M2 — Vytěžení receptů** 🟡 ROZPRACOVÁNO. 8 URL/textových receptů hotovo;
   ~38 foto receptů čeká na session s egress (viz CLAUDE.md).
-- **M3 — Nutrice + alergeny** 🟡 ČÁSTEČNĚ. U vytěžených odhad doplněn; chybí
-  `data/alergeny.yaml` (čeká se na seznam alergenů + omezení od uživatele) a
-  dořešení `overit: true` receptů.
+- **M3 — Nutrice + alergeny** 🟡 ČÁSTEČNĚ. U vytěžených odhad doplněn.
+  `data/alergeny.yaml` + manuál (`render_omezeni()` → `vystup/omezeni.html`,
+  tabulka strávníků + odvozený watch-list) hotové; čeká se na skutečná data
+  strávníků (zatím placeholdery) a dořešení `overit: true` receptů.
 - **M4 — Rozvrh** ⬜ TODO. `data/jidelnicek.yaml` (zrcadlo Notion Jídelníčku) +
   `templates/rozvrh.html.j2` + `styles/rozvrh.css`. Generátor už má kostru
   `render_rozvrh()`.

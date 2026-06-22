@@ -1,0 +1,41 @@
+id: koprovka
+nazev: Koprová omáčka s vejcem (Koprovka)
+zdroj: Táborová kuchyně (ruční poznámky, foto z Notionu)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 40
+casy:
+  - { faze: Příprava, popis: "20 min" }
+  - { faze: Vaření, popis: "40 min" }
+suroviny:
+  - { surovina: máslo, mnozstvi: null, jednotka: "", poznamka: "plnotučné; na jíšku (bešamel) – kostka másla na zaprášení moukou", sekce: "Omáčka (bešamel)" }
+  - { surovina: hladká mouka, mnozstvi: 0.75, jednotka: kg, poznamka: "na jíšku; množství z poznámek (3/4 kg)", sekce: "Omáčka (bešamel)" }
+  - { surovina: mléko, mnozstvi: 5, jednotka: l, poznamka: "mléko + smetana dohromady cca 5 l + 3 l (z poznámek 2024)", sekce: "Omáčka (bešamel)" }
+  - { surovina: smetana, mnozstvi: 3, jednotka: l, poznamka: "ke šlehání/na vaření; do bešamelu", sekce: "Omáčka (bešamel)" }
+  - { surovina: kopr, mnozstvi: null, jednotka: "", poznamka: "čerstvý nebo naložený", sekce: "Omáčka (bešamel)" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: "Omáčka (bešamel)" }
+  - { surovina: cukr, mnozstvi: null, jednotka: "", poznamka: na dochucení, sekce: "Omáčka (bešamel)" }
+  - { surovina: ocet, mnozstvi: null, jednotka: "", poznamka: na dochucení, sekce: "Omáčka (bešamel)" }
+  - { surovina: vejce, mnozstvi: 40, jednotka: ks, poznamka: "cca 1 vejce na osobu, uvařit natvrdo", sekce: "K podávání" }
+  - { surovina: houskový knedlík, mnozstvi: 7, jednotka: šiška, poznamka: "1 šiška ~ 18 plátků; cca 1 šiška na ~6 lidí (z poznámek kuchaře)", sekce: "K podávání" }
+postup:
+  - "Vejce uvař natvrdo (cca 10 minut od varu), zchlaď studenou vodou, oloupej a nech stranou."
+  - "Knedlíky: připrav a napař houskové knedlíky. V parníčku pokládej šišky v několika vrstvách na utěrku a napařuj v páře cca 20–25 minut. Hlídej, ať se ve spodním hrnci nevyvaří voda (utěrku přivaž k hrnci, voda je dole, knedlíky nad ní)."
+  - "Jíška: v hrnci rozpusť máslo a za stálého míchání zaprašuj hladkou moukou, dokud nevznikne hladká světlá jíška (asi 2 minuty)."
+  - "Bešamel: do jíšky postupně přilévej mléko a smetanu a neustále míchej metlou, aby nevznikly hrudky. Vař a míchej, dokud omáčka nezhoustne."
+  - "Nasekaný kopr (čerstvý nebo naložený) vmíchej do omáčky a krátce prohřej."
+  - "Dochuť solí, cukrem a octem do jemně nasládlé až sladkokyselé chuti – přidávej po troškách a průběžně ochutnávej (vždy čistou lžící)."
+  - "Uvařená vejce nakrájej na čtvrtky nebo plátky a buď je vmíchej do omáčky, nebo dávej až na talíř navrch."
+  - "Podávej s nakrájeným houskovým knedlíkem a vejcem natvrdo."
+nutrice_na_porci: { kcal: 550, bilkoviny_g: 18, sacharidy_g: 70, tuky_g: 22 }
+alergeny: [lepek, mléko, vejce]
+vegetarian: true
+poznamky: >-
+  Vytěženo z ručně psané fotky receptu v Notionu (foto v assets/recepty/koprovka.jpg).
+  Přesná množství surovin nejsou v receptu uvedena jako gramáž – vychází z poznámek
+  kuchaře o předchozích várkách: 2019 ~45 osob, vyšlo „moc" pro cca 30 lidí;
+  2024 → 7 šišek knedlíku, mléko+smetana cca 5 l + 3 l, hladká mouka ~3/4 kg.
+  Knedlíky se podle poznámky „jedly i po večeři, bylo jich moc". Množství proto PROJÍT
+  a upřesnit při vaření (proto overit: true). Vegetariánské.
+zdroj_dat: foto
+overit: true

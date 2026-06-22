@@ -1,0 +1,39 @@
+id: recky-kuskusovy-salat
+nazev: Řecký kuskusový salát
+zdroj: Vaříme na cestách (Skautská kuchařka)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 10
+casy:
+  - { faze: Namáčení, popis: "cizrna přes noc (cca 8 hod)" }
+  - { faze: Příprava, popis: "20 min" }
+  - { faze: Vaření, popis: "30 min" }
+suroviny:
+  - { surovina: kuskus, mnozstvi: 700, jednotka: g, poznamka: "", sekce: Kuskus }
+  - { surovina: voda / vývar, mnozstvi: null, jednotka: "", poznamka: "horký, na zalití kuskusu", sekce: Kuskus }
+  - { surovina: suchá cizrna, mnozstvi: 250, jednotka: g, poznamka: "namočit ideálně přes noc", sekce: Kuskus }
+  - { surovina: rajčata, mnozstvi: 625, jednotka: g, poznamka: "", sekce: Salát }
+  - { surovina: sýr feta, mnozstvi: 190, jednotka: g, poznamka: "", sekce: Salát }
+  - { surovina: černé olivy, mnozstvi: 2, jednotka: balení, poznamka: "", sekce: Salát }
+  - { surovina: okurka, mnozstvi: 3, jednotka: ks, poznamka: "", sekce: Salát }
+  - { surovina: červená cibule, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Salát }
+  - { surovina: olivový olej, mnozstvi: 12, jednotka: PL, poznamka: "polévkové lžíce", sekce: Dresink }
+  - { surovina: citron, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Dresink }
+  - { surovina: oregano, mnozstvi: 2.5, jednotka: KL, poznamka: "kávové lžičky", sekce: Dresink }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dresink }
+  - { surovina: černý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dresink }
+postup:
+  - "Cizrnu uvař doměkka (namoč ji ideálně přes noc do dostatečného množství vody)."
+  - "Do kotlíku dej kuskus, zakápni olivovým olejem, přidej 3 špetky soli, oregano a promíchej vidličkou tak, aby se každé zrnko potkalo s trochou oleje. Zalij horkým vývarem či vodou, přiklop a nech nabobtnat. V závislosti na teplotě a množství vody bude kuskus měkký po 5–10 minutách."
+  - "Mezitím si zeleninu i sýr nakrájej na kostičky. Hotový kuskus načechrej vidličkou a smíchej s nachystanými surovinami včetně uvařené cizrny a oliv."
+  - "Podle chuti přidej sůl, pepř nebo oregano, zakápni šťávou z citronu. A můžeš servírovat."
+nutrice_na_porci: { kcal: 380, bilkoviny_g: 13, sacharidy_g: 55, tuky_g: 12 }
+alergeny: [lepek, mléko]
+vegetarian: true
+poznamky: >-
+  Vytěženo z fotky stránky kuchařky v Notionu (assets/recepty/recky-kuskusovy-salat.jpg).
+  Suroviny i postup čitelné a kompletní. 10 porcí, vege, obtížnost 2/5, 60 min.
+  PL = polévková lžíce, KL = kávová lžička. Obsahuje lepek (kuskus) a mléko (feta).
+  Pro bezlepkovou variantu nahradit kuskus např. quinoou; feta je z mléka.
+zdroj_dat: foto
+overit: false

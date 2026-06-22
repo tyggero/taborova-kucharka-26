@@ -1,0 +1,35 @@
+id: kvetakovy-krem
+nazev: Květákový krém (Krémová květáková polévka)
+zdroj: Prima Fresh
+odkaz: https://fresh.iprima.cz/recepty/kremova-kvetakova-polevka
+stitky: [polévka]
+porce_original: 6
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "25 min" }
+suroviny:
+  - { surovina: máslo, mnozstvi: 30, jednotka: g, poznamka: "", sekce: Polévka }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: "oloupaná a nasekaná", sekce: Polévka }
+  - { surovina: brambory, mnozstvi: 1, jednotka: ks, poznamka: "větší moučná, oškrábaná a na kostičky", sekce: Polévka }
+  - { surovina: květák, mnozstvi: 500, jednotka: g, poznamka: "1 ks, natrhaný na růžičky a nasekaný na větší kousky", sekce: Polévka }
+  - { surovina: bobkový list, mnozstvi: 1, jednotka: ks, poznamka: "", sekce: Polévka }
+  - { surovina: muškátový oříšek, mnozstvi: null, jednotka: "", poznamka: "čerstvě nastrouhaný, dle chuti", sekce: Polévka }
+  - { surovina: zeleninový vývar, mnozstvi: 1, jednotka: l, poznamka: "horký", sekce: Polévka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Polévka }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Polévka }
+  - { surovina: smetana, mnozstvi: 100, jednotka: ml, poznamka: "nebo plnotučné mléko", sekce: Na dokončení }
+postup:
+  - "V hrnci rozehřejte máslo a na něm opékejte cibuli, dokud nezměkne. Přidejte bramboru a vařte 1 minutu, pak květák. Okořeňte, přidejte bobkový list a muškátový oříšek. Přiklopte a vařte 5 minut."
+  - "Přilijte vývar, uveďte do varu a vařte dalších 20 minut, dokud květák nezměkne."
+  - "Vyndejte bobkový list a rozmixujte vše v mixéru na hladkou konzistenci."
+  - "Vraťte do hrnce, přilijte smetanu a prohřejte."
+  - "Ozdobte muškátovým oříškem, bobkovým listem nebo růžičkami květáku."
+nutrice_na_porci: { kcal: 140, bilkoviny_g: 5, sacharidy_g: 14, tuky_g: 8 }
+alergeny: [mléko]
+vegetarian: true
+poznamky: >-
+  Vytěženo z webu (bookmark v Notionu odkazuje na recept „Krémová květáková polévka"
+  na Prima Fresh). Recept na 6 porcí. Smetanu lze nahradit plnotučným mlékem.
+  Pro bezlaktózovou variantu použít rostlinnou smetanu. Vegetariánské.
+zdroj_dat: url
+overit: false

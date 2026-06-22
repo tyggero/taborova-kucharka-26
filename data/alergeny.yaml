@@ -1,0 +1,109 @@
+# Registr strávníků se stravovacími omezeními – Tábor 26. Ručně editovatelné.
+#
+# `stravnici` je zdroj pravdy. Seznam alergenů ke sledování (watch-list) se
+# NEpíše ručně – generátor ho odvodí jako sjednocení polí `alergeny` přes všechny
+# strávníky a vykreslí na manuál (vystup/omezeni.html).
+#
+# Hodnoty v poli `alergeny` MUSÍ být `id` z číselníku `ciselnik_alergenu` níže
+# (tytéž hodnoty se používají i v receptech v poli `alergeny:`), jinak generátor
+# vypíše varování. Bezlepková/bezlaktózová dieta = zapiš jako alergen
+# `lepek` / `mléko` (promítne se do watch-listu); pole `diety` nech jen pro
+# vegetarián/vegan.
+#
+# Pole strávníka:
+#   kdo         – přezdívka nebo jméno (volný text)
+#   pritomnost  – kdy je na táboře (volitelné), např. "celý tábor", "2.–10. 7."
+#   diety       – vegetarián / vegan (jen tyto kategorie)
+#   alergeny    – zdravotní alergeny, id z číselníku níže (→ watch-list)
+#   neji        – další věci, které strávník nejí (ne nutně alergie) – ovlivňuje alternativu
+#   zavaznost   – volitelné, např. "závažná alergie – nosí epipen"
+#   poznamka    – volný text: detail omezení, nápad na náhradu
+
+stravnici:
+  - kdo: "Anetka"
+    pritomnost: ""
+    diety: []
+    alergeny: [mrkev, celer, sója, cizrna, jablko, hruška, jahody, mango,
+               žluté melouny, lískové ořechy, arašídy, mléčná bílkovina]
+    neji: [brambory]
+    zavaznost: ""
+    poznamka: "U mléčné bílkoviny nemůže ani bezlepkové věci. Brambory jí moc nechutnají."
+
+  - kdo: "Vašík"
+    pritomnost: ""
+    diety: []
+    alergeny: [lepek]
+    neji: [jogurt, omáčky, "máslo viditelné v jídle", med, kečup, fazole,
+           puding, mléko, "krémové polévky"]
+    zavaznost: ""
+    poznamka: ""
+
+  - kdo: "Logos"
+    pritomnost: ""
+    diety: []
+    alergeny: [ořechy, arašídy]
+    neji: []
+    zavaznost: "závažná alergie – nosí epipen"
+    poznamka: ""
+
+  - kdo: "Tygr"
+    pritomnost: ""
+    diety: []
+    alergeny: ["slunečnicová semínka", "dýňová semínka", "lněná semínka"]
+    neji: []
+    zavaznost: ""
+    poznamka: ""
+
+  - kdo: "Hadka"
+    pritomnost: ""
+    diety: []
+    alergeny: [jablko]
+    neji: []
+    zavaznost: ""
+    poznamka: "Jen čerstvá jablka."
+
+  - kdo: "Pumeta"
+    pritomnost: ""
+    diety: []
+    alergeny: [kokos, "slunečnicová semínka"]
+    neji: []
+    zavaznost: ""
+    poznamka: ""
+
+  - kdo: "Dan"
+    pritomnost: ""
+    diety: [vegetarián]
+    alergeny: []
+    neji: []
+    zavaznost: ""
+    poznamka: ""
+
+# Číselník alergenů: `id` = přesná hodnota používaná v receptech i u strávníků;
+# `nazev`+`ikona` slouží k vykreslení manuálu a zároveň jako seznam povolených
+# hodnot pro validaci. Číselník je superset alergenů z receptů i ze strávníků.
+ciselnik_alergenu:
+  # obecné kategorie (používané i v receptech)
+  - { id: lepek,         nazev: "Lepek",           ikona: "🌾" }
+  - { id: mléko,         nazev: "Mléko / laktóza", ikona: "🥛" }
+  - { id: vejce,         nazev: "Vejce",           ikona: "🥚" }
+  - { id: ořechy,        nazev: "Ořechy",          ikona: "🥜" }
+  - { id: sezam/semínka, nazev: "Sezam a semínka", ikona: "🌰" }
+  - { id: kokos,         nazev: "Kokos",           ikona: "🥥" }
+  - { id: sója,          nazev: "Sója",            ikona: "🫘" }
+  - { id: ryby,          nazev: "Ryby",            ikona: "🐟" }
+  - { id: hořčice,       nazev: "Hořčice",         ikona: "🌭" }
+  - { id: celer,         nazev: "Celer",           ikona: "🥬" }
+  # konkrétní alergeny strávníků
+  - { id: mrkev,                nazev: "Mrkev",             ikona: "🥕" }
+  - { id: cizrna,               nazev: "Cizrna",            ikona: "🫛" }
+  - { id: jablko,               nazev: "Jablko",            ikona: "🍎" }
+  - { id: hruška,               nazev: "Hruška",            ikona: "🍐" }
+  - { id: jahody,               nazev: "Jahody",            ikona: "🍓" }
+  - { id: mango,                nazev: "Mango",             ikona: "🥭" }
+  - { id: žluté melouny,        nazev: "Žluté melouny",     ikona: "🍈" }
+  - { id: lískové ořechy,       nazev: "Lískové ořechy",    ikona: "🌰" }
+  - { id: arašídy,              nazev: "Arašídy",           ikona: "🥜" }
+  - { id: mléčná bílkovina,     nazev: "Mléčná bílkovina",  ikona: "🥛" }
+  - { id: slunečnicová semínka, nazev: "Slunečnicová semínka", ikona: "🌻" }
+  - { id: dýňová semínka,       nazev: "Dýňová semínka",    ikona: "🎃" }
+  - { id: lněná semínka,        nazev: "Lněná semínka",     ikona: "🌱" }

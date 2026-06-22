@@ -1,0 +1,38 @@
+id: ovesna-kase-na-slano
+nazev: Ovesná kaše na slano
+zdroj: Apetit Online (bookmark v Notionu)
+odkaz: https://www.apetitonline.cz/recept/ovesna-kase-naslano
+stitky: [Snídaně]
+porce_original: 3
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "15 min" }
+suroviny:
+  - { surovina: ovesné vločky, mnozstvi: 200, jednotka: g, poznamka: "jemné", sekce: Kaše }
+  - { surovina: voda, mnozstvi: 1, jednotka: l, poznamka: "lze nahradit vývarem", sekce: Kaše }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: "nadrobno", sekce: Kaše }
+  - { surovina: řepkový nebo slunečnicový olej, mnozstvi: 2, jednotka: lžíce, poznamka: "", sekce: Kaše }
+  - { surovina: eidam, mnozstvi: 70, jednotka: g, poznamka: "nasekaný/nastrouhaný", sekce: Kaše }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "cca 1/4 lžičky do kaše + dle chuti", sekce: Kaše }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "čerstvě mletý, dle chuti", sekce: Kaše }
+  - { surovina: vejce, mnozstvi: 3, jednotka: ks, poznamka: "vařená, dle preference (i volské oko)", sekce: K podávání }
+  - { surovina: rajče, mnozstvi: 1, jednotka: ks, poznamka: "na šestinky, k podávání", sekce: K podávání }
+  - { surovina: hlávkový salát, mnozstvi: 3, jednotka: listy, poznamka: "malé listy, k podávání", sekce: K podávání }
+  - { surovina: červený vinný ocet, mnozstvi: 1, jednotka: lžička, poznamka: "na pokapání salátu", sekce: K podávání }
+postup:
+  - "V rendlíku na středním ohni rozehřej olej. Vsyp cibuli a za občasného míchání ji opékej doměkka (1–2 minuty)."
+  - "Vsyp vločky a minutu míchej."
+  - "Vlij 1 litr vody, ochuť 1/4 lžičky soli a 1/4 lžičky pepře. Přiveď k varu, ztlum oheň a za častého míchání vař 10–12 minut, dokud není kaše krémová."
+  - "Vmíchej sýr, dosol a dopepři."
+  - "Podávej s rajčetem, salátem pokapaným octem a osoleným/opepřeným vejcem."
+nutrice_na_porci: { kcal: 430, bilkoviny_g: 18, sacharidy_g: 45, tuky_g: 19 }
+alergeny: [lepek, mléko, vejce]
+vegetarian: true
+poznamky: >-
+  V Notionu jen bookmark „Ovesná kaše naslano" + vložená DB surovin; vytěženo
+  z odpovídajícího receptu Apetit Online (na 3 porce). Lepek = ovesné vločky
+  (mohou obsahovat lepek / kontaminaci; pro bezlepkovou dietu použít certifikované
+  bezlepkové vločky). Pro tábor množství násobit. Overit – ověřit dle původního
+  odkazu z Notionu.
+zdroj_dat: url
+overit: true

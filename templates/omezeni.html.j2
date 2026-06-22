@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>{{ nadpis }}</title>
+<style>
+{{ css }}
+</style>
+</head>
+<body>
+<article class="manual">
+
+  <header class="hlavicka">
+    <h1>{{ nadpis }}</h1>
+    {% if datum %}<div class="datum">{{ datum }}</div>{% endif %}
+  </header>
+
+  <section class="watchlist">
+    <h2>Alergeny ke sledování</h2>
+    {% if watchlist %}
+    <div class="watch-grid">
+      {% for w in watchlist %}
+      <div class="watch-box">
+        <div class="watch-nazev"><span class="watch-ikona">{{ w.ikona }}</span> {{ w.nazev }}</div>
+        <div class="watch-koho">týká se: {{ w.koho | join(", ") }}</div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="prazdno">Zatím nejsou zadáni žádní strávníci s alergií.</p>
+    {% endif %}
+  </section>
+
+  <section class="stravnici">
+    <h2>Strávníci se stravovacími omezeními</h2>
+    {% if stravnici %}
+    {% set ukaz_diety = stravnici | selectattr('diety') | list | length > 0 %}
+    <table>
+      <thead>
+        <tr>
+          <th class="col-kdo">Kdo</th>
+          <th class="col-pritomnost">Přítomnost</th>
+          {% if ukaz_diety %}<th class="col-diety">Diety</th>{% endif %}
+          <th class="col-alergeny">Alergeny</th>
+          <th class="col-neji">Nejí</th>
+          <th class="col-pozn">Závažnost / poznámka</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for s in stravnici %}
+        <tr>
+          <td class="col-kdo">{{ s.kdo or "—" }}</td>
+          <td class="col-pritomnost">{{ s.pritomnost or "" }}</td>
+          {% if ukaz_diety %}
+          <td class="col-diety">
+            {% for d in s.diety or [] %}<span class="dieta">{{ d }}</span>{% endfor %}
+          </td>
+          {% endif %}
+          <td class="col-alergeny">
+            {% for a in s.alergeny or [] %}<span class="alergen">{{ a }}</span>{% endfor %}
+          </td>
+          <td class="col-neji">{{ (s.neji or []) | join(", ") }}</td>
+          <td class="col-pozn">
+            {% if s.zavaznost %}<span class="zavaznost">{{ s.zavaznost }}</span>{% endif %}
+            {% if s.zavaznost and s.poznamka %}<br>{% endif %}
+            {{ s.poznamka or "" }}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p class="prazdno">Zatím nejsou zadáni žádní strávníci.</p>
+    {% endif %}
+  </section>
+
+</article>
+</body>
+</html>

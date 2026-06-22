@@ -1,0 +1,50 @@
+id: noky-se-spenatem-a-syrovou
+nazev: Bramborové noky se špenátem a sýrovou omáčkou
+zdroj: Skautská kuchařka (Vaříme na cestách)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 10
+casy:
+  - { faze: Příprava, popis: "30 min" }
+  - { faze: Vaření, popis: "40 min" }
+suroviny:
+  # Noky
+  - { surovina: brambory, mnozstvi: 1000, jednotka: g, poznamka: "typ C (varný typ C – moučné)", sekce: Noky }
+  - { surovina: polohrubá mouka, mnozstvi: 500, jednotka: g, poznamka: "na noky; lze vyzkoušet semolinu nebo kukuřičnou mouku = bezlepková varianta", sekce: Noky }
+  - { surovina: vejce, mnozstvi: 2, jednotka: ks, poznamka: "do těsta na noky", sekce: Noky }
+  - { surovina: žloutek, mnozstvi: 2, jednotka: ks, poznamka: "do těsta na noky", sekce: Noky }
+  - { surovina: sůl, mnozstvi: 2, jednotka: KL, poznamka: "do těsta na noky (KL = kávová lžička)", sekce: Noky }
+  - { surovina: špenát, mnozstvi: 1000, jednotka: g, poznamka: "čerstvý listový; lze nahradit rukolou, polníčkem, brokolicí; nebo mražený listový", sekce: Špenát }
+  # Sýrová omáčka / domácí taveňák
+  - { surovina: smetana, mnozstvi: 1, jednotka: l, poznamka: "na omáčku", sekce: Sýrová omáčka }
+  - { surovina: sýr (parmazán), mnozstvi: 200, jednotka: g, poznamka: "na omáčku; část na posypání", sekce: Sýrová omáčka }
+  - { surovina: plnotučná hořčice, mnozstvi: 1, jednotka: PL, poznamka: "PL = polévková lžíce", sekce: Sýrová omáčka }
+  - { surovina: tabasco, mnozstvi: 5, jednotka: kapek, poznamka: "", sekce: Sýrová omáčka }
+  - { surovina: máslo, mnozstvi: 50, jednotka: g, poznamka: "na omáčku", sekce: Sýrová omáčka }
+  - { surovina: muškátový oříšek, mnozstvi: 0.5, jednotka: KL, poznamka: "mletý", sekce: Sýrová omáčka }
+  - { surovina: škrob, mnozstvi: 0.5, jednotka: KL, poznamka: "na zahuštění omáčky; rozmíchat ve 2 PL studené vody", sekce: Sýrová omáčka }
+  - { surovina: česnek, mnozstvi: 2, jednotka: stroužky, poznamka: "do omáčky utřít se solí na pastu", sekce: Sýrová omáčka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Sýrová omáčka }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Sýrová omáčka }
+postup:
+  - "Noky: brambory vař v osolené vodě ve slupce cca 20 min doměkka. Sceď a nech trochu vychladnout. Oloupej a ještě teplé najemno nastrouhej, protlač přes cedník nebo rozšťouchej šťouchadlem."
+  - "Smíchej s solí, moukou, vejci a žloutky. Vypracuj kompaktní lehké těsto, které rozděl na 8 částí. Jako vždy to jde nejlépe umytýma rukama."
+  - "Na moukou vysypané pracovní ploše uválej z každé části dlouhého hada a nakrájej ho na dílky velikosti palce."
+  - "Noky vař v dostatečném množství osolené vody v širokém hrnci nebo kotlíku cca 5 min, až vyplavou na hladinu. Sceď nebo vyber cedníkem a promasti trochou oleje nebo másla."
+  - "Špenát: čerstvý špenát důkladně omyj a rychle spař ve vroucí vodě na noky (prolij nebo ponoř max na 1 minutu) – před nebo po jejich vaření."
+  - "Přendej cedníkem do nádoby se studenou vodou, nech vychladnout, vyždímej a nakrájej na menší kousky. (Pokud používáš mražený listový špenát, nech ho den pozvolna rozmrznout a nakrájej.)"
+  - "Omáčka: škrob rozmíchej ve 2 PL studené vody. Česnek utři se solí na pastu. Smetanu pomalu zahřej, přidej všechny suroviny a spolu umíchej do krémové omáčky. Pokud je moc hustá, přidej trochu vody z noků."
+  - "Dochuť solí a pepřem, přidej noky a špenát a servíruj posypané parmazánem."
+  - "Tip: omáčky můžeš udělat víc a vystydlou použít jako tavený sýr; v tom případě přidej česnek až po odebrání části na taveňák."
+nutrice_na_porci: { kcal: 620, bilkoviny_g: 22, sacharidy_g: 75, tuky_g: 26 }
+alergeny: [lepek, mléko, vejce, hořčice]
+vegetarian: true
+poznamky: >-
+  Vytěženo z fotek receptu ze Skautské kuchařky v Notionu
+  (assets/recepty/noky-se-spenatem-a-syrovou-1.jpg = suroviny + postup noky/špenát,
+  -2.jpg = postup omáčky + tipy). Recept je rovnou na 10 porcí (Vege, 120 min).
+  Tip z kuchařky: místo polohrubé mouky lze semolina/kukuřičná mouka (bezlepková
+  varianta), místo špenátu rukola/polníček/brokolice, do hotových noků lze pro
+  masožrouty přidat orestované kuřecí maso, slaninu nebo lososa.
+zdroj_dat: foto
+overit: false

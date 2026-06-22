@@ -4,19 +4,22 @@ zdroj: My Cooking Diary
 odkaz: https://www.mycookingdiary.cz/recept/kremova-cesnecka/
 stitky: [polévka]
 porce_original: 4
+casy:
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "20 min" }
 suroviny:
-  - { surovina: máslo, mnozstvi: 2, jednotka: velké lžíce, poznamka: "" }
-  - { surovina: kvalitní olivový olej, mnozstvi: 2, jednotka: lžíce, poznamka: "" }
-  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: velká, bílá nebo žlutá }
-  - { surovina: česnek, mnozstvi: 2, jednotka: hlavičky, poznamka: cca 25 stroužků }
-  - { surovina: čerstvý tymián, mnozstvi: 3, jednotka: snítky, poznamka: nebo sušený dle chuti }
-  - { surovina: brambory, mnozstvi: 4, jednotka: ks, poznamka: střední }
-  - { surovina: zeleninový vývar, mnozstvi: 500, jednotka: ml, poznamka: cca }
-  - { surovina: plnotučné mléko, mnozstvi: 150, jednotka: ml, poznamka: cca }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: bílý mletý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti }
-  - { surovina: pečivo na krutony, mnozstvi: null, jednotka: "", poznamka: + máslo na opečení }
-  - { surovina: čerstvá petrželka a tymián, mnozstvi: null, jednotka: "", poznamka: na ozdobu }
+  - { surovina: máslo, mnozstvi: 2, jednotka: velké lžíce, poznamka: "", sekce: Polévka }
+  - { surovina: kvalitní olivový olej, mnozstvi: 2, jednotka: lžíce, poznamka: "", sekce: Polévka }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: velká, bílá nebo žlutá, sekce: Polévka }
+  - { surovina: česnek, mnozstvi: 2, jednotka: hlavičky, poznamka: cca 25 stroužků, sekce: Polévka }
+  - { surovina: čerstvý tymián, mnozstvi: 3, jednotka: snítky, poznamka: nebo sušený dle chuti, sekce: Polévka }
+  - { surovina: brambory, mnozstvi: 4, jednotka: ks, poznamka: střední, sekce: Polévka }
+  - { surovina: zeleninový vývar, mnozstvi: 500, jednotka: ml, poznamka: cca, sekce: Polévka }
+  - { surovina: plnotučné mléko, mnozstvi: 150, jednotka: ml, poznamka: cca, sekce: Polévka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Polévka }
+  - { surovina: bílý mletý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Polévka }
+  - { surovina: pečivo na krutony, mnozstvi: null, jednotka: "", poznamka: + máslo na opečení, sekce: Na ozdobu }
+  - { surovina: čerstvá petrželka a tymián, mnozstvi: null, jednotka: "", poznamka: na ozdobu, sekce: Na ozdobu }
 postup:
   - Cibuli oloupeme, nakrájíme najemno a na másle s olejem opečeme doměkka.
   - Česnek oloupeme, zbavíme klíčků a prolisujeme. Přidáme k cibuli spolu s tymiánem (bez stonků) a opékáme asi 1,5 minuty, dokud se nerozvoní. Nesmí se připálit, jinak zhořkne.

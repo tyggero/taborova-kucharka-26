@@ -1,0 +1,45 @@
+id: asijska-kureci-polevka
+nazev: Asijská kuřecí polévka
+zdroj: Táborová Skautská Kuchařka
+odkaz: ""
+stitky: [polévka]
+porce_original: 10
+casy:
+  - { faze: Příprava, popis: "20 min" }
+  - { faze: Vaření, popis: "1,5 hod" }
+suroviny:
+  - { surovina: kuřecí stehna, mnozstvi: 5, jednotka: ks, poznamka: "lze i část z nich", sekce: Vývar }
+  - { surovina: voda, mnozstvi: 3, jednotka: l, poznamka: "na vývar", sekce: Vývar }
+  - { surovina: kořenová zelenina (mrkev, petržel, celer), mnozstvi: 4, jednotka: ks, poznamka: "4–5 ks", sekce: Vývar }
+  - { surovina: bobkový list, mnozstvi: null, jednotka: "", poznamka: "", sekce: Vývar }
+  - { surovina: nové koření, mnozstvi: null, jednotka: "", poznamka: "", sekce: Vývar }
+  - { surovina: jalovec, mnozstvi: null, jednotka: "", poznamka: "", sekce: Vývar }
+  - { surovina: olej, mnozstvi: null, jednotka: "", poznamka: "na restování", sekce: Vývar }
+  - { surovina: mrkev, mnozstvi: 350, jednotka: g, poznamka: "", sekce: Polévka }
+  - { surovina: řapíkatý celer, mnozstvi: 250, jednotka: g, poznamka: "", sekce: Polévka }
+  - { surovina: kokosové mléko, mnozstvi: 1, jednotka: konzerva, poznamka: "", sekce: Polévka }
+  - { surovina: citron, mnozstvi: 1, jednotka: ks, poznamka: "", sekce: Polévka }
+  - { surovina: kari koření, mnozstvi: null, jednotka: "", poznamka: "", sekce: Polévka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Polévka }
+  - { surovina: vejce, mnozstvi: 10, jednotka: ks, poznamka: "uvařená natvrdo", sekce: Příloha }
+  - { surovina: širokých rýžových nudlí, mnozstvi: 250, jednotka: g, poznamka: "vařit zvlášť", sekce: Příloha }
+postup:
+  - "V hrnci rozehřej olej a dej na něj kuřecí stehna (nebo část z nich). Nechej je hezky zezlátnout ze všech stran a pak zalij studenou vodou."
+  - "Přidej pár kousků oloupané kořenové zeleniny a 4 bobkové listy, pár kuliček nového koření, pepř a případně jalovec."
+  - "Vývar vař, dokud se nebude maso rozpadat. To minimálně hodinu potrvá, takže začni včas. Pak ho slij a maso ober od kosti. Kořenovou zeleninu dej pryč (dělala svou práci s kostmi)."
+  - "Mrkev oloupej a nakrájej na nudličky, řapíkatý celer na malé kousky."
+  - "Pokud ti na hladině vývaru zůstal tuk, sběr ho lžící a dej do pánve nebo víčka od kotlíku."
+  - "Vývar přiveď zpět k varu, přidej mrkev a řapíkatý celer a chvíli restuj. Zasypej kari kořením a nechej rozvonět."
+  - "Do horkého vývaru vlij kokosové mléko. Dochuť solí a případně přidej i kari a jalovec, nastrouhanou kůru z dobře umytého bio citronu."
+  - "Nakonec přidej i maso, mrkev s celerem a citronovou šťávu."
+  - "Rýžové nudle uvař zvlášť, pokud totiž nesnesíte polévku hned, nudle by v ní naboptnaly. Vař nebo je nech naboptnat, přečti si návod na nudlích."
+nutrice_na_porci: { kcal: 320, bilkoviny_g: 22, sacharidy_g: 28, tuky_g: 14 }
+alergeny: [vejce, celer, kokos]
+vegetarian: false
+poznamky: >-
+  Vytěženo z fotky receptu (kuchařka) v Notionu — foto v assets/recepty/asijska-kureci-polevka.jpg.
+  Recept psaný na 10 porcí. Suroviny bez uvedené gramáže (olej, koření, bobkový list,
+  nové koření, jalovec, kari, sůl) doplnit dle chuti. Obsahuje rýžové nudle (bezlepkové),
+  kokosové mléko (alergen kokos – pozor u dětí s alergií na kokos!). Maso z kuřecích stehen.
+zdroj_dat: foto
+overit: true

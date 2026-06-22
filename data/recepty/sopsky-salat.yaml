@@ -1,0 +1,33 @@
+id: sopsky-salat
+nazev: Šopský salát
+zdroj: Prima Fresh
+odkaz: https://fresh.iprima.cz/recepty/sopsky-salat-autenticky-recept-na-bulharskou-klasiku
+stitky: [Svačina]
+porce_original: 4
+casy:
+  - { faze: Příprava, popis: "20 min" }
+suroviny:
+  - { surovina: rajčata, mnozstvi: 2, jednotka: ks, poznamka: "velká zralá, na kostky", sekce: Salát }
+  - { surovina: salátová okurka, mnozstvi: 1, jednotka: ks, poznamka: "na kostky", sekce: Salát }
+  - { surovina: paprika (zelená nebo červená), mnozstvi: 1, jednotka: ks, poznamka: "na kostky", sekce: Salát }
+  - { surovina: červená cibule, mnozstvi: 0.5, jednotka: ks, poznamka: "na tenké proužky", sekce: Salát }
+  - { surovina: hladkolistá petržel, mnozstvi: 2, jednotka: lžíce, poznamka: "nasekaná", sekce: Salát }
+  - { surovina: feta (nebo balkánský sýr), mnozstvi: 150, jednotka: g, poznamka: "nastrouhaná navrch", sekce: Salát }
+  - { surovina: extra virgin olivový olej, mnozstvi: 4, jednotka: lžíce, poznamka: "", sekce: Zálivka }
+  - { surovina: červený vinný ocet, mnozstvi: 2, jednotka: lžíce, poznamka: "", sekce: Zálivka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Zálivka }
+  - { surovina: čerstvě namletý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Zálivka }
+postup:
+  - "Okurku, papriku a rajčata nakrájej na stejně velké kostky a dej do mísy."
+  - "Přidej tenké proužky červené cibule a nasekanou petržel, promíchej."
+  - "Osol, opepři, zalij olivovým olejem a vinným octem a jemně promíchej."
+  - "Nakonec zasyp nastrouhaným slaným sýrem a podávej."
+nutrice_na_porci: { kcal: 180, bilkoviny_g: 7, sacharidy_g: 8, tuky_g: 13 }
+alergeny: [mléko]
+vegetarian: true
+poznamky: >-
+  Vytěženo z webu uvedeného v Notion bookmarku (Prima Fresh). Recept je na 4 porce,
+  generátor přepočítá na 10. Alergeny: mléko (feta/balkánský sýr) – bez sýra veganské
+  a bezlaktózové. Vegetariánské.
+zdroj_dat: url
+overit: false

@@ -4,25 +4,29 @@ zdroj: Rohlik.cz
 odkaz: https://www.rohlik.cz/chef/59-rajska-omacka-s-hovezim-masem
 stitky: [Oběd, Večeře]
 porce_original: 4
+casy:
+  - { faze: Příprava, popis: "20 min" }
+  - { faze: Vaření vývaru, popis: "3 hod" }
+  - { faze: Vaření omáčky, popis: "25 min" }
 suroviny:
-  - { surovina: hovězí loupaná plec, mnozstvi: 1, jednotka: kg, poznamka: "" }
-  - { surovina: mrkev, mnozstvi: 2, jednotka: ks, poznamka: větší, oloupaná (do vývaru) }
-  - { surovina: petržel, mnozstvi: 1, jednotka: ks, poznamka: střední, oloupaná (do vývaru) }
-  - { surovina: celer, mnozstvi: 0.25, jednotka: ks, poznamka: oloupaný (do vývaru) }
-  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: střední, do vývaru }
-  - { surovina: česnek, mnozstvi: 3, jednotka: stroužky, poznamka: oloupané }
-  - { surovina: bobkový list, mnozstvi: 5, jednotka: ks, poznamka: "3 do vývaru + 2 do omáčky" }
-  - { surovina: nové koření, mnozstvi: 10, jednotka: kuličky, poznamka: "5 do vývaru + 5 do omáčky" }
-  - { surovina: černý pepř, mnozstvi: 20, jednotka: kuličky, poznamka: "10 do vývaru + 10 do omáčky" }
-  - { surovina: cibule, mnozstvi: 250, jednotka: g, poznamka: oloupaná, do omáčky }
-  - { surovina: sádlo, mnozstvi: 1, jednotka: lžíce, poznamka: "" }
-  - { surovina: rajský protlak, mnozstvi: 230, jednotka: g, poznamka: "" }
-  - { surovina: hladká mouka, mnozstvi: 80, jednotka: g, poznamka: "" }
-  - { surovina: cukr krupice, mnozstvi: 150, jednotka: g, poznamka: "" }
-  - { surovina: ocet, mnozstvi: 5, jednotka: lžíce, poznamka: "" }
-  - { surovina: studené máslo, mnozstvi: 20, jednotka: g, poznamka: na zjemnění na závěr }
-  - { surovina: hovězí vývar, mnozstvi: 1.2, jednotka: l, poznamka: vlastní z masa a zeleniny }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti }
+  - { surovina: hovězí loupaná plec, mnozstvi: 1, jednotka: kg, poznamka: "", sekce: Vývar }
+  - { surovina: mrkev, mnozstvi: 2, jednotka: ks, poznamka: větší, oloupaná (do vývaru), sekce: Vývar }
+  - { surovina: petržel, mnozstvi: 1, jednotka: ks, poznamka: střední, oloupaná (do vývaru), sekce: Vývar }
+  - { surovina: celer, mnozstvi: 0.25, jednotka: ks, poznamka: oloupaný (do vývaru), sekce: Vývar }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: střední, do vývaru, sekce: Vývar }
+  - { surovina: česnek, mnozstvi: 3, jednotka: stroužky, poznamka: oloupané, sekce: Vývar }
+  - { surovina: bobkový list, mnozstvi: 5, jednotka: ks, poznamka: "3 do vývaru + 2 do omáčky", sekce: Vývar }
+  - { surovina: nové koření, mnozstvi: 10, jednotka: kuličky, poznamka: "5 do vývaru + 5 do omáčky", sekce: Vývar }
+  - { surovina: černý pepř, mnozstvi: 20, jednotka: kuličky, poznamka: "10 do vývaru + 10 do omáčky", sekce: Vývar }
+  - { surovina: cibule, mnozstvi: 250, jednotka: g, poznamka: oloupaná, do omáčky, sekce: Omáčka }
+  - { surovina: sádlo, mnozstvi: 1, jednotka: lžíce, poznamka: "", sekce: Omáčka }
+  - { surovina: rajský protlak, mnozstvi: 230, jednotka: g, poznamka: "", sekce: Omáčka }
+  - { surovina: hladká mouka, mnozstvi: 80, jednotka: g, poznamka: "", sekce: Omáčka }
+  - { surovina: cukr krupice, mnozstvi: 150, jednotka: g, poznamka: "", sekce: Omáčka }
+  - { surovina: ocet, mnozstvi: 5, jednotka: lžíce, poznamka: "", sekce: Omáčka }
+  - { surovina: studené máslo, mnozstvi: 20, jednotka: g, poznamka: na zjemnění na závěr, sekce: Omáčka }
+  - { surovina: hovězí vývar, mnozstvi: 1.2, jednotka: l, poznamka: vlastní z masa a zeleniny, sekce: Omáčka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Omáčka }
 postup:
   - Vývar - Zeleninu (mrkev, petržel, celer, cibuli) překrojíme na velké kusy a spolu s hovězím masem vložíme do hrnce. Zalijeme studenou vodou a přivedeme k varu. Jakmile začne voda bublat, stáhneme oheň na minimum a naběračkou sbíráme pěnu. Přidáme bobkový list, nové koření, sůl a černý pepř a táhneme doměkka (cca 3 hodiny).
   - Omáčka - Na sádle zpěníme nakrájenou cibuli (250 g) a rajský protlak. Přidáme mouku a za stálého míchání ji asi půl minuty restujeme.

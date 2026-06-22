@@ -4,23 +4,27 @@ zdroj: Nora Cooks
 odkaz: https://www.noracooks.com/vegan-butter-chicken/
 stitky: [Oběd, Večeře]
 porce_original: 6
+casy:
+  - { faze: Příprava, popis: "20 min" }
+  - { faze: Pečení, popis: "30 min" }
+  - { faze: Vaření, popis: "15 min" }
 suroviny:
-  - { surovina: extra tofu (pevné), mnozstvi: 900, jednotka: g, poznamka: "2 bloky po 16 oz" }
-  - { surovina: olivový olej, mnozstvi: 2, jednotka: polévková lžíce, poznamka: na obalení tofu }
-  - { surovina: kukuřičný škrob, mnozstvi: 2, jednotka: polévková lžíce, poznamka: "" }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "1/2 lžičky na tofu + 1 lžička do omáčky" }
-  - { surovina: veganské máslo, mnozstvi: 2, jednotka: polévková lžíce, poznamka: nebo olivový olej }
-  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: velká, najemno }
-  - { surovina: čerstvý zázvor, mnozstvi: 1, jednotka: polévková lžíce, poznamka: strouhaný (nebo 1 lžička sušeného) }
-  - { surovina: česnek, mnozstvi: 2, jednotka: ks, poznamka: stroužky, prolisované }
-  - { surovina: garam masala, mnozstvi: 1, jednotka: polévková lžíce, poznamka: "" }
-  - { surovina: kari koření, mnozstvi: 1, jednotka: čajová lžička, poznamka: "" }
-  - { surovina: mletý koriandr, mnozstvi: 1, jednotka: čajová lžička, poznamka: "" }
-  - { surovina: kajenský pepř, mnozstvi: null, jednotka: "", poznamka: "1/4 lžičky" }
-  - { surovina: rajčatový protlak, mnozstvi: 85, jednotka: g, poznamka: "3 oz" }
-  - { surovina: kokosové mléko, mnozstvi: 400, jednotka: ml, poznamka: plnotučné, 1 plechovka (13.5 oz) }
-  - { surovina: rýže, mnozstvi: 4, jednotka: hrneček, poznamka: vařená, bílá nebo natural, k podávání }
-  - { surovina: čerstvý koriandr, mnozstvi: null, jednotka: "", poznamka: nasekaný, na ozdobení }
+  - { surovina: extra tofu (pevné), mnozstvi: 900, jednotka: g, poznamka: "2 bloky po 16 oz", sekce: Tofu }
+  - { surovina: olivový olej, mnozstvi: 2, jednotka: polévková lžíce, poznamka: na obalení tofu, sekce: Tofu }
+  - { surovina: kukuřičný škrob, mnozstvi: 2, jednotka: polévková lžíce, poznamka: "", sekce: Tofu }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "1/2 lžičky na tofu + 1 lžička do omáčky", sekce: Tofu }
+  - { surovina: veganské máslo, mnozstvi: 2, jednotka: polévková lžíce, poznamka: nebo olivový olej, sekce: Omáčka }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: velká, najemno, sekce: Omáčka }
+  - { surovina: čerstvý zázvor, mnozstvi: 1, jednotka: polévková lžíce, poznamka: strouhaný (nebo 1 lžička sušeného), sekce: Omáčka }
+  - { surovina: česnek, mnozstvi: 2, jednotka: ks, poznamka: stroužky, prolisované, sekce: Omáčka }
+  - { surovina: garam masala, mnozstvi: 1, jednotka: polévková lžíce, poznamka: "", sekce: Omáčka }
+  - { surovina: kari koření, mnozstvi: 1, jednotka: čajová lžička, poznamka: "", sekce: Omáčka }
+  - { surovina: mletý koriandr, mnozstvi: 1, jednotka: čajová lžička, poznamka: "", sekce: Omáčka }
+  - { surovina: kajenský pepř, mnozstvi: null, jednotka: "", poznamka: "1/4 lžičky", sekce: Omáčka }
+  - { surovina: rajčatový protlak, mnozstvi: 85, jednotka: g, poznamka: "3 oz", sekce: Omáčka }
+  - { surovina: kokosové mléko, mnozstvi: 400, jednotka: ml, poznamka: plnotučné, 1 plechovka (13.5 oz), sekce: Omáčka }
+  - { surovina: rýže, mnozstvi: 4, jednotka: hrneček, poznamka: vařená, bílá nebo natural, k podávání, sekce: Na podávání }
+  - { surovina: čerstvý koriandr, mnozstvi: null, jednotka: "", poznamka: nasekaný, na ozdobení, sekce: Na podávání }
 postup:
   - Tofu zabal do papírových utěrek, zatěž talířem a něčím těžkým a nech 20 minut odkapat (lze vynechat u extra pevného tofu).
   - Troubu předehřej na 200 °C a plech vylož pečicím papírem.

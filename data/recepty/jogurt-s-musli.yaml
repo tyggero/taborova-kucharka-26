@@ -1,0 +1,27 @@
+id: jogurt-s-musli
+nazev: Jogurt s müsli
+zdroj: ""
+odkaz: ""
+stitky: [Snídaně]
+porce_original: 40
+casy:
+  - { faze: Příprava, popis: "10 min" }
+suroviny:
+  - { surovina: bílý jogurt, mnozstvi: 6, jednotka: kg, poznamka: "selský/řecký nebo polotučný; cca 150 g na osobu (větší kbelíky 5 kg)", sekce: Základ }
+  - { surovina: müsli (cereální směs), mnozstvi: 2.5, jednotka: kg, poznamka: "křupavé müsli nebo ovesné vločky; cca 60 g na osobu; POZOR může obsahovat ořechy/semínka", sekce: Základ }
+  - { surovina: med nebo cukr, mnozstvi: 0.5, jednotka: kg, poznamka: "na doslazení dle chuti", sekce: Topping }
+  - { surovina: čerstvé/sušené ovoce, mnozstvi: null, jednotka: "", poznamka: "volitelně – banán, jablko, rozinky, mražené lesní ovoce", sekce: Topping }
+postup:
+  - "Jogurt vyklopíme do velkých mís nebo necháme v kbelících s naběračkou."
+  - "Müsli nasypeme do samostatných mís (aby zůstalo křupavé a nenasáklo)."
+  - "Med/cukr a ovoce dáme stranou jako doplněk."
+  - "Servírujeme samoobslužně: každý si nandá jogurt a posype müsli, případně doslazení a ovoce."
+nutrice_na_porci: { kcal: 320, bilkoviny_g: 12, sacharidy_g: 45, tuky_g: 9 }
+alergeny: [mléko, lepek, ořechy, sezam/semínka]
+vegetarian: true
+poznamky: >-
+  Jednoduchá skládaná snídaně. Müsli často obsahuje lepek (ovesné/pšeničné vločky),
+  ořechy a semínka – pro bezlepkové/alergiky připravit stranou bezlepkové vločky bez
+  ořechů a samostatný jogurt. Množství jsou hrubý odhad pro ~40 osob.
+zdroj_dat: vlastni
+overit: true

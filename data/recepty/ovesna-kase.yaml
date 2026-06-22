@@ -1,0 +1,34 @@
+id: ovesna-kase
+nazev: Ovesná kaše
+zdroj: ruční poznámky (foto z Notionu)
+odkaz: ""
+stitky: [Snídaně]
+porce_original: 10
+casy:
+  - { faze: Namáčení, popis: "přes noc (cca 8 hod)" }
+  - { faze: Vaření, popis: "15 min" }
+suroviny:
+  - { surovina: ovesné vločky, mnozstvi: 500, jednotka: g, poznamka: "na 10 lidí (cca 2 várky)", sekce: Základ }
+  - { surovina: mléko, mnozstvi: 2, jednotka: l, poznamka: "na 10 lidí na hustou kaši; přesné množství doplnit při vaření (kolik se spotřebuje)", sekce: Základ }
+  - { surovina: cukr, mnozstvi: null, jednotka: "", poznamka: "na doslazení – sladit až nakonec", sekce: Dochucení }
+  - { surovina: zlepšováky na dochucení, mnozstvi: null, jednotka: "", poznamka: "rozinky, ovoce, …", sekce: Dochucení }
+postup:
+  - "Přes noc necháme vločky nasáknout v mléce – mléka dáme tolik, aby byly vločky ponořené a bylo mléko cca 3 cm nad vločkami."
+  - "Ráno přilijeme mléko – opět trochu nad vločky, cca 1 cm."
+  - "Začít ohřívat a míchat, kaše začne houstnout. Nepřivést k varu – POZOR, kaše se ráda připaluje!"
+  - "Sundat z plotny, až bude hustá."
+  - "Přidat zlepšováky a ochutnávat – nebo je dát vedle a každý si kaši ochutí sám."
+nutrice_na_porci: { kcal: 300, bilkoviny_g: 11, sacharidy_g: 40, tuky_g: 9 }
+alergeny: [lepek, mléko]
+vegetarian: true
+poznamky: >-
+  Vytěženo z ručně psané fotky receptu v Notionu (foto v assets/recepty/ovesna-kase.jpg).
+  Text čitelný; u mléka je v poznámce kuchaře „doplnit, kolik mléka se spotřebuje" –
+  uvedené 2 l jsou orientační (na hustou kaši), upřesnit při vaření. Na fotce je i
+  varianta „falešné žabí müsli": dáme ohřát mléko (7 l na 1,5 kg vloček = cca 35 lidí),
+  do horkého mléka nasypeme ovesné vločky (drcené jsou lepší), chvíli mícháme a necháme
+  odstát; v případě potřeby lze později přidat další ohřáté mléko. Alergeny: oves může
+  obsahovat lepek (pokud není certifikovaný bezlepkový), mléko. Vegetariánské; s
+  rostlinným mlékem bezlaktózové.
+zdroj_dat: foto
+overit: true

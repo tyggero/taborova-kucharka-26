@@ -1,0 +1,41 @@
+id: francouzska-polevka
+nazev: Francouzská polévka
+zdroj: Instagram @bistro_umarty (recept Dariny Matyášové, 1971)
+odkaz: ""
+stitky: [polévka]
+porce_original: 4
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Smažení, popis: "15 min" }
+  - { faze: Vaření, popis: "45–50 min" }
+suroviny:
+  - { surovina: hovězí mleté maso, mnozstvi: 250, jednotka: g, poznamka: "ale i méně", sekce: Základ }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: "cca 65 g, nadrobno", sekce: Základ }
+  - { surovina: česnek, mnozstvi: 2, jednotka: stroužky, poznamka: "lisovaný", sekce: Základ }
+  - { surovina: olej nebo máslo, mnozstvi: null, jednotka: "", poznamka: "trochu na orestování", sekce: Základ }
+  - { surovina: mrkev, mnozstvi: 2, jednotka: ks, poznamka: "cca 150 g", sekce: Kořenová zelenina }
+  - { surovina: petržel, mnozstvi: 1, jednotka: ks, poznamka: "cca 100 g", sekce: Kořenová zelenina }
+  - { surovina: řapíkatý celer, mnozstvi: 1, jednotka: stonek, poznamka: "cca 60 g", sekce: Kořenová zelenina }
+  - { surovina: voda, mnozstvi: 800, jednotka: ml, poznamka: "", sekce: Vývar a koření }
+  - { surovina: bobkový list, mnozstvi: 1, jednotka: ks, poznamka: "", sekce: Vývar a koření }
+  - { surovina: kurkuma, mnozstvi: 0.5, jednotka: lžička, poznamka: "", sekce: Vývar a koření }
+  - { surovina: mletý černý pepř, mnozstvi: 0.5, jednotka: lžička, poznamka: "", sekce: Vývar a koření }
+  - { surovina: sůl, mnozstvi: 1, jednotka: lžička, poznamka: "dle chuti", sekce: Vývar a koření }
+  - { surovina: těstoviny (mušličky), mnozstvi: 100, jednotka: g, poznamka: "uvařit zvlášť, nebo přímo v polévce", sekce: Těstoviny }
+postup:
+  - "Na troše oleje nebo másla orestuj nadrobno nakrájenou cibuli a lisovaný česnek dozlatova."
+  - "Přidej mleté maso a opékej, dokud není maso úplně propečené a hnědé."
+  - "Přidej jemně nakrájenou mrkev, petržel a řapíkatý celer (mrkev s petrželí lze umlít v mixéru na mini kousky). Chvíli osmaž, přidej koření (bobkový list, kurkumu, pepř, sůl) a zalij vodou."
+  - "Vař cca 45–50 minut."
+  - "Mušličky uvař zvlášť a přidej do talíře (nebo je uvař přímo v polévce – těstovinová polévka chutná víc)."
+nutrice_na_porci: { kcal: 230, bilkoviny_g: 13, sacharidy_g: 20, tuky_g: 9 }
+alergeny: [lepek, celer]
+vegetarian: false
+poznamky: >-
+  Vytěženo z videa (Instagram @bistro_umarty), které dříve nešlo zpracovat. „Francouzská
+  polévka" tu není cibulačka – je to tašková/těstovinová polévka s mletým masem a kořenovou
+  zeleninou (recept Dariny Matyášové z r. 1971). Recept je na cca 4 porce, generátor přepočítá
+  na 10. Alergeny: lepek (těstoviny), celer; při použití másla i mléko. Pokud chceš
+  vegetariánskou variantu, vynech maso.
+zdroj_dat: video
+overit: false

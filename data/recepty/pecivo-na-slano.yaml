@@ -1,0 +1,28 @@
+id: pecivo-na-slano
+nazev: Pečivo na slano
+zdroj: ""
+odkaz: ""
+stitky: [Snídaně]
+porce_original: 40
+casy:
+  - { faze: Příprava, popis: "15 min" }
+suroviny:
+  - { surovina: pečivo (rohlíky/chléb/houska), mnozstvi: 80, jednotka: ks, poznamka: "cca 2 ks na osobu", sekce: Pečivo }
+  - { surovina: máslo, mnozstvi: 1.2, jednotka: kg, poznamka: "na namazání; cca 30 g na osobu", sekce: Pečivo }
+  - { surovina: sýr (eidam/gouda plátky), mnozstvi: 2, jednotka: kg, poznamka: "plátkový; cca 50 g na osobu", sekce: Přílohy }
+  - { surovina: šunka/salám, mnozstvi: 2, jednotka: kg, poznamka: "plátkové uzeniny; cca 50 g na osobu", sekce: Přílohy }
+  - { surovina: zelenina, mnozstvi: null, jednotka: "", poznamka: "rajčata, okurka, paprika, ředkvička – na ozdobu a doplnění", sekce: Přílohy }
+postup:
+  - "Pečivo nakrájíme (chléb) a naservírujeme do košíků."
+  - "Sýr a uzeninu naskládáme na talíře, zeleninu nakrájíme na kolečka/plátky."
+  - "Máslo necháme změknout pro snadné mazání."
+  - "Servírujeme samoobslužně – každý si připraví obložené pečivo dle chuti."
+nutrice_na_porci: { kcal: 480, bilkoviny_g: 22, sacharidy_g: 45, tuky_g: 24 }
+alergeny: [lepek, mléko]
+vegetarian: false
+poznamky: >-
+  Skládaná slaná snídaně/svačina. Vegetariáni vynechají uzeninu (sýr a zelenina stačí).
+  Pro bezlepkové bezlepkové pečivo, pro bezlaktózové rostlinné máslo a sýr.
+  Množství jsou hrubý odhad pro ~40 osob.
+zdroj_dat: vlastni
+overit: true

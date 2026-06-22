@@ -1,37 +1,36 @@
 id: mrkvovo-cesnekova-pomazanka
-nazev: Mrkvovo-česneková pomazánka
-zdroj: bookmark v Notionu (mrkvovo-sýrová pomazánka s česnekem)
+nazev: Mrkvovo-sýrová pomazánka (s česnekem)
+zdroj: zenysro.cz (recept NelaVávrová)
 odkaz: https://zenysro.cz/blogy/recepty/mrkvovo-syrova-pomazanka/
 stitky: [Svačina]
-porce_original: 4
+porce_original: 8
 casy:
-  - { faze: Příprava, popis: "15 min" }
-  - { faze: Odležení, popis: "30 min" }
+  - { faze: Příprava, popis: "10 min" }
+  - { faze: Vaření, popis: "5 min" }
 suroviny:
   - { surovina: uzený sýr, mnozstvi: 150, jednotka: g, poznamka: "nastrouhaný na velké struhadlo", sekce: Pomazánka }
   - { surovina: vejce, mnozstvi: 2, jednotka: ks, poznamka: "uvařená natvrdo, nastrouhaná", sekce: Pomazánka }
   - { surovina: mrkev, mnozstvi: 2, jednotka: ks, poznamka: "1–2 ks, syrová, nastrouhaná na střední struhadlo", sekce: Pomazánka }
   - { surovina: česnek, mnozstvi: 3, jednotka: stroužky, poznamka: "rozdrcený, dle chuti", sekce: Pomazánka }
-  - { surovina: majonéza, mnozstvi: 4, jednotka: lžíce, poznamka: "3–4 lžíce", sekce: Pomazánka }
+  - { surovina: tavený sýr, mnozstvi: 100, jednotka: g, poznamka: "na spojení a krémovost (místo majonézy); přidat dle potřeby", sekce: Pomazánka }
   - { surovina: petrželka, mnozstvi: null, jednotka: "", poznamka: "několik snítek, nasekaná najemno", sekce: Pomazánka }
   - { surovina: mletý černý pepř, mnozstvi: 0.5, jednotka: lžička, poznamka: "", sekce: Pomazánka }
   - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Pomazánka }
+  - { surovina: chléb na topinky, mnozstvi: null, jednotka: "", poznamka: "k podávání; lze opéct na pánvi s máslem nebo v toustovači", sekce: K podávání }
 postup:
   - "Uzený sýr a vařená vejce nastrouhej přes velké struhadlo do mísy."
   - "Oloupej mrkev a nastrouhej ji na středním struhadle přímo do mísy."
   - "Přidej rozdrcené stroužky česneku podle chuti."
   - "Nasekej petrželku najemno a přidej do mísy."
-  - "Směs osol a opepři, přidej 3–4 lžíce majonézy a promíchej."
+  - "Směs osol a opepři, přidej tavený sýr a promíchej do hladké, spojené pomazánky (pokud je tuhá, přidej tavený sýr po lžících)."
   - "Plátky chleba můžeš opéct v toustovači nebo na pánvi s kostkou másla a pomazánku na ně nanést."
-nutrice_na_porci: { kcal: 280, bilkoviny_g: 10, sacharidy_g: 6, tuky_g: 24 }
+nutrice_na_porci: { kcal: 190, bilkoviny_g: 9, sacharidy_g: 5, tuky_g: 14 }
 alergeny: [vejce, mléko]
 vegetarian: true
 poznamky: >-
-  V Notionu jen bookmark s titulkem „Mrkvovo-česneková pomazánka – chuťovka na
-  chlebík se sýrovým základem" + vložená DB surovin. Cílovou URL bookmarku
-  notion-fetch nevrací; přesnou shodu titulku se nepodařilo dohledat, použit
-  odpovídající recept mrkvovo-sýrové pomazánky s česnekem (uzený sýr + vejce +
-  mrkev + česnek + majonéza). Sýrový základ může být i jiný (tavený/smetanový
-  sýr). Overit – ověřit dle původního odkazu a upřesnit množství pro tábor.
+  Recept z odkazu (zenysro.cz, mrkvovo-sýrová pomazánka, 8 porcí). Oproti originálu
+  nahrazena majonéza taveným sýrem (na přání) – tavený sýr přidávej dle potřeby do
+  vláčné konzistence. Generátor přepočítá porce na 10. Alergeny: vejce, mléko
+  (uzený i tavený sýr). Vegetariánské.
 zdroj_dat: url
-overit: true
+overit: false

@@ -1,40 +1,41 @@
 id: francouzska-polevka
-nazev: Francouzská cibulová polévka
-zdroj: vlastní (běžný recept)
+nazev: Francouzská polévka
+zdroj: Instagram @bistro_umarty (recept Dariny Matyášové, 1971)
 odkaz: ""
 stitky: [polévka]
 porce_original: 4
 casy:
-  - { faze: Příprava, popis: "10 min" }
-  - { faze: Vaření, popis: "45 min" }
-  - { faze: Pečení, popis: "10 min" }
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Smažení, popis: "15 min" }
+  - { faze: Vaření, popis: "45–50 min" }
 suroviny:
-  - { surovina: cibule, mnozstvi: 500, jednotka: g, poznamka: "na tenké plátky; ideálně i část červené", sekce: Polévka }
-  - { surovina: máslo, mnozstvi: 50, jednotka: g, poznamka: "na karamelizaci cibule", sekce: Polévka }
-  - { surovina: olej, mnozstvi: 1, jednotka: lžíce, poznamka: "k máslu, aby se nepřepálilo", sekce: Polévka }
-  - { surovina: hovězí nebo zeleninový vývar, mnozstvi: 1, jednotka: l, poznamka: "", sekce: Polévka }
-  - { surovina: hladká mouka, mnozstvi: 1, jednotka: lžíce, poznamka: "na zahuštění (volitelné)", sekce: Polévka }
-  - { surovina: bílé víno, mnozstvi: 100, jednotka: ml, poznamka: "volitelné, na deglazování", sekce: Polévka }
-  - { surovina: bageta/toustový chléb, mnozstvi: 4, jednotka: plátek, poznamka: "opečené topinky na polévku", sekce: Topinky }
-  - { surovina: strouhaný sýr (ementál/gruyère), mnozstvi: 100, jednotka: g, poznamka: "na zapečení", sekce: Topinky }
-  - { surovina: česnek, mnozstvi: 1, jednotka: stroužek, poznamka: "na potření topinek", sekce: Topinky }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Dochucení }
-  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Dochucení }
+  - { surovina: hovězí mleté maso, mnozstvi: 250, jednotka: g, poznamka: "ale i méně", sekce: Základ }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: "cca 65 g, nadrobno", sekce: Základ }
+  - { surovina: česnek, mnozstvi: 2, jednotka: stroužky, poznamka: "lisovaný", sekce: Základ }
+  - { surovina: olej nebo máslo, mnozstvi: null, jednotka: "", poznamka: "trochu na orestování", sekce: Základ }
+  - { surovina: mrkev, mnozstvi: 2, jednotka: ks, poznamka: "cca 150 g", sekce: Kořenová zelenina }
+  - { surovina: petržel, mnozstvi: 1, jednotka: ks, poznamka: "cca 100 g", sekce: Kořenová zelenina }
+  - { surovina: stonkový celer, mnozstvi: 1, jednotka: stonek, poznamka: "cca 60 g", sekce: Kořenová zelenina }
+  - { surovina: voda, mnozstvi: 800, jednotka: ml, poznamka: "", sekce: Vývar a koření }
+  - { surovina: bobkový list, mnozstvi: 1, jednotka: ks, poznamka: "", sekce: Vývar a koření }
+  - { surovina: kurkuma, mnozstvi: 0.5, jednotka: lžička, poznamka: "", sekce: Vývar a koření }
+  - { surovina: mletý černý pepř, mnozstvi: 0.5, jednotka: lžička, poznamka: "", sekce: Vývar a koření }
+  - { surovina: sůl, mnozstvi: 1, jednotka: lžička, poznamka: "dle chuti", sekce: Vývar a koření }
+  - { surovina: těstoviny (mušličky), mnozstvi: 100, jednotka: g, poznamka: "uvařit zvlášť, nebo přímo v polévce", sekce: Těstoviny }
 postup:
-  - "Cibuli oloupejte a nakrájejte na tenké plátky."
-  - "V hrnci rozehřejte máslo s lžící oleje a cibuli na mírném ohni pomalu karamelizujte cca 20–30 minut do zlatohněda, občas zamíchejte."
-  - "Zaprašte moukou, krátce orestujte. Případně podlijte bílým vínem a nechte odpařit."
-  - "Zalijte horkým vývarem, osolte, opepřete a vařte cca 15–20 minut."
-  - "Plátky bagety opečte (topinky) a potřete stroužkem česneku."
-  - "Polévku nalijte do misek, navrch položte topinku, posypte strouhaným sýrem a zapečte pod grilem nebo v troubě, dokud sýr nezačne bublat a zezlátne."
-nutrice_na_porci: { kcal: 350, bilkoviny_g: 12, sacharidy_g: 30, tuky_g: 18 }
-alergeny: [lepek, mléko]
-vegetarian: true
+  - "Na troše oleje nebo másla orestuj nadrobno nakrájenou cibuli a lisovaný česnek dozlatova."
+  - "Přidej mleté maso a opékej, dokud není maso úplně propečené a hnědé."
+  - "Přidej jemně nakrájenou mrkev, petržel a stonkový celer (mrkev s petrželí lze umlít v mixéru na mini kousky). Chvíli osmaž, přidej koření (bobkový list, kurkumu, pepř, sůl) a zalij vodou."
+  - "Vař cca 45–50 minut."
+  - "Mušličky uvař zvlášť a přidej do talíře (nebo je uvař přímo v polévce – těstovinová polévka chutná víc)."
+nutrice_na_porci: { kcal: 230, bilkoviny_g: 13, sacharidy_g: 20, tuky_g: 9 }
+alergeny: [lepek, celer]
+vegetarian: false
 poznamky: >-
-  POZOR: V Notionu u tohoto receptu NENÍ použitelná fotka ani text – v těle stránky je
-  pouze vložené video (.mp4 attachment) a prázdná vložená DB surovin. Recept je proto
-  doplněn jako STANDARDNÍ francouzská cibulová polévka (francouzská polévka = nejčastěji
-  cibulačka se zapečeným sýrem). Suroviny i množství je nutné ověřit oproti videu/záměru
-  kuchaře. Vegetariánské při použití zeleninového vývaru; sýr a chléb = alergeny mléko+lepek.
-zdroj_dat: vlastni
-overit: true
+  Vytěženo z videa (Instagram @bistro_umarty), které dříve nešlo zpracovat. „Francouzská
+  polévka" tu není cibulačka – je to tašková/těstovinová polévka s mletým masem a kořenovou
+  zeleninou (recept Dariny Matyášové z r. 1971). Recept je na cca 4 porce, generátor přepočítá
+  na 10. Alergeny: lepek (těstoviny), celer; při použití másla i mléko. Pokud chceš
+  vegetariánskou variantu, vynech maso.
+zdroj_dat: video
+overit: false

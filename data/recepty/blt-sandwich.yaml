@@ -25,7 +25,7 @@ nutrice_na_porci: { kcal: 420, bilkoviny_g: 15, sacharidy_g: 30, tuky_g: 26 }
 alergeny: [lepek, mléko]
 vegetarian: false
 poznamky: >-
-  Vytěženo z webu uvedeného v Notion bookmarku (Toprecepty.cz). Recept je na 2 sendviče,
+  Toprecepty.cz). Recept je na 2 sendviče,
   generátor přepočítá na 10 porcí. Alergeny: lepek (chléb), vejce (majonéza). Vegetariánská
   varianta: nahradit slaninu grilovanou zeleninou nebo sýrem.
 zdroj_dat: url

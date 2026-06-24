@@ -11,9 +11,7 @@ suroviny:
   - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "množství neuvedeno v textu + extra na zakápnutí", sekce: Základ omáčky }
   - { surovina: česnek, mnozstvi: null, jednotka: "", poznamka: množství neuvedeno, sekce: Základ omáčky }
   - { surovina: rozmarýn, mnozstvi: null, jednotka: "", poznamka: 1 snítka, sekce: Základ omáčky }
-  - { surovina: chilli vločky, mnozstvi: null, jednotka: "", poznamka: množství neuvedeno, sekce: Základ omáčky }
   - { surovina: rajčatový protlak, mnozstvi: null, jednotka: "", poznamka: "1 lžíce (z textu)", sekce: Základ omáčky }
-  - { surovina: bílé víno, mnozstvi: null, jednotka: "", poznamka: množství neuvedeno, sekce: Základ omáčky }
   - { surovina: vařená cizrna, mnozstvi: 510, jednotka: g, poznamka: "3 hrnky, nebo 2 plechovky (425 g); část se rozmačká do omáčky", sekce: Polévka a těstoviny }
   - { surovina: vývar (cizrnový/zeleninový/kuřecí), mnozstvi: 950, jednotka: ml, poznamka: "4 hrnky; pro vegetariánskou verzi zeleninový", sekce: Polévka a těstoviny }
   - { surovina: krátké těstoviny (ditalini), mnozstvi: null, jednotka: "", poznamka: množství neuvedeno v textu, sekce: Polévka a těstoviny }

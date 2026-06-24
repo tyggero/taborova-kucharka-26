@@ -1,43 +1,44 @@
 id: testovinovy-salat
-nazev: Těstovinový salát (bez majonézy)
-zdroj: Recepty od Aničky (bookmark v Notionu)
-odkaz: https://www.receptyodanicky.cz/testovinovy-salat-bez-majonezy/
+nazev: Řecký těstovinový salát
+zdroj: aktin.cz
+odkaz: https://aktin.cz/recky-testovinovy-salat
 stitky: [Svačina]
-porce_original: 4
+porce_original: 2
 casy:
   - { faze: Příprava, popis: "15 min" }
   - { faze: Vaření, popis: "12 min" }
   - { faze: Chlazení, popis: "30 min" }
 suroviny:
-  - { surovina: těstoviny, mnozstvi: 240, jednotka: g, poznamka: "nevařené; vařit al dente", sekce: Těstoviny }
-  - { surovina: cherry rajčata, mnozstvi: 300, jednotka: g, poznamka: "rozpůlená", sekce: Rajčatová směs }
-  - { surovina: černé olivy, mnozstvi: 25, jednotka: ks, poznamka: "20–25 ks vypeckovaných, nakrájené", sekce: Rajčatová směs }
-  - { surovina: olivový olej, mnozstvi: 80, jednotka: ml, poznamka: "", sekce: Rajčatová směs }
-  - { surovina: růžový pepř, mnozstvi: 1, jednotka: lžička, poznamka: "", sekce: Rajčatová směs }
-  - { surovina: chilli vločky, mnozstvi: 0.25, jednotka: lžička, poznamka: "", sekce: Rajčatová směs }
-  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Rajčatová směs }
-  - { surovina: červená cibule, mnozstvi: 1, jednotka: ks, poznamka: "na tenké plátky", sekce: Dresink }
-  - { surovina: česnek, mnozstvi: 4, jednotka: stroužky, poznamka: "", sekce: Dresink }
-  - { surovina: citron, mnozstvi: 1, jednotka: ks, poznamka: "šťáva + nastrouhaná kůra", sekce: Dresink }
-  - { surovina: čerstvý špenát, mnozstvi: 100, jednotka: g, poznamka: "", sekce: Dokončení }
-  - { surovina: feta sýr, mnozstvi: 100, jednotka: g, poznamka: "", sekce: Dokončení }
-  - { surovina: čerstvé bylinky, mnozstvi: 2, jednotka: hrsti, poznamka: "petržel, kopr, máta, bazalka", sekce: Dokončení }
+  - { surovina: fusilli těstoviny, mnozstvi: 250, jednotka: g, poznamka: "uvařit dle návodu, nechat vychladnout", sekce: Základ }
+  - { surovina: okurka, mnozstvi: 0.5, jednotka: ks, poznamka: "na kostičky", sekce: Základ }
+  - { surovina: bílá paprika, mnozstvi: 1, jednotka: ks, poznamka: "na kostičky", sekce: Základ }
+  - { surovina: cherry rajčata, mnozstvi: 150, jednotka: g, poznamka: "nakrájená", sekce: Základ }
+  - { surovina: červená cibule, mnozstvi: 0.5, jednotka: ks, poznamka: "nadrobno", sekce: Základ }
+  - { surovina: zelené olivy, mnozstvi: 30, jednotka: g, poznamka: "nakrájené", sekce: Základ }
+  - { surovina: balkánský sýr, mnozstvi: 60, jednotka: g, poznamka: "rozdrobený", sekce: Zálivka }
+  - { surovina: olivový olej (extra panenský), mnozstvi: 3, jednotka: lžíce, poznamka: "", sekce: Zálivka }
+  - { surovina: čerstvý kopr, mnozstvi: 1, jednotka: lžíce, poznamka: "", sekce: Zálivka }
+  - { surovina: citron, mnozstvi: 1, jednotka: ks, poznamka: "nastrouhaná kůra + šťáva z poloviny", sekce: Zálivka }
+  - { surovina: dijonská hořčice, mnozstvi: 1, jednotka: lžička, poznamka: "", sekce: Zálivka }
+  - { surovina: oregano, mnozstvi: 0.5, jednotka: lžička, poznamka: "", sekce: Zálivka }
+  - { surovina: bazalka, mnozstvi: 0.5, jednotka: lžička, poznamka: "sušená", sekce: Zálivka }
+  - { surovina: sušený česnek, mnozstvi: 0.5, jednotka: lžička, poznamka: "", sekce: Zálivka }
+  - { surovina: třtinový cukr, mnozstvi: 1, jednotka: lžička, poznamka: "", sekce: Zálivka }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Zálivka }
+  - { surovina: mořská sůl, mnozstvi: null, jednotka: "", poznamka: "špetka", sekce: Zálivka }
 postup:
-  - "Nastrouhej citronovou kůru na větší kousky."
-  - "Nakrájej cibuli na tenké plátky, vlož do mísy, přidej česnekové stroužky a zmáčkni šťávu z citronu. Dobře promíchej."
-  - "Rozpul rajčata a nakrájej olivy. Vlož do pánve spolu s kůrou, pepřem, chilli a solí. Nalij olej."
-  - "Přiveď k varu a nech 10–12 minut pomalu bublat."
-  - "Uvař těstoviny al dente v osolené vodě, sceď a propláchni studenou vodou."
-  - "Rajčatovou směs nalij na připravenou cibuli a promíchej."
-  - "Vlož těstoviny do mísy, zalij směsí, přidej bylinky, fetu a špenát. Znovu promíchej a podávej chlazené."
-nutrice_na_porci: { kcal: 420, bilkoviny_g: 11, sacharidy_g: 48, tuky_g: 21 }
-alergeny: [lepek, mléko]
+  - "Uvař těstoviny podle návodu a nech vychladnout."
+  - "Okurku a papriku nakrájej na kostičky, cibuli nadrobno, rajčata a olivy nakrájej."
+  - "Připrav zálivku: smíchej olivový olej, kopr, dijonskou hořčici, citronovou kůru a šťávu, cukr, oregano, bazalku, sušený česnek, sůl, pepř a rozdrobený balkánský sýr."
+  - "Vychlazené těstoviny přendej do mísy, přidej zeleninu a zálivku."
+  - "Dobře promíchej a podávej chlazené."
+nutrice_na_porci: { kcal: 480, bilkoviny_g: 14, sacharidy_g: 58, tuky_g: 20 }
+alergeny: [lepek, mléko, hořčice]
 vegetarian: true
 poznamky: >-
-  V Notionu jen bookmark „Těstovinový salát" + poznámka „(bez majonézy)" + vložená
-  DB surovin; cílovou URL notion-fetch nevrací. Vytěženo z odpovídajícího receptu
-  „Těstovinový salát bez majonézy" (Recepty od Aničky), který je bez majonézy =
-  odpovídá poznámce v Notionu. Konkrétní recept v Notionu mohl být jiný – ověřit.
-  Lepek = těstoviny (lze bezlepkové), mléko = feta. Vegetariánské.
+  Vytěženo z odkazu (aktin.cz, řecký těstovinový salát). Z receptu odstraněno
+  značkové označení surovin (uvedeny obecně). Recept je na 2 porce, generátor
+  přepočítá na 10. Alergeny: lepek (těstoviny – lze bezlepkové), mléko (balkánský
+  sýr), hořčice (dijonská). Vegetariánské.
 zdroj_dat: url
-overit: true
+overit: false

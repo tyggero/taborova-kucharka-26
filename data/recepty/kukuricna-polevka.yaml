@@ -28,9 +28,6 @@ postup:
 nutrice_na_porci: { kcal: 190, bilkoviny_g: 5, sacharidy_g: 26, tuky_g: 8 }
 alergeny: [mléko]
 vegetarian: true
-poznamky: >-
-  Vytěženo z webu uvedeného v Notion bookmarku (Prima Fresh). Recept je na 2 porce,
-  generátor přepočítá na 10. Polévku lze obohatit o smetanu nebo kokosové mléko (pozor na
-  alergeny – kokos). Alergeny: mléko (máslo). Vegetariánské.
+poznamky: "Polévku lze obohatit o smetanu nebo kokosové mléko."
 zdroj_dat: url
 overit: false

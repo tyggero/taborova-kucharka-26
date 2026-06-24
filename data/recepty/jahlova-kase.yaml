@@ -21,11 +21,6 @@ postup:
 nutrice_na_porci: { kcal: 320, bilkoviny_g: 9, sacharidy_g: 45, tuky_g: 12 }
 alergeny: [mléko]
 vegetarian: true
-poznamky: >-
-  Vytěženo z tištěné Skautské kuchařky (foto v assets/recepty/jahlova-kase.jpg).
-  Suroviny i postup čitelné a kompletní (porce 10). Štítek SAN / ochucení (oříšky,
-  semínka) jsou volitelné – při alergiích vynechat. Nutrice je odhad na porci bez
-  ovoce/dobrot. Při použití rostlinného mléka a margarínu lze připravit veganskou
-  i bezlaktózovou variantu (jáhly samy o sobě bezlepkové).
+poznamky: "Ochucení (oříšky, semínka) je volitelné – při alergiích vynechat. Při použití rostlinného mléka a margarínu lze připravit veganskou i bezlaktózovou variantu."
 zdroj_dat: foto
 overit: false

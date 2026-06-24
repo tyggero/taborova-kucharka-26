@@ -33,10 +33,6 @@ postup:
 nutrice_na_porci: { kcal: 480, bilkoviny_g: 28, sacharidy_g: 35, tuky_g: 24 }
 alergeny: [mléko]
 vegetarian: false
-poznamky: >-
-  Vytěženo z tištěné Skautské kuchařky (foto v assets/recepty/chilli-con-carne.jpg, str. 88),
-  fotka dobře čitelná, množství uvedena přímo v receptu na 10 porcí. Zakysaná smetana a
-  čokoláda obsahují mléko (čokoláda zkontrolovat – některé hořké jsou bez mléka).
-  Bez příloh. Příloha (rýže/chleba/nachos) přidá lepek/další alergeny.
+poznamky: ""
 zdroj_dat: foto
 overit: false

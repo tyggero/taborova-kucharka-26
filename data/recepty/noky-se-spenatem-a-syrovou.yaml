@@ -38,12 +38,6 @@ postup:
 nutrice_na_porci: { kcal: 620, bilkoviny_g: 22, sacharidy_g: 75, tuky_g: 26 }
 alergeny: [lepek, mléko, vejce, hořčice]
 vegetarian: true
-poznamky: >-
-  Vytěženo z fotek receptu ze Skautské kuchařky v Notionu
-  (assets/recepty/noky-se-spenatem-a-syrovou-1.jpg = suroviny + postup noky/špenát,
-  -2.jpg = postup omáčky + tipy). Recept je rovnou na 10 porcí (Vege, 120 min).
-  Tip z kuchařky: místo polohrubé mouky lze semolina/kukuřičná mouka (bezlepková
-  varianta), místo špenátu rukola/polníček/brokolice, do hotových noků lze pro
-  masožrouty přidat orestované kuřecí maso, slaninu nebo lososa.
+poznamky: "Tip: místo polohrubé mouky lze semolinu/kukuřičnou mouku (bezlepková varianta), místo špenátu rukolu/polníček/brokolici; do hotových noků lze pro masožrouty přidat orestované kuřecí maso, slaninu nebo lososa."
 zdroj_dat: foto
 overit: false

@@ -31,11 +31,6 @@ postup:
 nutrice_na_porci: { kcal: 230, bilkoviny_g: 13, sacharidy_g: 20, tuky_g: 9 }
 alergeny: [lepek, celer]
 vegetarian: false
-poznamky: >-
-  Vytěženo z videa (Instagram @bistro_umarty), které dříve nešlo zpracovat. „Francouzská
-  polévka" tu není cibulačka – je to tašková/těstovinová polévka s mletým masem a kořenovou
-  zeleninou (recept Dariny Matyášové z r. 1971). Recept je na cca 4 porce, generátor přepočítá
-  na 10. Alergeny: lepek (těstoviny), celer; při použití másla i mléko. Pokud chceš
-  vegetariánskou variantu, vynech maso.
+poznamky: "Pro vegetariánskou variantu vynech maso."
 zdroj_dat: video
 overit: false

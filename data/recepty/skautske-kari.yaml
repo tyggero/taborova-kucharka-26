@@ -36,11 +36,6 @@ postup:
 nutrice_na_porci: { kcal: 320, bilkoviny_g: 6, sacharidy_g: 22, tuky_g: 22 }
 alergeny: [kokos, ryby]
 vegetarian: false
-poznamky: >-
-  Vytěženo z tištěné Skautské kuchařky "Vaříme na cestách" (foto v assets/recepty/skautske-kari.jpg,
-  str. 58), fotka dobře čitelná, množství uvedena přímo v receptu na 10 porcí (kari pasta je v malých
-  gramážích, protože je koncentrovaná). Recept počítá s domácí kari pastou připravenou předem.
-  Obsahuje kokos (kokosové mléko) a ryby (rybí omáčka) – pro vegetariánskou/veganskou variantu nahradit
-  rybí omáčku tamari (sója). Bez masa je vegetariánské (nutrice uvedena bez přílohy a masa).
+poznamky: "Recept počítá s domácí kari pastou připravenou předem. Pro vegetariánskou/veganskou variantu nahradit rybí omáčku tamari (sója)."
 zdroj_dat: foto
 overit: false

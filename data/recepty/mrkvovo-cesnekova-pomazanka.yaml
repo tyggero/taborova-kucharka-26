@@ -27,10 +27,6 @@ postup:
 nutrice_na_porci: { kcal: 190, bilkoviny_g: 9, sacharidy_g: 5, tuky_g: 14 }
 alergeny: [vejce, mléko]
 vegetarian: true
-poznamky: >-
-  Recept z odkazu (zenysro.cz, mrkvovo-sýrová pomazánka, 8 porcí). Oproti originálu
-  nahrazena majonéza taveným sýrem (na přání) – tavený sýr přidávej dle potřeby do
-  vláčné konzistence. Generátor přepočítá porce na 10. Alergeny: vejce, mléko
-  (uzený i tavený sýr). Vegetariánské.
+poznamky: "Místo majonézy použit tavený sýr – přidávej ho dle potřeby do vláčné konzistence."
 zdroj_dat: url
 overit: false

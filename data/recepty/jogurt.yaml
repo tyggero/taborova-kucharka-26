@@ -15,8 +15,6 @@ postup:
 nutrice_na_porci: { kcal: 140, bilkoviny_g: 6, sacharidy_g: 20, tuky_g: 4 }
 alergeny: [mléko]
 vegetarian: true
-poznamky: >-
-  Nejjednodušší svačina. Pro bezlaktózové zajistit rostlinný/bezlaktózový jogurt.
-  Množství je odhad pro ~40 osob (1 kelímek na osobu).
+poznamky: "Pro bezlaktózové zajistit rostlinný/bezlaktózový jogurt."
 zdroj_dat: vlastni
 overit: true

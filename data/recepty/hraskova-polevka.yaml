@@ -29,9 +29,6 @@ postup:
 nutrice_na_porci: { kcal: 230, bilkoviny_g: 9, sacharidy_g: 20, tuky_g: 13 }
 alergeny: [lepek, mléko]
 vegetarian: false
-poznamky: >-
-  Vytěženo z webu uvedeného v Notion bookmarku (Hrášková polévka podle Pohlreicha).
-  Pro vegetariánskou/bezlepkovou variantu: vynech slaninu (nahraď osmaženou zeleninou
-  nebo opraženými semínky – pozor na alergeny) a krutony udělej z bezlepkového pečiva.
+poznamky: "Pro vegetariánskou/bezlepkovou variantu: vynech slaninu (nahraď osmaženou zeleninou nebo opraženými semínky) a krutony udělej z bezlepkového pečiva."
 zdroj_dat: url
 overit: false

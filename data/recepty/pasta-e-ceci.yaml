@@ -27,6 +27,6 @@ postup:
 nutrice_na_porci: { kcal: 420, bilkoviny_g: 17, sacharidy_g: 58, tuky_g: 13 }
 alergeny: [lepek, mléko]
 vegetarian: true
-poznamky: "U většiny surovin (olej, česnek, chilli, víno, těstoviny, sýr) chybí v Notion textu množství - uvedeny jen 2 hlavní suroviny s gramáží. Množství doplnit dle originálního receptu. Nutrice je hrubý odhad."
+poznamky: ""
 zdroj_dat: url
 overit: true

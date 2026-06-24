@@ -33,10 +33,6 @@ postup:
 nutrice_na_porci: { kcal: 480, bilkoviny_g: 26, sacharidy_g: 50, tuky_g: 18 }
 alergeny: [mléko]
 vegetarian: false
-poznamky: >-
-  Vytěženo z tištěné Skautské kuchařky (2 strany; foto v assets/recepty/hrachova-kase-1.jpg
-  a hrachova-kase-2.jpg). Porce 10. Zapsána masová verze s uzeným masem (koleno nebo
-  krkovice). Obsahuje mléko (a máslo). Množství uzeného masa a másla je orientační –
-  projít při finalizaci (proto overit: true).
+poznamky: ""
 zdroj_dat: foto
 overit: true

@@ -20,8 +20,6 @@ postup:
 nutrice_na_porci: { kcal: 160, bilkoviny_g: 9, sacharidy_g: 4, tuky_g: 12 }
 alergeny: [mléko]
 vegetarian: true
-poznamky: >-
-  Vytěženo z webu uvedeného v Notion bookmarku (Prima Fresh). Recept je na 4 porce
-  (k pečivu), generátor přepočítá na 10. Alergeny: mléko (niva, cottage). Vegetariánské.
+poznamky: ""
 zdroj_dat: url
 overit: false

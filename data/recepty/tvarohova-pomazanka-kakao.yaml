@@ -24,13 +24,6 @@ postup:
 nutrice_na_porci: { kcal: 230, bilkoviny_g: 10, sacharidy_g: 6, tuky_g: 18 }
 alergeny: [mléko]
 vegetarian: true
-poznamky: >-
-  V Notionu je položka „Tvarohová pomazánka + kakao" (Snídaně) bez fotky – tělo
-  obsahuje jen vloženou DB surovin a dva odkazy na recepty (rozhuda na fresh.iprima.cz
-  a tvarohová s paprikou na vareni.cz). Suroviny + postup převzaty z odkazu na rozhudu
-  (4 porce). Druhý odkaz (vareni.cz) se nepodařilo načíst (web nevrátil obsah).
-  „+ kakao" je doprovodný nápoj k snídani (množství neuvedeno). Pro tábor (~40 osob)
-  je třeba PŘEPOČÍTAT (cca 10×). Alergeny: mléko. Vegetariánské. overit kvůli volbě
-  konkrétní pomazánky a doplnění množství kakaa.
+poznamky: ""
 zdroj_dat: url
 overit: true

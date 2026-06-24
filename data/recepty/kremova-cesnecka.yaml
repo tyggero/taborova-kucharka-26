@@ -29,6 +29,6 @@ postup:
 nutrice_na_porci: { kcal: 370, bilkoviny_g: 8, sacharidy_g: 35, tuky_g: 22 }
 alergeny: [mléko, lepek]
 vegetarian: true
-poznamky: Snadno převoditelné na veganskou verzi – místo másla olivový olej, místo mléka rostlinné. Lepek pouze z krutonů/pečiva (volitelné).
+poznamky: "Snadno převoditelné na veganskou verzi – místo másla olivový olej, místo mléka rostlinné."
 zdroj_dat: notion-text
 overit: false

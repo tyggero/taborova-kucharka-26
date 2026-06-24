@@ -41,10 +41,6 @@ postup:
 nutrice_na_porci: { kcal: 620, bilkoviny_g: 26, sacharidy_g: 55, tuky_g: 32 }
 alergeny: [mléko]
 vegetarian: false
-poznamky: >-
-  Vytěženo z tištěné Skautské kuchařky (foto v assets/recepty/kureci-paella.jpg, str. 94),
-  fotka dobře čitelná, množství uvedena přímo v receptu na 10 porcí. Obsahuje máslo (mléko).
-  Klobása (chorizo/čabajka) může obsahovat další alergeny – zkontrolovat etiketu. Bezlepkové,
-  pokud je rýže a klobása bez lepku.
+poznamky: ""
 zdroj_dat: foto
 overit: false

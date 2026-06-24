@@ -25,6 +25,6 @@ postup:
 nutrice_na_porci: { kcal: 820, bilkoviny_g: 30, sacharidy_g: 75, tuky_g: 42 }
 alergeny: [lepek, vejce, mléko]
 vegetarian: false
-poznamky: Výtěžnost odhadnuta na 2 porce (200 g těstovin, 3 žloutky). U slaniny zdroj neuvádí přesné množství.
+poznamky: ""
 zdroj_dat: notion-text
 overit: true

@@ -27,11 +27,6 @@ postup:
 nutrice_na_porci: { kcal: 430, bilkoviny_g: 18, sacharidy_g: 45, tuky_g: 19 }
 alergeny: [lepek, mléko, vejce]
 vegetarian: true
-poznamky: >-
-  V Notionu jen bookmark „Ovesná kaše naslano" + vložená DB surovin; vytěženo
-  z odpovídajícího receptu Apetit Online (na 3 porce). Lepek = ovesné vločky
-  (mohou obsahovat lepek / kontaminaci; pro bezlepkovou dietu použít certifikované
-  bezlepkové vločky). Pro tábor množství násobit. Overit – ověřit dle původního
-  odkazu z Notionu.
+poznamky: "Pro bezlepkovou dietu použít certifikované bezlepkové vločky."
 zdroj_dat: url
 overit: true

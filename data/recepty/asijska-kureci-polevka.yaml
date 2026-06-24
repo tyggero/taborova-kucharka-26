@@ -36,10 +36,6 @@ postup:
 nutrice_na_porci: { kcal: 320, bilkoviny_g: 22, sacharidy_g: 28, tuky_g: 14 }
 alergeny: [vejce, celer, kokos]
 vegetarian: false
-poznamky: >-
-  Vytěženo z fotky receptu (kuchařka) v Notionu — foto v assets/recepty/asijska-kureci-polevka.jpg.
-  Recept psaný na 10 porcí. Suroviny bez uvedené gramáže (olej, koření, bobkový list,
-  nové koření, jalovec, kari, sůl) doplnit dle chuti. Obsahuje rýžové nudle (bezlepkové),
-  kokosové mléko (alergen kokos – pozor u dětí s alergií na kokos!). Maso z kuřecích stehen.
+poznamky: ""
 zdroj_dat: foto
 overit: true

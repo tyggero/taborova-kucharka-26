@@ -29,7 +29,6 @@ postup:
 nutrice_na_porci: { kcal: 750, bilkoviny_g: 30, sacharidy_g: 55, tuky_g: 45 }
 alergeny: [lepek, vejce, mléko]
 vegetarian: false
-poznamky: >-
-  
+poznamky: ""
 zdroj_dat: url
 overit: true

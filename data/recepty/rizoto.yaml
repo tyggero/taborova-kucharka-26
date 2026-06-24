@@ -27,11 +27,6 @@ postup:
 nutrice_na_porci: { kcal: 560, bilkoviny_g: 35, sacharidy_g: 60, tuky_g: 18 }
 alergeny: [mléko]
 vegetarian: false
-poznamky: >-
-  Vytěženo z webu (bookmark v Notionu odkazuje na recept „Rychlé zeleninové rizoto
-  s kuřecím masem | Vaření.cz"). Postup je z receptu, ale PŘESNÁ MNOŽSTVÍ surovin
-  nebyla dostupná (stránka vaření.cz blokuje automatické načtení) – gramáže rýže,
-  masa, zeleniny, másla a sýra jsou odhadnuté na 4 porce, je třeba je ověřit/upřesnit.
-  Rýže je bezlepková; sýr a máslo = alergen mléko. Pro bezmléčnou variantu vynechat sýr.
+poznamky: "Pro bezmléčnou variantu vynechat sýr."
 zdroj_dat: url
 overit: true

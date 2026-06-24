@@ -33,11 +33,6 @@ postup:
 nutrice_na_porci: { kcal: 280, bilkoviny_g: 9, sacharidy_g: 34, tuky_g: 12 }
 alergeny: [lepek, mléko]
 vegetarian: true
-poznamky: >-
-  Vytěženo z popisku Instagram reelu (odkaz v těle Notion stránky); v Notionu samotném
-  recept nebyl, jen odkaz a vložená (prázdná) DB surovin. Množství jsou orientační „na oko"
-  (hrnky, hrsti) pro cca 4 porce – PROJÍT a přepočítat na táborové množství. Spolehlivost
-  popisku videa je nejistá. Lepek z těstovin, mléko ze smetany a parmezánu. Pozor: parmezán
-  bývá se zvířecím syřidlem – pro striktní vegetariány nahradit vegetariánskou variantou.
+poznamky: "Parmezán bývá se zvířecím syřidlem – pro striktní vegetariány nahradit bezsyřidlovou variantou."
 zdroj_dat: url
 overit: true

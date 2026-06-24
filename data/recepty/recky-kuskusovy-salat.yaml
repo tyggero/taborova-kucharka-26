@@ -30,10 +30,6 @@ postup:
 nutrice_na_porci: { kcal: 380, bilkoviny_g: 13, sacharidy_g: 55, tuky_g: 12 }
 alergeny: [lepek, mléko]
 vegetarian: true
-poznamky: >-
-  Vytěženo z fotky stránky kuchařky v Notionu (assets/recepty/recky-kuskusovy-salat.jpg).
-  Suroviny i postup čitelné a kompletní. 10 porcí, vege, obtížnost 2/5, 60 min.
-  PL = polévková lžíce, KL = kávová lžička. Obsahuje lepek (kuskus) a mléko (feta).
-  Pro bezlepkovou variantu nahradit kuskus např. quinoou; feta je z mléka.
+poznamky: "Pro bezlepkovou variantu nahradit kuskus např. quinoou."
 zdroj_dat: foto
 overit: false

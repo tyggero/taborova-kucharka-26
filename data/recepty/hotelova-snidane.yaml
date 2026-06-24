@@ -21,10 +21,6 @@ postup:
 nutrice_na_porci: { kcal: 450, bilkoviny_g: 20, sacharidy_g: 45, tuky_g: 20 }
 alergeny: [lepek, mléko, vejce]
 vegetarian: false
-poznamky: >-
-  POZOR: Notion stránka NEOBSAHUJE fotku ani text receptu – tělo je jen vložená
-  databáze surovin (kterou dle rozhodnutí projektu ignorujeme). Jde o "švédský stůl"
-  ke snídani; suroviny i množství jsou ODHAD a je nutné je s kuchyní doplnit/upřesnit.
-  Alergeny a vegetarián odvozeny od typického složení (vejce, mléko, šunka).
+poznamky: ""
 zdroj_dat: vlastni
 overit: true

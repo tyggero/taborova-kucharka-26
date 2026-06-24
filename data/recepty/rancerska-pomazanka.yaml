@@ -22,10 +22,6 @@ postup:
 nutrice_na_porci: { kcal: 230, bilkoviny_g: 12, sacharidy_g: 9, tuky_g: 16 }
 alergeny: [mléko]
 vegetarian: true
-poznamky: >-
-  Vytěženo z fotky (screenshot z aplikace) v Notionu, viz assets/recepty/rancerska-pomazanka.jpg.
-  Foto obsahovalo POUZE seznam surovin na 10 porcí (cibule 500 g, sýr 500 g, rajský
-  protlak 500 g, sůl, pepř) – POSTUP NENÍ na fotce uveden a byl doplněn dle běžné
-  přípravy rančerské pomazánky. Postup ověřit/upřesnit při vaření. Vegetariánské.
+poznamky: ""
 zdroj_dat: foto
 overit: true

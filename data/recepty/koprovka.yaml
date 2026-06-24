@@ -30,12 +30,6 @@ postup:
 nutrice_na_porci: { kcal: 550, bilkoviny_g: 18, sacharidy_g: 70, tuky_g: 22 }
 alergeny: [lepek, mléko, vejce]
 vegetarian: true
-poznamky: >-
-  Vytěženo z ručně psané fotky receptu v Notionu (foto v assets/recepty/koprovka.jpg).
-  Přesná množství surovin nejsou v receptu uvedena jako gramáž – vychází z poznámek
-  kuchaře o předchozích várkách: 2019 ~45 osob, vyšlo „moc" pro cca 30 lidí;
-  2024 → 7 šišek knedlíku, mléko+smetana cca 5 l + 3 l, hladká mouka ~3/4 kg.
-  Knedlíky se podle poznámky „jedly i po večeři, bylo jich moc". Množství proto PROJÍT
-  a upřesnit při vaření (proto overit: true). Vegetariánské.
+poznamky: ""
 zdroj_dat: foto
 overit: true

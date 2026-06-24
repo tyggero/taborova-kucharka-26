@@ -30,10 +30,6 @@ postup:
 nutrice_na_porci: { kcal: 150, bilkoviny_g: 4, sacharidy_g: 26, tuky_g: 4 }
 alergeny: [lepek, mléko]
 vegetarian: true
-poznamky: >-
-  Vytěženo z dohledaného webu (Toprecepty – Rajská polévka III z protlaku); původní Notion
-  bookmark mířil na vareni.cz, který nešlo načíst. Recept je na 4 porce, generátor přepočítá
-  na 10. Alergeny: lepek (jíška, těstoviny), mléko (máslo) – pro bezlepkovou variantu zahusti
-  jinak a použij bezlepkové těstoviny. Vegetariánské.
+poznamky: "Pro bezlepkovou variantu zahusti omáčku jinak než jíškou a použij bezlepkové těstoviny."
 zdroj_dat: url
 overit: false

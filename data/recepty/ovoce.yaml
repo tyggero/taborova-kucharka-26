@@ -15,8 +15,6 @@ postup:
 nutrice_na_porci: { kcal: 110, bilkoviny_g: 1, sacharidy_g: 26, tuky_g: 0 }
 alergeny: []
 vegetarian: true
-poznamky: >-
-  Nejjednodušší svačina – čerstvé sezónní ovoce. Bez alergenů, vhodné pro všechny
-  diety (vegan, bezlepkové, bezlaktózové). Množství je odhad pro ~40 osob (~200 g/osoba).
+poznamky: ""
 zdroj_dat: vlastni
 overit: true

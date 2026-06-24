@@ -20,9 +20,6 @@ postup:
 nutrice_na_porci: { kcal: 480, bilkoviny_g: 22, sacharidy_g: 45, tuky_g: 24 }
 alergeny: [lepek, mléko]
 vegetarian: false
-poznamky: >-
-  Skládaná slaná snídaně/svačina. Vegetariáni vynechají uzeninu (sýr a zelenina stačí).
-  Pro bezlepkové bezlepkové pečivo, pro bezlaktózové rostlinné máslo a sýr.
-  Množství jsou hrubý odhad pro ~40 osob.
+poznamky: "Vegetariáni vynechají uzeninu (sýr a zelenina stačí). Pro bezlepkovou variantu bezlepkové pečivo, pro bezlaktózovou rostlinné máslo a sýr."
 zdroj_dat: vlastni
 overit: true

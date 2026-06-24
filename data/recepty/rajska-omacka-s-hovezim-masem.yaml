@@ -35,6 +35,6 @@ postup:
 nutrice_na_porci: { kcal: 720, bilkoviny_g: 55, sacharidy_g: 60, tuky_g: 28 }
 alergeny: [lepek, mléko]
 vegetarian: false
-poznamky: "Recept počítá s domácím hovězím vývarem vařeným z plece a zeleniny. Cukr (150 g) a ocet (5 lžic) dávají typicky sladkokyselou chuť – dochuťte dle potřeby. Volitelně lze zjemnit zakysanou smetanou."
+poznamky: "Recept počítá s domácím hovězím vývarem vařeným z plece a zeleniny. Cukr a ocet dávají typicky sladkokyselou chuť – dochuťte dle potřeby. Volitelně lze zjemnit zakysanou smetanou."
 zdroj_dat: url
 overit: false

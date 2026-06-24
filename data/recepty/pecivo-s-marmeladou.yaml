@@ -19,8 +19,6 @@ postup:
 nutrice_na_porci: { kcal: 420, bilkoviny_g: 9, sacharidy_g: 62, tuky_g: 15 }
 alergeny: [lepek, mléko]
 vegetarian: true
-poznamky: >-
-  Jednoduchá skládaná snídaně. Pro bezlepkové připravit bezlepkové pečivo,
-  pro bezlaktózové rostlinné máslo. Množství jsou hrubý odhad pro ~40 osob.
+poznamky: "Pro bezlepkovou variantu bezlepkové pečivo, pro bezlaktózovou rostlinné máslo."
 zdroj_dat: vlastni
 overit: true

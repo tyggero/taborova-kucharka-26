@@ -27,12 +27,6 @@ postup:
 nutrice_na_porci: { kcal: 180, bilkoviny_g: 8, sacharidy_g: 26, tuky_g: 5 }
 alergeny: []
 vegetarian: true
-poznamky: >-
-  Vytěženo ze dvou fotek receptu (kuchařka pro začátečníky) v Notionu —
-  assets/recepty/mexicka-fazolova-polevka-1.jpg (suroviny) a -2.jpg (postup).
-  Recept psaný na 4 porce. Tip z kuchařky: navrch lze přidat na oleji osmaženou
-  nakrájenou cibuli (smažit do hnědozlatova, snížit teplotu, kdyby cibulka začala
-  hnědnout). Voda na bujon (~150 ml) odhadnuta z postupu. Vegetariánské.
-  Ověřit množství vývaru/vody – polévka je hustá.
+poznamky: "Tip: navrch lze přidat na oleji osmaženou nakrájenou cibuli (smažit do hnědozlatova, snížit teplotu, kdyby cibulka začala hnědnout)."
 zdroj_dat: foto
 overit: true

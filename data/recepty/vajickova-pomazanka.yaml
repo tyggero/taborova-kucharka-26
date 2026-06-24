@@ -25,12 +25,6 @@ postup:
 nutrice_na_porci: { kcal: 420, bilkoviny_g: 16, sacharidy_g: 6, tuky_g: 37 }
 alergeny: [vejce, mléko, hořčice]
 vegetarian: true
-poznamky: >-
-  V Notionu jen bookmark s titulkem „Jednoduchá vajíčková pomazánka s
-  pomazánkovým máslem" + vložená DB surovin. Vytěženo z paralelního receptu
-  Prima Fresh / Recepty.cz (lučina + majonéza + dijonská hořčice). Pozn.: titulek
-  bookmarku zmiňuje pomazánkové máslo – varianta může používat místo lučiny/části
-  majonézy pomazánkové máslo. Pro tábor množství násobit. Bez chleba je
-  bezlepková. Overit – ověřit přesnou recepturu dle původního odkazu.
+poznamky: "Místo lučiny / části majonézy lze použít pomazánkové máslo."
 zdroj_dat: url
 overit: true

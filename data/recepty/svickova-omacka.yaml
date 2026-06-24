@@ -48,16 +48,6 @@ postup:
 nutrice_na_porci: { kcal: 640, bilkoviny_g: 28, sacharidy_g: 48, tuky_g: 36 }
 alergeny: [lepek, mléko, vejce, hořčice, celer]
 vegetarian: false
-poznamky: >-
-  Vytěženo z tištěné Skautské kuchařky (foto ve dvou stranách:
-  assets/recepty/svickova-omacka-1.jpg = suroviny str. 96,
-  assets/recepty/svickova-omacka-2.jpg = postup str. 97). Obě fotky dobře čitelné,
-  množství uvedena přímo v receptu na 10 porcí.
-  VEGE VERZE (z receptu): místo masa použít směs zeleniny a červené čočky (červená čočka
-  stačí krátce, cizrna potřebuje několik hodin namáčení) a luštěniny uvařit, dochutit kořením,
-  solí a pepřem, koriandr, římský kmín; pak postupovat stejně jako u masové verze.
-  TIP (z receptu): místo mouky lze omáčku zahustit kukuřičným nebo bramborovým škrobem
-  rozmíchaným ve studené vodě (pak je i bezlepková). Alergeny: lepek (strouhanka, mouka),
-  mléko, vejce, hořčice, celer.
+poznamky: "Vege verze: místo masa použít směs zeleniny a červené čočky (červená čočka stačí krátce, cizrna potřebuje několik hodin namáčení); luštěniny uvařit, dochutit kořením, solí, pepřem, koriandrem a římským kmínem, pak postupovat stejně jako u masové verze. Tip: místo mouky lze omáčku zahustit kukuřičným nebo bramborovým škrobem rozmíchaným ve studené vodě (pak je i bezlepková)."
 zdroj_dat: foto
 overit: false

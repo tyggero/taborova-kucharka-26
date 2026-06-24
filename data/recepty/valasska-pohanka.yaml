@@ -34,10 +34,6 @@ postup:
 nutrice_na_porci: { kcal: 520, bilkoviny_g: 20, sacharidy_g: 50, tuky_g: 26 }
 alergeny: [mléko]
 vegetarian: false
-poznamky: >-
-  Vytěženo z tištěné Skautské kuchařky (foto v assets/recepty/valasska-pohanka.jpg, str. 120),
-  fotka dobře čitelná, množství uvedena přímo v receptu na 10 porcí. Pohanka je přirozeně
-  bezlepková (pozor na možnou kontaminaci u nekvalitních zdrojů). Brynza/sýr obsahuje mléko.
-  Pro vegetariány lze slaninu/maso vynechat. Volitelné kvašené přílohy.
+poznamky: "Pro vegetariány lze slaninu/maso vynechat. Volitelné kvašené přílohy."
 zdroj_dat: foto
 overit: false

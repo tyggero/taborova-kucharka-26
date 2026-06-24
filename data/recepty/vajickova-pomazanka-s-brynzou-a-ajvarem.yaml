@@ -28,11 +28,6 @@ postup:
 nutrice_na_porci: { kcal: 220, bilkoviny_g: 14, sacharidy_g: 7, tuky_g: 15 }
 alergeny: [mléko, vejce]
 vegetarian: true
-poznamky: >-
-  V Notionu jen bookmark „Vajíčková pomazánka s brynzou a ajvarem" + vložená DB
-  surovin; cílovou URL notion-fetch nevrací. Vytěženo z odpovídajícího receptu
-  Prima Fresh „Pikantní brynzová pomazánka s ajvarem". POZOR: zdrojový recept je
-  BEZ VAJEC, název v Notionu ale vejce uvádí – vejce doplněna z hlavy (cca 4 ks).
-  Ověřit původní recepturu a přidání vajec/množství pro tábor. Vegetariánské.
+poznamky: ""
 zdroj_dat: url
 overit: true

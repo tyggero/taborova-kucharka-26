@@ -21,14 +21,6 @@ postup:
 nutrice_na_porci: { kcal: 300, bilkoviny_g: 11, sacharidy_g: 40, tuky_g: 9 }
 alergeny: [lepek, mléko]
 vegetarian: true
-poznamky: >-
-  Vytěženo z ručně psané fotky receptu v Notionu (foto v assets/recepty/ovesna-kase.jpg).
-  Text čitelný; u mléka je v poznámce kuchaře „doplnit, kolik mléka se spotřebuje" –
-  uvedené 2 l jsou orientační (na hustou kaši), upřesnit při vaření. Na fotce je i
-  varianta „falešné žabí müsli": dáme ohřát mléko (7 l na 1,5 kg vloček = cca 35 lidí),
-  do horkého mléka nasypeme ovesné vločky (drcené jsou lepší), chvíli mícháme a necháme
-  odstát; v případě potřeby lze později přidat další ohřáté mléko. Alergeny: oves může
-  obsahovat lepek (pokud není certifikovaný bezlepkový), mléko. Vegetariánské; s
-  rostlinným mlékem bezlaktózové.
+poznamky: "Varianta „falešné žabí müsli“: ohřát mléko, do horkého nasypat ovesné vločky (drcené jsou lepší), chvíli míchat a nechat odstát; podle potřeby přidat další ohřáté mléko. S rostlinným mlékem je kaše bezlaktózová."
 zdroj_dat: foto
 overit: true

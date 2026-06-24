@@ -36,6 +36,6 @@ postup:
 nutrice_na_porci: { kcal: 330, bilkoviny_g: 17, sacharidy_g: 28, tuky_g: 17 }
 alergeny: [sója]
 vegetarian: true
-poznamky: "Nutrice je odhad pro tofu se omáčkou na 1 z 6 porcí, bez přílohy (rýže/naan). Lze nahradit pečeným květákem místo tofu."
+poznamky: "Místo tofu lze použít pečený květák."
 zdroj_dat: url
 overit: false

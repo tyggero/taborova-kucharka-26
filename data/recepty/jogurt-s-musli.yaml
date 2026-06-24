@@ -19,9 +19,6 @@ postup:
 nutrice_na_porci: { kcal: 320, bilkoviny_g: 12, sacharidy_g: 45, tuky_g: 9 }
 alergeny: [mléko, lepek, ořechy, sezam/semínka]
 vegetarian: true
-poznamky: >-
-  Jednoduchá skládaná snídaně. Müsli často obsahuje lepek (ovesné/pšeničné vločky),
-  ořechy a semínka – pro bezlepkové/alergiky připravit stranou bezlepkové vločky bez
-  ořechů a samostatný jogurt. Množství jsou hrubý odhad pro ~40 osob.
+poznamky: "Pro bezlepkové/alergiky připravit stranou bezlepkové vločky bez ořechů a samostatný jogurt."
 zdroj_dat: vlastni
 overit: true

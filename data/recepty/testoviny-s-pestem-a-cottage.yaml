@@ -25,6 +25,6 @@ postup:
 nutrice_na_porci: { kcal: 560, bilkoviny_g: 24, sacharidy_g: 60, tuky_g: 24 }
 alergeny: [lepek, mléko]
 vegetarian: true
-poznamky: "Množství jsou rozpětí (např. 200–250 g těstovin), zvolen střed. Pesto a parmazán mohou obsahovat ořechy/kešu dle značky – ověřit u konkrétního výrobku."
+poznamky: ""
 zdroj_dat: notion-text
 overit: false

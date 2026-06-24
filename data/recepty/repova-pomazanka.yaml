@@ -24,10 +24,6 @@ postup:
 nutrice_na_porci: { kcal: 180, bilkoviny_g: 5, sacharidy_g: 9, tuky_g: 14 }
 alergeny: [mléko, ořechy]
 vegetarian: true
-poznamky: >-
-  Vytěženo z tištěné Skautské kuchařky (foto v assets/recepty/repova-pomazanka.jpg).
-  Suroviny i postup čitelné a kompletní (porce 10). POZOR alergeny: vlašské ořechy
-  (lze vynechat nebo nahradit slunečnicovými semínky pro děti s alergií na ořechy)
-  a mléko (Lučina). Nutrice odhad na porci. Vegetariánské.
+poznamky: "Vlašské ořechy lze vynechat nebo nahradit slunečnicovými semínky (pro děti s alergií na ořechy)."
 zdroj_dat: foto
 overit: false

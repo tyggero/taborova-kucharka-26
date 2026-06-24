@@ -18,7 +18,6 @@ suroviny:
   - { surovina: vejce, mnozstvi: 3, jednotka: ks, poznamka: "vařená, dle preference (i volské oko)", sekce: K podávání }
   - { surovina: rajče, mnozstvi: 1, jednotka: ks, poznamka: "na šestinky, k podávání", sekce: K podávání }
   - { surovina: hlávkový salát, mnozstvi: 3, jednotka: listy, poznamka: "malé listy, k podávání", sekce: K podávání }
-  - { surovina: červený vinný ocet, mnozstvi: 1, jednotka: lžička, poznamka: "na pokapání salátu", sekce: K podávání }
 postup:
   - "V rendlíku na středním ohni rozehřej olej. Vsyp cibuli a za občasného míchání ji opékej doměkka (1–2 minuty)."
   - "Vsyp vločky a minutu míchej."

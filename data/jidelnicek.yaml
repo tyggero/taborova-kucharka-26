@@ -1,140 +1,120 @@
 nazev: "Jídelníček — Tábor 26"
-termin: "2026-07-02 – 2026-07-18"
-pozn: "Náhodné rozvržení (zatím), respektuje typ jídla dle štítků. Oběd = polévka + hlavní jídlo. K ruční úpravě."
+termin: "2026-07-04 (snídaně) – 2026-07-17 (večeře)"
+pozn: >-
+  Vyvážený návrh. Přes den (horko) lehčí jídla, večer vydatnější.
+  Oběd = polévka + hlavní jídlo. Nákupy cca à 3–4 dny (4.7., 8.7., 11.7., 14.7.) –
+  syrové maso se vaří v den nákupu nebo den poté. První a poslední den lehké recepty
+  (zatím jen vařič, kamna se stavějí později). K ruční úpravě.
 dny:
-  - datum: "2026-07-02"
-    den: Čtvrtek
-    snidane: [anglicka-snidane]
-    svacina1: [sopsky-salat]
-    obed: [mexicka-fazolova-polevka, rizoto]
-    svacina2: [jogurt]
-    vecere: [marry-me-chicken-pasta]
-    poznamky: ""
-  - datum: "2026-07-03"
-    den: Pátek
-    snidane: [pecivo-s-marmeladou]
-    svacina1: [rancerska-pomazanka]
-    obed: [rajska-polevka, chilli-con-carne]
-    svacina2: [mrkvovo-cesnekova-pomazanka]
-    vecere: [pasta-e-ceci]
-    poznamky: ""
   - datum: "2026-07-04"
     den: Sobota
-    snidane: [hotelova-snidane]
-    svacina1: [paprikova-pomazanka-s-nivou-a-cottage]
-    obed: [francouzska-polevka, spaghetti-carbonara]
-    svacina2: [vajickova-pomazanka-s-brynzou-a-ajvarem]
-    vecere: [hrachova-kase]
-    poznamky: ""
+    snidane: [pecivo-s-marmeladou]
+    svacina1: [ovoce]
+    obed: [rajska-polevka, recky-kuskusovy-salat]
+    svacina2: [jogurt]
+    vecere: [pasta-e-ceci]
+    poznamky: "NÁKUP. 1. den – jen vařič, lehká jídla bez pečení. Maso z nákupu se vaří až od 5.7."
   - datum: "2026-07-05"
     den: Neděle
-    snidane: [paprikova-pomazanka-s-nivou-a-cottage]
-    svacina1: [ovocny-salat]
-    obed: [kukuricna-polevka, skautske-kari]
-    svacina2: [cockovy-salat]
+    snidane: [jogurt-s-musli]
+    svacina1: [sopsky-salat]
+    obed: [mrkvickova-polevka, brambory-na-loupacku]
+    svacina2: [ovocny-salat]
     vecere: [kureci-paella]
-    poznamky: ""
+    poznamky: "Syrové kuřecí (paella) den po nákupu."
   - datum: "2026-07-06"
     den: Pondělí
-    snidane: [vajickova-pomazanka-s-brynzou-a-ajvarem]
-    svacina1: [ovoce]
-    obed: [podzimni-polevka, brambory-na-loupacku]
-    svacina2: [repova-pomazanka]
-    vecere: [koprovka]
+    snidane: [ovesna-kase]
+    svacina1: [rancerska-pomazanka]
+    obed: [kvetakovy-krem, vegan-butter-chicken]
+    svacina2: [ovoce]
+    vecere: [noky-se-spenatem-a-syrovou]
     poznamky: ""
   - datum: "2026-07-07"
     den: Úterý
-    snidane: [ovesna-kase]
-    svacina1: [testovinovy-salat]
-    obed: [hraskova-polevka, svickova-omacka]
-    svacina2: [cockovy-salat]
-    vecere: [red-lentil-curry]
-    poznamky: ""
+    snidane: [vajickova-pomazanka]
+    svacina1: [cockovy-salat]
+    obed: [kukuricna-polevka, red-lentil-curry]
+    svacina2: [repova-pomazanka]
+    vecere: [valasska-pohanka]
+    poznamky: "Slanina (uzená) vydrží do konce bloku."
   - datum: "2026-07-08"
     den: Středa
-    snidane: [jogurt-s-musli]
-    svacina1: [vajickova-pomazanka-s-brynzou-a-ajvarem]
-    obed: [polevka-z-cervene-cocky, vegan-butter-chicken]
+    snidane: [anglicka-snidane]
+    svacina1: [testovinovy-salat]
+    obed: [asijska-kureci-polevka, skautske-kari]
     svacina2: [paprikova-pomazanka-s-nivou-a-cottage]
-    vecere: [valasska-pohanka]
-    poznamky: ""
+    vecere: [marry-me-chicken-pasta]
+    poznamky: "NÁKUP. Syrové kuřecí (polévka i marry-me) a čerstvé párky/slanina (anglická snídaně) v den nákupu."
   - datum: "2026-07-09"
     den: Čtvrtek
-    snidane: [jahlova-kase]
-    svacina1: [testovinovy-salat]
-    obed: [kremova-cesnecka, noky-se-spenatem-a-syrovou]
+    snidane: [pecivo-na-slano]
+    svacina1: [ovoce]
+    obed: [kremova-cesnecka, pasta-e-ceci]
     svacina2: [mrkvovo-cesnekova-pomazanka]
-    vecere: [testoviny-s-pestem-a-cottage]
-    poznamky: ""
+    vecere: [svickova-omacka]
+    poznamky: "Mleté maso (svíčková) den po nákupu."
   - datum: "2026-07-10"
     den: Pátek
-    snidane: [vajickova-pomazanka]
+    snidane: [tvarohova-pomazanka-kakao]
     svacina1: [ovocny-salat]
-    obed: [kvetakovy-krem, rajska-omacka-s-hovezim-masem]
-    svacina2: [ovoce]
-    vecere: [dusena-mrkev]
+    obed: [polevka-z-cervene-cocky, recky-kuskusovy-salat]
+    svacina2: [sopsky-salat]
+    vecere: [koprovka]
     poznamky: ""
   - datum: "2026-07-11"
     den: Sobota
-    snidane: [tvarohova-pomazanka-kakao]
-    svacina1: [repova-pomazanka]
-    obed: [mrkvickova-polevka, recky-kuskusovy-salat]
-    svacina2: [sopsky-salat]
-    vecere: [kureci-paella]
-    poznamky: ""
+    snidane: [hotelova-snidane]
+    svacina1: [cockovy-salat]
+    obed: [podzimni-polevka, brambory-na-loupacku]
+    svacina2: [jogurt]
+    vecere: [rizoto]
+    poznamky: "NÁKUP. Syrové kuřecí (rizoto) v den nákupu; šunka (hotelová snídaně) vydrží."
   - datum: "2026-07-12"
     den: Neděle
-    snidane: [pecivo-na-slano]
+    snidane: [jahlova-kase]
     svacina1: [rancerska-pomazanka]
-    obed: [asijska-kureci-polevka, koprovka]
-    svacina2: [jogurt]
-    vecere: [skautske-kari]
-    poznamky: ""
+    obed: [mexicka-fazolova-polevka, vegan-butter-chicken]
+    svacina2: [repova-pomazanka]
+    vecere: [rajska-omacka-s-hovezim-masem]
+    poznamky: "Syrové hovězí (rajská omáčka) den po nákupu."
   - datum: "2026-07-13"
     den: Pondělí
     snidane: [ovesna-kase-na-slano]
-    svacina1: [cockovy-salat]
-    obed: [mexicka-fazolova-polevka, spaghetti-carbonara]
-    svacina2: [rancerska-pomazanka]
-    vecere: [recky-kuskusovy-salat]
-    poznamky: ""
+    svacina1: [testovinovy-salat]
+    obed: [hraskova-polevka, skautske-kari]
+    svacina2: [vajickova-pomazanka-s-brynzou-a-ajvarem]
+    vecere: [hrachova-kase]
+    poznamky: "Uzené maso (hrachová kaše, slanina v polévce) vydrží do konce bloku."
   - datum: "2026-07-14"
     den: Úterý
     snidane: [blt-sandwich]
-    svacina1: [jogurt]
-    obed: [kvetakovy-krem, hrachova-kase]
-    svacina2: [paprikova-pomazanka-s-nivou-a-cottage]
-    vecere: [rajska-omacka-s-hovezim-masem]
-    poznamky: ""
+    svacina1: [sopsky-salat]
+    obed: [francouzska-polevka, red-lentil-curry]
+    svacina2: [cockovy-salat]
+    vecere: [chilli-con-carne]
+    poznamky: "NÁKUP. Mleté maso (francouzská polévka, chilli) v den nákupu; slanina (BLT) vydrží."
   - datum: "2026-07-15"
     den: Středa
-    snidane: [vajickova-pomazanka]
-    svacina1: [mrkvovo-cesnekova-pomazanka]
-    obed: [hraskova-polevka, svickova-omacka]
-    svacina2: [ovoce]
-    vecere: [marry-me-chicken-pasta]
-    poznamky: ""
+    snidane: [paprikova-pomazanka-s-nivou-a-cottage]
+    svacina1: [ovocny-salat]
+    obed: [kvetakovy-krem, pasta-e-ceci]
+    svacina2: [mrkvovo-cesnekova-pomazanka]
+    vecere: [spaghetti-carbonara]
+    poznamky: "Slanina (carbonara) den po nákupu."
   - datum: "2026-07-16"
     den: Čtvrtek
-    snidane: [hotelova-snidane]
-    svacina1: [testovinovy-salat]
-    obed: [rajska-polevka, chilli-con-carne]
-    svacina2: [ovocny-salat]
-    vecere: [pasta-e-ceci]
-    poznamky: ""
+    snidane: [vajickova-pomazanka-s-brynzou-a-ajvarem]
+    svacina1: [ovoce]
+    obed: [mrkvickova-polevka, testoviny-s-pestem-a-cottage]
+    svacina2: [repova-pomazanka]
+    vecere: [dusena-mrkev]
+    poznamky: "Uzené maso (dušená mrkev) – z nákupu 14.7., uzené vydrží."
   - datum: "2026-07-17"
     den: Pátek
-    snidane: [blt-sandwich]
-    svacina1: [sopsky-salat]
-    obed: [podzimni-polevka, red-lentil-curry]
-    svacina2: [repova-pomazanka]
-    vecere: [valasska-pohanka]
-    poznamky: ""
-  - datum: "2026-07-18"
-    den: Sobota
-    snidane: [anglicka-snidane]
-    svacina1: [vajickova-pomazanka-s-brynzou-a-ajvarem]
-    obed: [francouzska-polevka, dusena-mrkev]
-    svacina2: [mrkvovo-cesnekova-pomazanka]
-    vecere: [rizoto]
-    poznamky: ""
+    snidane: [pecivo-s-marmeladou]
+    svacina1: [jogurt]
+    obed: [kukuricna-polevka, recky-kuskusovy-salat]
+    svacina2: [ovocny-salat]
+    vecere: [red-lentil-curry]
+    poznamky: "Poslední den – lehká jídla, balení; bez syrového masa (vařič/dovaření)."

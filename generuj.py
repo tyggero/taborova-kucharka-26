@@ -25,6 +25,7 @@ RECEPTY_DIR = DATA / "recepty"
 TEMPLATES = ROOT / "templates"
 STYLES = ROOT / "styles"
 VYSTUP = ROOT / "vystup"
+ASSETS = ROOT / "assets"
 
 # Na kolik osob se recept přepočítá pro tisk (viz plán – dopočet na 10 osob,
 # zbytek se dopisuje ručně podle skutečného počtu strávníků).
@@ -41,6 +42,27 @@ env = Environment(
 def nacti_css(jmeno):
     cesta = STYLES / jmeno
     return cesta.read_text(encoding="utf-8") if cesta.exists() else ""
+
+
+def _data_uri(cesta, mime):
+    """Vrátí obrázek jako data: URI (kvůli soběstačnému HTML)."""
+    import base64
+    return f"data:{mime};base64," + base64.b64encode(cesta.read_bytes()).decode()
+
+
+def render_titulka():
+    """Vyrenderuje HTML titulní strany (vkládá se do souhrnného souboru).
+    Vrátí (html, css); když chybí assety, vrátí ("", "")."""
+    asset = ASSETS / "titulka"
+    logo, hero = asset / "mikrologo.png", asset / "hero.jpg"
+    css = nacti_css("titulka.css")
+    if not (css and logo.exists() and hero.exists()):
+        return "", ""
+    html = env.get_template("titulni-strana.html.j2").render(
+        logo=_data_uri(logo, "image/png"),
+        hero=_data_uri(hero, "image/jpeg"),
+    )
+    return html, css
 
 
 def hezke_cislo(x):
@@ -107,10 +129,13 @@ def render_recepty():
         html = sablona.render(recepty=[ctx], css=css, jeden=True)
         (out_dir / f"{r['id']}.html").write_text(html, encoding="utf-8")
 
-    # Souhrnný soubor pro pohodlný tisk všeho najednou
-    html = sablona.render(recepty=pripravene, css=css, jeden=False)
+    # Souhrnný soubor pro pohodlný tisk všeho najednou (s titulní stranou)
+    cover, cover_css = render_titulka()
+    html = sablona.render(recepty=pripravene, css=css, jeden=False,
+                          cover=cover, cover_css=cover_css)
     (VYSTUP / "recepty-vse.html").write_text(html, encoding="utf-8")
-    print(f"✓ Vygenerováno {len(recepty)} receptů → {out_dir}/ a recepty-vse.html")
+    titulka_pozn = " (vč. titulní strany)" if cover else " (titulka přeskočena – chybí assety)"
+    print(f"✓ Vygenerováno {len(recepty)} receptů → {out_dir}/ a recepty-vse.html{titulka_pozn}")
 
 
 def render_rozvrh():

@@ -41,6 +41,9 @@ body{
 .recept{
   display:flex;
   flex-direction:column;
+  /* výška tiskové plochy (A4 297mm − okraje @page 2×12mm), aby patička
+     s margin-top:auto držela u spodního okraje stránky i v tisku */
+  min-height:272mm;
 }
 .recept + .recept{ break-before:page; }
 

@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>Recepty – Tábor 26</title>
+<style>
+/* A4 recept – tisknutelná šablona. 1 recept = 1 stránka. */
+@page {
+  size: A4;
+  margin: 12mm 14mm;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: #1c1c1c;
+  font-size: 11.5pt;
+  line-height: 1.4;
+}
+
+.recept {
+  display: flex;
+  flex-direction: column;
+  min-height: 273mm;            /* A4 výška minus okraje */
+  page-break-after: always;
+  break-after: page;
+}
+.recept:last-child { page-break-after: auto; }
+
+/* ---- Hlavička ---- */
+.hlavicka {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  border-bottom: 3px solid #2e7d32;
+  padding-bottom: 8px;
+}
+.hlavicka h1 {
+  margin: 0 0 4px;
+  font-size: 22pt;
+  color: #1b5e20;
+  line-height: 1.1;
+}
+.stitky { display: flex; flex-wrap: wrap; gap: 5px; }
+.stitek {
+  font-size: 8.5pt;
+  background: #e8f5e9;
+  color: #1b5e20;
+  border: 1px solid #a5d6a7;
+  border-radius: 10px;
+  padding: 1px 8px;
+}
+.stitek.veg { background: #f1f8e9; border-color: #aed581; color: #33691e; }
+.zdroj {
+  text-align: right;
+  font-size: 9pt;
+  color: #555;
+  min-width: 38%;
+}
+.zdroj-odkaz { word-break: break-all; color: #777; font-size: 8pt; }
+.porce-info { margin-top: 4px; }
+
+/* ---- Alergeny ---- */
+.alergeny {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+  padding: 7px 12px;
+  background: #fff3e0;
+  border: 2px solid #e65100;
+  border-radius: 6px;
+}
+.alergeny-ikona { font-size: 15pt; }
+.alergen {
+  display: inline-block;
+  background: #ffe0b2;
+  border: 1px solid #ffb74d;
+  border-radius: 4px;
+  padding: 0 7px;
+  margin: 0 2px;
+  font-weight: 600;
+  color: #bf360c;
+}
+
+/* ---- Časy přípravy / vaření ---- */
+.casy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 14px;
+  margin: 8px 0 2px;
+  font-size: 10pt;
+  color: #333;
+}
+.casy-ikona { font-size: 12pt; }
+.cas-pol strong { color: #1b5e20; font-weight: 600; }
+
+/* ---- Tělo: suroviny + postup ---- */
+.telo {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 18px;
+  margin-top: 12px;
+  flex: 1;
+}
+h2 {
+  font-size: 13pt;
+  color: #1b5e20;
+  margin: 0 0 6px;
+  border-bottom: 1px solid #c8e6c9;
+  padding-bottom: 3px;
+}
+
+.suroviny table { width: 100%; border-collapse: collapse; font-size: 10.5pt; }
+.suroviny th {
+  text-align: left;
+  font-size: 8.5pt;
+  text-transform: uppercase;
+  letter-spacing: .3px;
+  color: #555;
+  border-bottom: 1.5px solid #999;
+  padding: 3px 4px;
+}
+.suroviny td {
+  padding: 3px 4px;
+  border-bottom: 1px solid #e0e0e0;
+  vertical-align: top;
+}
+.col-mnozstvi { white-space: nowrap; }
+.col-rucni { width: 22%; border-left: 1px dashed #bbb; background: #fafafa; }
+.pozn { color: #777; font-size: 9pt; }
+
+/* Podnadpis sekce surovin (Maso / Dresink / Těsto …) */
+.sekce-row .sekce-nadpis {
+  font-size: 8.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  color: #1b5e20;
+  background: #f1f8e9;
+  border-bottom: 1px solid #c8e6c9;
+  padding: 4px 4px 3px;
+}
+
+.postup ol { margin: 0; padding-left: 20px; }
+.postup li { margin-bottom: 6px; }
+.recept-poznamky {
+  margin-top: 10px;
+  padding: 6px 10px;
+  background: #f5f5f5;
+  border-left: 3px solid #9e9e9e;
+  font-size: 10pt;
+}
+
+/* ---- Patička: nutrice + poznámky služby ---- */
+.paticka {
+  margin-top: 12px;
+  border-top: 2px solid #c8e6c9;
+  padding-top: 8px;
+}
+.nutrice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: baseline;
+  font-size: 10pt;
+}
+.nutrice-titulek { font-weight: 600; color: #1b5e20; }
+.nutri-pol {
+  background: #e8f5e9;
+  border-radius: 4px;
+  padding: 1px 8px;
+}
+.poznamky-sluzby {
+  margin-top: 8px;
+  border: 1px dashed #bbb;
+  border-radius: 5px;
+  min-height: 18mm;
+  padding: 5px 8px;
+}
+.poznamky-titulek { font-size: 9pt; color: #888; }
+
+/* ---- Náhled na obrazovce: bílý list A4 (tisk se nemění) ---- */
+@media screen {
+  body { background: #d8d8d8; padding: 18px 0; }
+  .recept {
+    width: 210mm;
+    min-height: 297mm;          /* celý list včetně okrajů */
+    padding: 12mm 14mm;         /* = @page margin */
+    margin: 0 auto 18px;        /* vycentrovat + mezera mezi stránkami */
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, .25);
+  }
+}
+
+</style>
+</head>
+<body>
+<article class="recept">
+
+  <header class="hlavicka">
+    <div class="nadpis">
+      <h1>Masové kuličky se svíčkovou omáčkou, knedlíkem a brusinkami</h1>
+      <div class="stitky">
+<span class="stitek">Oběd</span><span class="stitek">Večeře</span>      </div>
+    </div>
+    <div class="zdroj">
+<div class="zdroj-radek">Skautská kuchařka (Táborová Skautská Kuchařka)</div>      <div class="porce-info">orig. recept na <strong>10</strong> porcí</div>
+    </div>
+  </header>
+
+  <div class="alergeny">
+    <span class="alergeny-ikona">⚠️</span>
+    <span class="alergeny-popis"><strong>ALERGENY:</strong>
+<span class="alergen">lepek</span><span class="alergen">mléko</span><span class="alergen">vejce</span><span class="alergen">hořčice</span><span class="alergen">celer</span>    </span>
+  </div>
+
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;30 min</span><span class="cas-pol"><strong>Smažení</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;40 min</span>  </div>
+
+  <div class="telo">
+    <section class="suroviny">
+      <h2>Suroviny</h2>
+      <table>
+        <thead>
+          <tr>
+            <th class="col-surovina">Surovina</th>
+            <th class="col-mnozstvi">na 10 osob</th>
+            <th class="col-rucni">na <u>&nbsp;&nbsp;&nbsp;&nbsp;</u> osob</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Omáčka</td></tr>
+          <tr>
+            <td class="col-surovina">vývar hovězí/kuřecí <span class="pozn">(do omáčky)</span></td>
+            <td class="col-mnozstvi">1 l</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">smetana <span class="pozn">(do omáčky)</span></td>
+            <td class="col-mnozstvi">250 ml</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">máslo <span class="pozn">(do omáčky)</span></td>
+            <td class="col-mnozstvi">150 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">cibule <span class="pozn">(do omáčky)</span></td>
+            <td class="col-mnozstvi">4 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">mrkev <span class="pozn">(do omáčky)</span></td>
+            <td class="col-mnozstvi">2 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">malý celer <span class="pozn">(do omáčky)</span></td>
+            <td class="col-mnozstvi">1 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">citron <span class="pozn">(kůra + šťáva do omáčky)</span></td>
+            <td class="col-mnozstvi">1 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">hladká mouka <span class="pozn">(na jíšku (polévková lžíce))</span></td>
+            <td class="col-mnozstvi">5 PL</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">cukr <span class="pozn">(do omáčky)</span></td>
+            <td class="col-mnozstvi">1 PL</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">ocet <span class="pozn">(do omáčky)</span></td>
+            <td class="col-mnozstvi">1 PL</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">hořčice <span class="pozn">(do omáčky)</span></td>
+            <td class="col-mnozstvi">1 PL</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">bobkový list</td>
+            <td class="col-mnozstvi">2 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">pepř celý <span class="pozn">(do omáčky)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">nové koření <span class="pozn">(do omáčky)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">citronová kůra <span class="pozn">(na dochucení)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Masové kuličky</td></tr>
+          <tr>
+            <td class="col-surovina">mleté maso (vepřové a hovězí) <span class="pozn">(dvakrát mleté; na kuličky)</span></td>
+            <td class="col-mnozstvi">1 kg</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">strouhanka <span class="pozn">(na kuličky)</span></td>
+            <td class="col-mnozstvi">200 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">mléko <span class="pozn">(na kuličky)</span></td>
+            <td class="col-mnozstvi">50 ml</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">cibule <span class="pozn">(na kuličky)</span></td>
+            <td class="col-mnozstvi">4 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">vejce <span class="pozn">(na kuličky)</span></td>
+            <td class="col-mnozstvi">2 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">bylinky (petrželka <span class="pozn">(na kuličky)</span></td>
+            <td class="col-mnozstvi">1 PL</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">česnek <span class="pozn">(na kuličky)</span></td>
+            <td class="col-mnozstvi">1 stroužek</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">nové koření mleté <span class="pozn">(na kuličky)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">pepř <span class="pozn">(dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Příloha</td></tr>
+          <tr>
+            <td class="col-surovina">knedlík <span class="pozn">(příloha)</span></td>
+            <td class="col-mnozstvi">30 plátků</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">K podávání</td></tr>
+          <tr>
+            <td class="col-surovina">brusinkový kompot <span class="pozn">(k podávání)</span></td>
+            <td class="col-mnozstvi">100 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="postup">
+      <h2>Postup</h2>
+      <ol>
+        <li>Mrkev a celer oloupej a na struhadle najemno nastrouhej.</li>
+        <li>Maso, koření, sůl, vejce, mléko, utřený česnek a nasekané bylinky vlož do mísy. Všechnu cibuli oloupej a nakrájej najemno, polovinu z ní přidej najemno orestuj na oleji dohněda a přidej do mísy s mletým masem. Masovou směs řádně promíchej a nech chvilku odležet.</li>
+        <li>K cibulce přidej nastrouhanou zeleninu a za stálého míchání restuj asi 5 minut. Přidej cukr, celý pepř a nové koření, nech cukr zkaramelizovat, pak přidej hořčici a zalij vývarem. Nakonec přidej bobkový list a smetanu.</li>
+        <li>V menším rendlíku rozpusť máslo a opraž v něm mouku na tmavší jíšku. Metlou vmíchej do omáčky a omáčku dál často míchej. Vař na mírném ohni minimálně půl hodiny.</li>
+        <li>Masovou směs si rozděl na čtyři stejné díly. Z každého dílu pak mokrýma rukama vytvaruj asi 15 kuliček a na velké široké pánvi se silným dnem pomalu smaž na oleji ze všech stran přibližně 10 minut. Pokud výpek z kuliček na pánvi není připálený, můžeš ho trochu přidat do omáčky.</li>
+        <li>Omáčku dochuť podle potřeby nastrouhanou citronovou kůrou, citronem, solí, cukrem a octem. Vlož do ní hotové kuličky a pomalu prohřej.</li>
+        <li>Knedlíky nakrájej a chvíli napař.</li>
+        <li>Do ešusu vlož knedlík, přidej kuličky s omáčkou, navrch ozdob lžičkou brusinkového kompotu a posyp nasekanou petrželkou nebo jinými bylinkami.</li>
+      </ol>
+      <div class="recept-poznamky"><strong>Poznámka:</strong> Vege verze: místo masa použít směs zeleniny a červené čočky (červená čočka stačí krátce, cizrna potřebuje několik hodin namáčení); luštěniny uvařit, dochutit kořením, solí, pepřem, koriandrem a římským kmínem, pak postupovat stejně jako u masové verze. Tip: místo mouky lze omáčku zahustit kukuřičným nebo bramborovým škrobem rozmíchaným ve studené vodě (pak je i bezlepková).</div>
+    </section>
+  </div>
+
+  <footer class="paticka">
+    <div class="nutrice">
+      <span class="nutrice-titulek">Na porci (odhad):</span>
+<span class="nutri-pol"><strong>640</strong> kcal</span><span class="nutri-pol">B 28 g</span><span class="nutri-pol">S 48 g</span><span class="nutri-pol">T 36 g</span>    </div>
+    <div class="poznamky-sluzby">
+      <span class="poznamky-titulek">Poznámky služby:</span>
+    </div>
+  </footer>
+
+</article>
+<article class="recept">
+
+  <header class="hlavicka">
+    <div class="nadpis">
+      <h1>Krémová česnečka</h1>
+      <div class="stitky">
+<span class="stitek">polévka</span><span class="stitek veg">vegetariánské</span>      </div>
+    </div>
+    <div class="zdroj">
+<div class="zdroj-radek">My Cooking Diary</div><div class="zdroj-odkaz">https://www.mycookingdiary.cz/recept/kremova-cesnecka/</div>      <div class="porce-info">orig. recept na <strong>4</strong> porcí</div>
+    </div>
+  </header>
+
+  <div class="alergeny">
+    <span class="alergeny-ikona">⚠️</span>
+    <span class="alergeny-popis"><strong>ALERGENY:</strong>
+<span class="alergen">mléko</span><span class="alergen">lepek</span>    </span>
+  </div>
+
+  <div class="casy">
+    <span class="casy-ikona">⏱</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;10 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;20 min</span>  </div>
+
+  <div class="telo">
+    <section class="suroviny">
+      <h2>Suroviny</h2>
+      <table>
+        <thead>
+          <tr>
+            <th class="col-surovina">Surovina</th>
+            <th class="col-mnozstvi">na 10 osob</th>
+            <th class="col-rucni">na <u>&nbsp;&nbsp;&nbsp;&nbsp;</u> osob</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Polévka</td></tr>
+          <tr>
+            <td class="col-surovina">máslo</td>
+            <td class="col-mnozstvi">5 velké lžíce</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">kvalitní olivový olej</td>
+            <td class="col-mnozstvi">5 lžíce</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">cibule <span class="pozn">(velká)</span></td>
+            <td class="col-mnozstvi">2,5 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">česnek <span class="pozn">(cca 25 stroužků)</span></td>
+            <td class="col-mnozstvi">5 hlavičky</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">čerstvý tymián <span class="pozn">(nebo sušený dle chuti)</span></td>
+            <td class="col-mnozstvi">7,5 snítky</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">brambory <span class="pozn">(střední)</span></td>
+            <td class="col-mnozstvi">10 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">zeleninový vývar <span class="pozn">(cca)</span></td>
+            <td class="col-mnozstvi">1250 ml</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">plnotučné mléko <span class="pozn">(cca)</span></td>
+            <td class="col-mnozstvi">375 ml</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">sůl <span class="pozn">(dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">bílý mletý pepř <span class="pozn">(dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Na ozdobu</td></tr>
+          <tr>
+            <td class="col-surovina">pečivo na krutony <span class="pozn">(+ máslo na opečení)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">čerstvá petrželka a tymián <span class="pozn">(na ozdobu)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="postup">
+      <h2>Postup</h2>
+      <ol>
+        <li>Cibuli oloupeme, nakrájíme najemno a na másle s olejem opečeme doměkka.</li>
+        <li>Česnek oloupeme, zbavíme klíčků a prolisujeme. Přidáme k cibuli spolu s tymiánem (bez stonků) a opékáme asi 1,5 minuty, dokud se nerozvoní. Nesmí se připálit, jinak zhořkne.</li>
+        <li>Zalijeme vývarem, přidáme oloupané, na menší kostky nakrájené brambory, osolíme a opepříme. Na středním plameni vaříme asi 15 minut, dokud brambory nezměknou.</li>
+        <li>Polévku rozmixujeme do hladka (ideálně stolním mixérem). Podle potřeby přiléváme mléko podle požadované hustoty. Dochutíme solí a pepřem.</li>
+        <li>Podáváme s krutony opečenými na másle, ozdobíme petrželkou a tymiánem.</li>
+      </ol>
+      <div class="recept-poznamky"><strong>Poznámka:</strong> Snadno převoditelné na veganskou verzi – místo másla olivový olej, místo mléka rostlinné.</div>
+    </section>
+  </div>
+
+  <footer class="paticka">
+    <div class="nutrice">
+      <span class="nutrice-titulek">Na porci (odhad):</span>
+<span class="nutri-pol"><strong>370</strong> kcal</span><span class="nutri-pol">B 8 g</span><span class="nutri-pol">S 35 g</span><span class="nutri-pol">T 22 g</span>    </div>
+    <div class="poznamky-sluzby">
+      <span class="poznamky-titulek">Poznámky služby:</span>
+    </div>
+  </footer>
+
+</article>
+</body>
+</html>

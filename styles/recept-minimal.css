@@ -1,0 +1,134 @@
+/* ===========================================================================
+   TÉMA „MINIMAL" — moderní, vzdušné, monochromatické s jedním akcentem.
+   Tenké linky, žádné boxy, velká světlá čísla kroků. Jednosloupcové.
+   1 recept = 1+ stránka A4.
+   =========================================================================== */
+@page { size: A4; margin: 16mm 18mm; }
+
+:root { --akcent: #4338ca; --inkoust: #18181b; --seda: #6b7280; --linka: #e5e7eb; }
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0; padding: 0;
+  font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: var(--inkoust);
+  font-size: 11pt;
+  line-height: 1.55;
+}
+
+.recept {
+  display: flex; flex-direction: column;
+  min-height: 265mm;
+  page-break-after: always; break-after: page;
+}
+.recept:last-child { page-break-after: auto; }
+
+/* ---- Hlavička ---- */
+.hlavicka {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  gap: 16px; padding-bottom: 14px;
+}
+.hlavicka h1 {
+  margin: 0; font-size: 28pt; font-weight: 800;
+  letter-spacing: -.6px; line-height: 1.02; color: var(--inkoust);
+}
+.stitky { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.stitek {
+  font-size: 8pt; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;
+  color: var(--seda); border: none; background: none; padding: 0;
+}
+.stitek::after { content: "·"; margin-left: 6px; color: var(--linka); }
+.stitky .stitek:last-child::after { content: ""; }
+.stitek.veg { color: var(--akcent); }
+.zdroj { text-align: right; font-size: 8.5pt; color: var(--seda); min-width: 32%; }
+.zdroj-odkaz { word-break: break-all; color: #9ca3af; font-size: 7.5pt; }
+.porce-info { margin-top: 4px; }
+.porce-info strong { color: var(--akcent); }
+
+/* ---- Alergeny ---- */
+.alergeny {
+  display: flex; align-items: center; gap: 8px;
+  margin: 4px 0 14px; padding: 8px 0 8px 12px;
+  border-left: 3px solid var(--akcent); background: none;
+}
+.alergeny-ikona { font-size: 12pt; }
+.alergeny-popis strong { text-transform: uppercase; letter-spacing: 1.2px; font-size: 9pt; color: var(--akcent); }
+.alergen {
+  display: inline-block; background: none; border: none;
+  padding: 0 4px; font-weight: 700; color: var(--inkoust);
+}
+
+/* ---- Časy ---- */
+.casy {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 22px;
+  margin: 0 0 4px; font-size: 9.5pt; color: var(--seda);
+  border-top: 1px solid var(--linka); border-bottom: 1px solid var(--linka);
+  padding: 8px 0;
+}
+.casy-ikona { font-size: 11pt; }
+.cas-pol strong { color: var(--inkoust); font-weight: 600; text-transform: uppercase; letter-spacing: .5px; font-size: 8.5pt; }
+
+/* ---- Tělo: jednosloupcové, hodně vzduchu ---- */
+.telo { display: block; margin-top: 18px; flex: 1; }
+h2 {
+  font-size: 10pt; font-weight: 700; text-transform: uppercase; letter-spacing: 2px;
+  color: var(--akcent); margin: 0 0 12px; border: none; padding: 0;
+}
+
+.suroviny { margin-bottom: 22px; }
+.suroviny table { width: 100%; border-collapse: collapse; font-size: 10.5pt; }
+.suroviny th {
+  text-align: left; font-size: 7.5pt; text-transform: uppercase; letter-spacing: 1px;
+  color: #9ca3af; font-weight: 600; border-bottom: 1.5px solid var(--inkoust);
+  padding: 0 4px 6px;
+}
+.suroviny td { padding: 5px 4px; border-bottom: 1px solid var(--linka); vertical-align: top; }
+.col-mnozstvi { white-space: nowrap; font-weight: 700; }
+.col-rucni { width: 16%; border-left: 1px solid var(--linka); color: #c7c9cf; }
+.pozn { color: var(--seda); font-size: 9pt; }
+
+.sekce-row .sekce-nadpis {
+  font-size: 8pt; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px;
+  color: var(--akcent); background: none; border: none;
+  padding: 14px 4px 4px;
+}
+
+/* Postup – velká světlá čísla */
+.postup ol { margin: 0; padding: 0; list-style: none; counter-reset: krok; }
+.postup li {
+  position: relative; padding-left: 38px; margin-bottom: 12px;
+  min-height: 22px; break-inside: avoid;
+}
+.postup li::before {
+  counter-increment: krok; content: counter(krok, decimal-leading-zero);
+  position: absolute; left: 0; top: -4px;
+  font-size: 16pt; font-weight: 800; color: #d6d3f0; letter-spacing: -1px;
+}
+.recept-poznamky {
+  margin-top: 16px; padding: 0 0 0 12px;
+  background: none; border-left: 3px solid var(--linka);
+  font-size: 9.5pt; color: var(--seda);
+}
+
+/* ---- Patička ---- */
+.paticka { margin-top: 18px; border-top: 1.5px solid var(--inkoust); padding-top: 10px; }
+.nutrice { display: flex; flex-wrap: wrap; gap: 18px; align-items: baseline; font-size: 9.5pt; }
+.nutrice-titulek { font-weight: 700; text-transform: uppercase; letter-spacing: 1px; font-size: 8.5pt; color: var(--akcent); }
+.nutri-pol { background: none; padding: 0; }
+.nutri-pol strong { font-size: 11pt; }
+.poznamky-sluzby {
+  margin-top: 10px; border: 1px solid var(--linka); border-radius: 4px;
+  min-height: 18mm; padding: 6px 8px;
+}
+.poznamky-titulek { font-size: 8pt; text-transform: uppercase; letter-spacing: 1px; color: #c7c9cf; }
+
+/* ---- Náhled na obrazovce ---- */
+@media screen {
+  body { background: #e5e5e7; padding: 18px 0; }
+  .recept {
+    width: 210mm; min-height: 297mm;
+    padding: 16mm 18mm; margin: 0 auto 18px;
+    background: #fff; box-shadow: 0 1px 10px rgba(0,0,0,.18);
+  }
+}

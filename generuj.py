@@ -12,6 +12,7 @@ Suroviny se pro tisk přepočítávají na PORCE_TISK osob; navíc zůstává pr
 sloupec na ruční dopsání množství pro konkrétní počet strávníků.
 """
 import sys
+import os
 import re
 from pathlib import Path
 
@@ -91,7 +92,9 @@ def render_recepty():
         print("⚠  Žádné recepty v", RECEPTY_DIR)
         return
     sablona = env.get_template("recept.html.j2")
-    css = nacti_css("recept.css")
+    # Vzhled lze přepnout: RECEPT_THEME=recept-minimal python3 generuj.py recepty
+    tema = os.environ.get("RECEPT_THEME", "recept")
+    css = nacti_css(f"{tema}.css") or nacti_css("recept.css")
     out_dir = VYSTUP / "recepty"
     out_dir.mkdir(parents=True, exist_ok=True)
 

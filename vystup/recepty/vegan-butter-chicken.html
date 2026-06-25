@@ -189,21 +189,26 @@ body{
   border-bottom:0.8pt solid var(--linka2);
   vertical-align:bottom;
 }
-.col-mnozstvi{ text-align:right; white-space:nowrap; width:17mm; }
+.col-mnozstvi{ text-align:right; white-space:nowrap; width:18mm; }
 .col-rucni{
   text-align:center;
-  width:19mm;
+  width:21mm;
   border-left:0.6pt solid var(--linka);
   color:var(--muted);
 }
 .col-rucni u{ text-decoration:none; border-bottom:0.6pt solid var(--linka2); }
+/* mezera kolem dělící čáry, ať záhlaví „na 10 osob | na __ osob" nedrží pohromadě */
+.suroviny th.col-mnozstvi,
+.suroviny td.col-mnozstvi{ padding-right:3mm; }
+.suroviny th.col-rucni,
+.suroviny td.col-rucni{ padding-left:3mm; }
 
 .suroviny tbody td{
   padding:0.7mm 0;
   border-bottom:0.5pt solid var(--linka);
   vertical-align:top;
 }
-.suroviny tbody td.col-mnozstvi{ padding-right:2.5mm; font-variant-numeric:tabular-nums; }
+.suroviny tbody td.col-mnozstvi{ font-variant-numeric:tabular-nums; }
 .suroviny tbody td.col-rucni{ border-left:0.6pt solid var(--linka); }
 .suroviny tr{ break-inside:avoid; }
 .pozn{ color:var(--muted); font-size:8.3pt; font-style:italic; }

@@ -22,7 +22,7 @@ suroviny:
   - { surovina: paprika (mletá), mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení a podávání }
   - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení a podávání }
   - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení a podávání }
-  - { surovina: parmezán, mnozstvi: null, jednotka: "", poznamka: "k podávání", sekce: Dochucení a podávání }
+  - { surovina: parmezán, mnozstvi: null, jednotka: "", poznamka: "", sekce: Dochucení a podávání }
 postup:
   - "Zeleninu (cibuli, mrkev, celer) opečte na másle, přidejte česnek a koření (italské koření, sůl, pepř, špetku kari, papriku)."
   - "Zalijte vodou nebo vývarem, vložte nakrájené brambory a vařte pod pokličkou do změknutí."

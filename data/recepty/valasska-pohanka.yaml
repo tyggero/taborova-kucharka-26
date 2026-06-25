@@ -15,9 +15,9 @@ suroviny:
   - { surovina: středně velké brambory, mnozstvi: 10, jednotka: ks, poznamka: "", sekce: Základ }
   - { surovina: středně velká cibule, mnozstvi: 4, jednotka: ks, poznamka: "", sekce: Základ }
   - { surovina: česnek, mnozstvi: 6, jednotka: stroužek, poznamka: "4–8 stroužků; pokud vaříš pro děti, můžeš s ním šetřit", sekce: Základ }
-  - { surovina: majoránka, mnozstvi: null, jednotka: "", poznamka: "na dochucení", sekce: Dochucení }
-  - { surovina: rozmarýn, mnozstvi: null, jednotka: "", poznamka: "na dochucení", sekce: Dochucení }
-  - { surovina: uzená paprika, mnozstvi: null, jednotka: "", poznamka: "na dochucení", sekce: Dochucení }
+  - { surovina: majoránka, mnozstvi: null, jednotka: "", poznamka: "", sekce: Dochucení }
+  - { surovina: rozmarýn, mnozstvi: null, jednotka: "", poznamka: "", sekce: Dochucení }
+  - { surovina: uzená paprika, mnozstvi: null, jednotka: "", poznamka: "", sekce: Dochucení }
   - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení }
   - { surovina: kysané zelí, mnozstvi: null, jednotka: "", poznamka: "volitelné, k podávání", sekce: K podávání }
   - { surovina: kimči, mnozstvi: null, jednotka: "", poznamka: "volitelné, k podávání", sekce: K podávání }

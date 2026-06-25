@@ -24,7 +24,7 @@ suroviny:
   - { surovina: tymián/petrželka, mnozstvi: 3, jednotka: snítka, poznamka: "čerstvý, na dochucení", sekce: Koření }
   - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
   - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
-  - { surovina: zakysaná smetana, mnozstvi: 500, jednotka: ml, poznamka: "k podávání", sekce: "K podávání" }
+  - { surovina: zakysaná smetana, mnozstvi: 500, jednotka: ml, poznamka: "", sekce: "K podávání" }
 postup:
   - "Najemno si nakrájej cibuli a orestuj ji v hrnci. Když začne zlátnout, přidej 7 stroužků nasekaného česneku a promíchej. Pak přidej oloupanou a nahrubo nastrouhanou mrkev, orestuj a následně přidej maso."
   - "Maso osol, opepři, posyp kmínem a zprudka opékej asi 5 minut. Vařečkou nebo šťouchadlem na brambory maso odděluj od sebe, aby bylo sypké. Přidej rajčata a znovu orestuj."

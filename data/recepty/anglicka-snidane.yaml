@@ -18,7 +18,7 @@ suroviny:
   - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Hlavní talíř }
   - { surovina: bílý toustový chléb, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: K toustu }
   - { surovina: máslo, mnozstvi: 1, jednotka: lžička, poznamka: "", sekce: K toustu }
-  - { surovina: pomerančová marmeláda, mnozstvi: 1, jednotka: lžíce, poznamka: "k toustu", sekce: K toustu }
+  - { surovina: pomerančová marmeláda, mnozstvi: 1, jednotka: lžíce, poznamka: "", sekce: K toustu }
 postup:
   - "Rozpal grilovací pánev a nasucho v ní osmahni toasty."
   - "Přidej lžičku olivového oleje a osmahni slaninu. Až pustí tuk, opeč párky. Hotové uzeniny odeber z pánve a ulož pod pokličku, aby nevychladly."

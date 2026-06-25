@@ -19,7 +19,7 @@ suroviny:
   - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Polévka }
   - { surovina: bílý mletý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Polévka }
   - { surovina: pečivo na krutony, mnozstvi: null, jednotka: "", poznamka: + máslo na opečení, sekce: Na ozdobu }
-  - { surovina: čerstvá petrželka a tymián, mnozstvi: null, jednotka: "", poznamka: na ozdobu, sekce: Na ozdobu }
+  - { surovina: čerstvá petrželka a tymián, mnozstvi: null, jednotka: "", poznamka: "", sekce: Na ozdobu }
 postup:
   - Cibuli oloupeme, nakrájíme najemno a na másle s olejem opečeme doměkka.
   - Česnek oloupeme, zbavíme klíčků a prolisujeme. Přidáme k cibuli spolu s tymiánem (bez stonků) a opékáme asi 1,5 minuty, dokud se nerozvoní. Nesmí se připálit, jinak zhořkne.

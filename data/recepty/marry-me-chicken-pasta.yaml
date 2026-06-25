@@ -22,7 +22,7 @@ suroviny:
   - { surovina: sušená rajčata, mnozstvi: 1, jednotka: cup, poznamka: scezená (cca 110 g), sekce: Omáčka }
   - { surovina: paprika mletá, mnozstvi: 1, jednotka: lžička, poznamka: "", sekce: Omáčka }
   - { surovina: italské bylinky sušené, mnozstvi: 2, jednotka: lžičky, poznamka: "", sekce: Omáčka }
-  - { surovina: čerstvá bazalka, mnozstvi: null, jednotka: "", poznamka: na ozdobu, sekce: Na ozdobu }
+  - { surovina: čerstvá bazalka, mnozstvi: null, jednotka: "", poznamka: "", sekce: Na ozdobu }
 postup:
   - Uvařte penne podle návodu na obalu. Sceďte a odstavte stranou, než připravíte kuře a omáčku.
   - Kuře nakrájejte na 2,5cm kousky a osolte a opepřete.

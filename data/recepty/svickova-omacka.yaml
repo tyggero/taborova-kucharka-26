@@ -9,33 +9,33 @@ casy:
   - { faze: Smažení, popis: "10 min" }
   - { faze: Vaření, popis: "40 min" }
 suroviny:
-  - { surovina: vývar hovězí/kuřecí, mnozstvi: 1, jednotka: l, poznamka: "do omáčky", sekce: Omáčka }
-  - { surovina: smetana, mnozstvi: 250, jednotka: ml, poznamka: "do omáčky", sekce: Omáčka }
-  - { surovina: máslo, mnozstvi: 150, jednotka: g, poznamka: "do omáčky", sekce: Omáčka }
-  - { surovina: cibule, mnozstvi: 4, jednotka: ks, poznamka: "do omáčky", sekce: Omáčka }
-  - { surovina: mrkev, mnozstvi: 2, jednotka: ks, poznamka: "do omáčky", sekce: Omáčka }
-  - { surovina: malý celer, mnozstvi: 1, jednotka: ks, poznamka: "do omáčky", sekce: Omáčka }
+  - { surovina: vývar hovězí/kuřecí, mnozstvi: 1, jednotka: l, poznamka: "", sekce: Omáčka }
+  - { surovina: smetana, mnozstvi: 250, jednotka: ml, poznamka: "", sekce: Omáčka }
+  - { surovina: máslo, mnozstvi: 150, jednotka: g, poznamka: "", sekce: Omáčka }
+  - { surovina: cibule, mnozstvi: 4, jednotka: ks, poznamka: "", sekce: Omáčka }
+  - { surovina: mrkev, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Omáčka }
+  - { surovina: malý celer, mnozstvi: 1, jednotka: ks, poznamka: "", sekce: Omáčka }
   - { surovina: citron, mnozstvi: 1, jednotka: ks, poznamka: "kůra + šťáva do omáčky", sekce: Omáčka }
   - { surovina: hladká mouka, mnozstvi: 5, jednotka: PL, poznamka: "na jíšku (polévková lžíce)", sekce: Omáčka }
-  - { surovina: cukr, mnozstvi: 1, jednotka: PL, poznamka: "do omáčky", sekce: Omáčka }
-  - { surovina: ocet, mnozstvi: 1, jednotka: PL, poznamka: "do omáčky", sekce: Omáčka }
-  - { surovina: hořčice, mnozstvi: 1, jednotka: PL, poznamka: "do omáčky", sekce: Omáčka }
+  - { surovina: cukr, mnozstvi: 1, jednotka: PL, poznamka: "", sekce: Omáčka }
+  - { surovina: ocet, mnozstvi: 1, jednotka: PL, poznamka: "", sekce: Omáčka }
+  - { surovina: hořčice, mnozstvi: 1, jednotka: PL, poznamka: "", sekce: Omáčka }
   - { surovina: bobkový list, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Omáčka }
-  - { surovina: pepř celý, mnozstvi: null, jednotka: "", poznamka: "do omáčky", sekce: Omáčka }
-  - { surovina: nové koření, mnozstvi: null, jednotka: "", poznamka: "do omáčky", sekce: Omáčka }
+  - { surovina: pepř celý, mnozstvi: null, jednotka: "", poznamka: "", sekce: Omáčka }
+  - { surovina: nové koření, mnozstvi: null, jednotka: "", poznamka: "", sekce: Omáčka }
   - { surovina: citronová kůra, mnozstvi: null, jednotka: "", poznamka: "na dochucení", sekce: Omáčka }
   - { surovina: mleté maso (vepřové a hovězí), mnozstvi: 1, jednotka: kg, poznamka: "dvakrát mleté; na kuličky", sekce: Masové kuličky }
-  - { surovina: strouhanka, mnozstvi: 200, jednotka: g, poznamka: "na kuličky", sekce: Masové kuličky }
-  - { surovina: mléko, mnozstvi: 50, jednotka: ml, poznamka: "na kuličky", sekce: Masové kuličky }
-  - { surovina: cibule, mnozstvi: 4, jednotka: ks, poznamka: "na kuličky", sekce: Masové kuličky }
-  - { surovina: vejce, mnozstvi: 2, jednotka: ks, poznamka: "na kuličky", sekce: Masové kuličky }
-  - { surovina: bylinky (petrželka, tymián, libeček), mnozstvi: 1, jednotka: PL, poznamka: "na kuličky", sekce: Masové kuličky }
-  - { surovina: česnek, mnozstvi: 1, jednotka: stroužek, poznamka: "na kuličky", sekce: Masové kuličky }
-  - { surovina: nové koření mleté, mnozstvi: null, jednotka: "", poznamka: "na kuličky", sekce: Masové kuličky }
+  - { surovina: strouhanka, mnozstvi: 200, jednotka: g, poznamka: "", sekce: Masové kuličky }
+  - { surovina: mléko, mnozstvi: 50, jednotka: ml, poznamka: "", sekce: Masové kuličky }
+  - { surovina: cibule, mnozstvi: 4, jednotka: ks, poznamka: "", sekce: Masové kuličky }
+  - { surovina: vejce, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Masové kuličky }
+  - { surovina: bylinky (petrželka, tymián, libeček), mnozstvi: 1, jednotka: PL, poznamka: "", sekce: Masové kuličky }
+  - { surovina: česnek, mnozstvi: 1, jednotka: stroužek, poznamka: "", sekce: Masové kuličky }
+  - { surovina: nové koření mleté, mnozstvi: null, jednotka: "", poznamka: "", sekce: Masové kuličky }
   - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Masové kuličky }
   - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Masové kuličky }
-  - { surovina: knedlík, mnozstvi: 30, jednotka: plátků, poznamka: "příloha", sekce: Příloha }
-  - { surovina: brusinkový kompot, mnozstvi: 100, jednotka: g, poznamka: "k podávání", sekce: K podávání }
+  - { surovina: knedlík, mnozstvi: 30, jednotka: plátků, poznamka: "", sekce: Příloha }
+  - { surovina: brusinkový kompot, mnozstvi: 100, jednotka: g, poznamka: "", sekce: K podávání }
 postup:
   - "Mrkev a celer oloupej a na struhadle najemno nastrouhej."
   - "Maso, koření, sůl, vejce, mléko, utřený česnek a nasekané bylinky vlož do mísy. Všechnu cibuli oloupej a nakrájej najemno, polovinu z ní přidej najemno orestuj na oleji dohněda a přidej do mísy s mletým masem. Masovou směs řádně promíchej a nech chvilku odležet."

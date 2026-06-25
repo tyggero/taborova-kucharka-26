@@ -16,7 +16,7 @@ suroviny:
   - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Pomazánka }
   - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "čerstvě mletý, dle chuti", sekce: Pomazánka }
   - { surovina: pažitka, mnozstvi: null, jednotka: "", poznamka: "na ozdobu", sekce: Na podávání }
-  - { surovina: ředkvičky, mnozstvi: 1, jednotka: svazek, poznamka: "na podávání", sekce: Na podávání }
+  - { surovina: ředkvičky, mnozstvi: 1, jednotka: svazek, poznamka: "", sekce: Na podávání }
 postup:
   - "Vejce oloupej a nakrájej na co nejmenší kousky, dej do větší mísy."
   - "Přidej na kolečka nakrájenou jarní cibulku, lučinu, majonézu a dijonskou hořčici."

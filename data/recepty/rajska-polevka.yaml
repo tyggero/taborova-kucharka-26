@@ -8,8 +8,8 @@ casy:
   - { faze: Příprava, popis: "15 min" }
   - { faze: Vaření, popis: "35 min" }
 suroviny:
-  - { surovina: máslo, mnozstvi: 1, jednotka: lžíce, poznamka: "na jíšku", sekce: Jíška a základ }
-  - { surovina: hladká mouka, mnozstvi: 1, jednotka: lžíce, poznamka: "na jíšku", sekce: Jíška a základ }
+  - { surovina: máslo, mnozstvi: 1, jednotka: lžíce, poznamka: "", sekce: Jíška a základ }
+  - { surovina: hladká mouka, mnozstvi: 1, jednotka: lžíce, poznamka: "", sekce: Jíška a základ }
   - { surovina: voda, mnozstvi: 1, jednotka: l, poznamka: "přilévat postupně", sekce: Jíška a základ }
   - { surovina: rajský protlak, mnozstvi: 140, jednotka: g, poznamka: "", sekce: Jíška a základ }
   - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: "malá, celá (na konci vyjmout)", sekce: Jíška a základ }

@@ -12,7 +12,7 @@ suroviny:
   - { surovina: jarní cibulka, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Pomazánka }
   - { surovina: cottage sýr, mnozstvi: 1, jednotka: kelímek, poznamka: "", sekce: Pomazánka }
   - { surovina: pažitka, mnozstvi: 1, jednotka: hrst, poznamka: "nakrájená", sekce: Pomazánka }
-  - { surovina: pečivo, mnozstvi: 4, jednotka: ks, poznamka: "k podávání", sekce: K podávání }
+  - { surovina: pečivo, mnozstvi: 4, jednotka: ks, poznamka: "", sekce: K podávání }
 postup:
   - "Nivu nalámej do mixéru, přidej na kousky nakrájenou papriku a jarní cibulku a důkladně umixuj. (Bez mixéru rozmačkej vidličkou.)"
   - "Do směsi vmíchej cottage a nakrájenou pažitku."

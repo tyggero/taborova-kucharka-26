@@ -16,10 +16,10 @@ suroviny:
   - { surovina: sůl, mnozstvi: 2, jednotka: KL, poznamka: "do těsta na noky (KL = kávová lžička)", sekce: Noky }
   - { surovina: špenát, mnozstvi: 1000, jednotka: g, poznamka: "čerstvý listový; lze nahradit rukolou, polníčkem, brokolicí; nebo mražený listový", sekce: Špenát }
   # Sýrová omáčka / domácí taveňák
-  - { surovina: smetana, mnozstvi: 1, jednotka: l, poznamka: "na omáčku", sekce: Sýrová omáčka }
+  - { surovina: smetana, mnozstvi: 1, jednotka: l, poznamka: "", sekce: Sýrová omáčka }
   - { surovina: sýr (parmazán), mnozstvi: 200, jednotka: g, poznamka: "na omáčku; část na posypání", sekce: Sýrová omáčka }
   - { surovina: plnotučná hořčice, mnozstvi: 1, jednotka: PL, poznamka: "PL = polévková lžíce", sekce: Sýrová omáčka }
-  - { surovina: máslo, mnozstvi: 50, jednotka: g, poznamka: "na omáčku", sekce: Sýrová omáčka }
+  - { surovina: máslo, mnozstvi: 50, jednotka: g, poznamka: "", sekce: Sýrová omáčka }
   - { surovina: muškátový oříšek, mnozstvi: 0.5, jednotka: KL, poznamka: "mletý", sekce: Sýrová omáčka }
   - { surovina: škrob, mnozstvi: 0.5, jednotka: KL, poznamka: "na zahuštění omáčky; rozmíchat ve 2 PL studené vody", sekce: Sýrová omáčka }
   - { surovina: česnek, mnozstvi: 2, jednotka: stroužky, poznamka: "do omáčky utřít se solí na pastu", sekce: Sýrová omáčka }

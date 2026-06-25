@@ -22,6 +22,7 @@
     </div>
     <div class="zdroj">
       {% if r.zdroj %}<div class="zdroj-radek">{{ r.zdroj }}</div>{% endif %}
+      {% if r.odkaz %}<div class="zdroj-odkaz">{{ r.odkaz }}</div>{% endif %}
       <div class="porce-info">orig. recept na <strong>{{ r.porce_original or '?' }}</strong> porcí</div>
     </div>
   </header>

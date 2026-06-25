@@ -5,9 +5,11 @@
 <title>{% if jeden %}{{ recepty[0].nazev }}{% else %}Recepty – Tábor 26{% endif %}</title>
 <style>
 {{ css }}
+{% if cover_css %}{{ cover_css }}{% endif %}
 </style>
 </head>
 <body>
+{% if cover %}{{ cover }}{% endif %}
 {% for r in recepty %}
 <article class="recept">
 

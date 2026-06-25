@@ -1,0 +1,61 @@
+/* ============================================================
+   TITULNÍ STRANA — přidává se JEN do souhrnného recepty-vse.html
+   jako první stránka. Vlastní pojmenovaná @page (margin:0) kvůli
+   hero ilustraci na spad; recepty si drží své okraje. Sdílí barvy
+   (:root) z recept.css, jen doplňuje --krem. Obrázky se vkládají
+   jako data: URI (soběstačné HTML).
+   ============================================================ */
+
+:root{ --krem:#fefdfa; }
+
+@page cover { size:A4; margin:0; }
+
+.cover{
+  page:cover;
+  break-after:page;
+  width:210mm; height:297mm;
+  background:var(--krem);
+  display:flex; flex-direction:column;
+  overflow:hidden;
+}
+
+.cover .top{
+  flex:1 1 auto;
+  display:flex; flex-direction:column;
+  align-items:center; justify-content:flex-end;
+  text-align:center;
+  padding:24mm 22mm 9mm;
+}
+.cover .badge{ width:30mm; height:30mm; margin-bottom:9mm; }
+.cover .badge img{ width:100%; height:100%; object-fit:contain; display:block; }
+.cover .eyebrow{
+  margin:0 0 7mm;
+  font-size:10.5pt; font-weight:600;
+  letter-spacing:0.26em; text-transform:uppercase;
+  color:var(--hneda);
+}
+.cover .title{
+  margin:0;
+  font-size:50pt; line-height:0.96; font-weight:800;
+  letter-spacing:-0.02em; color:var(--ink);
+  text-wrap:balance;
+}
+.cover .year{
+  margin-top:9mm;
+  display:flex; align-items:center; justify-content:center; gap:5mm;
+  font-size:13pt; font-weight:600;
+  letter-spacing:0.34em; text-transform:uppercase;
+  color:var(--hneda);
+}
+.cover .year .cara{ width:14mm; height:0; border-top:1.4pt solid var(--okr); }
+
+.cover .hero{ width:100%; position:relative; line-height:0; }
+.cover .hero img{ width:100%; display:block; }
+.cover .hero::before{
+  content:""; position:absolute; left:0; right:0; top:0; height:14mm;
+  background:linear-gradient(to bottom, var(--krem), rgba(254,253,250,0));
+}
+
+@media screen{
+  .cover{ margin:0 auto 8mm; box-shadow:0 1px 10px rgba(0,0,0,.2); }
+}

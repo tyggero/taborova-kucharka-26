@@ -6,19 +6,21 @@ stitky: [Svačina, Snídaně]
 porce_original: 10
 casy:
   - { faze: Příprava, popis: "15 min" }
+  - { faze: Chlazení, popis: "30 min" }
 suroviny:
-  - { surovina: měkký tvaroh, mnozstvi: null, jednotka: "", poznamka: "", sekce: Krém }
-  - { surovina: zakysaná smetana nebo bílý jogurt, mnozstvi: null, jednotka: "", poznamka: "", sekce: Krém }
-  - { surovina: moučkový cukr, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Krém }
-  - { surovina: vanilkový cukr, mnozstvi: null, jednotka: "", poznamka: "", sekce: Krém }
+  - { surovina: měkký tvaroh, mnozstvi: 1, jednotka: kg, poznamka: "", sekce: "" }
+  - { surovina: mléko, mnozstvi: 1, jednotka: l, poznamka: "", sekce: "" }
+  - { surovina: vanilkový puding, mnozstvi: 2, jednotka: sáček, poznamka: "prášek", sekce: "" }
+  - { surovina: vanilkový/moučkový cukr, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: "" }
+  - { surovina: piškoty, mnozstvi: 2, jednotka: balení, poznamka: "", sekce: "" }
 postup:
-  - "Tvaroh utři s cukrem a vanilkovým cukrem do hladka."
-  - "Vmíchej zakysanou smetanu nebo jogurt a vyšlehej do nadýchaného krému."
-  - "Podávej vychlazené, dle chuti dozdob ovocem."
-nutrice_na_porci: { kcal: 200, bilkoviny_g: 12, sacharidy_g: 18, tuky_g: 9 }
-alergeny: [mléko]
+  - "Z mléka a vanilkového pudinkového prášku uvař podle návodu na sáčku hustý puding a nech ho vychladnout."
+  - "Tvaroh utři s cukrem do hladka a vmíchej vychladlý puding, ať vznikne nadýchaný krém."
+  - "Piškoty navrstvi do misek nebo ešusů (případně je lehce namoč v mléce) a zalij krémem; nech vychladit."
+nutrice_na_porci: { kcal: 270, bilkoviny_g: 12, sacharidy_g: 34, tuky_g: 9 }
+alergeny: [mléko, lepek, vejce]
 vegetarian: true
-poznamky: ""
-zdroj_dat: foto
-overit: true
+poznamky: "Místo piškotů lze použít dětské sušenky; krém jde dochutit kakaem nebo ovocem."
+zdroj_dat: notion-text
+overit: false
 varka: 2

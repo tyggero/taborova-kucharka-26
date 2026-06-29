@@ -1,0 +1,44 @@
+id: cina
+nazev: Čína
+zdroj: Skautská kuchařka
+odkaz: ""
+stitky: [Večeře, Oběd]
+porce_original: 10
+casy:
+  - { faze: Příprava a vaření, popis: "120 min" }
+suroviny:
+  - { surovina: vepřové maso, mnozstvi: 1.2, jednotka: kg, poznamka: "kýta, plec; lze i pečené nebo drůbeží varianta (kuřecí/krůtí)", sekce: Maso }
+  - { surovina: sójová omáčka, mnozstvi: 100, jednotka: ml, poznamka: "", sekce: Omáčka }
+  - { surovina: ústřicová nebo rybí omáčka, mnozstvi: 50, jednotka: ml, poznamka: "lze vynechat, pokud ji nemáš", sekce: Omáčka }
+  - { surovina: ocet, mnozstvi: 50, jednotka: ml, poznamka: "rýžový, jablečný nebo vinný", sekce: Omáčka }
+  - { surovina: olej, mnozstvi: 3, jednotka: polévková lžíce, poznamka: "řepkový, sezamový nebo slunečnicový", sekce: Základ }
+  - { surovina: směs koření na čínu, mnozstvi: 1, jednotka: polévková lžíce, poznamka: "nebo pětivůně", sekce: Koření }
+  - { surovina: velké cibule, mnozstvi: 5, jednotka: ks, poznamka: "", sekce: Zelenina }
+  - { surovina: zelenina podle dostupnosti, mnozstvi: 1, jednotka: kg, poznamka: "např. 3 mrkve, 3 papriky různých barev, 2 cukety, 2 pórky, 200 g fazolek", sekce: Zelenina }
+  - { surovina: sůl, mnozstvi: 2, jednotka: kávová lžička, poznamka: "podle chuti – mysli na to, že omáčky jsou slané", sekce: Koření }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+  - { surovina: škrob (solamyl), mnozstvi: 1, jednotka: polévková lžíce, poznamka: "na zahuštění, volitelné", sekce: Omáčka }
+  - { surovina: voda nebo vývar, mnozstvi: 250, jednotka: ml, poznamka: "", sekce: Omáčka }
+  - { surovina: rýže nebo nudle, mnozstvi: 1, jednotka: kg, poznamka: "příloha; rýže basmati nebo 800 g nudlí", sekce: Příloha }
+  - { surovina: smažená cibulka, mnozstvi: null, jednotka: "", poznamka: "na ozdobu", sekce: Ozdoba }
+  - { surovina: sekané arašídy, mnozstvi: null, jednotka: "", poznamka: "na ozdobu", sekce: Ozdoba }
+  - { surovina: sezamová semínka, mnozstvi: null, jednotka: "", poznamka: "na ozdobu", sekce: Ozdoba }
+  - { surovina: čerstvý koriandr, mnozstvi: null, jednotka: "", poznamka: "na ozdobu", sekce: Ozdoba }
+  - { surovina: limetka, mnozstvi: null, jednotka: "", poznamka: "na ozdobu", sekce: Ozdoba }
+  - { surovina: klíčky, mnozstvi: null, jednotka: "", poznamka: "na ozdobu", sekce: Ozdoba }
+postup:
+  - "Maso očisti od šlach a tučných částí a nakrájej ho na tenké nudličky. Smíchej ho se solí, polovinou koření a trochou oleje. Pokud máš slanou kořenicí směs, sol méně. Nech chvíli odležet."
+  - "Všechnu zeleninu umyj a nakrájej na tenké nudličky nebo kolečka. Mrkev můžeš škrabkou naloupat na dlouhé tenké proužky, které nahrubo překrájíš. Tvrdší zeleninu (mrkev, zelí) dej bokem, měkčí (cuketa, paprika, pórek) zvlášť."
+  - "Rozpal kotlík nebo pánev na ohni a přidej olej. Maso opékej po částech, aby se rychle zatáhlo a nevařilo ve vlastní šťávě. Opečené maso přendávej do hrnce."
+  - "Když je všechno maso opečené, přilij k němu trochu vody (tak, aby bylo těsně ponořené), přidej polovinu sójové a ústřicové omáčky a nech pod pokličkou dusit asi 30 minut (pokud vaříš drůbeží variantu, dušení není nutné)."
+  - "Na druhé pánvi nebo v kotlíku opékej zeleninu. Nejprve tvrdší druhy (mrkev, zelí), po chvíli přidej měkčí zeleninu (cuketa, pórek, paprika). Pokud se ti vše nevejde do jedné pánve, restuj zeleninu postupně. Cílem je, aby byla měkká, ale ne rozvařená."
+  - "Jakmile je zelenina hotová, můžeš ji smíchat s masem. Přidej zbývající sójovou a ústřicovou omáčku a ocet. Pokud je směs moc hustá, přidej trochu vody nebo vývaru."
+  - "Pokud chceš omáčku hustší, rozmíchej 1 lžíci solamylu ve studené vodě a přidej do směsi. Promíchej a nech krátce probublat."
+  - "Podávej s rýží nebo nudlemi, posyp smaženou cibulkou, arašídy, sezamovými semínky nebo koriandrem."
+nutrice_na_porci: { kcal: 560, bilkoviny_g: 32, sacharidy_g: 60, tuky_g: 18 }
+alergeny: [sója, ryby, semínka, ořechy]
+vegetarian: false
+poznamky: "Vege verze: maso nahraď tofu, seitanem nebo hrachovými nudličkami; tofu/seitan nakrájej na kousky a orestuj na oleji před přidáním zeleniny. Sójová a ústřicová omáčka jsou slané, proto sůl přidávej opatrně. Ozdoba arašídy/sezam = pozor na ořechy a semínka."
+zdroj_dat: foto
+overit: false
+varka: 2

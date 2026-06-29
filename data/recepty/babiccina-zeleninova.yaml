@@ -1,0 +1,40 @@
+id: babiccina-zeleninova
+nazev: Babiččina zeleninová
+zdroj: Skautská kuchařka
+odkaz: ""
+stitky: [polévka]
+porce_original: 10
+casy:
+  - { faze: Příprava a vaření, popis: "60 min" }
+suroviny:
+  - { surovina: zeleninový vývar, mnozstvi: 1, jednotka: l, poznamka: "nebo kostička/vanička bujónu", sekce: Polévka }
+  - { surovina: voda, mnozstvi: 2, jednotka: l, poznamka: "", sekce: Polévka }
+  - { surovina: brambory, mnozstvi: 600, jednotka: g, poznamka: "na kostičky", sekce: Polévka }
+  - { surovina: sezónní zelenina, mnozstvi: 500, jednotka: g, poznamka: "zelené fazolky, kedlubna, listy kapusty bez tvrdých částí, květák, brokolice", sekce: Zelenina }
+  - { surovina: celer a/nebo kořenová petržel, mnozstvi: 400, jednotka: g, poznamka: "", sekce: Zelenina }
+  - { surovina: mrkev, mnozstvi: 300, jednotka: g, poznamka: "", sekce: Zelenina }
+  - { surovina: cibule, mnozstvi: 200, jednotka: g, poznamka: "", sekce: Zelenina }
+  - { surovina: dětské krupičky, mnozstvi: 70, jednotka: g, poznamka: "", sekce: Polévka }
+  - { surovina: česnek, mnozstvi: 4, jednotka: stroužek, poznamka: "utřený", sekce: Zelenina }
+  - { surovina: olej/máslo, mnozstvi: null, jednotka: "", poznamka: "na restování", sekce: Polévka }
+  - { surovina: mletý kmín, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+  - { surovina: majoránka, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+  - { surovina: uzená paprika, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+  - { surovina: čerstvý libeček, mnozstvi: null, jednotka: "", poznamka: "", sekce: Koření }
+  - { surovina: čerstvá petržel, mnozstvi: null, jednotka: "", poznamka: "na ozdobu", sekce: Koření }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+postup:
+  - "Kořenovou zeleninu (petržel, mrkev, celer) nastrouhej najemno, nahrubo, nebo nakrájej na kostičky. Cibuli nakrájej najemno, brambory a všechnu ostatní zeleninu na kostičky nebo rozeber na jednotlivé růžičky. U brokolice a květáku můžeš nastrouhat i košťál, ale jen pokud není dřevnatý."
+  - "Rozehřej máslo nebo olej, přidej cibulku a restuj ji dorůžova, pak přidej všechnu nastrouhanou kořenovou zeleninu. Pořádně michej, ať se ti nepřichytí."
+  - "Po chvíli přidej k zelenině krupičku, všechno promíchej a restuj. Dej pozor, aby se ti krupička nespálila."
+  - "Přidej brambory, vývar, koření a sůl, přikryj pokličkou a nech vařit."
+  - "Sezónní zeleninu přidej až ve chvíli, kdy jsou brambory skoro měkké. Neměla by se ti rozvařit."
+  - "Přidej utřený česnek. Dochuť, ozdob petrželkou nebo libečkem. Pokud je polévka moc hustá, přidej trochu vody nebo vývaru."
+nutrice_na_porci: { kcal: 150, bilkoviny_g: 4, sacharidy_g: 22, tuky_g: 5 }
+alergeny: [lepek, celer]
+vegetarian: true
+poznamky: "Na bezlepkovou verzi použij kukuřičnou krupici. S vodou/zeleninovým vývarem je polévka vegetariánská; lze použít i vývar z masa/kostí, pak potěší jen masožrouty."
+zdroj_dat: foto
+overit: false
+varka: 2

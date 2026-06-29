@@ -1,0 +1,46 @@
+id: minestrone
+nazev: Minestrone
+zdroj: Skautská kuchařka
+odkaz: ""
+stitky: [polévka]
+porce_original: 10
+casy:
+  - { faze: Příprava a vaření, popis: "120 min" }
+suroviny:
+  - { surovina: voda/vývar, mnozstvi: 2, jednotka: l, poznamka: "", sekce: Polévka }
+  - { surovina: olivový olej, mnozstvi: 300, jednotka: ml, poznamka: "", sekce: Polévka }
+  - { surovina: sekaná rajčata, mnozstvi: 800, jednotka: g, poznamka: "mohou být i z plechovky", sekce: Polévka }
+  - { surovina: cizrna/fazole, mnozstvi: 400, jednotka: g, poznamka: "červené/bílé, suché namáčet", sekce: Polévka }
+  - { surovina: cukety/fazolky/paprika/hrášek, mnozstvi: 300, jednotka: g, poznamka: "podle sezony, čím pestřejší, tím lepší", sekce: Zelenina }
+  - { surovina: brambory/rýže/malé těstoviny, mnozstvi: 250, jednotka: g, poznamka: "", sekce: Polévka }
+  - { surovina: strouhaný parmazán, mnozstvi: 200, jednotka: g, poznamka: "", sekce: Polévka }
+  - { surovina: mrkev, mnozstvi: 5, jednotka: ks, poznamka: "", sekce: Zelenina }
+  - { surovina: cibule, mnozstvi: 3, jednotka: ks, poznamka: "", sekce: Zelenina }
+  - { surovina: česnek, mnozstvi: 6, jednotka: stroužek, poznamka: "", sekce: Zelenina }
+  - { surovina: feferonka, mnozstvi: 1, jednotka: ks, poznamka: "", sekce: Zelenina }
+  - { surovina: řapíkatý celer, mnozstvi: 1, jednotka: svazek, poznamka: "8 částí", sekce: Zelenina }
+  - { surovina: fenykl, mnozstvi: 1, jednotka: ks, poznamka: "", sekce: Zelenina }
+  - { surovina: tymián, mnozstvi: 10, jednotka: snítka, poznamka: "", sekce: Koření }
+  - { surovina: oregano, mnozstvi: 3, jednotka: špetka, poznamka: "", sekce: Koření }
+  - { surovina: bobkový list, mnozstvi: 4, jednotka: ks, poznamka: "", sekce: Koření }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+  - { surovina: zakysaná smetana, mnozstvi: 300, jednotka: ml, poznamka: "", sekce: Aioli }
+  - { surovina: jogurt/majonéza, mnozstvi: 200, jednotka: ml, poznamka: "", sekce: Aioli }
+  - { surovina: citronová šťáva, mnozstvi: 50, jednotka: ml, poznamka: "", sekce: Aioli }
+  - { surovina: česnek, mnozstvi: 2, jednotka: stroužek, poznamka: "", sekce: Aioli }
+  - { surovina: sůl, mnozstvi: 1, jednotka: kávová lžička, poznamka: "", sekce: Aioli }
+postup:
+  - "Předem si uvař (předem namočené) cizrnu/fazole a také brambory, rýži nebo malé těstoviny (na skus)."
+  - "Tvrdší kořenovou zeleninu očisti a pokrájej na kostičky. Restuj ji 5 minut na olivovém oleji. Poté přidej měkčí zeleninu, taky na kostičky, a znovu restuj 5 minut. Nakonec přidej nasekanou cibuli a feferonku, česnek na plátky a restuj 5 minut."
+  - "Přidej koření a rajčata a orestuj. Vlož cizrnu/fazole a přidej vodu (nebo vývar), přiveď k varu a povař 5–10 minut."
+  - "Do hrnce přidej uvařené brambory/rýži/těstoviny. Dochuť solí a pepřem a přidej nasekané bylinky."
+  - "Na aioli si utři česnek se lžičkou soli, poté přidej ostatní suroviny a vše smíchej v misce."
+  - "Polévku při podávání ozdob parmazánem a podávej ideálně s čerstvým pečivem a česnekovou aioli. Do aioli se může namáčet pečivo, nebo rovnou přidej lžíci každému do polévky."
+nutrice_na_porci: { kcal: 320, bilkoviny_g: 12, sacharidy_g: 32, tuky_g: 16 }
+alergeny: [mléko, lepek, celer]
+vegetarian: true
+poznamky: "Aioli je zde zjednodušená pasta pocházející ze západního Středomoří. Brambory/rýži/těstoviny lze zvolit dle chuti. Bez aioli a parmazánu lze připravit veganskou variantu."
+zdroj_dat: foto
+overit: false
+varka: 2

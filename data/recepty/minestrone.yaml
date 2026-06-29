@@ -11,9 +11,9 @@ suroviny:
   - { surovina: olivový olej, mnozstvi: 300, jednotka: ml, poznamka: "", sekce: Polévka }
   - { surovina: sekaná rajčata, mnozstvi: 800, jednotka: g, poznamka: "mohou být i z plechovky", sekce: Polévka }
   - { surovina: cizrna/fazole, mnozstvi: 400, jednotka: g, poznamka: "červené/bílé, suché namáčet", sekce: Polévka }
-  - { surovina: cukety/fazolky/paprika/hrášek, mnozstvi: 300, jednotka: g, poznamka: "podle sezony, čím pestřejší, tím lepší", sekce: Zelenina }
   - { surovina: brambory/rýže/malé těstoviny, mnozstvi: 250, jednotka: g, poznamka: "", sekce: Polévka }
   - { surovina: strouhaný parmazán, mnozstvi: 200, jednotka: g, poznamka: "", sekce: Polévka }
+  - { surovina: cukety/fazolky/paprika/hrášek, mnozstvi: 300, jednotka: g, poznamka: "podle sezony, čím pestřejší, tím lepší", sekce: Zelenina }
   - { surovina: mrkev, mnozstvi: 5, jednotka: ks, poznamka: "", sekce: Zelenina }
   - { surovina: cibule, mnozstvi: 3, jednotka: ks, poznamka: "", sekce: Zelenina }
   - { surovina: česnek, mnozstvi: 6, jednotka: stroužek, poznamka: "", sekce: Zelenina }

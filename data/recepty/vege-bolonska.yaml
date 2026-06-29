@@ -10,23 +10,23 @@ casy:
 suroviny:
   - { surovina: zeleninový vývar / voda, mnozstvi: 2, jednotka: l, poznamka: "", sekce: Omáčka }
   - { surovina: sterilovaná rajčata, mnozstvi: 600, jednotka: g, poznamka: "", sekce: Omáčka }
-  - { surovina: sójový granulát, mnozstvi: 250, jednotka: g, poznamka: "", sekce: "Sójová směs" }
   - { surovina: rajčatový protlak, mnozstvi: 200, jednotka: g, poznamka: "", sekce: Omáčka }
-  - { surovina: parmazán, mnozstvi: 180, jednotka: g, poznamka: "k podávání", sekce: "K podávání" }
   - { surovina: mrkev, mnozstvi: 8, jednotka: ks, poznamka: "", sekce: Omáčka }
   - { surovina: lilek, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Omáčka }
   - { surovina: cuketa, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Omáčka }
   - { surovina: cibule, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Omáčka }
-  - { surovina: sójová omáčka, mnozstvi: 4, jednotka: PL, poznamka: "", sekce: "Sójová směs" }
-  - { surovina: plnotučná hořčice, mnozstvi: 1.5, jednotka: PL, poznamka: "", sekce: "Sójová směs" }
   - { surovina: česnek, mnozstvi: 5, jednotka: stroužky, poznamka: "", sekce: Omáčka }
   - { surovina: olivový olej, mnozstvi: 200, jednotka: ml, poznamka: "", sekce: Omáčka }
-  - { surovina: majoránka, mnozstvi: null, jednotka: "", poznamka: "do sójové směsi", sekce: "Sójová směs" }
   - { surovina: oregano, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Omáčka }
-  - { surovina: nové koření, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: "Sójová směs" }
   - { surovina: mletý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Omáčka }
   - { surovina: bobkový list, mnozstvi: null, jednotka: "", poznamka: "pár kousků", sekce: Omáčka }
   - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Omáčka }
+  - { surovina: sójový granulát, mnozstvi: 250, jednotka: g, poznamka: "", sekce: "Sójová směs" }
+  - { surovina: sójová omáčka, mnozstvi: 4, jednotka: PL, poznamka: "", sekce: "Sójová směs" }
+  - { surovina: plnotučná hořčice, mnozstvi: 1.5, jednotka: PL, poznamka: "", sekce: "Sójová směs" }
+  - { surovina: majoránka, mnozstvi: null, jednotka: "", poznamka: "", sekce: "Sójová směs" }
+  - { surovina: nové koření, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: "Sójová směs" }
+  - { surovina: parmazán, mnozstvi: 180, jednotka: g, poznamka: "", sekce: "K podávání" }
   - { surovina: těstoviny, mnozstvi: null, jednotka: "", poznamka: "uvařit podle návodu na obalu", sekce: "K podávání" }
 postup:
   - "Sójový granulát smíchej se sójovou omáčkou, hořčicí, majoránkou, oreganem a 150 ml oleje. Zalij vodou, až je vše ponořené. Osol a přidej pár kousků bobkového listu, pár kuliček nového koření a špetku pepře. Vař asi 15 minut doměkka. Sceď a nech okapat."

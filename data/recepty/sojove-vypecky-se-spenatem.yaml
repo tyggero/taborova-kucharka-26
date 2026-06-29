@@ -11,13 +11,13 @@ suroviny:
   - { surovina: brambory, mnozstvi: 1.8, jednotka: kg, poznamka: "", sekce: Příloha }
   - { surovina: mražený špenát, mnozstvi: 1, jednotka: kg, poznamka: "protlak (ne sekaný)", sekce: Špenát }
   - { surovina: cibule, mnozstvi: 4, jednotka: ks, poznamka: "", sekce: Špenát }
+  - { surovina: smetana na vaření, mnozstvi: 250, jednotka: ml, poznamka: "", sekce: Špenát }
+  - { surovina: vejce, mnozstvi: 5, jednotka: ks, poznamka: "na zahuštění špenátu", sekce: Špenát }
+  - { surovina: česnek, mnozstvi: null, jednotka: "", poznamka: "prolisovat", sekce: Špenát }
   - { surovina: sójové nudličky, mnozstvi: 320, jednotka: g, poznamka: "", sekce: Výpečky }
-  - { surovina: smetana na vaření, mnozstvi: 250, jednotka: ml, poznamka: "do špenátu", sekce: Špenát }
   - { surovina: slunečnicový olej, mnozstvi: 200, jednotka: ml, poznamka: "", sekce: Výpečky }
   - { surovina: sójová omáčka, mnozstvi: 150, jednotka: ml, poznamka: "na marinádu", sekce: Výpečky }
-  - { surovina: vejce, mnozstvi: 5, jednotka: ks, poznamka: "na zahuštění špenátu", sekce: Špenát }
   - { surovina: plnotučná hořčice, mnozstvi: 5, jednotka: PL, poznamka: "na marinádu", sekce: Výpečky }
-  - { surovina: česnek, mnozstvi: null, jednotka: "", poznamka: "prolisovat", sekce: Špenát }
   - { surovina: pepř černý, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
   - { surovina: paprika uzená, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
   - { surovina: kmín, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }

@@ -18,7 +18,7 @@ suroviny:
   - { surovina: přírodní cukr, mnozstvi: 2, jednotka: KL, poznamka: "", sekce: Marináda }
   - { surovina: chilli, mnozstvi: 0.25, jednotka: KL, poznamka: "", sekce: Marináda }
   - { surovina: burákové máslo, mnozstvi: 2, jednotka: PL, poznamka: "máslo z burských oříšků", sekce: Marináda }
-  - { surovina: olej, mnozstvi: 1, jednotka: PL, poznamka: "na nudle", sekce: Nudle }
+  - { surovina: olej, mnozstvi: 1, jednotka: PL, poznamka: "", sekce: Nudle }
   - { surovina: vaječné nudle, mnozstvi: 350, jednotka: g, poznamka: "čerstvé, nebo 225 g sušených", sekce: Nudle }
   - { surovina: zeleninový bujon, mnozstvi: 1, jednotka: kostka, poznamka: "", sekce: Nudle }
   - { surovina: petržel nebo koriandr, mnozstvi: 2, jednotka: PL, poznamka: "nasekané listy", sekce: Nudle }

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>Ovocné knedlíky</title>
+<style>
+/* ============================================================
+   ŠABLONA RECEPTU — „Čistá karta"
+   Táborová kuchařka oddílu Kalahari
+   Zemitá paleta (tmavá hnědá + pískově okrová), bez velkých
+   barevných ploch. Jen systémová písma, vše v jednom <style>.
+   Tělo dvousloupcově (suroviny | postup) kvůli vejití na 1×A4.
+   ============================================================ */
+
+@page { size: A4; margin: 12mm 14mm; }
+
+:root{
+  --ink:      #2b2118;   /* tmavě hnědý „inkoust" */
+  --hneda:    #6a4a2c;   /* hnědý akcent (z loga)  */
+  --okr:      #a9762e;   /* pískově okrová         */
+  --muted:    #7c6c5a;   /* tlumený text           */
+  --linka:    #ddd3c5;   /* vlasová linka          */
+  --linka2:   #c9bca9;   /* sytější linka          */
+}
+
+*{ box-sizing:border-box; }
+
+html{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+
+body{
+  margin:0;
+  color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+              "Helvetica Neue",Arial,sans-serif;
+  font-size:10.5pt;
+  line-height:1.26;
+  text-rendering:optimizeLegibility;
+}
+
+/* —— jeden recept = jedna stránka ——————————————————— */
+.recept{
+  display:flex;
+  flex-direction:column;
+  /* výška tiskové plochy (A4 297mm − okraje @page 2×12mm), aby patička
+     s margin-top:auto držela u spodního okraje stránky i v tisku */
+  min-height:272mm;
+}
+.recept + .recept{ break-before:page; }
+
+/* ╔══ HLAVIČKA ═══════════════════════════════════════════╗ */
+.hlavicka{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:8mm;
+  padding-bottom:2.5mm;
+  border-bottom:2.2pt solid var(--ink);
+  break-inside:avoid;
+}
+.nadpis{ flex:1 1 auto; min-width:0; }
+.hlavicka h1{
+  margin:0 0 1.5mm;
+  font-size:18pt;
+  line-height:1.06;
+  font-weight:800;
+  letter-spacing:-0.01em;
+  text-wrap:balance;
+}
+.stitky{ display:flex; flex-wrap:wrap; gap:1.5mm; }
+.stitek{
+  font-size:7.5pt;
+  font-weight:600;
+  letter-spacing:0.06em;
+  text-transform:uppercase;
+  color:var(--hneda);
+  border:0.8pt solid var(--linka2);
+  border-radius:2pt;
+  padding:0.6mm 2mm;
+}
+.stitek.veg{
+  color:#3f6b3a;
+  border-color:#9fc299;
+}
+.zdroj{
+  flex:0 0 auto;
+  text-align:right;
+  font-size:8pt;
+  color:var(--muted);
+  line-height:1.35;
+  max-width:48mm;
+  padding-top:1mm;
+}
+.zdroj-radek{ font-style:italic; }
+.zdroj-odkaz{
+  margin-top:0.6mm;
+  font-size:6.8pt;
+  line-height:1.2;
+  color:var(--muted);
+  word-break:break-all;
+}
+.porce-info{ margin-top:1mm; }
+.porce-info strong{ color:var(--ink); }
+
+/* ╔══ ALERGENY (středně výrazné) ═════════════════════════╗ */
+.alergeny{
+  display:flex;
+  align-items:center;
+  gap:2.5mm;
+  margin-top:3mm;
+  padding:1.8mm 3mm 1.8mm 2.5mm;
+  border:0.8pt solid var(--okr);
+  border-left:2.6pt solid var(--okr);
+  border-radius:2pt;
+  break-inside:avoid;
+}
+.alergeny-ikona{
+  flex:0 0 auto;
+  width:4.4mm; height:4.4mm;
+  display:inline-flex; align-items:center; justify-content:center;
+  font-size:8pt; font-weight:800; line-height:1;
+  color:#fff; background:var(--okr);
+  border-radius:50%;
+}
+.alergeny-popis{ font-size:9.5pt; }
+.alergeny-popis>strong{
+  letter-spacing:0.08em; color:var(--hneda);
+  margin-right:1mm;
+}
+.alergen{
+  display:inline-block;
+  font-weight:600;
+}
+.alergen:not(:last-child)::after{
+  content:"·";
+  color:var(--okr);
+  font-weight:700;
+  margin:0 1mm 0 1.5mm;
+}
+
+/* ╔══ ČASY ═══════════════════════════════════════════════╗ */
+.casy{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:1mm 5mm;
+  margin-top:2.5mm;
+  font-size:9.5pt;
+  color:var(--muted);
+  break-inside:avoid;
+}
+.casy-ikona{
+  font-size:11pt; color:var(--hneda); line-height:1;
+}
+.cas-pol strong{
+  color:var(--ink); font-weight:600;
+  letter-spacing:0.01em;
+}
+
+/* ╔══ TĚLO — dva sloupce ═════════════════════════════════╗ */
+.telo{
+  display:grid;
+  grid-template-columns: 86mm 1fr;
+  gap:7mm;
+  margin-top:3mm;
+  align-items:start;
+}
+.telo h2{
+  margin:0 0 2mm;
+  font-size:9.5pt;
+  font-weight:700;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+  color:var(--hneda);
+  padding-bottom:1.3mm;
+  border-bottom:1.2pt solid var(--ink);
+}
+
+/* —— Suroviny ————————————————————————————————————————— */
+.suroviny table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:9.5pt;
+}
+.suroviny thead th{
+  font-size:7.5pt;
+  font-weight:600;
+  letter-spacing:0.04em;
+  text-transform:uppercase;
+  color:var(--muted);
+  text-align:left;
+  padding:0 0 1.2mm;
+  border-bottom:0.8pt solid var(--linka2);
+  vertical-align:bottom;
+}
+.col-mnozstvi{ text-align:right; white-space:nowrap; width:18mm; }
+.col-rucni{
+  text-align:center;
+  width:21mm;
+  border-left:0.6pt solid var(--linka);
+  color:var(--muted);
+}
+.col-rucni u{ text-decoration:none; border-bottom:0.6pt solid var(--linka2); }
+/* mezera kolem dělící čáry, ať záhlaví „na 10 osob | na __ osob" nedrží pohromadě */
+.suroviny th.col-mnozstvi,
+.suroviny td.col-mnozstvi{ padding-right:3mm; }
+.suroviny th.col-rucni,
+.suroviny td.col-rucni{ padding-left:3mm; }
+
+.suroviny tbody td{
+  padding:0.7mm 0;
+  border-bottom:0.5pt solid var(--linka);
+  vertical-align:top;
+}
+.suroviny tbody td.col-mnozstvi{ font-variant-numeric:tabular-nums; }
+.suroviny tbody td.col-rucni{ border-left:0.6pt solid var(--linka); }
+.suroviny tr{ break-inside:avoid; }
+.pozn{ color:var(--muted); font-size:8.3pt; font-style:italic; }
+
+.sekce-row td.sekce-nadpis{
+  padding:1.7mm 0 0.8mm;
+  border-bottom:none;
+  font-size:8pt;
+  font-weight:700;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--okr);
+}
+.sekce-row:first-child td.sekce-nadpis{ padding-top:0.5mm; }
+
+/* —— Postup ———————————————————————————————————————————— */
+.postup ol{
+  margin:0;
+  padding:0;
+  list-style:none;
+  counter-reset:krok;
+}
+.postup li{
+  position:relative;
+  counter-increment:krok;
+  padding:0 0 1.7mm 8mm;
+  line-height:1.22;
+  break-inside:avoid;
+}
+.postup li::before{
+  content:counter(krok);
+  position:absolute;
+  left:0; top:-0.3mm;
+  width:5.4mm; height:5.4mm;
+  display:flex; align-items:center; justify-content:center;
+  font-size:8.5pt; font-weight:700;
+  color:var(--hneda);
+  border:1pt solid var(--okr);
+  border-radius:50%;
+}
+
+.recept-poznamky{
+  margin-top:2mm;
+  padding-top:2mm;
+  border-top:0.6pt solid var(--linka);
+  font-size:9pt;
+  line-height:1.3;
+  color:var(--muted);
+}
+.recept-poznamky strong{ color:var(--hneda); letter-spacing:0.02em; }
+
+/* ╔══ PATIČKA ════════════════════════════════════════════╗ */
+.paticka{
+  margin-top:auto;
+  padding-top:2.5mm;
+  display:flex;
+  align-items:stretch;
+  justify-content:space-between;
+  gap:6mm;
+  border-top:1.2pt solid var(--ink);
+}
+.nutrice{
+  display:flex;
+  align-items:baseline;
+  flex-wrap:wrap;
+  gap:1mm 3.5mm;
+  font-size:9pt;
+  color:var(--muted);
+  align-self:center;
+  max-width:54mm;
+}
+.nutrice-titulek{
+  font-size:7.5pt; letter-spacing:0.08em; text-transform:uppercase;
+  color:var(--hneda); font-weight:600;
+}
+.nutri-pol strong{ color:var(--ink); font-size:10pt; }
+.poznamky-sluzby{
+  flex:0 0 110mm;
+  min-height:13mm;
+  border:0.8pt dashed var(--linka2);
+  border-radius:2pt;
+  padding:1.4mm 2.5mm;
+}
+.poznamky-titulek{
+  font-size:7.5pt; letter-spacing:0.08em; text-transform:uppercase;
+  color:var(--muted);
+}
+
+/* ╔══ NÁHLED NA OBRAZOVCE (netiskne se) ══════════════════╗ */
+@media screen{
+  body{ background:#e7e2da; padding:8mm 0; }
+  .recept{
+    width:210mm;
+    min-height:297mm;
+    margin:0 auto 8mm;
+    padding:12mm 14mm;
+    background:#fff;
+    box-shadow:0 1px 8px rgba(0,0,0,.18);
+  }
+}
+
+</style>
+</head>
+<body>
+<article class="recept">
+
+  <header class="hlavicka">
+    <div class="nadpis">
+      <h1>Ovocné knedlíky</h1>
+      <div class="stitky">
+<span class="stitek">Oběd</span><span class="stitek">Večeře</span><span class="stitek veg">vegetariánské</span>      </div>
+    </div>
+    <div class="zdroj">
+<div class="zdroj-radek">Skautská kuchařka (Táborová Skautská Kuchařka)</div>      <div class="porce-info">orig. recept na <strong>10</strong> porcí</div>
+    </div>
+  </header>
+
+  <div class="alergeny">
+    <span class="alergeny-ikona">!</span>
+    <span class="alergeny-popis"><strong>ALERGENY</strong><span class="alergen">lepek</span><span class="alergen">mléko</span><span class="alergen">vejce</span></span>
+  </div>
+
+  <div class="casy">
+    <span class="casy-ikona">◷</span>
+<span class="cas-pol"><strong>Příprava</strong>&nbsp;20 min</span><span class="cas-pol"><strong>Vaření</strong>&nbsp;30 min</span>  </div>
+
+  <div class="telo">
+    <section class="suroviny">
+      <h2>Suroviny</h2>
+      <table>
+        <thead>
+          <tr>
+            <th class="col-surovina">Surovina</th>
+            <th class="col-mnozstvi">na 10 osob</th>
+            <th class="col-rucni">na <u>&nbsp;&nbsp;&nbsp;&nbsp;</u> osob</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Těsto</td></tr>
+          <tr>
+            <td class="col-surovina">tvaroh <span class="pozn">(4 kostky po 250 g)</span></td>
+            <td class="col-mnozstvi">1000 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">vejce</td>
+            <td class="col-mnozstvi">4 ks</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">polohrubá mouka <span class="pozn">(asi 1 hrnek)</span></td>
+            <td class="col-mnozstvi">150 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">celozrnné špaldové krupice / dětská krupička <span class="pozn">(asi 1/2 hrnku)</span></td>
+            <td class="col-mnozstvi">85 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">sůl <span class="pozn">(špetka)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">máslo / kokosový olej <span class="pozn">(na promaštění hotových knedlíků)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Náplň</td></tr>
+          <tr>
+            <td class="col-surovina">čerstvé borůvky <span class="pozn">(nebo jiné ovoce – jahody, švestky, meruňky; v nouzi mražené)</span></td>
+            <td class="col-mnozstvi">800 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr class="sekce-row"><td class="sekce-nadpis" colspan="3">Ešusing (poleva)</td></tr>
+          <tr>
+            <td class="col-surovina">zakysaná smetana / bílý jogurt / kokosové mléko</td>
+            <td class="col-mnozstvi">500 g</td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">cukr moučka <span class="pozn">(na posypání, dle chuti)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+          <tr>
+            <td class="col-surovina">granko / med / sirup <span class="pozn">(pro milovníky sladkého, volitelné)</span></td>
+            <td class="col-mnozstvi"></td>
+            <td class="col-rucni"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="postup">
+      <h2>Postup</h2>
+      <ol>
+        <li>Všechny suroviny na těsto smíchej a kontroluj konzistenci – chceš, aby byla směs vláčná, ani moc mokrá, ani moc suchá. Zkrátka aby se s ní dalo pracovat rukama, nelepila se ani nedrolila. Podle potřeby přidej sypkou nebo mokrou složku k ideální konzistenci.</li>
+        <li>Těsto rozděl na čtvrtiny, z každé části vyválej hada o průměru asi 3 cm a odkrajuj z něj 1–2 cm tlusté špalíčky. Pomoučenýma rukama každý špalíček uválej do kuličky, tu pak rozmáčkni v placičku, do které zabalíš hrstičku borůvek nebo jiné ovoce. Podle potřeby přidej nebo uber těsto, aby borůvky nikde nevykukovaly, ale ani se v těstě neztrácely.</li>
+        <li>Knedlíky (ideálně podobně velké) vař na etapy několik minut ve vroucí vodě – knedlíky házej až do vroucí vody, vyhneš se tak rozvaření a dlouhému čekání. Až zcela vyplavou na hladinu, vylov je lžící nebo sítkem.</li>
+        <li>Nenechávej je dlouho stát, aby se neslepily. Trochu pomůže promaštění máslem nebo kokosovým olejem.</li>
+        <li>Podávej se lžící zakysané smetany a zbylým ovocem, ozdob zelenou bylinkou (třeba mátou). Každý si osladí nebo polije rozpuštěným máslem podle chuti.</li>
+      </ol>
+      <div class="recept-poznamky"><strong>Poznámka</strong> Lze připravit i s jiným ovocem (jahody, švestky, meruňky). Bezlepkovou variantu lze udělat s kukuřičnou krupicí/moukou. Místo zakysané smetany lze použít bílý jogurt nebo kokosové mléko.</div>
+    </section>
+  </div>
+
+  <footer class="paticka">
+    <div class="nutrice">
+      <span class="nutrice-titulek">Na porci (odhad)</span>
+<span class="nutri-pol"><strong>480</strong> kcal</span><span class="nutri-pol">B 22 g</span><span class="nutri-pol">S 60 g</span><span class="nutri-pol">T 16 g</span>    </div>
+    <div class="poznamky-sluzby">
+      <span class="poznamky-titulek">Poznámky služby</span>
+    </div>
+  </footer>
+
+</article>
+</body>
+</html>

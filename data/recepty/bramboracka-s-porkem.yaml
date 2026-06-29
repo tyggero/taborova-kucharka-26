@@ -13,8 +13,8 @@ suroviny:
   - { surovina: máslo, mnozstvi: 25, jednotka: g, poznamka: "", sekce: Polévka }
   - { surovina: olej, mnozstvi: 1, jednotka: polévková lžíce, poznamka: "", sekce: Polévka }
   - { surovina: zeleninový bujon, mnozstvi: 1, jednotka: kostka, poznamka: "rozpustit v 900 ml vroucí vody", sekce: Polévka }
-  - { surovina: sušené bylinky, mnozstvi: null, jednotka: "", poznamka: "směs, špetka", sekce: Koření }
   - { surovina: mléko, mnozstvi: 300, jednotka: ml, poznamka: "", sekce: Polévka }
+  - { surovina: sušené bylinky, mnozstvi: null, jednotka: "", poznamka: "směs, špetka", sekce: Koření }
   - { surovina: čerstvá petrželka, mnozstvi: null, jednotka: "", poznamka: "hrst, na ozdobu", sekce: Koření }
   - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
   - { surovina: mletý černý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }

@@ -10,13 +10,13 @@ suroviny:
   - { surovina: zeleninový vývar, mnozstvi: 1, jednotka: l, poznamka: "nebo kostička/vanička bujónu", sekce: Polévka }
   - { surovina: voda, mnozstvi: 2, jednotka: l, poznamka: "", sekce: Polévka }
   - { surovina: brambory, mnozstvi: 600, jednotka: g, poznamka: "na kostičky", sekce: Polévka }
+  - { surovina: dětské krupičky, mnozstvi: 70, jednotka: g, poznamka: "", sekce: Polévka }
+  - { surovina: olej/máslo, mnozstvi: null, jednotka: "", poznamka: "na restování", sekce: Polévka }
   - { surovina: sezónní zelenina, mnozstvi: 500, jednotka: g, poznamka: "zelené fazolky, kedlubna, listy kapusty bez tvrdých částí, květák, brokolice", sekce: Zelenina }
   - { surovina: celer a/nebo kořenová petržel, mnozstvi: 400, jednotka: g, poznamka: "", sekce: Zelenina }
   - { surovina: mrkev, mnozstvi: 300, jednotka: g, poznamka: "", sekce: Zelenina }
   - { surovina: cibule, mnozstvi: 200, jednotka: g, poznamka: "", sekce: Zelenina }
-  - { surovina: dětské krupičky, mnozstvi: 70, jednotka: g, poznamka: "", sekce: Polévka }
   - { surovina: česnek, mnozstvi: 4, jednotka: stroužek, poznamka: "utřený", sekce: Zelenina }
-  - { surovina: olej/máslo, mnozstvi: null, jednotka: "", poznamka: "na restování", sekce: Polévka }
   - { surovina: mletý kmín, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
   - { surovina: majoránka, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
   - { surovina: uzená paprika, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }

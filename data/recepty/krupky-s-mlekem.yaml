@@ -1,0 +1,23 @@
+id: krupky-s-mlekem
+nazev: Křupky s mlékem
+zdroj: ""
+odkaz: ""
+stitky: [Snídaně]
+porce_original: 40
+casy:
+  - { faze: Příprava, popis: "10 min" }
+suroviny:
+  - { surovina: cereální křupky (oblíčky/lupínky), mnozstvi: null, jednotka: kg, poznamka: "cca 50 g na osobu; POZOR může obsahovat ořechy/semínka", sekce: Základ }
+  - { surovina: mléko, mnozstvi: null, jednotka: l, poznamka: "cca 2 dl na osobu", sekce: Základ }
+  - { surovina: cukr, mnozstvi: null, jednotka: "", poznamka: "na doslazení dle chuti", sekce: Topping }
+postup:
+  - "Křupky nasyp do velkých mís nebo nech v balení s naběračkou."
+  - "Mléko nachystej vychlazené ve džbánech."
+  - "Servíruj samoobslužně – každý si nasype křupky a zalije mlékem, případně doslazení."
+nutrice_na_porci: { kcal: 280, bilkoviny_g: 9, sacharidy_g: 48, tuky_g: 6 }
+alergeny: [mléko, lepek]
+vegetarian: true
+poznamky: "Pro bezlepkové/alergiky připravit stranou bezlepkové cereálie bez ořechů a rostlinné mléko."
+zdroj_dat: vlastni
+overit: true
+varka: 2

@@ -1,0 +1,22 @@
+id: presnidavka
+nazev: Přesnídávka
+zdroj: ""
+odkaz: ""
+stitky: [Svačina]
+porce_original: 40
+casy:
+  - { faze: Příprava, popis: "5 min" }
+suroviny:
+  - { surovina: ovocná přesnídávka (kapsičky/kelímky), mnozstvi: null, jednotka: ks, poznamka: "cca 1 ks na osobu", sekce: Základ }
+  - { surovina: pečivo, mnozstvi: null, jednotka: ks, poznamka: "rohlík/houska k zakousnutí", sekce: Doplněk }
+postup:
+  - "Přesnídávku rozdej (kapsičky/kelímky) jako svačinu."
+  - "Případně dej k zakousnutí pečivo."
+nutrice_na_porci: { kcal: 120, bilkoviny_g: 1, sacharidy_g: 28, tuky_g: 0 }
+alergeny: []
+vegetarian: true
+veganske: true
+poznamky: ""
+zdroj_dat: vlastni
+overit: true
+varka: 2

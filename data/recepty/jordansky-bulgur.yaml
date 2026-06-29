@@ -28,5 +28,5 @@ vegetarian: true
 veganske: true
 poznamky: "Poměr zeleniny a množství volně dle chuti; lze přidat libovolnou další zeleninu."
 zdroj_dat: foto
-overit: true
+overit: false
 varka: 2

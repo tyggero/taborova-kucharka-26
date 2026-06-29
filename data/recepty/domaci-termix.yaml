@@ -1,0 +1,24 @@
+id: domaci-termix
+nazev: Domácí termix
+zdroj: Skautská kuchařka (Táborová Skautská Kuchařka)
+odkaz: ""
+stitky: [Svačina, Snídaně]
+porce_original: 10
+casy:
+  - { faze: Příprava, popis: "15 min" }
+suroviny:
+  - { surovina: měkký tvaroh, mnozstvi: null, jednotka: "", poznamka: "", sekce: Krém }
+  - { surovina: zakysaná smetana nebo bílý jogurt, mnozstvi: null, jednotka: "", poznamka: "", sekce: Krém }
+  - { surovina: moučkový cukr, mnozstvi: null, jednotka: "", poznamka: "dle chuti", sekce: Krém }
+  - { surovina: vanilkový cukr, mnozstvi: null, jednotka: "", poznamka: "", sekce: Krém }
+postup:
+  - "Tvaroh utři s cukrem a vanilkovým cukrem do hladka."
+  - "Vmíchej zakysanou smetanu nebo jogurt a vyšlehej do nadýchaného krému."
+  - "Podávej vychlazené, dle chuti dozdob ovocem."
+nutrice_na_porci: { kcal: 200, bilkoviny_g: 12, sacharidy_g: 18, tuky_g: 9 }
+alergeny: [mléko]
+vegetarian: true
+poznamky: ""
+zdroj_dat: foto
+overit: true
+varka: 2

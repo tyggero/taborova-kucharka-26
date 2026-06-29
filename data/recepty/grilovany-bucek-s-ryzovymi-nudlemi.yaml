@@ -1,0 +1,44 @@
+id: grilovany-bucek-s-ryzovymi-nudlemi
+nazev: Grilovaný bůček s rýžovými nudlemi a kopřivovým salátem
+zdroj: Skautská kuchařka (Táborová Skautská Kuchařka)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 10
+casy:
+  - { faze: Příprava a marinování, popis: "140 min" }
+suroviny:
+  - { surovina: vepřový bůček, mnozstvi: 1.5, jednotka: kg, poznamka: "bez kostí a kůže", sekce: Maso a marináda }
+  - { surovina: rýžové nudle Bún, mnozstvi: 1, jednotka: kg, poznamka: "", sekce: Maso a marináda }
+  - { surovina: cukr, mnozstvi: 50, jednotka: g, poznamka: "", sekce: Maso a marináda }
+  - { surovina: česnek, mnozstvi: 10, jednotka: stroužek, poznamka: "", sekce: Maso a marináda }
+  - { surovina: olej, mnozstvi: 4, jednotka: PL, poznamka: "", sekce: Maso a marináda }
+  - { surovina: sójová omáčka, mnozstvi: 3, jednotka: PL, poznamka: "", sekce: Maso a marináda }
+  - { surovina: hořčice, mnozstvi: 1.5, jednotka: PL, poznamka: "", sekce: Maso a marináda }
+  - { surovina: paprika mletá, mnozstvi: 4, jednotka: KL, poznamka: "", sekce: Maso a marináda }
+  - { surovina: sůl, mnozstvi: 3, jednotka: KL, poznamka: "", sekce: Maso a marináda }
+  - { surovina: pepř, mnozstvi: 2, jednotka: KL, poznamka: "", sekce: Maso a marináda }
+  - { surovina: ledový salát, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: "Kopřivový salát" }
+  - { surovina: okurky, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: "Kopřivový salát" }
+  - { surovina: mrkve, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: "Kopřivový salát" }
+  - { surovina: mladé listy kopřiv nebo hluchavek, mnozstvi: 1, jednotka: svazek, poznamka: "", sekce: "Kopřivový salát" }
+  - { surovina: koriandr, mnozstvi: 1, jednotka: svazek, poznamka: "", sekce: "Kopřivový salát" }
+  - { surovina: máta, mnozstvi: 1, jednotka: hrst, poznamka: "", sekce: "Kopřivový salát" }
+  - { surovina: voda, mnozstvi: 400, jednotka: ml, poznamka: "", sekce: "Sladkokyselá zálivka" }
+  - { surovina: česnek, mnozstvi: 6, jednotka: stroužek, poznamka: "", sekce: "Sladkokyselá zálivka" }
+  - { surovina: cukr, mnozstvi: 3, jednotka: PL, poznamka: "", sekce: "Sladkokyselá zálivka" }
+  - { surovina: ocet, mnozstvi: 2, jednotka: PL, poznamka: "", sekce: "Sladkokyselá zálivka" }
+  - { surovina: rybí omáčka, mnozstvi: 5, jednotka: PL, poznamka: "", sekce: "Sladkokyselá zálivka" }
+postup:
+  - "Bůček nakrájej na tenké plátky, lehce naklepej a rozlož na pracovní plochu. Česnek utři s půlkou soli a vmíchej do hořčice a sójové omáčky. Smíchej papriku, sůl, cukr, pepř a každý plátek okořeň z obou stran, poté potři hořčicovou směsí a nech podle možností minimálně 1 hodinu odležet."
+  - "Česnek na zálivku nakrájej na tenké plátky, promíchej se zbytkem surovin a nech odležet. Před podáváním ohřej na ohni."
+  - "Nudle namoč do vlažné vody na 1 hodinu. Vodu slij a nudle vlož do vroucí vody asi na 2 minuty, sceď a poté ihned podávej."
+  - "Zeleninu do salátu nakrájej na nudličky a smíchej s bylinkami a kopřivou."
+  - "Bůček můžeš grilovat nebo použij železný tál či pánev na roštu. Peč přibližně 3 minuty z každé strany dozlatova."
+  - "Do ešusu servíruj nejdříve nudle a salát, pak přelij zálivkou, přidej maso a ozdob jarní nebo červenou cibulkou, popř. dalšími surovinami."
+nutrice_na_porci: { kcal: 640, bilkoviny_g: 28, sacharidy_g: 55, tuky_g: 32 }
+alergeny: [lepek, sója, hořčice, ryby]
+vegetarian: false
+poznamky: "Kopřivy lze nahradit hluchavkou nebo mladým špenátem; salát pak vyjde jednodušší."
+zdroj_dat: foto
+overit: false
+varka: 2

@@ -1,0 +1,28 @@
+id: snidanova-quinoa
+nazev: Snídaňová quinoa
+zdroj: Vaříme na cestách (Skautská)
+odkaz: ""
+stitky: [Snídaně]
+porce_original: 10
+casy:
+  - { faze: Příprava a vaření, popis: "60 min" }
+suroviny:
+  - { surovina: jablka, mnozstvi: 1000, jednotka: g, poznamka: "", sekce: Základ }
+  - { surovina: voda, mnozstvi: 1, jednotka: l, poznamka: "", sekce: Základ }
+  - { surovina: quinoa, mnozstvi: 500, jednotka: g, poznamka: "", sekce: Základ }
+  - { surovina: směs oříšků a rozinek, mnozstvi: 350, jednotka: g, poznamka: "300–400 g podle preferencí strávníků", sekce: Základ }
+  - { surovina: cukr krystal, mnozstvi: 135, jednotka: g, poznamka: "120–150 g", sekce: Základ }
+  - { surovina: máslo/kokosový olej, mnozstvi: 70, jednotka: g, poznamka: "", sekce: Základ }
+  - { surovina: skořice, mnozstvi: 3, jednotka: KL, poznamka: "", sekce: Základ }
+postup:
+  - "Ořechy a rozinky namoč předem do vody – třeba večer, pokud budeš quinou vařit ráno. Těsně před vařením nakrájej jablka na kostičky. Ořechy nasekej na menší kousky. Quinou proplachni – je dost malinká, a tak to jde nejlépe v jemném sítku nebo látkovém pytlíku."
+  - "V hrnci, ešusu nebo kotlíku nech cukr nasucho rozpustit a trochu zhnědnout. Dávej pozor, aby se ti nespálil, je to rychlovka! Přidej polovinu jablek. Pokud máš ešus, hrnec nebo kotlík s velmi tenkým dnem, neriskuj spálení cukru, vlož ho až společně s jablky. Přidej vodu, quinou, skořici a nech vařit téměř přikryté pokličkou na mírném plameni. Občas zamíchej. Voda by se postupně měla vyvařit a quinoa změknout – ale ne příliš, nemá vzniknout kaše, quinoa má zůstat sypká. Pokud by se voda vyvařila příliš rychle, trochu jí přidej."
+  - "Do téměř hotové quinoi přidej máslo nebo kokosový olej, zbytek jablek, oříšky a rozinky, přikryj pokličkou nebo víkem a nech všechno rozpustit, „dojít\" (dovařit, dobublat – třeba už mimo plamen) a propojit chutě."
+  - "Podávat můžeš třeba s kopečkem jogurtu smíchaným s tvarohem a medem."
+nutrice_na_porci: { kcal: 420, bilkoviny_g: 9, sacharidy_g: 60, tuky_g: 16 }
+alergeny: [ořechy, mléko]
+vegetarian: true
+poznamky: "Lze přidat nakrájené banány nebo jiné ovoce. Slaná varianta: místo oříšků a rozinek zelená jablka, listová petrželka, řapíkatý celer a medovo-citronová zálivka. Quinou lze vařit i v rostlinném mléce. Bez máslem nahrazeným olejem je recept veganský a bezlepkový."
+zdroj_dat: foto
+overit: false
+varka: 2

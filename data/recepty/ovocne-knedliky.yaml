@@ -1,0 +1,33 @@
+id: ovocne-knedliky
+nazev: Ovocné knedlíky
+zdroj: Skautská kuchařka (Táborová Skautská Kuchařka)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 10
+casy:
+  - { faze: Příprava, popis: "20 min" }
+  - { faze: Vaření, popis: "30 min" }
+suroviny:
+  - { surovina: tvaroh, mnozstvi: 1000, jednotka: g, poznamka: "4 kostky po 250 g", sekce: Těsto }
+  - { surovina: vejce, mnozstvi: 4, jednotka: ks, poznamka: "", sekce: Těsto }
+  - { surovina: polohrubá mouka, mnozstvi: 150, jednotka: g, poznamka: "asi 1 hrnek", sekce: Těsto }
+  - { surovina: celozrnné špaldové krupice / dětská krupička, mnozstvi: 85, jednotka: g, poznamka: "asi 1/2 hrnku", sekce: Těsto }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: "špetka", sekce: Těsto }
+  - { surovina: máslo / kokosový olej, mnozstvi: null, jednotka: "", poznamka: "na promaštění hotových knedlíků", sekce: Těsto }
+  - { surovina: čerstvé borůvky, mnozstvi: 800, jednotka: g, poznamka: "nebo jiné ovoce – jahody, švestky, meruňky; v nouzi mražené", sekce: Náplň }
+  - { surovina: zakysaná smetana / bílý jogurt / kokosové mléko, mnozstvi: 500, jednotka: g, poznamka: "", sekce: "Ešusing (poleva)" }
+  - { surovina: cukr moučka, mnozstvi: null, jednotka: "", poznamka: "na posypání, dle chuti", sekce: "Ešusing (poleva)" }
+  - { surovina: granko / med / sirup, mnozstvi: null, jednotka: "", poznamka: "pro milovníky sladkého, volitelné", sekce: "Ešusing (poleva)" }
+postup:
+  - "Všechny suroviny na těsto smíchej a kontroluj konzistenci – chceš, aby byla směs vláčná, ani moc mokrá, ani moc suchá. Zkrátka aby se s ní dalo pracovat rukama, nelepila se ani nedrolila. Podle potřeby přidej sypkou nebo mokrou složku k ideální konzistenci."
+  - "Těsto rozděl na čtvrtiny, z každé části vyválej hada o průměru asi 3 cm a odkrajuj z něj 1–2 cm tlusté špalíčky. Pomoučenýma rukama každý špalíček uválej do kuličky, tu pak rozmáčkni v placičku, do které zabalíš hrstičku borůvek nebo jiné ovoce. Podle potřeby přidej nebo uber těsto, aby borůvky nikde nevykukovaly, ale ani se v těstě neztrácely."
+  - "Knedlíky (ideálně podobně velké) vař na etapy několik minut ve vroucí vodě – knedlíky házej až do vroucí vody, vyhneš se tak rozvaření a dlouhému čekání. Až zcela vyplavou na hladinu, vylov je lžící nebo sítkem."
+  - "Nenechávej je dlouho stát, aby se neslepily. Trochu pomůže promaštění máslem nebo kokosovým olejem."
+  - "Podávej se lžící zakysané smetany a zbylým ovocem, ozdob zelenou bylinkou (třeba mátou). Každý si osladí nebo polije rozpuštěným máslem podle chuti."
+nutrice_na_porci: { kcal: 480, bilkoviny_g: 22, sacharidy_g: 60, tuky_g: 16 }
+alergeny: [lepek, mléko, vejce]
+vegetarian: true
+poznamky: "Lze připravit i s jiným ovocem (jahody, švestky, meruňky). Bezlepkovou variantu lze udělat s kukuřičnou krupicí/moukou. Místo zakysané smetany lze použít bílý jogurt nebo kokosové mléko."
+zdroj_dat: foto
+overit: false
+varka: 2

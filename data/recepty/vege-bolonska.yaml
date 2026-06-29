@@ -1,0 +1,45 @@
+id: vege-bolonska
+nazev: Vege boloňská (Těstoviny s vege boloňskou)
+zdroj: Skautská kuchařka (Táborová Skautská Kuchařka)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 10
+casy:
+  - { faze: Příprava, popis: "30 min" }
+  - { faze: Vaření, popis: "90 min" }
+suroviny:
+  - { surovina: zeleninový vývar / voda, mnozstvi: 2, jednotka: l, poznamka: "", sekce: Omáčka }
+  - { surovina: sterilovaná rajčata, mnozstvi: 600, jednotka: g, poznamka: "", sekce: Omáčka }
+  - { surovina: sójový granulát, mnozstvi: 250, jednotka: g, poznamka: "", sekce: "Sójová směs" }
+  - { surovina: rajčatový protlak, mnozstvi: 200, jednotka: g, poznamka: "", sekce: Omáčka }
+  - { surovina: parmazán, mnozstvi: 180, jednotka: g, poznamka: "k podávání", sekce: "K podávání" }
+  - { surovina: mrkev, mnozstvi: 8, jednotka: ks, poznamka: "", sekce: Omáčka }
+  - { surovina: lilek, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Omáčka }
+  - { surovina: cuketa, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Omáčka }
+  - { surovina: cibule, mnozstvi: 2, jednotka: ks, poznamka: "", sekce: Omáčka }
+  - { surovina: sójová omáčka, mnozstvi: 4, jednotka: PL, poznamka: "", sekce: "Sójová směs" }
+  - { surovina: plnotučná hořčice, mnozstvi: 1.5, jednotka: PL, poznamka: "", sekce: "Sójová směs" }
+  - { surovina: česnek, mnozstvi: 5, jednotka: stroužky, poznamka: "", sekce: Omáčka }
+  - { surovina: olivový olej, mnozstvi: 200, jednotka: ml, poznamka: "", sekce: Omáčka }
+  - { surovina: majoránka, mnozstvi: null, jednotka: "", poznamka: "do sójové směsi", sekce: "Sójová směs" }
+  - { surovina: oregano, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Omáčka }
+  - { surovina: nové koření, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: "Sójová směs" }
+  - { surovina: mletý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Omáčka }
+  - { surovina: bobkový list, mnozstvi: null, jednotka: "", poznamka: "pár kousků", sekce: Omáčka }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Omáčka }
+  - { surovina: těstoviny, mnozstvi: null, jednotka: "", poznamka: "uvařit podle návodu na obalu", sekce: "K podávání" }
+postup:
+  - "Sójový granulát smíchej se sójovou omáčkou, hořčicí, majoránkou, oreganem a 150 ml oleje. Zalij vodou, až je vše ponořené. Osol a přidej pár kousků bobkového listu, pár kuliček nového koření a špetku pepře. Vař asi 15 minut doměkka. Sceď a nech okapat."
+  - "Ve velkém hrnci rozehřej olivový olej a asi 10 minut na něm restuj najemno pokrájenou cibuli a nadrobno nakrájenou mrkev, dokud cibule nezeskelovatí a mrkev trochu nezměkne. Zhruba v půlce kroku přidej česnek na plátky."
+  - "Přidej na malé kostičky nakrájený lilek a cuketu a nech na mírném ohni restovat dalších 20–30 minut. Občas zeleninu promíchej, ať se nepřichytí."
+  - "Přidej nachystaný sójový granulát, vmíchej rajčatový protlak a oregano. Zamíchej a po minutě až dvou přidej sterilovaná rajčata pokrájená na kousky."
+  - "Zalij vodou nebo vývarem, přihoď pár kousků bobkového listu a nech aspoň 45 minut probublávat. Občas promíchej."
+  - "Těstoviny uvař podle návodu na obalu."
+  - "Těstoviny s omáčkou posyp nastrouhaným parmazánem (nebo jiným tvrdým sýrem)."
+nutrice_na_porci: { kcal: 540, bilkoviny_g: 24, sacharidy_g: 65, tuky_g: 20 }
+alergeny: [lepek, sója, mléko, hořčice]
+vegetarian: true
+poznamky: "Vegansky bez parmazánu, případně s rostlinným sýrem. Bezlepkově s bezlepkovými těstovinami."
+zdroj_dat: foto
+overit: false
+varka: 2

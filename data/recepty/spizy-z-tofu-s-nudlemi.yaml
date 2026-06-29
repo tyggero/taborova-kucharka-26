@@ -1,0 +1,44 @@
+id: spizy-z-tofu-s-nudlemi
+nazev: Špízy z tofu s nudlemi
+zdroj: kuchařka pro začátečníky
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 4
+casy:
+  - { faze: Příprava, popis: "20 min" }
+  - { faze: Grilování, popis: "8 min" }
+suroviny:
+  - { surovina: tuhé tofu, mnozstvi: 570, jednotka: g, poznamka: "2 balíčky po 285 g, na kostky cca 2,5 cm", sekce: Špízy }
+  - { surovina: sójová omáčka, mnozstvi: 2, jednotka: PL, poznamka: "", sekce: Marináda }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: "malá, najemno", sekce: Marináda }
+  - { surovina: česnek, mnozstvi: 1, jednotka: stroužek, poznamka: prolisovaný, sekce: Marináda }
+  - { surovina: slunečnicový olej, mnozstvi: 2, jednotka: PL, poznamka: "", sekce: Marináda }
+  - { surovina: kokosová pasta, mnozstvi: 25, jednotka: g, poznamka: "rozpustit ve 3 PL horké vody", sekce: Marináda }
+  - { surovina: citronová nebo limetová šťáva, mnozstvi: 1, jednotka: PL, poznamka: "", sekce: Marináda }
+  - { surovina: přírodní cukr, mnozstvi: 2, jednotka: KL, poznamka: "", sekce: Marináda }
+  - { surovina: chilli, mnozstvi: 0.25, jednotka: KL, poznamka: "", sekce: Marináda }
+  - { surovina: burákové máslo, mnozstvi: 2, jednotka: PL, poznamka: "máslo z burských oříšků", sekce: Marináda }
+  - { surovina: olej, mnozstvi: 1, jednotka: PL, poznamka: "", sekce: Nudle }
+  - { surovina: vaječné nudle, mnozstvi: 350, jednotka: g, poznamka: "čerstvé, nebo 225 g sušených", sekce: Nudle }
+  - { surovina: zeleninový bujon, mnozstvi: 1, jednotka: kostka, poznamka: "", sekce: Nudle }
+  - { surovina: petržel nebo koriandr, mnozstvi: 2, jednotka: PL, poznamka: "nasekané listy", sekce: Nudle }
+postup:
+  - "Otevři obě balení tofu a nech sýr okapat. Pak ho otři papírovou utěrkou a nakrájej na kostky o straně asi 2,5 cm."
+  - "Napíchej kostky na špejle (8 dřevěných špejlí; pokud používáš dřevěné, namoč je na deset minut do vody, aby se nespálily). Nalij do misky polévkovou lžíci sójové omáčky a všechny kostky tofu jí potři."
+  - "Oloupej cibuli a jemně ji nakrájej. Oloupej a prolisuj česnek. Rozehřej olej a cibuli i česnek poduste doměkka."
+  - "Kokosovou pastu nakrájej na malé kousky, dej ji do misky, přilij tři polévkové lžíce horké vody a zamíchej."
+  - "Přidej šťávu z citronu nebo limety, přírodní cukr, chilli, máslo z burských oříšků a polévkovou lžíci sójové omáčky."
+  - "Všechno důkladně promíchej a pak vmíchej cibuli a česnek. Touto směsí potři kostky tofu na špejlích."
+  - "Naplň velký rendlík do poloviny vodou a přiveď ji k varu. Rozdrob do ní kostku bujonu. Přidej polévkovou lžíci oleje."
+  - "Zapni gril na střední výkon. Rozlož špejle s tofu na pekáč s grilovací mřížkou a dej ho pod rozpálený gril."
+  - "Tofu griluj celkem osm minut. Každé dvě minuty špejle s tofu obrať a znovu je potři máslem z burských oříšků."
+  - "Mezitím dej do vroucí vody nudle, nech přejít varem a pak ztlum teplotu, aby voda jen mírně bublala. Vař dle návodu na obalu."
+  - "Uvař nudle, slij vodu a dej je zpátky do rendlíku. Přidej nasekané listy petržele nebo koriandru."
+  - "Nudle s bylinkami dobře promíchej. Rozděl je na talíře a na každý dej dva špízy. Hned servíruj."
+nutrice_na_porci: { kcal: 560, bilkoviny_g: 26, sacharidy_g: 55, tuky_g: 26 }
+alergeny: [sója, lepek, vejce, ořechy, kokos]
+vegetarian: true
+poznamky: "Burákové máslo obsahuje arašídy (ořechy). Pro veganskou variantu lze nahradit vaječné nudle nudlemi bez vajec."
+zdroj_dat: foto
+overit: false
+varka: 2

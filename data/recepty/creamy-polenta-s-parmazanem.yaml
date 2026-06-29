@@ -1,0 +1,30 @@
+id: creamy-polenta-s-parmazanem
+nazev: Krémová polenta s parmazánem (Creamy Polenta with Parmesan)
+zdroj: Familystyle Food
+odkaz: https://familystylefood.com/how-to-make-creamy-polenta/
+stitky: [Oběd, Večeře]
+porce_original: 6
+casy:
+  - { faze: Příprava, popis: "5 min" }
+  - { faze: Vaření, popis: "40 min" }
+suroviny:
+  - { surovina: voda, mnozstvi: 1, jednotka: l, poznamka: "", sekce: Základ }
+  - { surovina: mléko, mnozstvi: 250, jednotka: ml, poznamka: "dodá krémovost", sekce: Základ }
+  - { surovina: sůl, mnozstvi: 1.5, jednotka: čajová lžička, poznamka: dle chuti, sekce: Základ }
+  - { surovina: kukuřičná krupice (polenta), mnozstvi: 160, jednotka: g, poznamka: "hrubší mletí", sekce: Základ }
+  - { surovina: máslo, mnozstvi: 45, jednotka: g, poznamka: "", sekce: Dochucení }
+  - { surovina: strouhaný parmazán, mnozstvi: 50, jednotka: g, poznamka: "plus navíc na podávání", sekce: Dochucení }
+  - { surovina: čerstvý rozmarýn nebo petržel, mnozstvi: null, jednotka: "", poznamka: "volitelně, nasekaný, na ozdobu", sekce: Dochucení }
+postup:
+  - "Ve velkém těžkém hrnci přiveď vodu s mlékem k varu a osol."
+  - "Za stálého šlehání metličkou pomalu vsypávej polentu tenkým proudem, dokud není vše vmícháno a hladké bez hrudek."
+  - "Sniž teplotu na mírný var, přiklop a vař 25–35 min (až 45 min), každých 10 min zamíchej. Hotová polenta je hustá a odlepuje se od stěn hrnce."
+  - "Stáhni z plotny a vmíchej máslo, parmazán a případně dosol."
+  - "Podávej teplé, posypané bylinkami a sýrem."
+nutrice_na_porci: { kcal: 280, bilkoviny_g: 8, sacharidy_g: 30, tuky_g: 13 }
+alergeny: [mléko]
+vegetarian: true
+poznamky: "Pro bezlaktózovou variantu rostlinné mléko, máslo a sýr. Skvělá jako základ pod omáčku, ragú nebo dušenou zeleninu."
+zdroj_dat: url
+overit: false
+varka: 2

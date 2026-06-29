@@ -1,0 +1,32 @@
+id: jordansky-bulgur
+nazev: Jordánský bulgur
+zdroj: Hund (rodinný recept)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 10
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Vaření, popis: "25 min" }
+suroviny:
+  - { surovina: bulgur, mnozstvi: null, jednotka: "", poznamka: "", sekce: Základ }
+  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "na restování cibule", sekce: Základ }
+  - { surovina: cibule, mnozstvi: null, jednotka: "", poznamka: "", sekce: Zelenina }
+  - { surovina: lilek, mnozstvi: null, jednotka: "", poznamka: "", sekce: Zelenina }
+  - { surovina: cuketa, mnozstvi: null, jednotka: "", poznamka: "", sekce: Zelenina }
+  - { surovina: rajčata, mnozstvi: null, jednotka: "", poznamka: nastrouhaná, sekce: Zelenina }
+  - { surovina: rajčatový protlak, mnozstvi: null, jednotka: "", poznamka: "", sekce: Zelenina }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: "černý, dle chuti", sekce: Koření }
+postup:
+  - "Na dvou lžících olivového oleje orestuj cibuli dosklovata."
+  - "Přidej nakrájený lilek, cuketu, nastrouhaná rajčata a další zeleninu dle chuti. Nech pár minut povařit."
+  - "Přilij vodu, přidej rajčatový protlak a dochuť černým pepřem a solí."
+  - "Jakmile to začne vařit, vsyp bulgur a nech vařit, dokud se voda nevypaří."
+nutrice_na_porci: { kcal: 320, bilkoviny_g: 9, sacharidy_g: 55, tuky_g: 7 }
+alergeny: [lepek]
+vegetarian: true
+veganske: true
+poznamky: "Poměr zeleniny a množství volně dle chuti; lze přidat libovolnou další zeleninu."
+zdroj_dat: foto
+overit: true
+varka: 2

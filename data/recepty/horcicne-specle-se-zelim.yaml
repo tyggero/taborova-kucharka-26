@@ -1,0 +1,40 @@
+id: horcicne-specle-se-zelim
+nazev: Hořčičné špecle se zelím a slaninou
+zdroj: Skautská kuchařka (Táborová Skautská Kuchařka)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 10
+casy:
+  - { faze: Příprava a vaření, popis: "120 min" }
+suroviny:
+  - { surovina: hladká mouka, mnozstvi: 1.2, jednotka: kg, poznamka: "", sekce: Špecle }
+  - { surovina: mléko, mnozstvi: 250, jednotka: ml, poznamka: "", sekce: Špecle }
+  - { surovina: máslo, mnozstvi: 250, jednotka: g, poznamka: "", sekce: Špecle }
+  - { surovina: vejce, mnozstvi: 10, jednotka: ks, poznamka: "", sekce: Špecle }
+  - { surovina: hořčice, mnozstvi: 1, jednotka: PL, poznamka: "", sekce: Špecle }
+  - { surovina: sůl, mnozstvi: 2, jednotka: KL, poznamka: "", sekce: Špecle }
+  - { surovina: olivový olej, mnozstvi: null, jednotka: "", poznamka: "", sekce: Špecle }
+  - { surovina: kysané zelí, mnozstvi: 500, jednotka: g, poznamka: "", sekce: "Zelí a slanina" }
+  - { surovina: slanina/uzené maso, mnozstvi: 500, jednotka: g, poznamka: "", sekce: "Zelí a slanina" }
+  - { surovina: tvrdý sýr, mnozstvi: 200, jednotka: g, poznamka: "např. parmazán, ementál", sekce: "Zelí a slanina" }
+  - { surovina: cibule, mnozstvi: 4, jednotka: ks, poznamka: "", sekce: "Zelí a slanina" }
+  - { surovina: petrželová nať, mnozstvi: 3, jednotka: PL, poznamka: "nasekaná", sekce: "Zelí a slanina" }
+  - { surovina: česnek, mnozstvi: 1, jednotka: stroužek, poznamka: "prolisovaný", sekce: "Zelí a slanina" }
+  - { surovina: sádlo/olivový olej, mnozstvi: null, jednotka: "", poznamka: "na restování", sekce: "Zelí a slanina" }
+postup:
+  - "Máslo rozpusť a smíchej s mlékem, vejci, hořčicí a solí."
+  - "Pomalu přidávej mouku a vytvoř řidší těsto, které nech cca 10 minut odstát."
+  - "Těsto protlač skrz hrubý cedník nebo struhadlo do vroucí osolené vody. Míchej odspoda vařečkou, dokud špecle nevyplavou, pak je seber sítem a ihned promasti olivovým olejem."
+  - "Část vody z vaření špeclí uchovej."
+  - "Cibuli oloupej a najemno nakrájej. V hrnci na sádle ji orestuj dohněda (ale nespal). Cibulku si poté odlož stranou."
+  - "Do stejného hrnce přidej další sádlo a zarestuj na kostičky pokrájenou slaninu nebo uzené."
+  - "Přidej překrájené, řádně okapané kysané zelí, nech hezky opéct a přidej špecle a odloženou cibulku."
+  - "Celou směs podlij trochou vody z vaření špeclí, dochuť solí, pepřem, prolisovaným česnekem a nasekanou petrželkou."
+  - "Podávej posypané nastrouhaným sýrem."
+nutrice_na_porci: { kcal: 680, bilkoviny_g: 26, sacharidy_g: 60, tuky_g: 38 }
+alergeny: [lepek, mléko, vejce, hořčice]
+vegetarian: false
+poznamky: "Vegetariánská varianta: slaninu/uzené vynech a nahraď orestovanou zeleninou nebo houbami."
+zdroj_dat: foto
+overit: false
+varka: 2

@@ -1,0 +1,25 @@
+id: plnene-bagetky
+nazev: Plněné bagetky
+zdroj: ""
+odkaz: ""
+stitky: [Snídaně]
+porce_original: 40
+casy:
+  - { faze: Příprava, popis: "30 min" }
+suroviny:
+  - { surovina: bagetky, mnozstvi: null, jednotka: ks, poznamka: "cca 1 ks na osobu", sekce: Základ }
+  - { surovina: máslo nebo pomazánkové máslo, mnozstvi: null, jednotka: kg, poznamka: "na namazání", sekce: Náplň }
+  - { surovina: sýr (plátkový/strouhaný), mnozstvi: null, jednotka: kg, poznamka: "", sekce: Náplň }
+  - { surovina: šunka/salám, mnozstvi: null, jednotka: kg, poznamka: "plátkové uzeniny", sekce: Náplň }
+  - { surovina: zelenina, mnozstvi: null, jednotka: "", poznamka: "rajče, okurka, salát, paprika", sekce: Náplň }
+postup:
+  - "Bagetky podélně naříznout."
+  - "Namazat máslem, vložit sýr a uzeninu."
+  - "Doplnit nakrájenou zeleninou a poskládat na servírovací tácy."
+nutrice_na_porci: { kcal: 420, bilkoviny_g: 18, sacharidy_g: 42, tuky_g: 20 }
+alergeny: [lepek, mléko]
+vegetarian: false
+poznamky: "Vegetariáni vynechají uzeninu (sýr a zelenina stačí). Pro bezlepkovou variantu bezlepkové pečivo, pro bezlaktózovou rostlinné máslo a sýr."
+zdroj_dat: vlastni
+overit: true
+varka: 2

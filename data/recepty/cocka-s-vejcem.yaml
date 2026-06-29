@@ -1,0 +1,39 @@
+id: cocka-s-vejcem
+nazev: Čočka s vejcem jak ji neznáš
+zdroj: Skautská kuchařka (str. 66)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 10
+casy:
+  - { faze: Namáčení, popis: "min. 3 h předem" }
+  - { faze: Příprava, popis: "90 min" }
+suroviny:
+  - { surovina: zeleninový vývar/voda, mnozstvi: 3, jednotka: l, poznamka: "", sekce: Základ }
+  - { surovina: hnědá čočka, mnozstvi: 300, jednotka: g, poznamka: "namočit min. 3 h předem", sekce: Základ }
+  - { surovina: rajčata z plechovky, mnozstvi: 400, jednotka: g, poznamka: "", sekce: Základ }
+  - { surovina: parmazán nebo jiný sýr, mnozstvi: 300, jednotka: g, poznamka: "", sekce: Základ }
+  - { surovina: vejce, mnozstvi: 10, jednotka: ks, poznamka: "", sekce: Vejce }
+  - { surovina: mrkev, mnozstvi: 4, jednotka: ks, poznamka: "na malé kostky", sekce: Zelenina }
+  - { surovina: cibule, mnozstvi: 2, jednotka: ks, poznamka: nadrobno, sekce: Zelenina }
+  - { surovina: česnek, mnozstvi: 5, jednotka: stroužek, poznamka: nadrobno, sekce: Zelenina }
+  - { surovina: řapíkatý celer, mnozstvi: 7, jednotka: stonek, poznamka: "1 ks řapíkatého celeru, nasekat", sekce: Zelenina }
+  - { surovina: petržel/bazalka/oregano, mnozstvi: 1, jednotka: hrst, poznamka: "čerstvé bylinky", sekce: Bylinky }
+  - { surovina: olivový olej, mnozstvi: 100, jednotka: ml, poznamka: "", sekce: Koření }
+  - { surovina: bobkový list, mnozstvi: 4, jednotka: ks, poznamka: "", sekce: Koření }
+  - { surovina: pepř, mnozstvi: 1, jednotka: KL, poznamka: "", sekce: Koření }
+  - { surovina: tymián, mnozstvi: 2, jednotka: KL, poznamka: "", sekce: Koření }
+  - { surovina: oregano, mnozstvi: 2, jednotka: KL, poznamka: "", sekce: Koření }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+postup:
+  - "Čočku propláchni a namoč minimálně 3 hodiny předem. Poté přeceď a dej stranou."
+  - "Mrkev a řapíkatý celer oškrábej a nakrájej na malé kostky. Nať z celeru nasekej nadrobno spolu s bylinkami (i s jejich stonky, jsou-li hezké). Cibuli a česnek oloupej, cibuli nakrájej nadrobno, česnek utři se solí."
+  - "Na oleji zarestuj mrkev, řapíkatý celer a cibuli asi 7 minut, přidej česnek a rajčata, zarestuj další 2 minuty. Přidej čočku, vývar, koření a vař na mírném ohni pomalu za občasného promíchání asi 30 minut."
+  - "Ochutnej (čočka by měla být al dente – na skus), osol, finálně dochuť a vmíchej nasekané bylinky."
+  - "Vejce upeč na pánvi a oleji jako volská oka, osol, opepři a podávej na porci čočky, posypané bylinkami a parmazánem. Kdo chce, může ještě přidat lžíci extra panenského olivového oleje. Jako přílohu se hodí čerstvé pečivo nebo topinka."
+nutrice_na_porci: { kcal: 420, bilkoviny_g: 24, sacharidy_g: 30, tuky_g: 22 }
+alergeny: [vejce, mléko]
+vegetarian: true
+poznamky: "Masožrouti můžou do základu přidat uzeninu nebo mleté maso. Lze přidat i další zeleninu (paprika, cuketa, fazolky, pórek). Lze použít i jiné druhy čočky – červenou (není třeba namáčet) nebo černou beluga / puy."
+zdroj_dat: foto
+overit: false
+varka: 2

@@ -1,0 +1,40 @@
+id: hummus
+nazev: Hummus (cizrnová pomazánka)
+zdroj: Rainbow Plant Life
+odkaz: https://rainbowplantlife.com/how-to-make-amazing-hummus-at-home/
+stitky: [Svačina]
+porce_original: 8
+casy:
+  - { faze: Namáčení, popis: "8 h (přes noc)" }
+  - { faze: Vaření, popis: "45 min" }
+  - { faze: Příprava, popis: "10 min" }
+suroviny:
+  - { surovina: sušená cizrna, mnozstvi: 227, jednotka: g, poznamka: "lze nahradit cca 2 konzervami; pro krémovost povařit doměkka", sekce: Základ }
+  - { surovina: jedlá soda, mnozstvi: 1, jednotka: čajová lžička, poznamka: "rozdělit – půlka do namáčení, půlka do vaření", sekce: Základ }
+  - { surovina: tahini (sezamová pasta), mnozstvi: 185, jednotka: g, poznamka: "nevynechávat – dává chuť", sekce: Základ }
+  - { surovina: citronová šťáva, mnozstvi: 6, jednotka: polévková lžíce, poznamka: "čerstvě vymačkaná, dle chuti", sekce: Základ }
+  - { surovina: česnek, mnozstvi: 3, jednotka: ks, poznamka: "stroužky, nasekané", sekce: Základ }
+  - { surovina: mletý kmín (cumin), mnozstvi: 1, jednotka: čajová lžička, poznamka: dle chuti, sekce: Základ }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Základ }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Základ }
+  - { surovina: ledová voda, mnozstvi: null, jednotka: "", poznamka: "6–10 lžic, postupně pro krémovou konzistenci", sekce: Základ }
+  - { surovina: olivový olej, mnozstvi: 75, jednotka: g, poznamka: "na osmažení a zakápnutí", sekce: Topping }
+  - { surovina: česnek, mnozstvi: 5, jednotka: ks, poznamka: "stroužky na plátky, na topping", sekce: Topping }
+  - { surovina: citronová kůra, mnozstvi: null, jednotka: "", poznamka: "4–6 proužků na topping", sekce: Topping }
+  - { surovina: petržel, mnozstvi: null, jednotka: "", poznamka: "nasekaná, na ozdobu", sekce: Topping }
+  - { surovina: paprika (mletá), mnozstvi: null, jednotka: "", poznamka: "na posypání", sekce: Topping }
+postup:
+  - "Cizrnu namoč přes noc ve studené vodě s půlkou jedlé sody, sceď a propláchni."
+  - "Vař cizrnu se zbytkem jedlé sody a vodou cca 40 min doměkka, ke konci osol. Sceď."
+  - "Teplou cizrnu rozmixuj v kuchyňském robotu dohladka."
+  - "Přidej tahini, citronovou šťávu, česnek, kmín, sůl a pepř, mixuj a postupně přilévej ledovou vodu, dokud není pomazánka krémová."
+  - "Na toppingu: na oleji osmaž plátky česneku dozlatova, přidej citronovou kůru, krátce orestuj a sceď (olej ponech)."
+  - "Hummus rozetři na talíř, zakápni olejem, posyp osmaženým česnekem, petrželkou a paprikou."
+nutrice_na_porci: { kcal: 280, bilkoviny_g: 9, sacharidy_g: 22, tuky_g: 18 }
+alergeny: [semínka]
+vegetarian: true
+veganske: true
+poznamky: "Místo sušené cizrny lze použít konzervovanou (předem povařit doměkka). Tahini je ze sezamu – pozor na alergii na semínka."
+zdroj_dat: url
+overit: false
+varka: 2

@@ -1,0 +1,43 @@
+id: zeleninove-placicky-s-kasi
+nazev: Zeleninové placičky s kaší
+zdroj: Skautská kuchařka (Táborová Skautská Kuchařka)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 10
+casy:
+  - { faze: Příprava, popis: "30 min" }
+  - { faze: Vaření a smažení, popis: "60 min" }
+suroviny:
+  - { surovina: strouhanka, mnozstvi: 50, jednotka: g, poznamka: "", sekce: Placičky }
+  - { surovina: zelenina, mnozstvi: 1, jednotka: kg, poznamka: "směs dle chuti", sekce: Placičky }
+  - { surovina: sýr, mnozstvi: 60, jednotka: g, poznamka: "méně výrazného – eidam, gouda apod.", sekce: Placičky }
+  - { surovina: cibule, mnozstvi: 1, jednotka: ks, poznamka: "malá", sekce: Placičky }
+  - { surovina: vejce, mnozstvi: 1, jednotka: ks, poznamka: "velikost L", sekce: Placičky }
+  - { surovina: česnek, mnozstvi: 2, jednotka: stroužky, poznamka: "", sekce: Placičky }
+  - { surovina: sůl, mnozstvi: 0.5, jednotka: KL, poznamka: "", sekce: Placičky }
+  - { surovina: bylinky a koření, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Placičky }
+  - { surovina: olej, mnozstvi: null, jednotka: "", poznamka: "na smažení", sekce: Placičky }
+  - { surovina: zbylé brambory / rýže / jáhly / quinoa / kroupy, mnozstvi: null, jednotka: "", poznamka: "max. ve stejném množství jako strouhanka, volitelné", sekce: Placičky }
+  - { surovina: brambory, mnozstvi: 700, jednotka: g, poznamka: "", sekce: "Bramborová kaše" }
+  - { surovina: mléko, mnozstvi: 100, jednotka: ml, poznamka: "", sekce: "Bramborová kaše" }
+  - { surovina: máslo, mnozstvi: 50, jednotka: g, poznamka: "", sekce: "Bramborová kaše" }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: "Bramborová kaše" }
+  - { surovina: čerstvá petržel / pažitka, mnozstvi: null, jednotka: "", poznamka: "volitelné", sekce: "Bramborová kaše" }
+  - { surovina: cibule, mnozstvi: 150, jednotka: g, poznamka: "na osmažení k podávání, volitelné", sekce: "K podávání" }
+postup:
+  - "Placičky: zeleninu i sýr nastrouhej nahrubo (nebo půlku nahrubo, půlku najemno). Cibuli nakrájej najemno."
+  - "Smíchej nastrouhanou zeleninu, sýr a cibuli, přidej vejce, strouhanku, česnek, koření a bylinky a vše promíchej v kompaktní těsto, ze kterého půjdou tvarovat placičky."
+  - "Placičky smaž na oleji dozlatova, pokud máš k dispozici troubu, tak peč na pečicím papíře 10 minut po každé straně."
+  - "Kaše: dej vařit hrnec s osolenou vodou."
+  - "Brambory oloupej, nakrájej na kostky a vsyp do vařicí vody na přibližně 20 minut."
+  - "Opatrně ohřej mléko (aby se nespálilo), stačí, když nebude úplně studené."
+  - "Uvařené brambory slij."
+  - "Do brambor přidej máslo a teplé mléko a rozšťouchej je na hrubou kaši, pokud máš mixér, rozmixuj je na jemnou kaši. Čím menší kostky, tím jednodušší bude práce se šťoucháním/mixováním. Nakonec osol."
+  - "Můžeš podávat s dozlatova osmaženou cibulkou nebo čerstvou petrželkou/pažitkou."
+nutrice_na_porci: { kcal: 360, bilkoviny_g: 10, sacharidy_g: 45, tuky_g: 15 }
+alergeny: [lepek, mléko, vejce]
+vegetarian: true
+poznamky: "S kukuřičnou strouhankou bude jídlo bezlepkové. Do placiček lze přidat zbylé přílohy (brambory, rýže, jáhly, quinoa, kroupy) max. ve stejném množství jako strouhanka."
+zdroj_dat: foto
+overit: false
+varka: 2

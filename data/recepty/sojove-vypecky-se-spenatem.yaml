@@ -1,0 +1,38 @@
+id: sojove-vypecky-se-spenatem
+nazev: Sójové výpečky se špenátem
+zdroj: Skautská kuchařka (Táborová Skautská Kuchařka)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 10
+casy:
+  - { faze: Příprava, popis: "30 min" }
+  - { faze: Vaření a pečení, popis: "60 min" }
+suroviny:
+  - { surovina: brambory, mnozstvi: 1.8, jednotka: kg, poznamka: "", sekce: Příloha }
+  - { surovina: mražený špenát, mnozstvi: 1, jednotka: kg, poznamka: "protlak (ne sekaný)", sekce: Špenát }
+  - { surovina: cibule, mnozstvi: 4, jednotka: ks, poznamka: "", sekce: Špenát }
+  - { surovina: smetana na vaření, mnozstvi: 250, jednotka: ml, poznamka: "", sekce: Špenát }
+  - { surovina: vejce, mnozstvi: 5, jednotka: ks, poznamka: "na zahuštění špenátu", sekce: Špenát }
+  - { surovina: česnek, mnozstvi: null, jednotka: "", poznamka: "prolisovat", sekce: Špenát }
+  - { surovina: sójové nudličky, mnozstvi: 320, jednotka: g, poznamka: "", sekce: Výpečky }
+  - { surovina: slunečnicový olej, mnozstvi: 200, jednotka: ml, poznamka: "", sekce: Výpečky }
+  - { surovina: sójová omáčka, mnozstvi: 150, jednotka: ml, poznamka: "na marinádu", sekce: Výpečky }
+  - { surovina: plnotučná hořčice, mnozstvi: 5, jednotka: PL, poznamka: "na marinádu", sekce: Výpečky }
+  - { surovina: pepř černý, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+  - { surovina: paprika uzená, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+  - { surovina: kmín, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+postup:
+  - "Sójové nudličky dej do hrnce, přidej k nim polovinu hořčice, oleje i sójové omáčky a koření (jím nešetři)."
+  - "Zalij vodou na tři prsty nad povrch nudliček a dej vařit na 30 minut. Ideálně je sóju připravit den předem a nechat ji v hrnci marinovat ve směsi do druhého dne."
+  - "Nakrájej cibuli a orestuj ji na oleji. Přidej špenát, nech ho v hrnci rozpustit, nebo ho lehce několik minut poduš (pokud je čerstvý), osol a opepři."
+  - "Pak přidej smetanu a na závěr zahusti rozšlehanými vajíčky. Po odstavení z plotny do něj prolisuj česnek."
+  - "Uvařenou sóju slij a dej na plech a přimíchej druhou polovinu hořčice, sójové omáčky, oleje a koření (opět nešetři). Vše dej péct do trouby na 180 °C na 30 minut. Během pečení promíchávej, ideálně každých 10 minut. Omáčka by se měla vypéct a nudličky by měly být měkké a zlatavé, výpečky by neměly být suché ani křupavé (to je znak toho, že byly v troubě příliš dlouho)."
+  - "Brambory uvař doměkka a podávej spolu s výpečky a špenátem."
+nutrice_na_porci: { kcal: 520, bilkoviny_g: 22, sacharidy_g: 50, tuky_g: 26 }
+alergeny: [sója, mléko, vejce, hořčice]
+vegetarian: true
+poznamky: "Sóju je nejlépe marinovat den předem. Smetanu lze nahradit rostlinnou alternativou."
+zdroj_dat: foto
+overit: false
+varka: 2

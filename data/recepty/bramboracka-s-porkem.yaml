@@ -1,0 +1,38 @@
+id: bramboracka-s-porkem
+nazev: Bramboračka s pórkem
+zdroj: kuchařka pro začátečníky
+odkaz: ""
+stitky: [polévka]
+porce_original: 4
+casy:
+  - { faze: Příprava, popis: "15 min" }
+  - { faze: Vaření, popis: "30 min" }
+suroviny:
+  - { surovina: brambory, mnozstvi: 250, jednotka: g, poznamka: "na kousky", sekce: Polévka }
+  - { surovina: pórek, mnozstvi: 2, jednotka: ks, poznamka: "středně velké, na centimetrové plátky", sekce: Polévka }
+  - { surovina: máslo, mnozstvi: 25, jednotka: g, poznamka: "", sekce: Polévka }
+  - { surovina: olej, mnozstvi: 1, jednotka: polévková lžíce, poznamka: "", sekce: Polévka }
+  - { surovina: zeleninový bujon, mnozstvi: 1, jednotka: kostka, poznamka: "rozpustit v 900 ml vroucí vody", sekce: Polévka }
+  - { surovina: mléko, mnozstvi: 300, jednotka: ml, poznamka: "", sekce: Polévka }
+  - { surovina: sušené bylinky, mnozstvi: null, jednotka: "", poznamka: "směs, špetka", sekce: Koření }
+  - { surovina: čerstvá petrželka, mnozstvi: null, jednotka: "", poznamka: "hrst, na ozdobu", sekce: Koření }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+  - { surovina: mletý černý pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Koření }
+postup:
+  - "Oloupej škrabkou brambory. Nakrájej je na kousky a dej je do většího rendlíku."
+  - "Odkroj z pórku kořínky a tmavozelené vršky listů. Rozřízni svrchní vrstvu a sloupni ji."
+  - "Pórky důkladně omyj pod studenou tekoucí vodou. Přesvědč se, že mezi jednotlivými vrstvami nezůstala hlína."
+  - "Nakrájej pórek napříč na centimetrové plátky. Nasyp je do rendlíku a přidej máslo a olej."
+  - "Zapni sporák a pomalu rozpouštěj máslo. Když začne prskat, přikryj je pokličkou a stáhni plamen na minimum."
+  - "Dus zeleninu zvolna asi 10 minut. Občas zatřes pánví, aby se zelenina nepřipálila, ale neodklápěj pokličku."
+  - "Mezitím svař vodu. Rozdrob kostku bujonu do odměrky, přilij 900 ml vroucí vody a pořádně zamíchej."
+  - "Když je zelenina podušená, opatrně k ní přilij bujon. Přidej špetku bylinek, mléko, osol a opepři."
+  - "Zvyš teplotu na maximum a uveď vše do varu. Pak ji zase zmírni, aby polévka mírně pobublávala. Občas zamíchej."
+  - "Vař 15 minut, až bude zelenina měkká. Nalij polévku naběračkou do misek a posyp sekanou petrželkou."
+nutrice_na_porci: { kcal: 220, bilkoviny_g: 6, sacharidy_g: 22, tuky_g: 12 }
+alergeny: [mléko]
+vegetarian: true
+poznamky: "Petrželku nasekej nůžkami v hrnku na malé kousky, je to jednodušší než krájení nožem."
+zdroj_dat: foto
+overit: false
+varka: 2

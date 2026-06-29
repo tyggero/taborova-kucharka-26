@@ -1,0 +1,28 @@
+id: sekana-s-blitvou
+nazev: Sekaná s blitvou (štouchané brambory s mangoldem)
+zdroj: Skautská kuchařka (str. 68 – Štouchané brambory aka blitva)
+odkaz: ""
+stitky: [Oběd, Večeře]
+porce_original: 10
+casy:
+  - { faze: Příprava, popis: "60 min" }
+suroviny:
+  - { surovina: brambory, mnozstvi: 2000, jednotka: g, poznamka: "varný typ B, C; na kostky 5x5 cm", sekce: Brambory }
+  - { surovina: špenát/mangold, mnozstvi: 500, jednotka: g, poznamka: "lze i medvědí česnek nebo kadeřávek", sekce: Zelenina }
+  - { surovina: máslo, mnozstvi: 200, jednotka: g, poznamka: "lze i olivový olej", sekce: Dochucení }
+  - { surovina: česnek, mnozstvi: 3, jednotka: stroužek, poznamka: prolisovaný, sekce: Dochucení }
+  - { surovina: sůl, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení }
+  - { surovina: pepř, mnozstvi: null, jednotka: "", poznamka: dle chuti, sekce: Dochucení }
+  - { surovina: sekaná, mnozstvi: null, jednotka: "", poznamka: "kupovaná, k podávání", sekce: Maso }
+postup:
+  - "Brambory oloupej, omyj a případně nakrájej na kousky cca 5x5 cm. Pozvolna je vař v osolené vodě doměkka, asi 25 minut."
+  - "Pět minut před koncem přidej prolisovaný česnek a minutu před koncem přidej omyté a překrájené zelené listy, dle vlastního výběru a sezony."
+  - "Uvařené brambory sceď, přidej máslo nebo olivový olej (nebo půl na půl), rozšťouchej a dochuť solí a pepřem."
+  - "Hotové brambory podávej samostatně, třeba s orestovanou cibulkou, nebo jako přílohu – ke špekáčku, k sekané, k orestovanému tempehu. Sekaná se ke štouchaným bramborům podává kupovaná."
+nutrice_na_porci: { kcal: 320, bilkoviny_g: 6, sacharidy_g: 35, tuky_g: 18 }
+alergeny: [mléko]
+vegetarian: true
+poznamky: "Focený recept jsou štouchané brambory s mangoldem/blitvou (vege příloha); sekaná se podává zvlášť jako kupovaná. Pro veganskou variantu nahraď máslo olivovým olejem a vynech sekanou."
+zdroj_dat: foto
+overit: true
+varka: 2

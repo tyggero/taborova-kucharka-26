@@ -137,6 +137,13 @@ def render_recepty():
     titulka_pozn = " (vč. titulní strany)" if cover else " (titulka přeskočena – chybí assety)"
     print(f"✓ Vygenerováno {len(recepty)} receptů → {out_dir}/ a recepty-vse.html{titulka_pozn}")
 
+    # Samostatný soubor jen s recepty 2. várky (varka == 2) pro tisk zvlášť
+    v2 = [c for c in pripravene if c.get("varka") == 2]
+    if v2:
+        html2 = sablona.render(recepty=v2, css=css, jeden=False)
+        (VYSTUP / "recepty-2-varka.html").write_text(html2, encoding="utf-8")
+        print(f"✓ 2. várka: {len(v2)} receptů → recepty-2-varka.html")
+
 
 def render_rozvrh():
     cesta = DATA / "jidelnicek.yaml"

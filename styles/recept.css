@@ -27,7 +27,7 @@ body{
   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
               "Helvetica Neue",Arial,sans-serif;
   font-size:10.5pt;
-  line-height:1.26;
+  line-height:1.22;
   text-rendering:optimizeLegibility;
 }
 
@@ -35,9 +35,10 @@ body{
 .recept{
   display:flex;
   flex-direction:column;
-  /* výška tiskové plochy (A4 297mm − okraje @page 2×12mm), aby patička
-     s margin-top:auto držela u spodního okraje stránky i v tisku */
-  min-height:272mm;
+  /* výška blízká tiskové ploše (A4 297mm − okraje @page 2×12mm = 273mm),
+     aby patička s margin-top:auto držela dole; s rezervou proti přetečení
+     na 2. stranu při mírně jiných okrajích v tiskovém dialogu */
+  min-height:266mm;
 }
 .recept + .recept{ break-before:page; }
 
@@ -201,7 +202,7 @@ body{
 .suroviny td.col-rucni{ padding-left:3mm; }
 
 .suroviny tbody td{
-  padding:0.7mm 0;
+  padding:0.45mm 0;
   border-bottom:0.5pt solid var(--linka);
   vertical-align:top;
 }
@@ -231,8 +232,8 @@ body{
 .postup li{
   position:relative;
   counter-increment:krok;
-  padding:0 0 1.7mm 8mm;
-  line-height:1.22;
+  padding:0 0 1.2mm 8mm;
+  line-height:1.18;
   break-inside:avoid;
 }
 .postup li::before{

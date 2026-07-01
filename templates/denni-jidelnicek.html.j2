@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>Denní jídelníček — Tábor 26</title>
+<style>
+{{ css }}
+</style>
+</head>
+<body>
+<div class="list">
+
+  <header class="hlavicka">
+    <div class="znacka">
+      {% if logo %}<img src="{{ logo }}" alt="Znak oddílu Kalahari">{% endif %}
+      <div>
+        <p class="eyebrow">39. skautský oddíl Kalahari · Tábor 26</p>
+        <h1>Denní jídelníček</h1>
+      </div>
+    </div>
+    <div class="datum">
+      <div><span class="pole">Datum:</span> <span class="carka"></span></div>
+      <div><span class="pole">Den:</span> <span class="carka"></span></div>
+    </div>
+  </header>
+
+  <div class="telo">
+
+    <section class="jidlo">
+      <div class="jidlo-hlavicka"><span class="jidlo-nazev">Snídaně</span><span class="jidlo-cas">čas ___:___</span></div>
+      <div class="pole"></div>
+    </section>
+
+    <section class="jidlo">
+      <div class="jidlo-hlavicka"><span class="jidlo-nazev">Dopolední svačina</span><span class="jidlo-cas">čas ___:___</span></div>
+      <div class="pole"></div>
+    </section>
+
+    <section class="jidlo obed">
+      <div class="jidlo-hlavicka"><span class="jidlo-nazev">Oběd</span><span class="jidlo-cas">čas ___:___</span></div>
+      <div class="pod">
+        <div class="pod-label">Polévka</div>
+        <div class="pole"></div>
+      </div>
+      <div class="pod">
+        <div class="pod-label">Hlavní jídlo</div>
+        <div class="pole"></div>
+      </div>
+    </section>
+
+    <section class="jidlo">
+      <div class="jidlo-hlavicka"><span class="jidlo-nazev">Odpolední svačina</span><span class="jidlo-cas">čas ___:___</span></div>
+      <div class="pole"></div>
+    </section>
+
+    <section class="jidlo">
+      <div class="jidlo-hlavicka"><span class="jidlo-nazev">Večeře</span><span class="jidlo-cas">čas ___:___</span></div>
+      <div class="pole"></div>
+    </section>
+
+    <section class="jidlo poznamky">
+      <div class="jidlo-hlavicka"><span class="jidlo-nazev">Poznámky</span><span class="jidlo-cas">alergie · dieta · výlet · pitný režim</span></div>
+      <div class="pole"></div>
+    </section>
+
+  </div>
+
+  <footer class="paticka">
+    <div>Kuchařská služba: <span class="carka"></span></div>
+    <div>Počet strávníků: <span class="carka"></span></div>
+  </footer>
+
+</div>
+</body>
+</html>

@@ -208,6 +208,18 @@ def render_omezeni():
           f"{len(watchlist)} alergenů ke sledování) → {VYSTUP / 'omezeni.html'}")
 
 
+def render_denni_jidelnicek():
+    """Prázdná A4 šablona denního jídelníčku k ručnímu vyplnění.
+    Vytiskni tolikrát, kolik dní potřebuješ."""
+    css = nacti_css("denni-jidelnicek.css")
+    logo = ASSETS / "titulka" / "mikrologo.png"
+    logo_uri = _data_uri(logo, "image/png") if logo.exists() else ""
+    html = env.get_template("denni-jidelnicek.html.j2").render(css=css, logo=logo_uri)
+    VYSTUP.mkdir(parents=True, exist_ok=True)
+    (VYSTUP / "denni-jidelnicek.html").write_text(html, encoding="utf-8")
+    print(f"✓ Vygenerována prázdná šablona → {VYSTUP / 'denni-jidelnicek.html'}")
+
+
 def main():
     prikaz = sys.argv[1] if len(sys.argv) > 1 else "all"
     if prikaz in ("recepty", "all"):
@@ -216,6 +228,8 @@ def main():
         render_rozvrh()
     if prikaz in ("omezeni", "all"):
         render_omezeni()
+    if prikaz in ("denni-jidelnicek", "all"):
+        render_denni_jidelnicek()
 
 
 if __name__ == "__main__":
